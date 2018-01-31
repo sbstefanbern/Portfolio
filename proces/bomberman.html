@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="da">
+  <head>
+    <meta charset="utf-8">
+    <title>Stefan Bernkilde - Portfolio</title>
+    <link rel="stylesheet" type="text/css" href="../style.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800" rel="stylesheet">
+  </head>
+  <body>
+    <div class="procescontainer">
+      <div class="proces">
+        <div class="rubrik">
+          <h1>Bomberman</h1>
+        </div>
+        <div class="imageleft">
+          <img alt="Bomberman" src="../media/cssworkshop.png">
+        </div>
+        <div class="centertext">
+          <div class="processchapter">
+            <a href="procesmedia/bomberman/css-animation.html">Se CSS-animation</a>
+          </div>
+          <div class="processchapter2">
+            <p>Animation lavet i CSS udfra et billede som er tegnet i Adobe Illustrator.</p>
+          </div>
+            <div class="textright">
+              <p class="mr">IDÈUDVIKLING</p>
+              <p class="bt">Jeg startede med pen og papir for at tegne et storyboard om hvordan min animation skulle tage sig ud.
+Jeg ville gerne lave noget humoristisk som man kunne grine ad. Frem for alt ville jeg i den korte animation nå at fortælle en lille
+historie med en handling og en afslutning i.</p>
+              <div class="processchapter">
+                <a href="procesmedia/bombermanstory.png">Se storyboard</a>
+              </div>
+              <div class="processchapter2">
+                <p>Storyboard lavet med pen og papir.</p>
+              </div>
+              <p class="mr">PROCES - ILLUSTRATOR</p>
+              <p class="bt">Efter at have tegnet hele historien ned på pen og papir og besluttede mig for hvor mange frames min
+animation skulle indeholde, begyndte jeg at tegne den første frame inde i Illustrator. Efter jeg havde gjort det kopierede jeg
+baggrunden fra den på samtlige de andre frames da denne ikke skulle animere. Herefter begyndte jeg at animere manden der skulle
+hen over billedet. Jeg lavede små rotationsbevægelser mellem hver frame i hans ben og arme for at give en gå animations effekt.
+Samme princip er brugt når han rækker ned efter bomben og kaster den.</p>
+              <p class="mr">PROCES - CSS</p>
+              <p class="bt">Det hele blev bragt til livs ved hjælp af css. Man lavede et div-element
+i html som man defnerede højden og bredden på i css. Den højde og bredde man defnere her skal være størrelsen på én frame i ens
+animaiton. Herefter sætter man billedet ind som baggrundsbillede ved hjælp af “ bagground: url(‘flnavn‘) “ hvor flnavn er stien
+til der hvor man har lagt sin png-fl. De to 0’er er for at fortælle at animationen skal starte i øverste venstre hjørne. “no-repeat”
+fortæller at animationen ikke skal kører fere gange på siden. “ webkit-animation: “ er her vi fortæller hvor lang vores animation
+skal være samt hvor mabge steps (frames) den indeholder. Til sidst fortæller vi hvor mange gange animationen skal kører. I mit
+tilfælde har jeg sat den til infnite som betyder at ani-mationen kører for evigt. “ @-webkit-keyframes “ er her jeg animere selve
+vores billede til at kører henover skærmen så det ligner en animation. Jeg siger først at ved 0% skal posi-tionen på billede være
+0px, altså helt til venstre i animationen. Og positionen ved 100% (slut) er så størrelsen på hele billedets bredde. Altså så den fra
+0% (begyndelsen) til 100% (slutningen) kører hele vejen igennem billedet.
+              </p>
+              <div class="processchapter">
+                <a href="procesmedia/bombermancss.png">Se CCS koden</a>
+              </div>
+              <div class="processchapter2">
+                <p>CSS koden brugt til at bringe billedet fra illustartor til livs.</p>
+              </div>
+              <p class="mr">KRITISK REFLEKTION</p>
+              <p class="bt">Jeg ville gerne have lavet noget mere stilrent, men det var svært når jeg samtidig ville lave en så lang
+animation inden for den givne tidsramme. Derudover ville jeg gerne have haft min animation i en størere opløsning som
+jeg skulle have testet med en enkel frame før jeg begyndte på at designe alle de andre frames.</p>
+            </div>
+          </div>
+      </div>
+    </div>
+    <div class="procesfooter">
+    </div>
+  </body>
+</html>

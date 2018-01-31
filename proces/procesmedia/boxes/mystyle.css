@@ -1,0 +1,26 @@
+#box1{
+  background-color: #001092;
+  width: 50px;
+  height: 50px;
+}
+
+#box2{
+  background-color: #00cb42;
+  margin-left: 50px;
+  width: 100px;
+  height: 100px;
+}
+
+#box3{
+  background-color: #cd6bf5;
+  width: 200px;
+  height: 200px;
+  margin-left: 150px;
+}
+
+#box4{
+  background-color: #670f92;
+  width: 400px;
+  height: 400px;
+  margin-left: 350px;
+}
