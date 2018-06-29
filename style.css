@@ -3,6 +3,15 @@
   padding: 0;
 }
 
+body{
+  font-family: "Open Sans", Arial, sans-serif;
+  overflow-x: hidden;
+}
+
+main{
+  overflow: hidden;
+}
+
 #top{
   background-image: url('media/mobile-banner-home.png');
   background-color: #F8F8F0;
@@ -12,66 +21,77 @@
   background-size: contain;
 }
 
-.container {
-    display: inline-block;
-    cursor: pointer;
+.red{
+  color: #DD3924;
 }
 
-.bar1, .bar2, .bar3 {
-    width: 35px;
-    height: 5px;
-    background-color: #333;
-    margin: 6px 0;
-    transition: 0.4s;
-}
-
-.change .bar1 {
-    -webkit-transform: rotate(-45deg) translate(-9px, 6px);
-    transform: rotate(-45deg) translate(-9px, 6px);
-}
-
-.change .bar2 {opacity: 0;}
-
-.change .bar3 {
-    -webkit-transform: rotate(45deg) translate(-8px, -8px);
-    transform: rotate(45deg) translate(-8px, -8px);
-}
-
-
-body{
-  font-family:"Open-Sans", Arial;
-  overflow-x:hidden;
-}
-
-.navbar{
+nav{
   overflow:hidden;
 }
 
-.navbar a{
+nav a{
   float:right;
   display:block;
-  color:#f2a2d2;
+  color:#FFF;
   text-align:left;
   padding:14px 16px;
   text-decoration:none;
   font-size:17px;
+  font-weight: 700;
+  transition: all 0.4s ease;
 }
 
-.navbar ul{
+nav a:hover{
+  color:#DD3924;
+}
+
+nav ul{
   margin:8px 0 0 0;
   list-style:none;
 }
 
-.navbar a:hover{
-  background-color:#ddd;
-  color:#000;
+.nav-logo{
+
 }
 
-#side-menu{
+.btn-mobile-menu{
+  z-index: 200;
+  position: absolute;
+  display: none;
+  right: 4px;
+  top: 4px;
+}
+
+.btn-mobile-menu-container{
+    display: inline-block;
+    cursor: pointer;
+}
+
+.line1, .line2, .line3 {
+    width: 34px;
+    height: 4px;
+    background-color: #FFF;
+    margin: 7px 0;
+    transition: 0.4s;
+}
+
+.change .line1 {
+    -webkit-transform: rotate(-45deg) translate(-9px, 7px);
+    transform: rotate(-45deg) translate(-9px, 7px);
+}
+
+.change .line2 {opacity: 0;}
+
+.change .line3 {
+    -webkit-transform: rotate(45deg) translate(-8px, -7px);
+    transform: rotate(45deg) translate(-8px, -7px);
+}
+
+#mobile-menu{
   height:100%;
   width:250px;
   position:fixed;
-  z-index:1;
+  z-index:100;
   margin-right: -250px;
   top:0;
   right:0;
@@ -81,7 +101,8 @@ body{
   transition:0.5s;
 }
 
-#side-menu a{
+#mobile-menu a{
+  width: 190px;
   padding:20px 30px 20px 30px;
   text-decoration:none;
   text-align: left;
@@ -93,32 +114,51 @@ body{
   transition:0.3s;
 }
 
-#side-menu a:hover{
+#mobile-menu a:hover{
   background-color: rgba(255,255,255,0.1);
-  color: #DD3924;
 }
 
-
-.open-slide{
-  z-index: 200;
-  position: absolute;
-  right: 0;
+.banner-overlay{
   top: 0;
+  left: 0;
+  color: #FFF;
+  z-index: 10;
+  position: relative;
+  text-align: center;
 }
 
-#main{
-  transition:margin-left 0.5s;
-  padding:20px;
-  overflow:hidden;
-  width:100%;
+.banner-overlay h1{
+  font-size: 60px;
+  padding: 3em 0 0 0;
 }
 
 
-/** iPhone 6, 6S, 7 and 8 **/
+/* Every iPhone from iPhone 4 to iPhone X */
 @media only screen
-  and (min-device-width: 375px)
-  and (max-device-width: 667px)
-  and (-webkit-min-device-pixel-ratio: 2) {
-    .navbar-nav{display:none}
-    .open-slide{display:none}
+and (min-device-width : 320px)
+and (max-device-width : 812px) {
+    .navbar{display:none;}
+    .btn-mobile-menu{display:block;}
+    .banner-overlay h1{
+      font-size: 30px;
+      padding: 1em 0 0.4em 0;
+    }
+    .nav-logo{
+      padding: 18px 0 0 18px;
+    }
+    .btn-red{
+      background-color: #DD3924;
+      border: none;
+      color: white;
+      padding: 14px 28px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      margin: 4px 2px;
+      cursor: pointer;
+    }
+    .btn-red:hover{
+      background-color: #DE6556;
+    }
 }
