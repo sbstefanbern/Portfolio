@@ -1,165 +1,59 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="utf-8">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Stefan Bernkilde - Portfolio</title>
     <link type="text/css" rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800" rel="stylesheet">
-    <link rel="shortcut icon" href="favicon.ico"/>
+    <link rel="shortcut icon" href="favicon.ico">
   </head>
-  <body>
-  <div class="position">
-    <div class="fullscreen-bg">
-      <video muted autoplay class="fullscreen-bg-video">
-        <source src="media/banner-movie2.mp4" type="video/mp4">
-      </video>
-    </div>
+<body>
+  <nav class="navbar">
+    <span class="open-slide" onclick="toggleSideMenu()">
+      <a href="#">
+        <div class="container" onclick="buttonAnimation(this)">
+          <div class="bar1"></div>
+          <div class="bar2"></div>
+          <div class="bar3"></div>
+        </div>
+      </a>
+    </span>
+
+    <ul class="navbar-nav">
+      <li><a href="#">HOME</a></li>
+      <li><a href="#">PORTFOLIO</a></li>
+      <li><a href="#">ABOUT</a></li>
+    </ul>
+  </nav>
+
+  <div id="side-menu">
+    <a href="#">ABOUT</a>
+    <a href="#">PORTFOLIO</a>
+    <a href="#">HOME</a>
   </div>
-  <div class="banner">
-    <nav>
-      <a class="nav_btn" href=""><p>STEFAN BERNKILDE</p></a>
-      <ul>
-        <li><a class="last" href="about.html">ABOUT ME</a></li>
-        <li><a href="portfolio.html">PORTFOLIO</a></li>
-        <li><a class ="active" href="#">HOME</a></li>
-      </ul>
-    </nav>
-      <div class="text-animation">
-        <h1>I live to <span class="color">create.</span></h1>
-        <p class="tagline">I'm a designer with a passion for digital experiences throughout the world.</p>
-        <a class="banner_btn" href="portfolio.html"><p>Portfolio</p></a>
-      </div>
-      <div class="row">
-        <div class="third">
-          <div class="row_cell img1"></div>
-          <p class="">Passionate</p>
-          <p class="text">I love to design. It is not only my job, but also my biggest hobby. Everytime I will take on a
-          project I will do my utmost to do it to the very best of my ability.</p>
-        </div>
-        <div class="third">
-          <div class="row_cell img2"></div>
-          <p>Effective</p>
-          <p class="text">Working hard is important. But learning to work smart is just as crucial. I will always
-          look towards improving my workflow to be constantly improving.</p>
-        </div>
-        <div class="third">
-          <div class="row_cell img3"></div>
-          <p>Innovative</p>
-          <p class="text">I live to learn something new everyday. Always striving to find new solutions to problems,
-          and constantly keep an open mindset to new ideas and approaches.
-          </p>
-        </div>
-      </div>
-    </div>
-    <div class="banner2">
-      <img alt="Project Background Image" class="banner2img" src="media/projectbg.png">
-      <h1>Latest projects</h1>
-      <div class="tile-container">
-        <div class="front-tile">
-          <a href="https://www.youtube.com/watch?v=FLygurzrd2w" target="_blank"><img alt="Ring til fortiden" class="image" src="media/ringtilfortiden.png">
-            <div class="imagehover">
-              <div class="hovertext">View Project</div>
-            </div>
-          </a>
-          <div class="projecttitel">
-            <p>Ring Til Fortiden</p>
-          </div>
-          <div class="undertitel">
-            <p>GROUP PROJECT</p>
-          </div>
-        </div>
-        <div class="front-tile">
-          <a href="proces/procesmedia/cheezymagazine.png"><img alt="Cheezy magazine" class="image" src="media/cheezymagazine.png">
-            <div class="imagehover">
-              <div class="hovertext">View Project</div>
-            </div>
-          </a>
-          <div class="projecttitel">
-            <p>Cheezy Magazine</p>
-          </div>
-          <div class="undertitel">
-            <p>TYPOGRAPHY</p>
-          </div>
-        </div>
-        <div class="front-tile">
-          <a href="https://www.youtube.com/watch?v=gtRcfbrLEk8" target="_blank"><img alt="Smoking kills" class="image" src="media/smokingkills.png">
-            <div class="imagehover">
-              <div class="hovertext">View Project</div>
-            </div>
-          </a>
-          <div class="projecttitel">
-            <p>Smoking Kills</p>
-          </div>
-          <div class="undertitel">
-            <p>VIDEO EDITING</p>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="quotes">
-      <h1>Outside opinions</h1>
-      <p>Read what others have to say about me</p>
-      <div class="quoterow">
-        <div class="second">
-          <div class="quoterow_cell">
-            <img alt="Silhouette" src="media/silhouette.png">
-            <div class="quotetext">
-              <p class="name">Anders Andersen</p>
-              <p class="jobtitel">Jobtitel</p>
-              <p class="quotation">"Working with Stefan has been a pleasure. I can really see how much he has developed in his time here."</p>
-            </div>
-          </div>
-        </div>
-        <div class="second">
-          <div class="quoterow_cell">
-            <img alt="Silhouette" src="media/silhouette.png">
-            <div class="quotetext">
-              <p class="name">Jens Jensen</p>
-              <p class="jobtitel">Jobtitel</p>
-              <p class="quotation">"I've always been able to trust any assignment in the hands of Stefan will turn out be to be quality."</p>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="quoterow">
-        <div class="second">
-          <div class="quoterow_cell">
-            <img alt="Silhouette" src="media/silhouette.png">
-            <div class="quotetext">
-              <p class="name">Casper Caspersen</p>
-              <p class="jobtitel">Jobtitel</p>
-              <p class="quotation">"Stefan is one of the most dedicated students I've met here and have really left a memorable impact."</p>
-            </div>
-          </div>
-        </div>
-        <div class="second">
-          <div class="quoterow_cell">
-            <img alt="Silhouette" src="media/silhouette.png">
-            <div class="quotetext">
-              <p class="name">Jesper Jespersen</p>
-              <p class="jobtitel">Jobtitel</p>
-              <p class="quotation">"Stefan's attittude and willingnes to constantly develop himself and his skills is impressive."</p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <footer>
-      <img alt="Footer image" class="footerimg" src="media/footer.png">
-      <div class="footerrow">
-        <div class="footerrow-cell">
-          <a href="#">Home</a>
-        </div>
-        <div class="footerrow-cell">
-          <a href="portfolio.html">Portfolio</a>
-        </div>
-        <div class="footerrow-cell">
-          <a href="about.html">About</a>
-        </div>
-        <div class="copyright">
-          <p>&copy; 2017 Stefan Bernkilde - All rights reserved</p>
-        </div>
-      </div>
-    </footer>
-  </body>
+
+  <div id="main">
+    <h1>Stefan Bernkilde Portfolio</h1>
+  </div>
+
+  <script>
+    function toggleSideMenu(){
+      var menu = document.querySelector("#side-menu");
+      if (menu.style.marginRight === "-250px") {
+        menu.style.marginRight= "0";
+    } else {
+        menu.style.marginRight = "-250px";
+    }
+
+
+}
+
+
+
+    function buttonAnimation(x) {
+    x.classList.toggle("change");
+}
+  </script>
+</body>
 </html>
