@@ -84,10 +84,10 @@ nav ul{
 
 #mobile-menu{
   height:100%;
-  width:250px;
+  width:200px;
   position:fixed;
   z-index:300;
-  margin-right: -250px;
+  margin-right: -200px;
   top:0;
   right:0;
   background-color: #354765;
@@ -97,14 +97,14 @@ nav ul{
 }
 
 #mobile-menu a{
-  width: 190px;
-  padding:20px 30px 20px 30px;
+  width: 150px;
+  padding:15px 30px 15px 20px;
+  color: #FFF;
   text-decoration:none;
   text-align: left;
   font-weight: 700;
-  font-size:22px;
+  font-size:18px;
   border-bottom: 1px solid rgba(255,255,255,0.3);
-  color:#ccc;
   display:block;
   transition:0.3s;
 }
@@ -135,15 +135,16 @@ nav ul{
 @media only screen
 and (min-device-width : 320px)
 and (max-device-width : 812px) {
-    #top{
+    #home{
+      background-image: url('media/mobile-banner-home.jpg');
       height: 0;
       padding-bottom: 94%;
-      background-image: url('media/mobile-banner-home.png');
       background-color: #F8F8F0;
       background-repeat: no-repeat;
       background-position: center center;
       background-size: 100%;
     }
+
     .navbar{
       display: none;
     }
@@ -406,4 +407,15 @@ and (max-device-width : 812px) {
       padding-bottom: 40px;
     }
 
+    /* ---------- PROJECTS SECTION ---------- */
+
+    #portfolio{
+      background-image: url('media/mobile-banner-portfolio.jpg');
+      height: 0;
+      padding-bottom: 94%;
+      background-color: #F8F8F0;
+      background-repeat: no-repeat;
+      background-position: center center;
+      background-size: 100%;
+    }
 }

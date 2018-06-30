@@ -1,304 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="utf-8">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Stefan Bernkilde - Portfolio</title>
     <link type="text/css" rel="stylesheet" href="style.css">
+    <script src="javascript.js"></script>
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800" rel="stylesheet">
-    <link rel="shortcut icon" href="favicon.ico"/>
+    <link rel="shortcut icon" href="favicon.ico">
   </head>
   <body>
-    <div class="banner">
-      <img alt="Portfolio background" class="portfolioimg" src="media/portfoliobg.png">
-      <nav>
-        <a class="nav_btn" href="index.html"></a>
-        <ul>
-          <li><a class="last" href="about.html">ABOUT ME</a></li>
-          <li><a class="active" href="#">PORTFOLIO</a></li>
-          <li><a href="index.html">HOME</a></li>
-        </ul>
-      </nav>
-    </div>
-    <div class="portfoliobanner">
-      <h1>Portfolio</h1>
-    </div>
-    <div class="row">
-<div class="column-big">
-  <img src="media/forestanimation2.png">
-</div>
-
-<div class="column-small">
-  <img class="no-margin" src="media/forestanimation2.png">
-  <img src="media/forestanimation2.png">
-</div>
-
-<div class="column-big">
-  <img src="media/forestanimation2.png">
-</div>
-
-<div class="column-small">
-  <img class="no-margin" src="media/forestanimation2.png">
-  <img src="media/forestanimation2.png">
-</div>
-
-<div class="column">
-  <img src="media/forestanimation2.png">
-  <img src="media/forestanimation2.png">
-  <img src="media/forestanimation2.png">
-  <img src="media/forestanimation2.png">
-  <img src="media/forestanimation2.png">
-  <img src="media/forestanimation2.png">
-</div>
-<div class="column">
-  <img src="media/forestanimation2.png">
-  <img src="media/forestanimation2.png">
-  <img src="media/forestanimation2.png">
-  <img src="media/forestanimation2.png">
-  <img src="media/forestanimation2.png">
-  <img src="media/forestanimation2.png">
-  <img src="media/forestanimation2.png">
-</div>
-</div>
-    <div class="portfolio-content">
-
-      <div class="portfolio-tile">
-        <a href="http://stefanbernkilde.com/proces/procesmedia/forest/Forest-Animation.html"><img alt="Forest Animation" class="image" src="media/forestanimation.png">
-          <div class="imagehover">
-            <div class="hovertext">View Project</div>
+    <main>
+      <section id="portfolio">
+        <nav>
+          <img class="nav-logo" src="media/mobile-logo-white.png">
+          <span class="btn-mobile-menu" onclick="toggleMobileMenu()">
+            <a href="#">
+              <div class="btn-mobile-menu-container" onclick="buttonAnimation(this)">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+              </div>
+            </a>
+          </span>
+          <ul class="navbar">
+            <li><a href="#">ABOUT</a></li>
+            <li><a href="#">PORTFOLIO</a></li>
+            <li><a href="#">HOME</a></li>
+          </ul>
+          <div id="mobile-menu">
+            <a href="index.html">HOME</a>
+            <a href="#" class="red">PORTFOLIO</a>
+            <a href="#">ABOUT</a>
           </div>
-        </a>
-        <div class="projecttitel">
-          <p>Animated forest</p>
+        </nav>
+        <div class="banner-overlay">
+          <h1>What can I <span class="red">make?</span></h1>
         </div>
-        <div class="undertitel">
-          <p>ANIMATION</p>
-        </div>
-      </div>
-      <div class="portfolio-tile">
-        <a href="https://www.youtube.com/watch?v=FLygurzrd2w" target="_blank"><img alt="Ring til fortiden" class="image" src="media/ringtilfortiden.png">
-          <div class="imagehover">
-            <div class="hovertext">View Project</div>
-          </div>
-        </a>
-        <div class="projecttitel">
-          <p>Ring Til Fortiden</p>
-        </div>
-        <div class="undertitel">
-          <p>GROUP PROJECT</p>
-        </div>
-      </div>
-      <div class="portfolio-tile">
-        <a href="proces/procesmedia/godvsadam/GodAnimated.html"><img alt="God vs Adam" class="image" src="media/godvsadam.png">
-          <div class="imagehover">
-            <div class="hovertext">View Project</div>
-          </div>
-        </a>
-        <div class="projecttitel">
-          <p>God vs. Adam</p>
-        </div>
-        <div class="undertitel">
-          <p>ANIMATION</p>
-        </div>
-      </div>
-      <div class="portfolio-tile">
-        <a href="https://www.youtube.com/watch?v=gtRcfbrLEk8" target="_blank"><img alt="Smoking kills" class="image" src="media/smokingkills.png">
-          <div class="imagehover">
-            <div class="hovertext">View Project</div>
-          </div>
-        </a>
-        <div class="projecttitel">
-          <p>Smoking Kills</p>
-        </div>
-        <div class="undertitel">
-          <p>VIDEO EDITING</p>
-        </div>
-      </div>
-      <div class="portfolio-tile">
-        <a href="proces/procesmedia/cheezymagazine.png"><img alt="Cheezy magazine" class="image" src="media/cheezymagazine.png">
-          <div class="imagehover">
-            <div class="hovertext">View Project</div>
-          </div>
-        </a>
-        <div class="projecttitel">
-          <p>Cheezy Magazine</p>
-        </div>
-        <div class="undertitel">
-          <p>TYPOGRAPHY</p>
-        </div>
-      </div>
-      <div class="portfolio-tile">
-        <a href="proces/procesmedia/bomberman/css-animation.html"><img alt="Bomberman" class="image" src="media/cssworkshop.png">
-          <div class="imagehover">
-            <div class="hovertext">View Project</div>
-          </div>
-        </a>
-        <div class="projecttitel">
-          <p>Bomberman</p>
-        </div>
-        <div class="undertitel">
-          <p>CSS ANIMATION</p>
-        </div>
-      </div>
-      <div class="portfolio-tile">
-        <a href="proces/procesmedia/typographywords.png"><img alt="Typography words" class="image" src="media/typographywords.png">
-          <div class="imagehover">
-            <div class="hovertext">View Project</div>
-          </div>
-        </a>
-        <div class="projecttitel">
-          <p>Typography Words</p>
-        </div>
-        <div class="undertitel">
-          <p>TYPOGRAPHY</p>
-        </div>
-      </div>
-      <div class="portfolio-tile">
-        <a href="proces/procesmedia/selfportrait.png"><img alt="Selfportrait" class="image" src="media/selfportrait.png">
-          <div class="imagehover">
-            <div class="hovertext">View Project</div>
-          </div>
-        </a>
-        <div class="projecttitel">
-          <p>Selfportrait</p>
-        </div>
-        <div class="undertitel">
-          <p>VECTOR DESIGN</p>
-        </div>
-      </div>
-      <div class="portfolio-tile">
-        <a href="proces/procesmedia/beersite/index.html"><img alt="Beer site" class="image" src="media/beersite.png">
-          <div class="imagehover">
-            <div class="hovertext">View Project</div>
-          </div>
-        </a>
-        <div class="projecttitel">
-          <p>Beer website</p>
-        </div>
-        <div class="undertitel">
-          <p>WEBDESIGN</p>
-        </div>
-      </div>
-      <div class="portfolio-tile">
-        <a href="proces/procesmedia/sblogo.png"><img alt="SB logo" class="image" src="media/sblogo.png">
-          <div class="imagehover">
-            <div class="hovertext">View Project</div>
-          </div>
-        </a>
-        <div class="projecttitel">
-          <p>SB Logo</p>
-        </div>
-        <div class="undertitel">
-          <p>LOGO DESIGN</p>
-        </div>
-      </div>
-      <div class="portfolio-tile">
-        <a href="media/hcodense.png"><img alt="HC Odense" class="image" src="media/hcodense.png">
-          <div class="imagehover">
-            <div class="hovertext">View Project</div>
-          </div>
-        </a>
-        <div class="projecttitel">
-          <p>HC ODENSE</p>
-        </div>
-        <div class="undertitel">
-          <p>GRAPHIC DESIGN</p>
-        </div>
-      </div>
-      <div class="portfolio-tile">
-        <a href="media/fastereft.png"><img alt="Faster EFT" class="image" src="media/fastereft.png">
-          <div class="imagehover">
-            <div class="hovertext">View Project</div>
-          </div>
-        </a>
-        <div class="projecttitel">
-          <p>Faster EFT</p>
-        </div>
-        <div class="undertitel">
-          <p>GRAPHIC DESIGN</p>
-        </div>
-      </div>
-      <div class="portfolio-tile">
-        <a href="media/dagslys.png"><img alt="Dagslys" class="image" src="media/dagslys.png">
-          <div class="imagehover">
-            <div class="hovertext">View Project</div>
-          </div>
-        </a>
-        <div class="projecttitel">
-          <p>Dagslys</p>
-        </div>
-        <div class="undertitel">
-          <p>GRAPHIC DESIGN</p>
-        </div>
-      </div>
-      <div class="portfolio-tile">
-        <a href="media/fribikeshop.png"><img alt="FriBikeShop" class="image" src="media/fribikeshop.png">
-          <div class="imagehover">
-            <div class="hovertext">View Project</div>
-          </div>
-        </a>
-        <div class="projecttitel">
-          <p>FriBikeShop</p>
-        </div>
-        <div class="undertitel">
-          <p>GRAPHIC DESIGN</p>
-        </div>
-      </div>
-      <div class="portfolio-tile">
-        <a href="media/piphest.png"><img alt="Piphest" class="image" src="media/piphest.png">
-          <div class="imagehover">
-            <div class="hovertext">View Project</div>
-          </div>
-        </a>
-        <div class="projecttitel">
-          <p>Piphest</p>
-        </div>
-        <div class="undertitel">
-          <p>GRAPHIC DESIGN</p>
-        </div>
-      </div>
-      <div class="portfolio-tile">
-        <a href="media/korupmotion.png"><img alt="Korup Motion" class="image" src="media/korupmotion.png">
-          <div class="imagehover">
-            <div class="hovertext">View Project</div>
-          </div>
-        </a>
-        <div class="projecttitel">
-          <p>Korup Motion</p>
-        </div>
-        <div class="undertitel">
-          <p>GRAPHIC DESIGN</p>
-        </div>
-      </div>
-      <div class="portfolio-tile">
-        <a href="media/sdecollege.png"><img alt="SDE College" class="image" src="media/sdecollege.png">
-          <div class="imagehover">
-            <div class="hovertext">View Project</div>
-          </div>
-        </a>
-        <div class="projecttitel">
-          <p>SDE College</p>
-        </div>
-        <div class="undertitel">
-          <p>GRAPHIC DESIGN</p>
-        </div>
-      </div>
-    </div>
-    <footer>
-      <img alt="Footer background" class="footerimg" src="media/footer.png">
-      <div class="footerrow">
-        <div class="footerrow-cell">
-          <a href="#">Home</a>
-        </div>
-        <div class="footerrow-cell">
-          <a href="portfolio.html">Portfolio</a>
-        </div>
-        <div class="footerrow-cell">
-          <a href="about.html">About</a>
-        </div>
-        <div class="copyright">
-          <p>&copy; 2017 Stefan Bernkilde - All rights reserved</p>
-        </div>
-      </div>
-    </footer>
+      </section>
+    </main>
   </body>
 </html>

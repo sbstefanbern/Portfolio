@@ -5,186 +5,128 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Stefan Bernkilde - Portfolio</title>
     <link type="text/css" rel="stylesheet" href="style.css">
+    <script src="javascript.js"></script>
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800" rel="stylesheet">
     <link rel="shortcut icon" href="favicon.ico">
   </head>
-<body>
-  <main>
-    <section id="top">
-      <nav>
-        <img class="nav-logo" src="media/mobile-logo-white.png">
-        <span class="btn-mobile-menu" onclick="toggleMobileMenu()">
-          <a href="#">
-            <div class="btn-mobile-menu-container" onclick="buttonAnimation(this)">
-              <div class="line1"></div>
-              <div class="line2"></div>
-              <div class="line3"></div>
-            </div>
-          </a>
-        </span>
-        <ul class="navbar">
-          <li><a href="#">ABOUT</a></li>
-          <li><a href="#">PORTFOLIO</a></li>
-          <li><a href="#">HOME</a></li>
-        </ul>
-        <div id="mobile-menu">
-          <a href="#">ABOUT</a>
+  <body>
+    <main>
+      <section id="home">
+        <nav>
+          <img class="nav-logo" src="media/mobile-logo-white.png">
+          <span class="btn-mobile-menu" onclick="toggleMobileMenu()">
+            <a href="#">
+              <div class="btn-mobile-menu-container" onclick="buttonAnimation(this)">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+              </div>
+            </a>
+          </span>
+          <ul class="navbar">
+            <li><a href="#">ABOUT</a></li>
+            <li><a href="#">PORTFOLIO</a></li>
+            <li><a href="#">HOME</a></li>
+          </ul>
+          <div id="mobile-menu">
+            <a href="#" class="red">HOME</a>
+            <a href="portfolio.html">PORTFOLIO</a>
+            <a href="#">ABOUT</a>
+          </div>
+        </nav>
+        <div class="banner-overlay">
+          <h1>I live to <span class="red">create.</span></h1>
+          <button class="btn-red">View my portfolio</button>
+        </div>
+      </section>
+      <section id="values">
+        <div class="values-icon-container">
+          <div class="one-third">
+            <div id="value-icon-1" class="values-icon icon-1" onclick="value1()"></div>
+          </div>
+          <div class="one-third">
+            <div id="value-icon-2" class="values-icon-small icon-2-small" onclick="value2()"></div>
+          </div>
+          <div class="one-third">
+            <div id="value-icon-3" class="values-icon-small icon-3-small" onclick="value3()"></div>
+          </div>
+        </div>
+        <div id="value1" class="value-content">
+          <h3>Passionate</h3>
+          <p>I love to design. It is not only my job, but also my biggest hobby. Everytime I will take on a
+          project I will do my utmost to do it to the very best of my ability.</p>
+        </div>
+        <div id="value2" class="value-content">
+          <h3>Effective</h3>
+          <p>Working hard is important. But learning to work smart is just as crucial. I will always
+          look towards improving my workflow to be constantly improving.</p>
+        </div>
+        <div id="value3" class="value-content">
+          <h3>Innovative</h3>
+          <p>I live to learn something new everyday. Always striving to find new solutions to problems,
+          and constantly keep an open mindset to new ideas and approaches.</p>
+        </div>
+      </section>
+      <section id="projects">
+        <img class="shape" src="media/shape.svg" alt="shape">
+        <h2>Latest projects</h2>
+        <div class="project-element">
+          <h3>Ring til Fortiden</h3>
+          <p>A concept for an installation on Fredericia Vold.</p>
+          <picture>
+            <source media="(min-width: 713px)" srcset="media/front-project1.png">
+            <source media="(min-width: 320px)" srcset="media/front-project1-small.png">
+            <img src="media/front-project1.png" alt="Project 1" style="width:auto;">
+          </picture>
+          <button class="btn-red">View project</button>
+        </div>
+        <hr class="project-hr">
+        <div class="project-element">
+          <h3>HC Odense</h3>
+          <p>Promotional posters and matchday programme designs for the Odense-based handball club.</p>
+          <picture>
+            <source media="(min-width: 713px)" srcset="media/front-project1.png">
+            <source media="(min-width: 320px)" srcset="media/front-project1-small.png">
+            <img src="media/front-project1.png" alt="Project 1" style="width:auto;">
+          </picture>
+          <button class="btn-red">View project</button>
+        </div>
+        <hr class="project-hr">
+        <div class="project-element last">
+          <h3>Faster EFT</h3>
+          <p>Graphic promotional material made for an independent treater.</p>
+          <picture>
+            <source media="(min-width: 713px)" srcset="media/front-project1.png">
+            <source media="(min-width: 320px)" srcset="media/front-project1-small.png">
+            <img src="media/front-project1.png" alt="Project 1" style="width:auto;">
+          </picture>
+          <button class="btn-red">View project</button>
+        </div>
+        <img class="footer-shape" src="media/footer-shape.png">
+      </section>
+      <footer>
+        <div class="footer-contact">
+          <h2>GET IN TOUCH</h2>
+          <p>Stefan Bernkilde</p>
+          <p>sbstefanbern@gmail.com</p>
+          <p>+45 41 27 85 46</p>
+          <p>Based in Odense, Denmark</p>
+        </div>
+        <hr>
+        <div class="footer-nav">
+          <h2>NAVIGATION</h2>
+          <a href="#" class="red">HOME</a>
           <a href="#">PORTFOLIO</a>
-          <a href="#">HOME</a>
+          <a href="#">ABOUT ME</a>
         </div>
-      </nav>
-      <div class="banner-overlay">
-        <h1>I live to <span class="red">create.</span></h1>
-        <button class="btn-red">View my portfolio</button>
-      </div>
-    </section>
-    <section id="values">
-      <div class="values-icon-container">
-        <div class="one-third">
-          <div id="value-icon-1" class="values-icon icon-1" onclick="value1()"></div>
+        <hr>
+        <div class="footer-some">
+          <h2>SOCIAL MEDIA</h2>
+          <img src="media/icon-linkedin.png">
+          <img src="media/icon-instagram.png">
         </div>
-        <div class="one-third">
-          <div id="value-icon-2" class="values-icon-small icon-2-small" onclick="value2()"></div>
-        </div>
-        <div class="one-third">
-          <div id="value-icon-3" class="values-icon-small icon-3-small" onclick="value3()"></div>
-        </div>
-      </div>
-      <div id="value1" class="value-content">
-        <h3>Passionate</h3>
-        <p>I love to design. It is not only my job, but also my biggest hobby. Everytime I will take on a
-        project I will do my utmost to do it to the very best of my ability.</p>
-      </div>
-      <div id="value2" class="value-content">
-        <h3>Effective</h3>
-        <p>Working hard is important. But learning to work smart is just as crucial. I will always
-        look towards improving my workflow to be constantly improving.</p>
-      </div>
-      <div id="value3" class="value-content">
-        <h3>Innovative</h3>
-        <p>I live to learn something new everyday. Always striving to find new solutions to problems,
-        and constantly keep an open mindset to new ideas and approaches.</p>
-      </div>
-    </section>
-    <section id="projects">
-      <img class="shape" src="media/shape.svg" alt="shape">
-      <h2>Latest projects</h2>
-      <div class="project-element">
-        <h3>Ring til Fortiden</h3>
-        <p>A concept for an installation on Fredericia Vold.</p>
-        <picture>
-          <source media="(min-width: 713px)" srcset="media/front-project1.png">
-          <source media="(min-width: 320px)" srcset="media/front-project1-small.png">
-          <img src="media/front-project1.png" alt="Project 1" style="width:auto;">
-        </picture>
-        <button class="btn-red">View project</button>
-      </div>
-      <hr class="project-hr">
-      <div class="project-element">
-        <h3>HC Odense</h3>
-        <p>Promotional posters and matchday programme designs for the Odense-based handball club.</p>
-        <picture>
-          <source media="(min-width: 713px)" srcset="media/front-project1.png">
-          <source media="(min-width: 320px)" srcset="media/front-project1-small.png">
-          <img src="media/front-project1.png" alt="Project 1" style="width:auto;">
-        </picture>
-        <button class="btn-red">View project</button>
-      </div>
-      <hr class="project-hr">
-      <div class="project-element last">
-        <h3>Faster EFT</h3>
-        <p>Graphic promotional material made for an independent treater.</p>
-        <picture>
-          <source media="(min-width: 713px)" srcset="media/front-project1.png">
-          <source media="(min-width: 320px)" srcset="media/front-project1-small.png">
-          <img src="media/front-project1.png" alt="Project 1" style="width:auto;">
-        </picture>
-        <button class="btn-red">View project</button>
-      </div>
-      <img class="footer-shape" src="media/footer-shape.png">
-    </section>
-    <footer>
-      <div class="footer-contact">
-        <h2>GET IN TOUCH</h2>
-        <p>Stefan Bernkilde</p>
-        <p>sbstefanbern@gmail.com</p>
-        <p>+45 41 27 85 46</p>
-        <p>Based in Odense, Denmark</p>
-      </div>
-      <hr>
-      <div class="footer-nav">
-        <h2>NAVIGATION</h2>
-        <a href="#" class="red">HOME</a>
-        <a href="#">PORTFOLIO</a>
-        <a href="#">ABOUT ME</a>
-      </div>
-      <hr>
-      <div class="footer-some">
-        <h2>SOCIAL MEDIA</h2>
-        <img src="media/icon-linkedin.png">
-        <img src="media/icon-instagram.png">
-      </div>
-      <p class="footer-copyright">&copy; 2018 Stefan Bernkilde - All rights reserved</p>
-    </footer>
-  </main>
-  <script>
-    function toggleMobileMenu(){
-      var menu = document.querySelector("#mobile-menu");
-      if (menu.style.marginRight === "-250px"){
-        menu.style.marginRight= "0";
-      } else{
-        menu.style.marginRight = "-250px";
-      }
-    }
-
-    function buttonAnimation(x){
-      x.classList.toggle("change");
-    }
-
-    function value1(){
-      var valueicon1 = document.querySelector("#value-icon-1");
-      var valueicon2 = document.querySelector("#value-icon-2");
-      var valueicon3 = document.querySelector("#value-icon-3");
-      var value1 = document.querySelector("#value1");
-      var value2 = document.querySelector("#value2");
-      var value3 = document.querySelector("#value3");
-      valueicon1.className = "values-icon icon-1";
-      valueicon2.className = "values-icon-small  icon-2-small";
-      valueicon3.className = "values-icon-small  icon-3-small";
-      value1.style.opacity = "1";
-      value2.style.opacity = "0";
-      value3.style.opacity = "0";
-    }
-
-    function value2(){
-      var valueicon1 = document.querySelector("#value-icon-1");
-      var valueicon2 = document.querySelector("#value-icon-2");
-      var valueicon3 = document.querySelector("#value-icon-3");
-      var value1 = document.querySelector("#value1");
-      var value2 = document.querySelector("#value2");
-      var value3 = document.querySelector("#value3");
-      valueicon1.className = "values-icon-small icon-1-small";
-      valueicon2.className = "values-icon icon-2";
-      valueicon3.className = "values-icon-small  icon-3-small";
-      value1.style.opacity = "0";
-      value2.style.opacity = "1";
-      value3.style.opacity = "0";
-    }
-
-    function value3(){
-      var valueicon1 = document.querySelector("#value-icon-1");
-      var valueicon2 = document.querySelector("#value-icon-2");
-      var valueicon3 = document.querySelector("#value-icon-3");
-      var value1 = document.querySelector("#value1");
-      var value2 = document.querySelector("#value2");
-      var value3 = document.querySelector("#value3");
-      valueicon1.className = "values-icon-small icon-1-small";
-      valueicon2.className = "values-icon-small icon-2-small";
-      valueicon3.className = "values-icon icon-3";
-      value1.style.opacity = "0";
-      value2.style.opacity = "0";
-      value3.style.opacity = "1";
-    }
-  </script>
-</body>
+        <p class="footer-copyright">&copy; 2018 Stefan Bernkilde - All rights reserved</p>
+      </footer>
+    </main>
+  </body>
 </html>
