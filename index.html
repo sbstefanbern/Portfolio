@@ -38,9 +38,35 @@
         <button class="btn-red">View my portfolio</button>
       </div>
     </section>
-    <div id="main">
-      <h1>Stefan Bernkilde Portfolio</h1>
+    <section id="values">
+    <div class="values-icon-container">
+      <div class="one-third">
+        <div id="value-icon-1" class="values-icon icon-1" onclick="value1()"></div>
+      </div>
+      <div class="one-third">
+        <div id="value-icon-2" class="values-icon-small icon-2-small" onclick="value2()"></div>
+      </div>
+      <div class="one-third">
+        <div id="value-icon-3" class="values-icon-small icon-3-small" onclick="value3()"></div>
+      </div>
     </div>
+      <div id="value1" class="value-content">
+        <h3>Passionate</h3>
+        <p>I love to design. It is not only my job, but also my biggest hobby. Everytime I will take on a
+        project I will do my utmost to do it to the very best of my ability.</p>
+      </div>
+      <div id="value2" class="value-content">
+        <h3>Effective</h3>
+        <p>Working hard is important. But learning to work smart is just as crucial. I will always
+        look towards improving my workflow to be constantly improving.</p>
+      </div>
+      <div id="value3" class="value-content">
+        <h3>Innovative</h3>
+        <p>I live to learn something new everyday. Always striving to find new solutions to problems,
+        and constantly keep an open mindset to new ideas and approaches.</p>
+      </div>
+  </section>
+    <img class="shape" src="media/shape.svg" alt="shape">
   </main>
   <script>
     function toggleMobileMenu(){
@@ -52,8 +78,53 @@
       }
     }
 
-    function buttonAnimation(x) {
+    function buttonAnimation(x){
       x.classList.toggle("change");
+    }
+
+    function value1(){
+      var valueicon1 = document.querySelector("#value-icon-1");
+      var valueicon2 = document.querySelector("#value-icon-2");
+      var valueicon3 = document.querySelector("#value-icon-3");
+      var value1 = document.querySelector("#value1");
+      var value2 = document.querySelector("#value2");
+      var value3 = document.querySelector("#value3");
+      valueicon1.className = "values-icon icon-1";
+      valueicon2.className = "values-icon-small  icon-2-small";
+      valueicon3.className = "values-icon-small  icon-3-small";
+      value1.style.opacity = "1";
+      value2.style.opacity = "0";
+      value3.style.opacity = "0";
+    }
+
+    function value2(){
+      var valueicon1 = document.querySelector("#value-icon-1");
+      var valueicon2 = document.querySelector("#value-icon-2");
+      var valueicon3 = document.querySelector("#value-icon-3");
+      var value1 = document.querySelector("#value1");
+      var value2 = document.querySelector("#value2");
+      var value3 = document.querySelector("#value3");
+      valueicon1.className = "values-icon-small icon-1-small";
+      valueicon2.className = "values-icon icon-2";
+      valueicon3.className = "values-icon-small  icon-3-small";
+      value1.style.opacity = "0";
+      value2.style.opacity = "1";
+      value3.style.opacity = "0";
+    }
+
+    function value3(){
+      var valueicon1 = document.querySelector("#value-icon-1");
+      var valueicon2 = document.querySelector("#value-icon-2");
+      var valueicon3 = document.querySelector("#value-icon-3");
+      var value1 = document.querySelector("#value1");
+      var value2 = document.querySelector("#value2");
+      var value3 = document.querySelector("#value3");
+      valueicon1.className = "values-icon-small icon-1-small";
+      valueicon2.className = "values-icon-small icon-2-small";
+      valueicon3.className = "values-icon icon-3";
+      value1.style.opacity = "0";
+      value2.style.opacity = "0";
+      value3.style.opacity = "1";
     }
   </script>
 </body>
