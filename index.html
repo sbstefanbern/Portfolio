@@ -39,17 +39,17 @@
       </div>
     </section>
     <section id="values">
-    <div class="values-icon-container">
-      <div class="one-third">
-        <div id="value-icon-1" class="values-icon icon-1" onclick="value1()"></div>
+      <div class="values-icon-container">
+        <div class="one-third">
+          <div id="value-icon-1" class="values-icon icon-1" onclick="value1()"></div>
+        </div>
+        <div class="one-third">
+          <div id="value-icon-2" class="values-icon-small icon-2-small" onclick="value2()"></div>
+        </div>
+        <div class="one-third">
+          <div id="value-icon-3" class="values-icon-small icon-3-small" onclick="value3()"></div>
+        </div>
       </div>
-      <div class="one-third">
-        <div id="value-icon-2" class="values-icon-small icon-2-small" onclick="value2()"></div>
-      </div>
-      <div class="one-third">
-        <div id="value-icon-3" class="values-icon-small icon-3-small" onclick="value3()"></div>
-      </div>
-    </div>
       <div id="value1" class="value-content">
         <h3>Passionate</h3>
         <p>I love to design. It is not only my job, but also my biggest hobby. Everytime I will take on a
@@ -65,8 +65,47 @@
         <p>I live to learn something new everyday. Always striving to find new solutions to problems,
         and constantly keep an open mindset to new ideas and approaches.</p>
       </div>
-  </section>
-    <img class="shape" src="media/shape.svg" alt="shape">
+    </section>
+    <section id="projects">
+      <img class="shape" src="media/shape.svg" alt="shape">
+      <h2>Latest projects</h2>
+      <div class="project-element">
+        <h3>Ring til Fortiden</h3>
+        <p>A concept for an installation on Fredericia Vold.</p>
+        <picture>
+          <source media="(min-width: 713px)" srcset="media/front-project1.png">
+          <source media="(min-width: 320px)" srcset="media/front-project1-small.png">
+          <img src="media/front-project1.png" alt="Project 1" style="width:auto;">
+        </picture>
+        <button class="btn-red">View project</button>
+      </div>
+      <hr>
+      <div class="project-element">
+        <h3>HC Odense</h3>
+        <p>Promotional posters and matchday programme designs for the Odense-based handball club.</p>
+        <picture>
+          <source media="(min-width: 713px)" srcset="media/front-project1.png">
+          <source media="(min-width: 320px)" srcset="media/front-project1-small.png">
+          <img src="media/front-project1.png" alt="Project 1" style="width:auto;">
+        </picture>
+        <button class="btn-red">View project</button>
+      </div>
+      <hr>
+      <div class="project-element last">
+        <h3>Faster EFT</h3>
+        <p>Graphic promotional material made for an independent treater.</p>
+        <picture>
+          <source media="(min-width: 713px)" srcset="media/front-project1.png">
+          <source media="(min-width: 320px)" srcset="media/front-project1-small.png">
+          <img src="media/front-project1.png" alt="Project 1" style="width:auto;">
+        </picture>
+        <button class="btn-red">View project</button>
+      </div>
+      <img class="footer-shape" src="media/footer-shape.png">
+    </section>
+    <footer>
+      <h2>GET IN TOUCH</h2>
+    </footer>
   </main>
   <script>
     function toggleMobileMenu(){
