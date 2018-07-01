@@ -418,4 +418,61 @@ and (max-device-width : 812px) {
       background-position: center center;
       background-size: 100%;
     }
+
+    #portfolio-content{
+      background-color: #F8F8F0;
+      padding-top: 20px;
+    }
+
+    .tags{
+      display: flex;
+      flex-wrap: wrap;
+    }
+
+    .tags a{
+      flex: 33%;
+      text-decoration: none;
+      color: #676767;
+      font-weight: 600;
+      font-size: 14px;
+      text-align: center;
+      padding: 15px 0;
+      border-right: 1px solid #DD3924;
+    }
+
+    .tags a:hover{
+      background-color: #EFB4AD;
+    }
+
+    .active-tag{
+      background: #DD3924;
+      color: #FFF !important;
+    }
+
+    .last-tag{
+      border: none !important;
+    }
+
+    .portfolio-grid-container{
+      margin-top: 20px;
+    }
+
+
+
+
+
+
+
+    .gallery{
+      display: grid;
+      grid-gap: 4px;
+      grid-template-columns: repeat(4, 25%);
+    }
+
+    .item{
+      width: 100%;
+    }
+
+
+
 }
