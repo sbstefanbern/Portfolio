@@ -354,7 +354,7 @@ and (max-device-width : 812px) {
       max-width: 100%;
     }
 
-    /* ---------- PROJECTS SECTION ---------- */
+    /* ---------- FOOTER SECTION ---------- */
 
     footer{
       background-color: #354765;
@@ -407,7 +407,7 @@ and (max-device-width : 812px) {
       padding-bottom: 40px;
     }
 
-    /* ---------- PROJECTS SECTION ---------- */
+    /* ---------- PORTFOLIO PAGE ---------- */
 
     #portfolio{
       background-image: url('media/mobile-banner-portfolio.jpg');
@@ -471,6 +471,21 @@ and (max-device-width : 812px) {
 
     .item{
       width: 100%;
+    }
+
+    /* ---------- PORTFOLIO PAGE ---------- */
+
+    #about{
+      background-image: url('media/mobile-banner-about.jpg');
+      height: 0;
+      padding-bottom: 94%;
+      background-color: #F8F8F0;
+      background-repeat: no-repeat;
+      background-position: center center;
+      background-size: 100%;
+    }
+    #who-am-i{
+      
     }
 
 

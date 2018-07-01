@@ -1,85 +1,70 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="utf-8">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Stefan Bernkilde - Portfolio</title>
     <link type="text/css" rel="stylesheet" href="style.css">
+    <script src="javascript.js"></script>
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800" rel="stylesheet">
-    <link rel="shortcut icon" href="favicon.ico"/>
+    <link rel="shortcut icon" href="favicon.ico">
   </head>
   <body>
-    <div class="banner">
-      <img alt="Portfolio background" class="portfolioimg" src="media/aboutme-banner.jpg">
-    </div>
-            <img class="shape" src="media/about-shape.svg" alt="shape">
-    <div class="image-overlay">
-        <h1>Hello! I'm <span class="red">Stefan.</span></h1>
-        <p class="about-tagline">Lover of all things design. Explore this page to learn about what else I’m about.</p>
-          <nav>
-            <a class="nav_btn" href="index.html"></a>
-            <ul>
-              <li><a class="last active" href="#">ABOUT ME</a></li>
-              <li><a href="portfolio.html">PORTFOLIO</a></li>
-              <li><a href="index.html">HOME</a></li>
-            </ul>
-          </nav>
-      </div>
-    </div>
-    <main class="about">
-      <h1>Who am I?</h1>
-    <div class="procescontainer">
-      <div class="aboutbox1">
-        <p>22 year old dedicated designer and creative connoisseur working with everything ranging from video editing, graphic design, 3D and webdesign to print design, animation and communication. I always involve myself 100% in the projects that I’m apart of because i always strive to evolve myself and expand my skillset everyday.
-</p>
-      </div>
-      <div class="aboutbox2">
-        <p>I live in an apartment a few kilometers out from Odense C. Denmakrs 3rd biggets city located on the island of Funen in the middle of Denmark. As hobbies I love watching football, going to bars and pubs in the city with my friends. But my biggest hobby is what I study towards. Being creative and creating things. Editing videos, creating interfaces, and thing for people to interact with. This is what I spend a big time of my freetime doing. Fo rme it is very important to work with something that you love doing and something which is not seen as ‘work’ but something that you truly enjoy doing.
-
-</p>
-      </div>
-      <div class="aboutbox3">
-        <p>I’m an educated Media Graphics Artist as per the summer of 2017. In the same year, in the fall, I began my study to become an AP Graduate in Multimedia Design and Communication. This is what I’m currently studying, and will be finished in the summer of 2019. As part of my Media Graphics Artist education I’ve had a lot of working experience having worked full time for two years as a Graphic Desginer for Ekstra Bladet in Copenhagen. Denmarks biggest digital news media. In my work at Ekstra Bladet I’ve been involved in a broad range of different projects, both big and small. I’ve been responsible for creating everyday news graphics for the paper, but have also been a huge part of bigger digital projects, like designing the Livescore App for Ekstra Bladet and the web interface that goes along with it. Essentially at this job I’ve had a very flexible role, having both played major parts in daily print design projects but also bigger digital User Interface and User Experience design projects.
-</p>
-<div class="button">
-  <a href="media/cv.pdf" target="_blank">View my resume</a>
-</div>
-      </div>
-      <div class="proces">
-        <div class="aboutrubrik">
-          <h1>Designer based in Odense, Denmark</h1>
-          <p class="contactinfo">E-mail: sbstefanbern@gmail.com - Phone: +45 41 27 85 46</p>
-        </div>
-        <div class="centertext">
-          <div class="processchapter">
-            <a href="media/CV.pdf">View my resume</a>
+    <main>
+      <section id="about">
+        <nav>
+          <img class="nav-logo" src="media/mobile-logo-white.png">
+          <span class="btn-mobile-menu" onclick="toggleMobileMenu()">
+            <a href="#">
+              <div class="btn-mobile-menu-container" onclick="buttonAnimation(this)">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+              </div>
+            </a>
+          </span>
+          <ul class="navbar">
+            <li><a href="#">ABOUT</a></li>
+            <li><a href="#">PORTFOLIO</a></li>
+            <li><a href="#">HOME</a></li>
+          </ul>
+          <div id="mobile-menu">
+            <a href="index.html">HOME</a>
+            <a href="portfolio.html">PORTFOLIO</a>
+            <a href="#" class="red">ABOUT</a>
           </div>
-
+        </nav>
+        <div class="banner-overlay">
+          <h1>Hello! I'm <span class="red">Stefan.</span></h1>
         </div>
+      </section>
+      <section id="who-am-i">
+        <h2>Who am I?</h2>
+        <img class="footer-shape" src="media/footer-shape.png">
+      </section>
+    </main>
+    <footer>
+      <div class="footer-contact">
+        <h2>GET IN TOUCH</h2>
+        <p>Stefan Bernkilde</p>
+        <p>sbstefanbern@gmail.com</p>
+        <p>+45 41 27 85 46</p>
+        <p>Based in Odense, Denmark</p>
       </div>
-    </div>
-    <div class="quotes">
-      <h1>Outside opinions</h1>
-      <div class="quoterow">
-
+      <hr>
+      <div class="footer-nav">
+        <h2>NAVIGATION</h2>
+        <a href="index.html">HOME</a>
+        <a href="portfolio.html">PORTFOLIO</a>
+        <a href="# class="red"">ABOUT ME</a>
       </div>
-    </div>
-        </main>
-  <footer>
-    <img alt="Footer background" class="footerimg" src="media/footer.png">
-    <div class="footerrow">
-      <div class="footerrow-cell">
-        <a href="#">Home</a>
+      <hr>
+      <div class="footer-some">
+        <h2>SOCIAL MEDIA</h2>
+        <img src="media/icon-linkedin.png">
+        <img src="media/icon-instagram.png">
       </div>
-      <div class="footerrow-cell">
-        <a href="portfolio.html">Portfolio</a>
-      </div>
-      <div class="footerrow-cell">
-        <a href="about.html">About</a>
-      </div>
-      <div class="copyright">
-        <p> &copy; 2017 Stefan Bernkilde - All rights reserved</p>
-      </div>
-    </div>
-  </footer>
+      <p class="footer-copyright">&copy; 2018 Stefan Bernkilde - All rights reserved</p>
+    </footer>
   </body>
 </html>
