@@ -20,12 +20,17 @@ main{
   background-size: 100%;
 }
 
+#topvideo{
+  display: none;
+}
+
 .red{
   color: #DD3924 !important;
 }
 
 nav{
   overflow:hidden;
+  padding: 30px;
 }
 
 nav img{
@@ -102,6 +107,10 @@ nav ul{
 
 .banner-overlay h1{
   padding: 1.4em 0 0.4em 0;
+}
+
+.banner-overlay h3{
+  display: none;
 }
 
 .btn-red{
@@ -201,6 +210,7 @@ nav ul{
 
 .project-hr{
   border: 0;
+  height: 2px;
   position:relative;
   background: -moz-linear-gradient(left, rgba(221,57,36,0) 0%, rgba(221,57,36,0) 5%, rgba(221,57,36,0.65) 50%, rgba(221,57,36,0) 95%, rgba(221,57,36,0) 100%); /* FF3.6+ */
   background: -webkit-linear-gradient(left, rgba(221,57,36,0) 0%,rgba(221,57,36,0) 5%,rgba(221,57,36,0.65) 50%,rgba(221,57,36,0) 95%,rgba(221,57,36,0) 100%); /* Chrome10+,Safari5.1+ */
@@ -577,10 +587,6 @@ and (max-device-width : 767px) {
       margin: 45px 0;
     }
 
-    .project-hr{
-      height: 2px;
-    }
-
     /* ---------- QUOTE SECTION ---------- */
 
     #citations h2{
@@ -696,15 +702,11 @@ and (max-device-width : 767px) {
 
 
 
-/* ----------- iPads (portrait and landscape) ----------- */
+/* ----------- Tablets (portrait and landscape) ----------- */
 @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
   #home{
     background-image: url('media/tablet-banner-home.jpg');
     padding-bottom: 74%;
-  }
-
-  nav{
-    padding: 30px;
   }
 
   nav a{
@@ -724,6 +726,10 @@ and (max-device-width : 767px) {
     font-size: 24px;
     line-height: 34px;
     padding: 35px 20px 40px 20px;
+  }
+
+  .no-margin{
+    margin: 0 !important;
   }
 
   /* ---------- VALUE SECTION ---------- */
@@ -818,10 +824,6 @@ and (max-device-width : 767px) {
     margin: 80px 0;
   }
 
-  .project-hr{
-    height: 4px;
-  }
-
   /* ---------- QUOTE SECTION ---------- */
 
   #citations{
@@ -836,7 +838,8 @@ and (max-device-width : 767px) {
 
   .quote-container{
     width: 36%;
-    padding: 0 50px;
+    margin-top: 80px;
+    padding: 0 7%;
     float: left;
   }
 
@@ -942,11 +945,383 @@ and (max-device-width : 767px) {
   .redbox p{
     padding: 30px 50px 35px 52px;
   }
-
 }
 
 
-/* @media screen and (min-width: 1024px) {
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ----------- Laptops and desktops ----------- */
+@media only screen and (min-device-width: 1025px){
+  #home{
+    background-image: url('media/tablet-banner-home.jpg');
+  }
+
+  #topvideo{
+    display: block;
+  }
+
+  .topvideo {
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1;
+    position: absolute;
+  }
+
+  .full-bg-video {
+    top: 0;
+    left: 0;
+    width: 100%;
+  }
+
+  .video-overlay{
+    top: 0;
+    left: 0;
+    color: #FFF;
+    z-index: 10;
+    position: absolute;
+    text-align: center;
+    width: 100%;
+  }
+
+nav{
+  -webkit-animation: dropdown 2500s steps(20) 1;
+  -webkit-animation-delay: 3.5s;
+  -moz-animation: dropdown 2500s steps(20) 1;
+  -moz-animation-delay: 3.5s;
+  animation: dropdown 2500s steps(20) 1;
+  animation-delay: 3.5s;
+  margin-top: -100px;
+  opacity: 0;
+}
+
+  nav a{
+    padding: 0 35px;
+    border-right: 1px solid white;
+  }
+
+  .banner-overlay h1{
+    font-size: 6.4vw;
+    margin-top: 20px;
+    padding: 1.1em 0 0 0;
+    -webkit-animation: textfade 2500s steps(20) 1;
+    -webkit-animation-delay: 4s;
+    -moz-animation: textfade 2500s steps(20) 1;
+    -moz-animation-delay: 4s;
+    animation: textfade 2500s steps(20) 1;
+    animation-delay: 4s;
+    opacity: 0;
+  }
+
+  @-webkit-keyframes textfade {
+  	0% { opacity: 0;}
+    0.1% { opacity: 1;}
+    100% { opacity: 1;}
+  }
+
+  @-webkit-keyframes dropdown {
+  	0% {  opacity: 0; margin-top: -100px;}
+    0.025% {opacity: 1; margin-top: 0;}
+    100% { opacity: 1; margin-top: 0;}
+  }
+
+  .banner-overlay h3{
+    display: block;
+    font-size: 1.6vw;
+    font-weight: 300;
+    margin: 25px 0 40px 0;
+    -webkit-animation: textfade 2500s steps(20) 1;
+    -webkit-animation-delay: 6s;
+    -moz-animation: textfade 2500s steps(20) 1;
+    -moz-animation-delay: 6s;
+    animation: textfade 2500s steps(20) 1;
+    animation-delay: 6s;
+    opacity: 0;
+  }
+
+  .btn-red{
+    padding: 20px 44px;
+    font-size: 20px;
+    -webkit-animation: textfade 2500s steps(20) 1;
+    -webkit-animation-delay: 7s;
+    -moz-animation: textfade 2500s steps(20) 1;
+    -moz-animation-delay: 7s;
+    animation: textfade 2500s steps(20) 1;
+    animation-delay: 7s;
+    opacity: 0;
+  }
+
+  .subhead{
+    font-size: 24px;
+    line-height: 34px;
+    padding: 35px 20px 40px 20px;
+  }
+
+  .no-margin{
+    margin: 0 !important;
+  }
+
+  .video-shape{
+    position: relative;
+    margin: -5px 0 30px 0;
+    z-index: 20;
+    width: 100%;
+    float: left;
+    top: 0;
+    left: 0;
+  }
+
+  .shape{
+    display: none;
+  }
+
+  /* ---------- VALUE SECTION ---------- */
+
+  #values{
+    position: absolute;
+    margin-top: 56.5vw;
+    width: 100%;
+    background-color: none;
+    z-index: 300;
+  }
+
+  .values-icon{
+    width: 82px;
+    height: 82px;
+    border-radius: 82px;
+  }
+
+  .values-icon-small{
+    width: 68px;
+    height: 68px;
+    border-radius: 68px;
+  }
+
+  .icon-1{
+    background-image: url('media/tablet-icon1.png');
+  }
+
+  .icon-1-small{
+    background-image: url('media/tablet-icon1-small.png');
+  }
+
+  .icon-2{
+    background-image: url('media/icon2.png');
+  }
+
+  .icon-2-small{
+    background-image: url('media/icon2-small.png');
+  }
+
+  .icon-3{
+    background-image: url('media/icon3.png');
+  }
+
+  .icon-3-small{
+    background-image: url('media/icon3-small.png');
+  }
+
+  .value-content{
+    width: 33.33%;
+    float: left;
+    display: block;
+    z-index: 100;
+  }
+
+  .value-content h3{
+    font-size: 22px;
+    color: #DD3924;
+    text-align: center;
+    font-weight: 400;
+    margin: 12px 0 15px 0;
+  }
+
+  .value-content p{
+    font-size: 15px;
+    line-height: 24px;
+    padding: 0 60px;
+    text-align: center;
+    color: #848484;
+    font-weight: 400;
+  }
+
+  /* ---------- PROJECTS SECTION ---------- */
+
+  #projects{
+    background-size: 300px 300px;
+  }
+
+  #projects h2{
+    font-size: 80px;
+    margin: 1000px 0 70px 0;
+  }
+
+  #projects h3{
+    font-size: 46px;
+    margin-bottom: 25px;
+  }
+
+  #projects p{
+    font-size: 22px;
+    margin-bottom: 30px;
+  }
+
+  #projects .btn-red{
+    margin-top: 60px;
+  }
+
+  #projects .btn-red{
+    padding: 24px 70px;
+  }
+
+  .project-element{
+    margin: 110px 0;
+  }
+
+  .footer-shape{
+    margin-top: -90px;
+  }
+
+  /* ---------- QUOTE SECTION ---------- */
+
+  #citations{
+    width: 100%;
+    margin: 0 auto;
+    margin: -15px 0 0 0;
+  }
+
+  #citations h2{
+    font-size: 80px;
+    padding-top: 10px;
+  }
+
+  .quote-container{
+    width: 36%;
+    margin-top: 80px;
+    padding: 0 7%;
+    float: left;
+  }
+
+  .quote-hr{
+    display: none;
+  }
+
+  .quote-container h3{
+    font-size: 22px;
+  }
+
+  .quote-container h4{
+    font-size: 15px;
+  }
+
+  .person-quote p{
+    font-size: 17px;
+    line-height: 30px;
+  }
+
+  /* ---------- FOOTER SECTION ---------- */
+
+  footer{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: -20px;
+  }
+
+  footer h2{
+    text-align: center;
+    padding-bottom: 10px;
+  }
+
+  .footer-contact{
+    flex: 33%;
+    text-align: left;
+  }
+
+  .footer-contact p{
+    text-align: center;
+  }
+
+  .footer-nav{
+    flex: 33%;
+  }
+
+  .footer-social{
+    flex: 33%;
+  }
+
+  .footer-copyright{
+    text-align: center;
+    margin: 60px auto 50px auto;
+  }
+
+  /* ---------- PORTFOLIO PAGE ---------- */
+
+  #portfolio{
+    background-image: url('media/tablet-banner-portfolio.jpg');
+    padding-bottom: 74%;
+  }
+
+  .tags a{
+    font-size: 17px;
+  }
+
+    .gallery-images img{
+      width: calc(100%/3 - 2.75px);
+      height: calc(100%/3);
+      padding: 2px;
+    }
+
+    .gallery-images img:nth-child(3n-5) {
+      padding: 2px 2px 2px 0;
+    }
+
+    .gallery-images img:nth-child(3n+3) {
+      padding: 2px 0 2px 2px;
+    }
+
+
+
+  /* ---------- ABOUT PAGE ---------- */
+
+  #about{
+    background-image: url('media/tablet-banner-about.jpg');
+    padding-bottom: 74%;
+  }
+
+  #who-am-i{
+    width: 80%;
+  }
+
+  #who-am-i h2{
+    font-size: 54px;
+    margin-top: 30px;
+  }
+
+  .redbox{
+    margin: 60px auto 0 auto;
+  }
+
+  .redbox p{
+    padding: 30px 50px 35px 52px;
+  }
+}
+
+
+
+/* OLD MEDIA QUERIES FOR PORTFOLIO GALLERY
+
+@media screen and (min-width: 1024px) {
   .photos img {
     width: calc(100%/6);
     height: calc(100%/6);
@@ -965,4 +1340,5 @@ and (max-device-width : 767px) {
     width: calc(100%/3);
     height: calc(100%/3);
   }
-} */
+}
+*/
