@@ -11,47 +11,61 @@ function buttonAnimation(x){
   x.classList.toggle("change");
 }
 
-function value1(){
+if (screen.width >= 768) {
   var valueicon1 = document.querySelector("#value-icon-1");
   var valueicon2 = document.querySelector("#value-icon-2");
   var valueicon3 = document.querySelector("#value-icon-3");
-  var value1 = document.querySelector("#value1");
-  var value2 = document.querySelector("#value2");
-  var value3 = document.querySelector("#value3");
-  valueicon1.className = "values-icon icon-1";
-  valueicon2.className = "values-icon-small  icon-2-small";
-  valueicon3.className = "values-icon-small  icon-3-small";
-  value1.style.opacity = "1";
-  value2.style.opacity = "0";
-  value3.style.opacity = "0";
+
+  valueicon2.classList.add("values-icon icon-2-small");
+  valueicon2.classList.remove("values-icon-small icon-2-small");
+  valueicon3.classList.add("values-icon icon-3-small");
+  valueicon3.classList.remove("values-icon-small icon-3-small");
 }
 
-function value2(){
-  var valueicon1 = document.querySelector("#value-icon-1");
-  var valueicon2 = document.querySelector("#value-icon-2");
-  var valueicon3 = document.querySelector("#value-icon-3");
-  var value1 = document.querySelector("#value1");
-  var value2 = document.querySelector("#value2");
-  var value3 = document.querySelector("#value3");
-  valueicon1.className = "values-icon-small icon-1-small";
-  valueicon2.className = "values-icon icon-2";
-  valueicon3.className = "values-icon-small  icon-3-small";
-  value1.style.opacity = "0";
-  value2.style.opacity = "1";
-  value3.style.opacity = "0";
-}
+if (screen.width < 768) {
 
-function value3(){
-  var valueicon1 = document.querySelector("#value-icon-1");
-  var valueicon2 = document.querySelector("#value-icon-2");
-  var valueicon3 = document.querySelector("#value-icon-3");
-  var value1 = document.querySelector("#value1");
-  var value2 = document.querySelector("#value2");
-  var value3 = document.querySelector("#value3");
-  valueicon1.className = "values-icon-small icon-1-small";
-  valueicon2.className = "values-icon-small icon-2-small";
-  valueicon3.className = "values-icon icon-3";
-  value1.style.opacity = "0";
-  value2.style.opacity = "0";
-  value3.style.opacity = "1";
-}
+      function value1(){
+        var valueicon1 = document.querySelector("#value-icon-1");
+        var valueicon2 = document.querySelector("#value-icon-2");
+        var valueicon3 = document.querySelector("#value-icon-3");
+        var value1 = document.querySelector("#value1");
+        var value2 = document.querySelector("#value2");
+        var value3 = document.querySelector("#value3");
+        valueicon1.className = "values-icon icon-1";
+        valueicon2.className = "values-icon-small  icon-2-small";
+        valueicon3.className = "values-icon-small  icon-3-small";
+        value1.style.opacity = "1";
+        value2.style.opacity = "0";
+        value3.style.opacity = "0";
+      }
+
+      function value2(){
+        var valueicon1 = document.querySelector("#value-icon-1");
+        var valueicon2 = document.querySelector("#value-icon-2");
+        var valueicon3 = document.querySelector("#value-icon-3");
+        var value1 = document.querySelector("#value1");
+        var value2 = document.querySelector("#value2");
+        var value3 = document.querySelector("#value3");
+        valueicon1.className = "values-icon-small icon-1-small";
+        valueicon2.className = "values-icon icon-2";
+        valueicon3.className = "values-icon-small  icon-3-small";
+        value1.style.opacity = "0";
+        value2.style.opacity = "1";
+        value3.style.opacity = "0";
+      }
+
+      function value3(){
+        var valueicon1 = document.querySelector("#value-icon-1");
+        var valueicon2 = document.querySelector("#value-icon-2");
+        var valueicon3 = document.querySelector("#value-icon-3");
+        var value1 = document.querySelector("#value1");
+        var value2 = document.querySelector("#value2");
+        var value3 = document.querySelector("#value3");
+        valueicon1.className = "values-icon-small icon-1-small";
+        valueicon2.className = "values-icon-small icon-2-small";
+        valueicon3.className = "values-icon icon-3";
+        value1.style.opacity = "0";
+        value2.style.opacity = "0";
+        value3.style.opacity = "1";
+      }
+    }
