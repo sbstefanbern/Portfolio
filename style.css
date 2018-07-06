@@ -30,7 +30,7 @@ main{
 
 nav{
   overflow:hidden;
-  padding: 30px;
+  padding: 20px;
 }
 
 nav img{
@@ -55,6 +55,10 @@ nav a:hover{
 nav ul{
   margin-top: 8px;
   list-style: none;
+}
+
+.nav-logo{
+  height: auto;
 }
 
 .btn-mobile-menu{
@@ -124,10 +128,6 @@ nav ul{
   cursor: pointer;
 }
 
-.btn-red:hover{
-  background-color: #DE6556;
-}
-
 #values{
   margin: 0 auto;
   background-color: #F8F8F0;
@@ -164,8 +164,37 @@ nav ul{
   transition: 0.4s;
 }
 
+.icon-1{
+  background-image: url('media/icon-flame.svg');
+  background-size: 42%;
+}
 
-/* ---------- VALUE SECTION ---------- */
+.icon-1-small{
+  background-image: url('media/icon-flame-small.svg');
+  background-size: 42%;
+}
+
+.icon-2{
+  background-image: url('media/icon-arrow.svg');
+  background-size: 50%;
+}
+
+.icon-2-small{
+  background-image: url('media/icon-arrow-small.svg');
+  background-size: 50%;
+}
+
+.icon-3{
+  background-image: url('media/icon-lightbulb.svg');
+  background-size: 50%;
+}
+
+.icon-3-small{
+  background-image: url('media/icon-lightbulb-small.svg');
+  background-size: 50%;
+}
+
+/* ---------- PROJECTS SECTION ---------- */
 
 #projects{
   text-align: center;
@@ -192,16 +221,16 @@ nav ul{
   color: #DD3924;
 }
 
+#projects img{
+  max-width: 100%;
+}
+
 #projects p{
   color: #676767;
 }
 
 #projects picture img{
   max-width: 100%;
-}
-
-.project-element{
-  padding: 0 15px;
 }
 
 .last{
@@ -312,6 +341,8 @@ footer{
 .footer-social img{
   padding-top: 15px;
   margin: 0 15px;
+  width: 60px;
+  height: 60px;
 }
 
 .footer-copyright{
@@ -377,10 +408,34 @@ footer{
     padding: 0;
   }
 
-  .gallery-images img{
+  .gallery-images div{
+    overflow: hidden;
+  }
+
+  .gallery-images div img{
     display: block;
     float: left;
     flex: 0 0 auto;
+    width: 100%;
+    height: auto;
+  }
+
+  .text-overlay{
+    position: absolute;
+    text-align: center;
+    color: #FFF;
+    z-index: 200;
+    font-weight: 700;
+    color: #F8F8F0;
+  }
+
+  .gallery-images div::after {
+    display: block;
+    position: relative;
+    background-image: linear-gradient(to bottom, transparent 0%, #000 100%);
+    width: 100%;
+    vertical-align: bottom;
+    content: '';
   }
 
   /** ------ ABOUT PAGE ------- **/
@@ -436,7 +491,7 @@ and (max-device-width : 767px) {
     }
 
     #home{
-      background-image: url('media/mobile-banner-home.jpg');
+      background-image: url('media/banner-home-small.jpg');
       padding-bottom: 94%;
     }
 
@@ -449,7 +504,7 @@ and (max-device-width : 767px) {
     }
 
     .nav-logo{
-      padding: 18px 0 0 18px;
+      width: 110px;
     }
 
     .btn-mobile-menu-container{
@@ -507,30 +562,6 @@ and (max-device-width : 767px) {
       border-radius: 34px;
     }
 
-    .icon-1{
-      background-image: url('media/icon1.png');
-    }
-
-    .icon-1-small{
-      background-image: url('media/icon1-small.png');
-    }
-
-    .icon-2{
-      background-image: url('media/icon2.png');
-    }
-
-    .icon-2-small{
-      background-image: url('media/icon2-small.png');
-    }
-
-    .icon-3{
-      background-image: url('media/icon3.png');
-    }
-
-    .icon-3-small{
-      background-image: url('media/icon3-small.png');
-    }
-
     .value-content{
       width: 90%;
       margin-left: 6%;
@@ -585,6 +616,7 @@ and (max-device-width : 767px) {
 
     .project-element{
       margin: 45px 0;
+      padding: 0 6%;
     }
 
     /* ---------- QUOTE SECTION ---------- */
@@ -640,7 +672,7 @@ and (max-device-width : 767px) {
     /* ---------- PORTFOLIO PAGE ---------- */
 
     #portfolio{
-      background-image: url('media/mobile-banner-portfolio.jpg');
+      background-image: url('media/banner-portfolio-small.jpg');
       padding-bottom: 94%;
     }
 
@@ -653,20 +685,31 @@ and (max-device-width : 767px) {
       margin: 20px auto 0 auto;
     }
 
-    .gallery-images img{
+    .gallery-images div{
       width: calc(100%/2 - 2px);
       height: calc(100%/2);
       padding: 2px 0;
     }
 
-    .gallery-images img:nth-child(odd) {
+    .gallery-images div:nth-child(odd) {
       padding-right: 4px;
+    }
+
+    .text-overlay{
+      width: 49.2vw;
+      margin-top: 42.5vw;
+      font-size: 3vw;
+    }
+
+    .gallery-images div::after {
+      height: 14vw;
+      margin-top: 35.5vw;
     }
 
     /* ---------- ABOUT PAGE ---------- */
 
     #about{
-      background-image: url('media/mobile-banner-about.jpg');
+      background-image: url('media/banner-about-small.jpg');
       padding-bottom: 94%;
     }
 
@@ -705,12 +748,20 @@ and (max-device-width : 767px) {
 /* ----------- Tablets (portrait and landscape) ----------- */
 @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
   #home{
-    background-image: url('media/tablet-banner-home.jpg');
+    background-image: url('media/banner-home-medium.jpg');
     padding-bottom: 74%;
+  }
+
+  nav{
+    padding: 30px;
   }
 
   nav a{
     padding: 0 30px;
+  }
+
+  .nav-logo{
+    width: 160px;
   }
 
   .banner-overlay h1{
@@ -750,30 +801,6 @@ and (max-device-width : 767px) {
     width: 68px;
     height: 68px;
     border-radius: 68px;
-  }
-
-  .icon-1{
-    background-image: url('media/tablet-icon1.png');
-  }
-
-  .icon-1-small{
-    background-image: url('media/tablet-icon1-small.png');
-  }
-
-  .icon-2{
-    background-image: url('media/icon2.png');
-  }
-
-  .icon-2-small{
-    background-image: url('media/icon2-small.png');
-  }
-
-  .icon-3{
-    background-image: url('media/icon3.png');
-  }
-
-  .icon-3-small{
-    background-image: url('media/icon3-small.png');
   }
 
   .value-content{
@@ -822,6 +849,7 @@ and (max-device-width : 767px) {
 
   .project-element{
     margin: 80px 0;
+    padding: 0 10%;
   }
 
   /* ---------- QUOTE SECTION ---------- */
@@ -898,7 +926,7 @@ and (max-device-width : 767px) {
   /* ---------- PORTFOLIO PAGE ---------- */
 
   #portfolio{
-    background-image: url('media/tablet-banner-portfolio.jpg');
+    background-image: url('media/banner-portfolio-medium.jpg');
     padding-bottom: 74%;
   }
 
@@ -906,26 +934,36 @@ and (max-device-width : 767px) {
     font-size: 17px;
   }
 
-    .gallery-images img{
+    .gallery-images div{
       width: calc(100%/3 - 2.75px);
       height: calc(100%/3);
       padding: 2px;
     }
 
-    .gallery-images img:nth-child(3n-5) {
+    .gallery-images div:nth-child(3n-5) {
       padding: 2px 2px 2px 0;
     }
 
-    .gallery-images img:nth-child(3n+3) {
+    .gallery-images div:nth-child(3n+3) {
       padding: 2px 0 2px 2px;
     }
 
+    .text-overlay{
+      width: 33vw;
+      margin-top: 28.5vw;
+      font-size: 2vw;
+    }
+
+    .gallery-images div::after {
+      height: 12vw;
+      margin-top: 21vw;
+    }
 
 
   /* ---------- ABOUT PAGE ---------- */
 
   #about{
-    background-image: url('media/tablet-banner-about.jpg');
+    background-image: url('media/banner-about-medium.jpg');
     padding-bottom: 74%;
   }
 
@@ -961,10 +999,12 @@ and (max-device-width : 767px) {
 
 
 
+
+
 /* ----------- Laptops and desktops ----------- */
 @media only screen and (min-device-width: 1025px){
   #home{
-    background-image: url('media/tablet-banner-home.jpg');
+    background-image: url('media/banner-home-medium.jpg');
   }
 
   #topvideo{
@@ -995,7 +1035,7 @@ and (max-device-width : 767px) {
     width: 100%;
   }
 
-nav{
+.front-animation nav{
   -webkit-animation: dropdown 2500s steps(20) 1;
   -webkit-animation-delay: 3.5s;
   -moz-animation: dropdown 2500s steps(20) 1;
@@ -1006,15 +1046,31 @@ nav{
   opacity: 0;
 }
 
+  nav{
+    padding: 25px;
+  }
+
+  .nav-logo{
+    width: 180px;
+  }
+
   nav a{
     padding: 0 35px;
     border-right: 1px solid white;
   }
 
-  .banner-overlay h1{
-    font-size: 6.4vw;
-    margin-top: 20px;
-    padding: 1.1em 0 0 0;
+  .btn-red{
+    z-index: 900;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+  }
+
+  .btn-red:hover{
+    background-color: #C91D06;
+    transform: scale(1.12);
+  }
+
+.front-animation .banner-overlay h1{
     -webkit-animation: textfade 2500s steps(20) 1;
     -webkit-animation-delay: 4s;
     -moz-animation: textfade 2500s steps(20) 1;
@@ -1023,6 +1079,12 @@ nav{
     animation-delay: 4s;
     opacity: 0;
   }
+
+.banner-overlay h1{
+      font-size: 6.4vw;
+      margin-top: 20px;
+      padding: 1.1em 0 0 0;
+    }
 
   @-webkit-keyframes textfade {
   	0% { opacity: 0;}
@@ -1041,6 +1103,9 @@ nav{
     font-size: 1.6vw;
     font-weight: 300;
     margin: 25px 0 40px 0;
+  }
+
+  .front-animation .banner-overlay h3{
     -webkit-animation: textfade 2500s steps(20) 1;
     -webkit-animation-delay: 6s;
     -moz-animation: textfade 2500s steps(20) 1;
@@ -1053,6 +1118,9 @@ nav{
   .btn-red{
     padding: 20px 44px;
     font-size: 20px;
+  }
+
+  .front-animation .btn-red{
     -webkit-animation: textfade 2500s steps(20) 1;
     -webkit-animation-delay: 7s;
     -moz-animation: textfade 2500s steps(20) 1;
@@ -1108,30 +1176,6 @@ nav{
     border-radius: 68px;
   }
 
-  .icon-1{
-    background-image: url('media/tablet-icon1.png');
-  }
-
-  .icon-1-small{
-    background-image: url('media/tablet-icon1-small.png');
-  }
-
-  .icon-2{
-    background-image: url('media/icon2.png');
-  }
-
-  .icon-2-small{
-    background-image: url('media/icon2-small.png');
-  }
-
-  .icon-3{
-    background-image: url('media/icon3.png');
-  }
-
-  .icon-3-small{
-    background-image: url('media/icon3-small.png');
-  }
-
   .value-content{
     width: 33.33%;
     float: left;
@@ -1160,6 +1204,7 @@ nav{
 
   #projects{
     background-size: 300px 300px;
+    background-attachment: fixed;
   }
 
   #projects h2{
@@ -1179,18 +1224,19 @@ nav{
 
   #projects .btn-red{
     margin-top: 60px;
-  }
-
-  #projects .btn-red{
     padding: 24px 70px;
   }
 
+
+
   .project-element{
     margin: 110px 0;
+    padding: 0 22%;
   }
 
   .footer-shape{
-    margin-top: -90px;
+    margin-top: -100px;
+    z-index: -10;
   }
 
   /* ---------- QUOTE SECTION ---------- */
@@ -1256,8 +1302,30 @@ nav{
     flex: 33%;
   }
 
+  .footer-nav a{
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+    width: 120px;
+    margin: 0 auto;
+  }
+
+  .footer-nav a:hover{
+    color: #DD3924;
+  }
+
+
   .footer-social{
     flex: 33%;
+  }
+
+  .footer-social img{
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+  }
+
+  .footer-social img:hover{
+    transform: scale(1.2);
+    filter: drop-shadow(0px 0px 20px #000);
   }
 
   .footer-copyright{
@@ -1268,39 +1336,79 @@ nav{
   /* ---------- PORTFOLIO PAGE ---------- */
 
   #portfolio{
-    background-image: url('media/tablet-banner-portfolio.jpg');
-    padding-bottom: 74%;
+    background-image: url('media/banner-portfolio.jpg');
+    padding-bottom: 56%;
   }
+
+  .tags {
+    width: 80%;
+    margin: 0 auto 60px auto;
+  }
+
 
   .tags a{
+    flex: 12%;
+    text-decoration: none;
+    color: #676767;
+    font-weight: 600;
     font-size: 17px;
+    text-align: center;
+    padding: 15px 0;
+    border-right: 1px solid #DD3924;
   }
 
-    .gallery-images img{
+    .gallery-images div{
       width: calc(100%/3 - 2.75px);
       height: calc(100%/3);
-      padding: 2px;
+      margin: 2px;
+      transition: all 0.3s ease-in-out;
     }
 
-    .gallery-images img:nth-child(3n-5) {
-      padding: 2px 2px 2px 0;
+    .gallery-images div:hover{
+      filter: saturate(180%);
     }
 
-    .gallery-images img:nth-child(3n+3) {
-      padding: 2px 0 2px 2px;
+    .gallery-images div:nth-child(3n-5) {
+      margin: 2px 2px 2px 0;
     }
 
+    .gallery-images div:nth-child(3n+3) {
+      margin: 2px 0 2px 2px;
+    }
 
+    .text-overlay{
+      width: 33.2vw;
+      margin-top: 29vw;
+      font-size: 1.5vw;
+      font-weight: 400;
+    }
+
+    .gallery-images div::after {
+      height: 10vw;
+      margin-top: 23.2vw;
+    }
+
+    .gallery-images div img{
+      transition: all 0.3s ease-in-out;
+    }
+
+    .gallery-images div img:hover{
+      transform: scale(1.12);
+    }
 
   /* ---------- ABOUT PAGE ---------- */
 
   #about{
-    background-image: url('media/tablet-banner-about.jpg');
-    padding-bottom: 74%;
+    background-image: url('media/banner-about.jpg');
+    padding-bottom: 56%;
+  }
+
+  .about-banner-btn{
+    margin-top: 40px;
   }
 
   #who-am-i{
-    width: 80%;
+    width: 55%;
   }
 
   #who-am-i h2{
@@ -1313,7 +1421,8 @@ nav{
   }
 
   .redbox p{
-    padding: 30px 50px 35px 52px;
+    padding: 30px 60px 35px 62px;
+    line-height: 24px;
   }
 }
 
