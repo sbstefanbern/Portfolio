@@ -492,6 +492,28 @@ footer{
     font-weight: 800;
   }
 
+  .seperate{
+    color: #DD3924;
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .seperate h2{
+    font-weight: 800;
+  }
+
+  .first-seperate{
+    color: #DD3924;
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .first-seperate h2{
+    font-weight: 800;
+  }
+
 
 
 
@@ -806,6 +828,25 @@ footer{
       font-size: 28px;
       line-height: 36px;
     }
+
+    .first-seperate{
+      margin: 15px auto 10px auto;
+    }
+
+    .first-seperate h2{
+      font-size: 22px;
+    }
+
+    .seperate{
+      width: 90%;
+      margin: 25px auto 12px auto;
+      text-align: center;
+    }
+
+    .seperate h2{
+      font-size: 22px;
+    }
+
 }
 
 
@@ -1136,13 +1177,31 @@ footer{
   /* ---------- PROCESS PAGE ---------- */
 
   #process{
-    padding-top: 40px;
+    padding-top: 30px;
   }
 
   .process-head h1{
     font-size: 30px;
     line-height: 38px;
     padding-bottom: 15px;
+  }
+
+  .first-seperate{
+    margin: -15px auto 18px auto;
+  }
+
+  .first-seperate h2{
+    font-size: 28px;
+  }
+
+  .seperate{
+    width: 90%;
+    margin: 36px auto 18px auto;
+    text-align: center;
+  }
+
+  .seperate h2{
+    font-size: 28px;
   }
 }
 
@@ -1210,13 +1269,31 @@ footer{
     }
 
     #process{
-      padding-top: 60px;
+      padding-top: 45px;
     }
 
     .process-head h1{
       font-size: 40px;
       line-height: 50px;
       padding-bottom: 35px;
+    }
+
+    .first-seperate{
+      margin: -25px auto 24px auto;
+    }
+
+    .first-seperate h2{
+      font-size: 34px;
+    }
+
+    .seperate{
+      width: 90%;
+      margin: 48px auto 24px auto;
+      text-align: center;
+    }
+
+    .seperate h2{
+      font-size: 34px;
     }
 
 }
@@ -1680,13 +1757,31 @@ footer{
   /* ---------- PROCESS PAGE ---------- */
 
   #process{
-    padding-top: 60px;
+    padding-top: 50px;
   }
 
   .process-head h1{
     font-size: 45px;
     line-height: 52px;
     padding-bottom: 35px;
+  }
+
+  .first-seperate{
+    margin: -25px auto 30px auto;
+  }
+
+  .first-seperate h2{
+    font-size: 36px;
+  }
+
+  .seperate{
+    width: 90%;
+    margin: 60px auto 30px auto;
+    text-align: center;
+  }
+
+  .seperate h2{
+    font-size: 36px;
   }
 }
 
