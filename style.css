@@ -532,7 +532,7 @@ footer{
 
 
 /* All smartphones */
-@media only screen and (max-width : 600px) {
+@media only screen and (max-width : 699px) {
 
     main{
       background-color: #F8F8F0;
@@ -861,7 +861,7 @@ footer{
 
 
 /** Larger smartphones only **/
-@media only screen and (min-width: 361px) and (max-width: 600px) {
+@media only screen and (min-width: 361px) and (max-width: 699px) {
 
   .banner-overlay{
       margin-top: -20px;
@@ -900,7 +900,7 @@ footer{
 
 
 /* ----------- Tablets (portrait and landscape) ----------- */
-@media only screen and (min-width : 601px) and (max-width : 1200px) {
+@media only screen and (min-width : 700px) and (max-width : 1249px) {
   #home{
     background-image: url('media/banner-home-medium.jpg');
     padding-bottom: 74%;
@@ -915,7 +915,7 @@ footer{
   }
 
   .nav-logo{
-    width: 160px;
+    width: 150px;
   }
 
   .banner-overlay{
@@ -1219,7 +1219,7 @@ footer{
 
 
 /* ----------- Big tablets (portrait and landscape) ----------- */
-@media only screen and (min-width : 800px) and (max-width : 1200px) {
+@media only screen and (min-width : 800px) and (max-width : 1249px) {
 
     .banner-overlay{
       margin-top: -35px;
@@ -1269,7 +1269,7 @@ footer{
     }
 
     #process{
-      padding-top: 45px;
+      padding-top: 35px;
     }
 
     .process-head h1{
@@ -1312,7 +1312,7 @@ footer{
 
 
 /* ----------- Laptops and desktops ----------- */
-@media only screen and (min-width: 1201px){
+@media only screen and (min-width: 1250px){
   #home{
     background-image: url('media/banner-home-medium.jpg');
   }
@@ -1736,7 +1736,7 @@ footer{
     margin-top: 40px;
   }
 
-  #who-am-i{
+  .who-am-i-container{
     width: 55%;
   }
 
@@ -1757,7 +1757,7 @@ footer{
   /* ---------- PROCESS PAGE ---------- */
 
   #process{
-    padding-top: 50px;
+    padding-top: 35px;
   }
 
   .process-head h1{
