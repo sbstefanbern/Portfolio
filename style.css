@@ -470,6 +470,40 @@ footer{
   }
 
 
+  /** ------ PROCESS PAGE ------- **/
+
+  #process{
+    background-color: #F5F5E5;
+  }
+
+  .process-head{
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .process-content{
+    width: 90%;
+    margin: 0 5%;
+  }
+
+  .process-head h1{
+    color: #DD3924;
+    font-weight: 800;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -760,6 +794,17 @@ footer{
 
     #who-am-i .footer-shape{
       margin-top: -10px;
+    }
+
+    /** ---------- PROCESS PAGE ---------- */
+
+    #process{
+      padding-top: 20px;
+    }
+
+    .process-head h1{
+      font-size: 28px;
+      line-height: 36px;
     }
 }
 
@@ -1088,7 +1133,22 @@ footer{
     margin-top: -40px;
   }
 
+  /* ---------- PROCESS PAGE ---------- */
+
+  #process{
+    padding-top: 40px;
+  }
+
+  .process-head h1{
+    font-size: 30px;
+    line-height: 38px;
+    padding-bottom: 15px;
+  }
 }
+
+
+
+
 
 
 
@@ -1147,6 +1207,16 @@ footer{
 
     #who-am-i .footer-shape{
       margin-top: -80px;
+    }
+
+    #process{
+      padding-top: 60px;
+    }
+
+    .process-head h1{
+      font-size: 40px;
+      line-height: 50px;
+      padding-bottom: 35px;
     }
 
 }
@@ -1606,7 +1676,20 @@ footer{
     padding: 30px 60px 35px 62px;
     line-height: 24px;
   }
+
+  /* ---------- PROCESS PAGE ---------- */
+
+  #process{
+    padding-top: 60px;
+  }
+
+  .process-head h1{
+    font-size: 45px;
+    line-height: 52px;
+    padding-bottom: 35px;
+  }
 }
+
 
 
 /** Large desktops **/
@@ -1622,29 +1705,3 @@ footer{
   }
 
 }
-
-
-
-/* OLD MEDIA QUERIES FOR PORTFOLIO GALLERY
-
-@media screen and (min-width: 1024px) {
-  .photos img {
-    width: calc(100%/6);
-    height: calc(100%/6);
-  }
-}
-
-@media screen and (min-width: 769px) and (max-width: 1024px) {
-  .photos img {
-    width: calc(100%/4);
-    height: calc(100%/4);
-  }
-}
-
-@media screen and (min-width: 481px) and (max-width: 768px) {
-  .photos img {
-    width: calc(100%/3);
-    height: calc(100%/3);
-  }
-}
-*/
