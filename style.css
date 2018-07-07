@@ -30,7 +30,7 @@ main{
 
 nav{
   overflow:hidden;
-  padding: 20px;
+  padding: 16px 0 0 18px  ;
 }
 
 nav img{
@@ -204,7 +204,6 @@ nav ul{
 
 .shape{
   position: relative;
-  margin: -5px 0 30px 0;
   z-index: 20;
   width: 100%;
   float: left;
@@ -261,8 +260,12 @@ nav ul{
 
 /* ---------- QUOTE SECTION ---------- */
 
+.section3-shape{
+  width: 100%;
+}
+
 #citations{
-  background-color: #F8F8F0;
+  background-color: #F5F5E5;
   color: #676767;
   text-align: center;
   margin: -10px 0 0 0;
@@ -270,28 +273,22 @@ nav ul{
 
 .quote-container{
   text-align: center;
-  display: flex;
   flex-wrap: wrap;
 }
 
 .person-img{
-  flex: 2vw;
   text-align: left;
+  float: left;
 }
 
 .person-info{
-  flex: 70%;
+  float: left;
   padding-left: 15px;
   text-align: left;
 }
 
-.right{
-  text-align: right;
-  padding: 0 15px 0 0;
-}
-
 .person-quote{
-  flex: 100%;
+  width: 100%;
 }
 
 .quote-container h3{
@@ -307,7 +304,7 @@ nav ul{
 .person-quote p{
   text-align: left;
   color: #676767;
-  padding-top: 10px;
+  padding-top: 70px;
 }
 
 .footer-shape{
@@ -478,13 +475,8 @@ footer{
 
 
 
-
-
-
-/* Every iPhone from iPhone 4 to iPhone X */
-@media only screen
-and (min-device-width : 320px)
-and (max-device-width : 767px) {
+/* All smartphones */
+@media only screen and (max-width : 600px) {
 
     main{
       background-color: #F8F8F0;
@@ -492,7 +484,7 @@ and (max-device-width : 767px) {
 
     #home{
       background-image: url('media/banner-home-small.jpg');
-      padding-bottom: 94%;
+      padding-bottom: 86%;
     }
 
     .navbar{
@@ -534,12 +526,16 @@ and (max-device-width : 767px) {
         transform: rotate(45deg) translate(-8px, -7px);
     }
 
+    .banner-overlay{
+      margin-top: -25px;
+    }
+
     .banner-overlay h1{
       font-size: 30px;
     }
 
     .btn-red{
-      padding: 14px 28px;
+      padding: 14px 32px;
       font-size: 16px;
     }
 
@@ -596,6 +592,10 @@ and (max-device-width : 767px) {
 
     /* ---------- PROJECTS SECTION ---------- */
 
+    .shape{
+        margin: -15px 0 30px 0;
+    }
+
     #projects h2{
       font-size: 30px;
     }
@@ -619,15 +619,27 @@ and (max-device-width : 767px) {
       padding: 0 6%;
     }
 
+    .project-hr{
+      height: 1px;
+    }
+
     /* ---------- QUOTE SECTION ---------- */
+
+    .section3-shape{
+      margin-top: -50px;
+    }
 
     #citations h2{
       font-size: 30px;
       padding: 30px 0 10px 0;
     }
 
+    .subhead{
+      padding-top: 10px;
+    }
+
     .quote-container{
-      width: 90%;
+      width: 86%;
       margin: 40px auto;
     }
 
@@ -644,12 +656,20 @@ and (max-device-width : 767px) {
       line-height: 25px;
     }
 
+    .person-info{
+      width: 72%;
+    }
+
     /* ---------- FOOTER SECTION ---------- */
+
+    .footer-shape{
+      margin-top: -74px;
+    }
 
     footer hr{
       background-color: #FFF;
       height: 3px;
-      margin: 30px 100px;
+      margin: 40px 100px;
     }
 
     footer h2{
@@ -743,10 +763,39 @@ and (max-device-width : 767px) {
 
 
 
+/** Larger smartphones only **/
+@media only screen and (min-width: 361px) and (max-width: 600px) {
+
+  .banner-overlay{
+      margin-top: 0;
+  }
+
+  .shape{
+    margin: -12vw 0 30px 0;
+  }
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /* ----------- Tablets (portrait and landscape) ----------- */
-@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+@media only screen and (min-width : 601px) and (max-width : 1200px) {
   #home{
     background-image: url('media/banner-home-medium.jpg');
     padding-bottom: 74%;
@@ -762,6 +811,10 @@ and (max-device-width : 767px) {
 
   .nav-logo{
     width: 160px;
+  }
+
+  .banner-overlay{
+    margin-top: -60px;
   }
 
   .banner-overlay h1{
@@ -820,7 +873,7 @@ and (max-device-width : 767px) {
 
   .value-content p{
     font-size: 15px;
-    padding: 0 15px;
+    padding: 0 20px;
     text-align: center;
     color: #848484;
     font-weight: 400;
@@ -828,8 +881,12 @@ and (max-device-width : 767px) {
 
   /* ---------- PROJECTS SECTION ---------- */
 
+  .shape{
+      margin: -25px 0 30px 0;
+  }
+
   #projects h2{
-    font-size: 54px;
+    font-size: 58px;
     margin-bottom: 70px;
   }
 
@@ -854,14 +911,21 @@ and (max-device-width : 767px) {
 
   /* ---------- QUOTE SECTION ---------- */
 
+  .section3-shape{
+    margin-top: -80px;
+  }
+
   #citations{
     width: 100%;
-    margin: 0 auto;
   }
 
   #citations h2{
     font-size: 54px;
     padding-top: 30px;
+  }
+
+  .subhead{
+    padding-top: 25px;
   }
 
   .quote-container{
@@ -876,16 +940,25 @@ and (max-device-width : 767px) {
   }
 
   .quote-container h3{
-    font-size: 22px;
+    font-size: 20px;
   }
 
   .quote-container h4{
-    font-size: 15px;
+    font-size: 14px;
+    padding-bottom: 10px;
+  }
+
+  .person-info{
+    width: 64%;
   }
 
   .person-quote p{
     font-size: 17px;
     line-height: 30px;
+  }
+
+  .footer-shape{
+    margin-top: -80px;
   }
 
   /* ---------- FOOTER SECTION ---------- */
@@ -994,6 +1067,52 @@ and (max-device-width : 767px) {
 
 
 
+/* ----------- Big tablets (portrait and landscape) ----------- */
+@media only screen and (min-width : 800px) and (max-width : 1200px) {
+
+    .banner-overlay{
+      margin-top: -35px;
+    }
+
+    .banner-overlay h1{
+      font-size: 80px;
+    }
+
+    .btn-red{
+      padding: 26px 64px;
+      font-size: 26px;
+    }
+
+    .shape{
+      margin-top: -65px;
+    }
+
+    #projects h2{
+      font-size: 80px;
+    }
+
+    #projects h3{
+      font-size: 44px;
+      margin-bottom: 25px;
+    }
+
+    #projects p{
+      font-size: 28px;
+      margin-bottom: 60px;
+    }
+
+    #projects .btn-red{
+      margin-top: 60px;
+    }
+
+}
+
+
+
+
+
+
+
 
 
 
@@ -1002,7 +1121,7 @@ and (max-device-width : 767px) {
 
 
 /* ----------- Laptops and desktops ----------- */
-@media only screen and (min-device-width: 1025px){
+@media only screen and (min-width: 1201px){
   #home{
     background-image: url('media/banner-home-medium.jpg');
   }
@@ -1079,6 +1198,10 @@ and (max-device-width : 767px) {
     animation-delay: 4s;
     opacity: 0;
   }
+
+  .banner-overlay{
+        margin-top: -70px;
+      }
 
 .banner-overlay h1{
       font-size: 6.4vw;
@@ -1215,28 +1338,26 @@ and (max-device-width : 767px) {
   #projects h3{
     font-size: 46px;
     margin-bottom: 25px;
+    font-weight: 400;
   }
 
   #projects p{
     font-size: 22px;
-    margin-bottom: 30px;
+    margin-bottom: 50px;
   }
 
   #projects .btn-red{
-    margin-top: 60px;
+    margin-top: 65px;
     padding: 24px 70px;
   }
-
-
 
   .project-element{
     margin: 110px 0;
     padding: 0 22%;
   }
 
-  .footer-shape{
-    margin-top: -100px;
-    z-index: -10;
+  .section3-shape{
+    margin-top: -60px;
   }
 
   /* ---------- QUOTE SECTION ---------- */
@@ -1252,11 +1373,19 @@ and (max-device-width : 767px) {
     padding-top: 10px;
   }
 
+  .subhead{
+    margin-bottom: 30px;
+  }
+
   .quote-container{
-    width: 36%;
+    width: 30%;
     margin-top: 80px;
-    padding: 0 7%;
+    padding: 0 10% 0 16%;
     float: left;
+  }
+
+  .right-quote{
+    padding-left: 0;
   }
 
   .quote-hr{
@@ -1271,9 +1400,18 @@ and (max-device-width : 767px) {
     font-size: 15px;
   }
 
+  .person-info{
+    flex: 70%;
+  }
+
   .person-quote p{
     font-size: 17px;
     line-height: 30px;
+  }
+
+  .footer-shape{
+    margin-top: -100px;
+    z-index: -10;
   }
 
   /* ---------- FOOTER SECTION ---------- */
@@ -1424,6 +1562,21 @@ and (max-device-width : 767px) {
     padding: 30px 60px 35px 62px;
     line-height: 24px;
   }
+}
+
+
+/** Large desktops **/
+@media only screen and (min-width: 1550px){
+
+  #values{
+    width: 86%;
+    margin: 56.5vw 7% 0 7%;
+  }
+
+  .value-content p{
+    padding: 0 80px;
+  }
+
 }
 
 
