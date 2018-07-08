@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link type="text/css" rel="stylesheet" href="style.css">
+    <title>Noteify</title>
+  </head>
+  <body>
+    <div class="logo">
+      <img src="logo.png">
+    </div>
+      <ul class="menu">
+        <li><a href="#"><span onclick="SetNote(null, 'text1')">New note</span></a></li>
+        <li><a href="#"><span onclick="deleteNote(null, 'text1')">Delete note</span></a></li>
+        <li><a href="#"><span onclick="SetNote(currentId, 'text1')">Save note</span></a></li>
+      </ul>
+<textarea id="text1" cols="30" rows="10" placeholder="Title"></textarea>
+<aside>
+  <ul id="list">
+  </ul>
+</aside>
+  </body>
+</html>
+
+
+<script>
+//localStorage.clear();
+function SetNote(p_note, id) {
+  var saveNote = document.getElementById(id).value;
+    localStorage.setItem(p_note, saveNote);
+    if(p_note == null)
+    {
+      currentMax += 1;
+      localStorage.setItem('currentMax', currentMax);
+    noteArrayStringBackToArray.push('<li><a href="#" id="note'+currentMax+'"><span id="spannote'+currentMax+'" onclick="getNote(\'text1\', this)">note '+currentMax+'</span></a></li>');
+     document.getElementById("list").innerHTML += noteArrayStringBackToArray[noteArrayStringBackToArray.length-1];
+    }
+    var noteArrayString = JSON.stringify(noteArrayStringBackToArray);
+    localStorage.setItem("list", noteArrayString);
+}
+<<<<<<< HEAD
+function getNote(id, obj) {
+  currentId = obj.id
+=======
+function deleteNote(p_note, id) {
+  var saveNote = document.getElementById(id).value;
+    localStorage.removeItem(p_note, saveNote);
+    if(p_note == null)
+    {
+      currentMax -= 1;
+      localStorage.removeItem('currentMax', currentMax);
+    noteArray.push('<li><a href="#" id="note'-currentMax-'"><span id="spannote'-currentMax-'" onclick="getNote(\'text1\', this)">note '-currentMax-'</span></a></li>');
+     document.getElementById("list").innerHTML-= noteArray[noteArray.length+1];
+    }
+}
+function getNote(p_note, id, obj) {
+  var note = localStorage.getItem(obj.id);
+  if(note !=null) {
+    document.getElementById(id).value=note;
+  } else {
+    document.getElementById(id).value="noten er tom";
+  }
+}
+var noteArrayString = localStorage.getItem("list");
+  var noteArrayStringBackToArray = JSON.parse(noteArrayString);
+  for (var i = 0; i < noteArrayStringBackToArray.length; i++)
+  {
+    document.getElementById("list").innerHTML += noteArrayStringBackToArray[i];
+  }
+var currentMax = Number(localStorage.getItem('currentMax'));
+if (currentMax==null)
+{
+  currentMax = 1;
+}
+var currentId;
+</script>
