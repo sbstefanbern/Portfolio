@@ -1,0 +1,42 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<style type="text/css">
+main{
+	width: 80%;
+	margin: 0 auto;
+	font-family: Arial, sans-serif;
+}
+
+h2, p, div, audio{
+	margin: 0 auto;
+	width: 100%
+	text-align: center;
+}
+
+.sprite {
+	width: 340px;
+	height: 300px;
+	background: url('animation-workshop.png') 0 0 no-repeat;
+	-webkit-animation: play 7s steps(48) infinite;
+}
+
+@-webkit-keyframes play {
+	0%{background-position:0px;}
+   100% { background-position: -16320px; }
+}
+</style>
+<title>The Mysterious Box</title>
+</head>
+<body>
+<main>
+<h2> The Mysterious Box </h2>
+<div class="sprite"></div>
+<audio controls autoplay loop style="display:none">
+	<source src="bgmusic.mp3" type="audio/mpeg">
+</audio>
+</main>
+	<a href="bomberman-animation-workflow.pdf" target="_blank"> Se processbeskrivelse</a>
+</body>
+</html>
