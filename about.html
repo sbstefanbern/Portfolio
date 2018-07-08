@@ -12,16 +12,14 @@
   </head>
   <body>
     <main>
-      <header id="about" title="Stefan at table">
+      <header id="about" aria-label="Stefan at table">
         <nav>
           <img class="nav-logo" src="media/sb-logo.svg" alt="Stefan Bernkilde logo">
           <span class="btn-mobile-menu" onclick="toggleMobileMenu()">
-            <a href="#">
-              <div class="btn-mobile-menu-container" onclick="buttonAnimation(this)">
-                <div class="line1"></div>
-                <div class="line2"></div>
-                <div class="line3"></div>
-              </div>
+            <a href="#" class="btn-mobile-menu-container" onclick="buttonAnimation(this)">
+              <span class="line1"></span>
+              <span class="line2"></span>
+              <span class="line3"></span>
             </a>
           </span>
           <ul class="navbar">
@@ -63,7 +61,8 @@
             </p>
           </div>
         </div>
-        <img class="footer-shape" srcset="media/footer-shape-small.png 828w, media/footer-shape-medium.png 2048w, media/footer-shape.png 2880w" src="media/footer-shape.png" alt="Footer swirl shape">
+        <img class="footer-shape" src="media/footer-shape.png" srcset="media/footer-shape-small.png 828w, media/footer-shape-medium.png 2048w, media/footer-shape.png 2880w"
+          sizes="(max-width: 699px) 828px, (min-width: 700px) and (max-width: 1249px) 2028px, (min-width: 1250px) 2880px" alt="Footer swirl shape">
       </section>
     </main>
     <footer>

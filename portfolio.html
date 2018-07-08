@@ -12,16 +12,14 @@
   </head>
   <body>
     <main>
-      <header id="portfolio" title="Portfolio folder">
+      <header id="portfolio" aria-label="Portfolio folder">
         <nav>
           <img class="nav-logo" src="media/sb-logo.svg" alt="Stefan Bernkilde logo">
           <span class="btn-mobile-menu" onclick="toggleMobileMenu()">
-            <a href="#">
-              <div class="btn-mobile-menu-container" onclick="buttonAnimation(this)">
-                <div class="line1"></div>
-                <div class="line2"></div>
-                <div class="line3"></div>
-              </div>
+            <a href="#" class="btn-mobile-menu-container" onclick="buttonAnimation(this)">
+              <span class="line1"></span>
+              <span class="line2"></span>
+              <span class="line3"></span>
             </a>
           </span>
           <ul class="navbar">
@@ -41,118 +39,136 @@
       </header>
       <section id="portfolio-content">
         <div class="tags">
-          <a href="#" class="active-tag">ALL</a>
-          <a href="#">GRAPHIC</a>
-          <a href="#" class="last-tag">WEB</a>
-          <a href="#">VIDEO</a>
-          <a href="#">TEXT</a>
-          <a href="#" class="last-tag">IMAGE</a>
+          <a href="#" class="active-tag"><h3>ALL</h3></a>
+          <a href="#"><h3>GRAPHIC</h3></a>
+          <a href="#" class="last-tag"><h3>WEB</h3></a>
+          <a href="#"><h3>VIDEO</h3></a>
+          <a href="#"><h3>TEXT</h3></a>
+          <a href="#" class="last-tag"><h3>IMAGE</h3></a>
         </div>
         <div class="gallery-images">
           <div>
             <a href="https://www.youtube.com/watch?v=FLygurzrd2w" target="_blank">
-              <img srcset="media/ring-til-fortiden-small.png 420w, media/ring-til-fortiden-medium.png 680w, media/ring-til-fortiden.png 960w" src="media/ring-til-fortiden.png" alt="Ring til Fortiden">
+              <img src="media/ring-til-fortiden.png" srcset="media/ring-til-fortiden-small.png 420w, media/ring-til-fortiden-medium.png 680w, media/ring-til-fortiden.png 960w"
+                sizes="(max-width: 699px) 828px, (min-width: 700px) and (max-width: 1249px) 2028px, (min-width: 1250px) 2880px" alt="Ring til Fortiden">
               <p class="text-overlay">Ring til Fortiden</p>
             </a>
           </div>
           <div>
             <a href="media/hc-odense.png" target="_blank">
-              <img srcset="media/hc-odense-small.png 420w, media/hc-odense-medium.png 680w, media/hc-odense.png 960w" src="media/hc-odense.png" alt="HC Odense">
+              <img src="media/hc-odense.png" srcset="media/hc-odense-small.png 420w, media/hc-odense-medium.png 680w, media/hc-odense.png 960w"
+                sizes="(max-width: 699px) 828px, (min-width: 700px) and (max-width: 1249px) 2028px, (min-width: 1250px) 2880px" alt="HC Odense">
               <p class="text-overlay">HC Odense</p>
             </a>
           </div>
           <div>
             <a href="media/faster-eft.png" target="_blank">
-              <img srcset="media/faster-eft-small.png 420w, media/faster-eft-medium.png 680w, media/faster-eft.png 960w" src="media/faster-eft.png" alt="Faster EFT">
+              <img src="media/faster-eft.png" srcset="media/faster-eft-small.png 420w, media/faster-eft-medium.png 680w, media/faster-eft.png 960w"
+                sizes="(max-width: 699px) 828px, (min-width: 700px) and (max-width: 1249px) 2028px, (min-width: 1250px) 2880px" alt="Faster EFT">
               <p class="text-overlay">Faster EFT</p>
             </a>
           </div>
           <div>
             <a href="media/dagslys.png" target="_blank">
-              <img srcset="media/dagslys-small.png 420w, media/dagslys-medium.png 680w, media/dagslys.png 960w" src="media/dagslys.png" alt="Dagslys">
+              <img src="media/dagslys.png" srcset="media/dagslys-small.png 420w, media/dagslys-medium.png 680w, media/dagslys.png 960w"
+                sizes="(max-width: 699px) 828px, (min-width: 700px) and (max-width: 1249px) 2028px, (min-width: 1250px) 2880px" alt="Dagslys">
               <p class="text-overlay">Dagslys</p>
             </a>
           </div>
           <div>
             <a href="media/fri-bike-shop.png" target="_blank">
-              <img srcset="media/fri-bike-shop-small.png 420w, media/fri-bike-shop-medium.png 680w, media/fri-bike-shop.png 960w" src="media/fri-bike-shop.png" alt="Fri Bike Shop">
+              <img src="media/fri-bike-shop.png" srcset="media/fri-bike-shop-small.png 420w, media/fri-bike-shop-medium.png 680w, media/fri-bike-shop.png 960w"
+                sizes="(max-width: 699px) 828px, (min-width: 700px) and (max-width: 1249px) 2028px, (min-width: 1250px) 2880px" alt="Fri Bike Shop">
               <p class="text-overlay">Fri Bike Shop</p>
             </a>
           </div>
           <div>
             <a href="media/korup-motion.png" target="_blank">
-              <img srcset="media/korup-motion-small.png 420w, media/korup-motion-medium.png 680w, media/korup-motion.png 960w" src="media/korup-motion.png" alt="Korup Motion">
+              <img src="media/korup-motion.png" srcset="media/korup-motion-small.png 420w, media/korup-motion-medium.png 680w, media/korup-motion.png 960w"
+                sizes="(max-width: 699px) 828px, (min-width: 700px) and (max-width: 1249px) 2028px, (min-width: 1250px) 2880px" alt="Korup Motion">
               <p class="text-overlay">Korup Motion</p>
             </a>
           </div>
           <div>
             <a href="media/circle-k-oil.png" target="_blank">
-              <img srcset="media/circle-k-oil-small.png 420w, media/circle-k-oil-medium.png 680w, media/circle-k-oil.png 960w" src="media/circle-k-oil.png" alt="Circle K Native Ad">
+              <img src="media/circle-k-oil.png" srcset="media/circle-k-oil-small.png 420w, media/circle-k-oil-medium.png 680w, media/circle-k-oil.png 960w"
+                sizes="(max-width: 699px) 828px, (min-width: 700px) and (max-width: 1249px) 2028px, (min-width: 1250px) 2880px" alt="Circle K Native Ad">
               <p class="text-overlay">Circle K Native Ad</p>
             </a>
           </div>
           <div>
             <a href="media/giant-lion.png" target="_blank">
-              <img srcset="media/giant-lion-small.png 420w, media/giant-lion-medium.png 680w, media/giant-lion.png 960w" src="media/giant-lion.png" alt="Safari Park Banner">
+              <img src="media/giant-lion.png" srcset="media/giant-lion-small.png 420w, media/giant-lion-medium.png 680w, media/giant-lion.png 960w"
+                sizes="(max-width: 699px) 828px, (min-width: 700px) and (max-width: 1249px) 2028px, (min-width: 1250px) 2880px" alt="Safari Park Banner">
               <p class="text-overlay">Safari Park Banner</p>
             </a>
           </div>
           <div>
             <a href="media/WEB-PremierLeagueBook.pdf" target="_blank">
-              <img srcset="media/pl-handbook-small.png 420w, media/pl-handbook-medium.png 680w, media/pl-handbook.png 960w" src="media/pl-handbook.png" alt="Premier League Handbook">
+              <img src="media/pl-handbook.png" srcset="media/pl-handbook-small.png 420w, media/pl-handbook-medium.png 680w, media/pl-handbook.png 960w"
+                sizes="(max-width: 699px) 828px, (min-width: 700px) and (max-width: 1249px) 2028px, (min-width: 1250px) 2880px" alt="Premier League Handbook">
               <p class="text-overlay">Premier League Handbook</p>
             </a>
           </div>
           <div>
             <a href="https://www.youtube.com/watch?v=dcParwYRTjg" target="_blank">
-              <img srcset="media/league-animation-small.png 420w, media/league-animation-medium.png 680w, media/league-animation.png 960w" src="media/league-animation.png" alt="League Animation">
+              <img src="media/league-animation.png" srcset="media/league-animation-small.png 420w, media/league-animation-medium.png 680w, media/league-animation.png 960w"
+                sizes="(max-width: 699px) 828px, (min-width: 700px) and (max-width: 1249px) 2028px, (min-width: 1250px) 2880px" alt="League Animation">
               <p class="text-overlay">League Animation</p>
             </a>
           </div>
           <div>
             <a href="https://www.youtube.com/watch?v=WK4YBpmFJnA" target="_blank">
-              <img srcset="media/technigo-small.png 420w, media/technigo-medium.png 680w, media/technigo.png 960w" src="media/technigo.png" alt="TechniGO Campaign">
+              <img src="media/technigo.png" srcset="media/technigo-small.png 420w, media/technigo-medium.png 680w, media/technigo.png 960w"
+                sizes="(max-width: 699px) 828px, (min-width: 700px) and (max-width: 1249px) 2028px, (min-width: 1250px) 2880px" alt="TechniGO Campaign">
               <p class="text-overlay">TechniGO Campaign</p>
             </a>
           </div>
           <div>
             <a href="http://stefanbernkilde.com/kedu/" target="_blank">
-              <img srcset="media/kedu-small.png 420w, media/kedu-medium.png 680w, media/kedu.png 960w" src="media/kedu.png" alt="KEDU (KUBO Education)">
+              <img src="media/kedu.png" srcset="media/kedu-small.png 420w, media/kedu-medium.png 680w, media/kedu.png 960w"
+                sizes="(max-width: 699px) 828px, (min-width: 700px) and (max-width: 1249px) 2028px, (min-width: 1250px) 2880px" alt="KEDU (KUBO Education)">
               <p class="text-overlay">KEDU (KUBO Education)</p>
             </a>
           </div>
           <div>
             <a href="https://www.youtube.com/watch?v=70ogpt0rjMs" target="_blank">
-              <img srcset="media/billum-friskole-small.png 420w, media/billum-friskole-medium.png 680w, media/billum-friskole.png 960w" src="media/billum-friskole.png" alt="Billum Friskole">
+              <img src="media/billum-friskole.png" srcset="media/billum-friskole-small.png 420w, media/billum-friskole-medium.png 680w, media/billum-friskole.png 960w"
+                sizes="(max-width: 699px) 828px, (min-width: 700px) and (max-width: 1249px) 2028px, (min-width: 1250px) 2880px" alt="Billum Friskole">
               <p class="text-overlay">Billum Friskole</p>
             </a>
           </div>
           <div>
             <a href="https://www.youtube.com/watch?v=3QAl02N9NBg" target="_blank">
-              <img srcset="media/munkebo-mikrobryg-small.png 420w, media/munkebo-mikrobryg-medium.png 680w, media/munkebo-mikrobryg.png 960w" src="media/munkebo-mikrobryg.png" alt="Munkebo Mikrobryg">
+              <img src="media/munkebo-mikrobryg.png" srcset="media/munkebo-mikrobryg-small.png 420w, media/munkebo-mikrobryg-medium.png 680w, media/munkebo-mikrobryg.png 960w"
+                sizes="(max-width: 699px) 828px, (min-width: 700px) and (max-width: 1249px) 2028px, (min-width: 1250px) 2880px" alt="Munkebo Mikrobryg">
               <p class="text-overlay">Munkebo Mikrobryg</p>
             </a>
           </div>
           <div>
             <a href="http://astone.f-m.dk/" target="_blank">
-              <img srcset="media/a-stone-small.png 420w, media/a-stone-medium.png 680w, media/a-stone.png 960w" src="media/a-stone.png" alt="A-Stone Campaign">
+              <img src="media/a-stone.png" srcset="media/a-stone-small.png 420w, media/a-stone-medium.png 680w, media/a-stone.png 960w"
+                sizes="(max-width: 699px) 828px, (min-width: 700px) and (max-width: 1249px) 2028px, (min-width: 1250px) 2880px" alt="A-Stone Campaign">
               <p class="text-overlay">A-Stone Campaign</p>
             </a>
           </div>
           <div>
             <a href="media/piphest.png" target="_blank">
-              <img srcset="media/piphest-small.png 420w, media/piphest-medium.png 680w, media/piphest.png 960w" src="media/piphest.png" alt="Piphest">
+              <img src="media/piphest.png" srcset="media/piphest-small.png 420w, media/piphest-medium.png 680w, media/piphest.png 960w"
+                sizes="(max-width: 699px) 828px, (min-width: 700px) and (max-width: 1249px) 2028px, (min-width: 1250px) 2880px" alt="Piphest">
               <p class="text-overlay">Piphest</p>
             </a>
           </div>
           <div>
             <a href="media/football-infographics.png" target="_blank">
-              <img srcset="media/football-infographics-small.png 420w, media/football-infographics-medium.png 680w, media/football-infographics.png 960w" src="media/football-infographics.png"  alt="Football Infographics">
+              <img src="media/football-infographics.png" srcset="media/football-infographics-small.png 420w, media/football-infographics-medium.png 680w, media/football-infographics.png 960w"
+                sizes="(max-width: 699px) 828px, (min-width: 700px) and (max-width: 1249px) 2028px, (min-width: 1250px) 2880px" alt="Football Infographics">
               <p class="text-overlay">Football Infographics</p>
             </a>
           </div>
         </div>
-        <img class="footer-shape" srcset="media/footer-shape-small.png 828w, media/footer-shape-medium.png 2048w, media/footer-shape.png 2880w" src="media/footer-shape.png" alt="Footer swirl shape">
+        <img class="footer-shape" src="media/footer-shape.png" srcset="media/footer-shape-small.png 828w, media/footer-shape-medium.png 2048w, media/footer-shape.png 2880w"
+          sizes="(max-width: 699px) 828px, (min-width: 700px) and (max-width: 1249px) 2028px, (min-width: 1250px) 2880px" alt="Footer swirl shape">
       </section>
     </main>
     <footer>

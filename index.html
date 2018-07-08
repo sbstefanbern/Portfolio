@@ -12,7 +12,7 @@
   </head>
   <body>
     <main>
-      <header id="home" class="front-animation" title="Workspace">
+      <header id="home" class="front-animation" aria-label="Workspace">
         <div id="topvideo">
           <video muted autoplay class="full-bg-video">
             <source src="media/banner-movie.mp4" type="video/mp4">
@@ -24,9 +24,9 @@
             <img class="nav-logo" src="media/sb-logo.svg" alt="Stefan Bernkilde logo">
             <span class="btn-mobile-menu" onclick="toggleMobileMenu()">
               <a href="#" class="btn-mobile-menu-container" onclick="buttonAnimation(this)">
-                <div class="line1"></div>
-                <div class="line2"></div>
-                <div class="line3"></div>
+                <span class="line1"></span>
+                <span class="line2"></span>
+                <span class="line3"></span>
               </a>
             </span>
             <ul class="navbar">
@@ -50,13 +50,13 @@
       <section id="values">
         <div class="values-icon-container">
           <div class="one-third">
-            <div id="value-icon-1" class="values-icon icon-1" onclick="value1()" title="Flame icon"></div>
+            <div id="value-icon-1" class="values-icon icon-1" onclick="value1()" aria-label="Flame icon"></div>
           </div>
           <div class="one-third">
-            <div id="value-icon-2" class="values-icon-small icon-2-small" onclick="value2()" title="Arrow icon"></div>
+            <div id="value-icon-2" class="values-icon-small icon-2-small" onclick="value2()" aria-label="Arrow icon"></div>
           </div>
           <div class="one-third">
-            <div id="value-icon-3" class="values-icon-small icon-3-small" onclick="value3()" title="Light bulb icon"></div>
+            <div id="value-icon-3" class="values-icon-small icon-3-small" onclick="value3()" aria-label="Light bulb icon"></div>
           </div>
         </div>
         <div id="value1" class="value-content">
@@ -72,30 +72,34 @@
           <p>I live to learn something new everyday. Always striving to find new solutions to problems, and constantly keep an open mindset to new ideas and approaches.</p>
         </div>
       </section>
-      <section id="projects" title="Background pattern">
+      <section id="projects" aria-label="Background pattern">
         <img class="shape" src="media/shape.svg" alt="Swirl shape">
         <h2>Latest projects</h2>
         <div class="project-element">
           <h3>Ring til Fortiden</h3>
           <p>A concept for an installation on Fredericia Vold.</p>
-          <img srcset="media/front-project1-small.png 828w, media/front-project1-medium.png 2028w, media/front-project1.png 2880w" src="media/front-project1.png" alt="Ring til Fortiden project">
+          <img src="media/front-project1.png" srcset="media/front-project1-small.png 828w, media/front-project1-medium.png 2028w, media/front-project1.png 2880w"
+            sizes="(max-width: 699px) 828px, (min-width: 700px) and (max-width: 1249px) 2028px, (min-width: 1250px) 2880px" alt="Ring til Fortiden project">
           <a href="https://www.youtube.com/watch?v=FLygurzrd2w" class="btn-red" target="_blank">View project</a>
         </div>
         <hr class="project-hr">
         <div class="project-element">
           <h3>HC Odense</h3>
           <p>Promotional posters and matchday programme designs for the Odense-based handball club.</p>
-          <img srcset="media/front-project2-small.png 828w, media/front-project2-medium.png 2048w, media/front-project2.png 2880w" src="media/front-project2.png" alt="HC Odense project.">
+          <img src="media/front-project2.png" srcset="media/front-project2-small.png 828w, media/front-project2-medium.png 2028w, media/front-project2.png 2880w"
+            sizes="(max-width: 699px) 828px, (min-width: 700px) and (max-width: 1249px) 2028px, (min-width: 1250px) 2880px" alt="HC Odense project">
           <a href="media/hc-odense.png" class="btn-red" target="_blank">View project</a>
         </div>
         <hr class="project-hr">
         <div class="project-element">
           <h3>Faster EFT</h3>
           <p>Graphic promotional material made for an independent treater.</p>
-          <img srcset="media/front-project3-small.png 828w, media/front-project3-medium.png 2048w, media/front-project3.png 2880w" src="media/front-project3.png" alt="Faster EFT project.">
+          <img src="media/front-project3.png" srcset="media/front-project3-small.png 828w, media/front-project3-medium.png 2028w, media/front-project3.png 2880w"
+            sizes="(max-width: 699px) 828px, (min-width: 700px) and (max-width: 1249px) 2028px, (min-width: 1250px) 2880px" alt="Faster EFT project">
           <a href="media/faster-eft.png" class="btn-red" target="_blank">View project</a>
         </div>
-        <img class="section3-shape" srcset="media/shape2-small.png 828w, media/shape2-medium.png 2048w, media/shape2.png 2880w" src="media/shape2.png" alt="Swirl shape">
+        <img class="section3-shape" src="media/shape2.png" srcset="media/shape2-small.png 828w, media/shape2-medium.png 2048w, media/shape2.png 2880w"
+          sizes="(max-width: 699px) 828px, (min-width: 700px) and (max-width: 1249px) 2028px, (min-width: 1250px) 2880px" alt="Swirl shape">
       </section>
       <section id="citations">
         <h2>Outside opinions</h2>
@@ -151,7 +155,8 @@
             <p>"Stefan's attittude and willingnes to constantly develop himself and his skills is impressive."</p>
           </div>
         </div>
-        <img class="footer-shape" srcset="media/footer-shape-small.png 828w, media/footer-shape-medium.png 2048w, media/footer-shape.png 2880w" src="media/footer-shape.png" alt="Footer swirl shape">
+        <img class="footer-shape" src="media/footer-shape.png" srcset="media/footer-shape-small.png 828w, media/footer-shape-medium.png 2048w, media/footer-shape.png 2880w"
+          sizes="(max-width: 699px) 828px, (min-width: 700px) and (max-width: 1249px) 2028px, (min-width: 1250px) 2880px" alt="Footer swirl shape">
       </section>
     </main>
     <footer>
