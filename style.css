@@ -600,6 +600,23 @@ footer a{
 
 /* -------------------- PORTFOLIO PAGE -------------------- */
 
+
+/* Create three equal columns that floats next to each other */
+.filter {
+    display: none; /* Hide columns by default */
+}
+
+.show {
+    display: block;
+}
+
+.gallery-images:after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
 #portfolio{
   height: 0;
   background-repeat: no-repeat;
@@ -611,6 +628,8 @@ footer a{
 #portfolio-content{
   padding-top: 20px;
   background-color: #F5F5E5;
+  width: 101%;
+  margin-left: -2px;
 }
 
 #portfolio .mainword{
@@ -634,27 +653,32 @@ footer a{
   padding-left: 200px;
 }
 
-.tags{
+#tags{
   display: flex;
   flex-wrap: wrap;
   color: #676767;
+  padding: 10px 0;
 }
 
-.tags a{
+#tags button{
   flex: 33%;
   font-size: 14px;
   font-weight: 600;
+  cursor: pointer;
   text-align: center;
   padding: 15px 0;
+  background-color: #F5F5E5;
+  border: none;
   border-right: 1px solid #DD3924;
+  transition: all 0.3s ease;
 }
 
-.tags a:hover{
-  background-color: #EFB4AD;
+#tags button:hover{
+  background-color: #FADEDA;
 }
 
 .active-tag{
-  background: #DD3924;
+  background-color: #DD3924 !important;
   color: #FFF !important;
 }
 
@@ -1126,11 +1150,11 @@ footer a{
     padding-bottom: 86%;
   }
 
-  .tags a{
+  #tags button{
     font-size: 14px;
   }
 
-  .tags a:nth-child(3n+3){
+  #tags button:nth-child(3n+3){
     border: none;
   }
 
@@ -1473,9 +1497,9 @@ footer a{
   }
 
   .quote-container{
-    width: 36%;
+    width: 35%;
     margin-top: 80px;
-    padding: 0 7%;
+    padding: 0 7% 0 8%;
     float: left;
   }
 
@@ -1542,11 +1566,11 @@ footer a{
     padding-bottom: 74%;
   }
 
-  .tags a{
+  #tags button{
     font-size: 17px;
   }
 
-  .tags a:nth-child(3n+3){
+  #tags button:nth-child(3n+3){
     border: none;
   }
 
@@ -2093,27 +2117,29 @@ footer a{
     padding-bottom: 56%;
   }
 
-  .tags{
+  #tags{
     width: 80%;
     margin: 0 auto 60px auto;
+    background-color: #FCFCF2;
   }
 
-  .tags a{
+  #tags button{
     flex: 12%;
     color: #A5A5A5;
     font-weight: 600;
     font-size: 17px;
     text-align: center;
+    background-color: #FCFCF2;
     padding: 15px 0;
     border-right: 1px solid #DD3924;
   }
 
-  .tags a:nth-child(6){
+  #tags button:nth-child(6){
     border: none;
   }
 
   .gallery-images div{
-    width: calc(100%/3 - 2.75px);
+    width: calc(100%/3 - 4px);
     height: calc(100%/3);
     margin: 2px;
     transition: all 0.3s ease-in-out;
@@ -2121,14 +2147,6 @@ footer a{
 
   .gallery-images div:hover{
     filter: saturate(180%);
-  }
-
-  .gallery-images div:nth-child(3n-5){
-    margin: 2px 2px 2px 0;
-  }
-
-  .gallery-images div:nth-child(3n+3){
-    margin: 2px 0 2px 2px;
   }
 
   .text-overlay{
@@ -2140,7 +2158,7 @@ footer a{
 
   .gallery-images div::after{
     height: 10vw;
-    margin-top: 23.2vw;
+    margin-top: 23.5vw;
   }
 
   .gallery-images div img{

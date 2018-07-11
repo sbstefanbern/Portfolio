@@ -1,3 +1,10 @@
+
+
+
+
+
+
+
 var contactbox = document.getElementById('contactpopup');
 var btn = document.getElementById("contactform");
 var span = document.getElementsByClassName("close-popup")[0];
