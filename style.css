@@ -83,6 +83,8 @@ ul{
 .nav-logo{
   float: left;
   height: auto;
+  cursor: pointer;
+  transition: all 0.3s ease;
 }
 
 .btn-mobile-menu{
@@ -355,7 +357,7 @@ fieldset {
 }
 
 #contact button[type="submit"] {
-  font-weight: 700;
+  font-weight: 400;
   font-size: 15px;
 }
 
@@ -1803,9 +1805,18 @@ footer a{
     width: 160px;
   }
 
-  nav a{
+  .nav-logo:hover{
+    transform: scale(1.2);
+    filter: drop-shadow(0px 0px 10px #000);
+  }
+
+  .navbar a{
     padding: 0 35px;
     border-right: 1px solid white;
+  }
+
+  .no-border{
+    border: 0px !important;
   }
 
   .btn-red{
@@ -1816,6 +1827,7 @@ footer a{
   .btn-red:hover{
     background-color: #C91D06;
     transform: scale(1.12);
+    filter: drop-shadow(0px 0px 5px #7B271C);
   }
 
   .banner-overlay{
@@ -1887,6 +1899,7 @@ footer a{
   #contact button[type="submit"] {
     width: 33%;
     margin: 10px 0;
+    font-size: 18px;
   }
 
   /* VALUE SECTION (1250px+) */
