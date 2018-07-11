@@ -12,10 +12,10 @@
   </head>
   <body>
     <main>
-      <header id="home" class="front-animation" aria-label="Workspace">
+      <header id="home" aria-label="Workspace">
         <div id="topvideo">
-          <video muted autoplay class="full-bg-video">
-            <source src="media/banner-movie.mp4" type="video/mp4">
+          <video muted autoplay class="full-bg-video" poster="media/banner-poster.jpg">
+            <source src="media/banner-movie2.mp4" type="video/mp4">
           </video>
           <img class="video-shape" src="media/shape.svg" alt="Swirl shape">
         </div>
@@ -41,21 +41,57 @@
             </div>
           </nav>
           <div class="banner-overlay">
-            <h1>I live to <span class="red">create.</span></h1>
-            <h3>I'm a designer with a passion for digital experiences throughout the world.</h3>
-            <a href="portfolio.html" class="btn-red">View my portfolio</a>
+            <h1>
+              <div class="mainword red">Design</div>
+              <div class="mainsentence"><span>new limits</span></div>
+            </h1>
+            <div class="content">
+              <div class="content__container">
+                <p class="content__container__text">I'm a creative designer who works with</p>
+                <hr class="subhead-hr"/>
+                <ul class="content__container__list red">
+                  <li class="content__container__list__item">print material</li>
+                  <li class="content__container__list__item">visual identities</li>
+                  <li class="content__container__list__item">video material</li>
+                  <li class="content__container__list__item">digital designs</li>
+                  <li class="content__container__list__item">brand recognition</li>
+                </ul>
+              </div>
+            </div>
+            <button id="contactform" class="btn-red btn-red2">Contact me</button>
+            <div id="contactpopup" class="contactbox">
+              <div class="popup-container">
+                <span class="close-popup">&times;</span>
+                <form id="contact" method="POST" action="https://formspree.io/sbstefanbern@gmail.com">
+                  <h4>GET IN TOUCH</h4>
+                  <p>I will return to you as soon as possible!</p>
+                  <fieldset>
+                    <input placeholder="Your name" type="text" name="name" tabindex="1" required autofocus>
+                  </fieldset>
+                  <fieldset>
+                    <input placeholder="Your Email Address" type="email" name="_replyto" tabindex="2" required>
+                  </fieldset>
+                  <fieldset>
+                    <textarea placeholder="Type your message here..." name="message" tabindex="5" required></textarea>
+                  </fieldset>
+                  <fieldset>
+                    <button name="submit" type="submit" id="contact-submit" class="btn-red">SUBMIT</button>
+                  </fieldset>
+                </form>
+              </div>
+            </div>
           </div>
         </div>
       </header>
       <section id="values">
         <div class="values-icon-container">
-          <div class="one-third">
+          <div class="icon-value">
             <div id="value-icon-1" class="values-icon icon-1" onclick="value1()" aria-label="Flame icon"></div>
           </div>
-          <div class="one-third">
+          <div class="icon-value">
             <div id="value-icon-2" class="values-icon-small icon-2-small" onclick="value2()" aria-label="Arrow icon"></div>
           </div>
-          <div class="one-third">
+          <div class="icon-value">
             <div id="value-icon-3" class="values-icon-small icon-3-small" onclick="value3()" aria-label="Light bulb icon"></div>
           </div>
         </div>
@@ -98,10 +134,10 @@
             sizes="(max-width: 699px) 828px, (min-width: 700px) and (max-width: 1249px) 2028px, (min-width: 1250px) 2880px" alt="Faster EFT project">
           <a href="media/faster-eft.png" class="btn-red" target="_blank">View project</a>
         </div>
-        <img class="section3-shape" src="media/shape2.png" srcset="media/shape2-small.png 828w, media/shape2-medium.png 2048w, media/shape2.png 2880w"
+        <img class="quote-top-shape" src="media/shape2.png" srcset="media/shape2-small.png 828w, media/shape2-medium.png 2048w, media/shape2.png 2880w"
           sizes="(max-width: 699px) 828px, (min-width: 700px) and (max-width: 1249px) 2028px, (min-width: 1250px) 2880px" alt="Swirl shape">
       </section>
-      <section id="citations">
+      <section id="quotes">
         <h2>Outside opinions</h2>
         <p class="subhead">Don't just take my word for it. Here is what some of my former co-workers have to say</p>
         <div class="quote-container no-margin">
@@ -161,7 +197,7 @@
     </main>
     <footer>
       <div class="footer-contact">
-        <h2>GET IN TOUCH</h2>
+        <h3>GET IN TOUCH</h3>
         <p>Stefan Bernkilde</p>
         <p>sbstefanbern@gmail.com</p>
         <p>+45 41 27 85 46</p>
@@ -169,18 +205,34 @@
       </div>
       <hr>
       <div class="footer-nav">
-        <h2>NAVIGATION</h2>
+        <h3>NAVIGATION</h3>
         <a href="#" class="red">HOME</a>
         <a href="portfolio.html">PORTFOLIO</a>
         <a href="about.html">ABOUT ME</a>
       </div>
       <hr>
       <div class="footer-social">
-        <h2>SOCIAL MEDIA</h2>
+        <h3>SOCIAL MEDIA</h3>
         <a href="https://www.linkedin.com/in/stefan-bernkilde" target="_blank"><img src="media/icon-linkedin.svg" alt="LinkedIn icon"></a>
         <a href="http://instagram.com" target="_blank"><img src="media/icon-instagram.svg" alt="Instagram icon"></a>
       </div>
       <p class="footer-copyright">&copy; 2018 Stefan Bernkilde - All rights reserved</p>
     </footer>
+    <script>
+    var contactbox = document.getElementById('contactpopup');
+    var btn = document.getElementById("contactform");
+    var span = document.getElementsByClassName("close-popup")[0];
+    btn.onclick = function() {
+        contactbox.style.display = "block";
+    }
+    span.onclick = function() {
+        contactbox.style.display = "none";
+    }
+    window.onclick = function(event) {
+        if (event.target == contactbox) {
+            contactbox.style.display = "none";
+        }
+    }
+    </script>
   </body>
 </html>
