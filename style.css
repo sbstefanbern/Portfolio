@@ -136,10 +136,6 @@ ul{
 }
 
 
-
-
-
-
 .content {
   width: 800px;
   margin: -10px auto 0 auto;
@@ -615,6 +611,27 @@ footer a{
   background-color: #F5F5E5;
 }
 
+#portfolio .mainword{
+  animation: none;
+  opacity: 1;
+}
+
+#portfolio .mainsentence{
+  width: auto;
+  animation: none;
+}
+
+#portfolio .mainsentence span{
+  margin-left: 0;
+  animation: none;
+}
+
+#portfolio .content{
+  animation: none;
+  opacity: 1;
+  padding-left: 200px;
+}
+
 .tags{
   display: flex;
   flex-wrap: wrap;
@@ -687,6 +704,27 @@ footer a{
   background-position: center center;
   background-size: 100%;
   background-color: #354765;
+}
+
+#about .mainword{
+  animation: none;
+  opacity: 1;
+}
+
+#about .mainsentence{
+  width: auto;
+  animation: none;
+}
+
+#about .mainsentence span{
+  margin-left: 0;
+  animation: none;
+}
+
+#about .content{
+  animation: none;
+  opacity: 1;
+  padding-left: 200px;
 }
 
 .who-am-i-container{
@@ -797,6 +835,7 @@ footer a{
 @media only screen and (max-width: 699px){
   h1{
     margin: 1.5em 0 0.5em 0;
+    font-size: 31px;
   }
 
   nav{
@@ -854,10 +893,6 @@ footer a{
 
   .banner-overlay{
     margin-top: -25px;
-  }
-
-  .banner-overlay h1{
-    font-size: 31px;
   }
 
   .content {
@@ -1216,7 +1251,7 @@ footer a{
     margin-top: -20px;
   }
 
-  .banner-overlay h1{
+  h1{
     font-size: 38px;
   }
 
@@ -1230,6 +1265,7 @@ footer a{
 @media only screen and (min-width: 700px) and (max-width: 1249px){
   h1{
     padding: 1.2em 0 0.4em 0;
+    font-size: 60px;
   }
 
   #home{
@@ -1253,13 +1289,6 @@ footer a{
   .banner-overlay{
     margin-top: -60px;
   }
-
-  .banner-overlay h1{
-    font-size: 60px;
-  }
-
-
-
 
   .content {
     margin: -32px auto 30px auto;
@@ -1643,7 +1672,7 @@ footer a{
     margin-top: -35px;
   }
 
-  .banner-overlay h1{
+  h1{
     font-size: 75px;
   }
 
@@ -1730,6 +1759,13 @@ footer a{
 /* -------------------- LAPTOPS AND DESKTOPS -------------------- */
 
 @media only screen and (min-width: 1250px){
+
+  h1{
+    font-size: 6.4vw;
+    margin-top: 20px;
+    padding: 1.1em 0 0 0;
+  }
+
   #topvideo{
     display: block;
   }
@@ -1784,12 +1820,6 @@ footer a{
 
   .banner-overlay{
     margin-top: -70px;
-  }
-
-  #home .banner-overlay h1{
-    font-size: 6.4vw;
-    margin-top: 20px;
-    padding: 1.1em 0 0 0;
   }
 
   .btn-red{
