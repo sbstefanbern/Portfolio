@@ -617,7 +617,7 @@ footer a{
 }
 
 
-#portfolio{
+#banner{
   height: 0;
   background-repeat: no-repeat;
   background-position: center center;
@@ -632,22 +632,22 @@ footer a{
   margin-left: -2px;
 }
 
-#portfolio .mainword{
+.portfolio .mainword{
   animation: none;
   opacity: 1;
 }
 
-#portfolio .mainsentence{
+.portfolio .mainsentence{
   width: auto;
   animation: none;
 }
 
-#portfolio .mainsentence span{
+.portfolio .mainsentence span{
   margin-left: 0;
   animation: none;
 }
 
-#portfolio .content{
+.portfolio .content{
   animation: none;
   opacity: 1;
   padding-left: 200px;
@@ -1145,7 +1145,7 @@ footer a{
 
   /* -------------------- PORTFOLIO PAGE (0-699px) -------------------- */
 
-  #portfolio{
+  .portfolio{
     background-image: url('media/banner-portfolio-small.jpg');
     padding-bottom: 86%;
   }
@@ -1561,7 +1561,7 @@ footer a{
 
   /* -------------------- PORTFOLIO PAGE (700-1249px) -------------------- */
 
-  #portfolio{
+  .portfolio{
     background-image: url('media/banner-portfolio-medium.jpg');
     padding-bottom: 74%;
   }
@@ -2112,7 +2112,7 @@ footer a{
 
   /* -------------------- PORTFOLIO PAGE (1250px+) -------------------- */
 
-  #portfolio{
+  .portfolio{
     background-image: url('media/banner-portfolio.jpg');
     padding-bottom: 56%;
   }
@@ -2256,6 +2256,96 @@ footer a{
     font-size: 20px;
     padding: 50px 0 15px 0;
   }
+}
+
+/* -------------------- PROJECTS PAGE (1250px+) -------------------- */
+
+.hc-odense{
+  background-image: url('media/projects/hc-odense-banner.jpg');
+  padding-bottom: 56%;
+}
+
+.hc-odense .mainword{
+  animation: none;
+  opacity: 1;
+}
+
+.hc-odense .mainsentence{
+  width: auto;
+  animation: none;
+}
+
+.hc-odense .mainsentence span{
+  margin-left: 0;
+  animation: none;
+}
+
+.hc-odense .content{
+  animation: none;
+  opacity: 1;
+  padding-left: 200px;
+}
+
+.client-logo{
+  width: 200px;
+  height: 200px;
+  margin: 0 auto;
+}
+
+.client-logo img{
+  position:absolute;
+  top: 37.5vw;
+  width: 200px;
+  height: 200px;
+}
+
+.project-info{
+  width: 70%;
+  margin: -20px auto 40px auto;
+  display: flex;
+}
+
+.info-left{
+  flex: 65%;
+  padding-right: 50px;
+}
+
+.info-right{
+  padding-left: 50px;
+  flex: 35%;
+}
+
+.info-right ul li{
+  padding-bottom: 10px;
+}
+
+.info-right ul li::before {
+  content: "•";
+  padding-right: 7px;
+  color: #FF8900;
+}
+
+.project-info h4{
+  color: orange;
+  font-size: 20px;
+  padding: 25px 0 5px;
+}
+
+.project-container{
+  width: 92%;
+  margin: 0 auto;
+
+}
+
+.project-container div{
+  max-width: 100%;
+  margin: 5px 0;
+}
+
+.project-container img{
+  max-width:100%;
+  max-height:100%;
+  object-fit: contain
 }
 
 /* -------------------- LARGE DESKTOPS ONLY -------------------- */
