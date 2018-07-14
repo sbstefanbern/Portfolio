@@ -600,22 +600,19 @@ footer a{
 
 /* -------------------- PORTFOLIO PAGE -------------------- */
 
-
-/* Create three equal columns that floats next to each other */
 .filter {
-    display: none; /* Hide columns by default */
+  display: none;
 }
 
 .show {
-    display: block;
+  display: block;
 }
 
 .gallery-images:after{
-    content: "";
-    display: table;
-    clear: both;
+  content: "";
+  display: table;
+  clear: both;
 }
-
 
 #banner{
   height: 0;
@@ -854,6 +851,93 @@ footer a{
   text-align: center;
   text-transform: uppercase;
   color: #DD3924;
+}
+
+/* -------------------- PROJECTS PAGE (1250px+) -------------------- */
+
+.hc-odense{
+  background-image: url('media/projects/hc-odense-banner.jpg');
+  padding-bottom: 56%;
+}
+
+.project-subhead{
+  color: #FFF;
+  font-weight: 300;
+  font-size: 24px;
+}
+
+.client-logo{
+  width: 200px;
+  height: 200px;
+  margin: 0 auto;
+}
+
+.client-logo img{
+  position: absolute;
+}
+
+.project-info{
+  width: 70%;
+  margin: -10px auto 80px auto;
+  display: flex;
+}
+
+.info-left{
+  flex: 65%;
+  padding-right: 50px;
+}
+
+.info-right{
+  padding-left: 50px;
+  flex: 35%;
+}
+
+.info-right ul li{
+  padding-bottom: 10px;
+}
+
+.info-right ul li::before {
+  content: "•";
+  padding-right: 7px;
+  color: #FF8900;
+}
+
+.project-info h4{
+  color: orange;
+  font-size: 20px;
+  padding: 25px 0 5px;
+}
+
+.project-container{
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.project-container div{
+  max-width: 100%;
+  padding: 2px 0;
+}
+
+.project-container img{
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+}
+
+.img1{
+  flex: 100%;
+
+}
+
+.img2{
+  flex: 58%;
+  margin-right: 10px;
+}
+
+.img3{
+  flex: 40%;
 }
 
 /* -------------------- ALL SMARTPHONES -------------------- */
@@ -1267,6 +1351,39 @@ footer a{
   .process-chapter{
     font-size: 20px;
     padding: 30px 0 10px 0;
+  }
+
+  .hc-odense{
+    background-image: url('media/projects/hc-odense-banner-small.jpg');
+    padding-bottom: 86%;
+  }
+
+  .project-head{
+    margin-top: 56px;
+  }
+
+  .project-subhead{
+    display: none;
+  }
+
+  .client-logo img{
+    position: absolute;
+    top: 64vw;
+    width: 120px;
+    height: 120px;
+  }
+
+  .project-info{
+    flex-wrap: wrap;
+  }
+
+  .info-left{
+    flex: 100%;
+  }
+
+  .info-right{
+    flex: 100%;
+    padding-left: 0;
   }
 }
 
@@ -1688,6 +1805,28 @@ footer a{
   .process-chapter{
     font-size: 20px;
     padding: 40px 0 15px 0;
+  }
+
+  /* -------------------- PROJECTS PAGE (700-1249px) -------------------- */
+
+  .hc-odense{
+    background-image: url('media/projects/hc-odense-banner-medium.jpg');
+    padding-bottom: 74%;
+  }
+
+  .project-head{
+    margin-top: -10px;
+  }
+
+  .project-subhead{
+    padding-top: 3px;
+  }
+
+  .client-logo img{
+    position: absolute;
+    top: 56.5vw;
+    width: 150px;
+    height: 150px;
   }
 }
 
@@ -2256,96 +2395,28 @@ footer a{
     font-size: 20px;
     padding: 50px 0 15px 0;
   }
-}
 
 /* -------------------- PROJECTS PAGE (1250px+) -------------------- */
 
-.hc-odense{
-  background-image: url('media/projects/hc-odense-banner.jpg');
-  padding-bottom: 56%;
-}
+  .hc-odense{
+    background-image: url('media/projects/hc-odense-banner.jpg');
+    padding-bottom: 56%;
+  }
 
-.hc-odense .mainword{
-  animation: none;
-  opacity: 1;
-}
+  .project-head{
+    margin-top: 15px;
+  }
 
-.hc-odense .mainsentence{
-  width: auto;
-  animation: none;
-}
+  .project-subhead{
+    padding-top: 32px;
+  }
 
-.hc-odense .mainsentence span{
-  margin-left: 0;
-  animation: none;
-}
-
-.hc-odense .content{
-  animation: none;
-  opacity: 1;
-  padding-left: 200px;
-}
-
-.client-logo{
-  width: 200px;
-  height: 200px;
-  margin: 0 auto;
-}
-
-.client-logo img{
-  position:absolute;
-  top: 37.5vw;
-  width: 200px;
-  height: 200px;
-}
-
-.project-info{
-  width: 70%;
-  margin: -20px auto 40px auto;
-  display: flex;
-}
-
-.info-left{
-  flex: 65%;
-  padding-right: 50px;
-}
-
-.info-right{
-  padding-left: 50px;
-  flex: 35%;
-}
-
-.info-right ul li{
-  padding-bottom: 10px;
-}
-
-.info-right ul li::before {
-  content: "•";
-  padding-right: 7px;
-  color: #FF8900;
-}
-
-.project-info h4{
-  color: orange;
-  font-size: 20px;
-  padding: 25px 0 5px;
-}
-
-.project-container{
-  width: 92%;
-  margin: 0 auto;
-
-}
-
-.project-container div{
-  max-width: 100%;
-  margin: 5px 0;
-}
-
-.project-container img{
-  max-width:100%;
-  max-height:100%;
-  object-fit: contain
+  .client-logo img{
+    position: absolute;
+    top: 37.5vw;
+    width: 200px;
+    height: 200px;
+  }
 }
 
 /* -------------------- LARGE DESKTOPS ONLY -------------------- */
