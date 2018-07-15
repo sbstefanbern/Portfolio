@@ -855,8 +855,13 @@ footer a{
 
 /* -------------------- PROJECTS PAGE (1250px+) -------------------- */
 
-.hc-odense{
+.hc-odense header{
   background-image: url('media/projects/hc-odense-banner.jpg');
+  padding-bottom: 56%;
+}
+
+.ring-til-fortiden header{
+  background-image: url('media/projects/ring-til-fortiden-banner.jpg');
   padding-bottom: 56%;
 }
 
@@ -899,13 +904,27 @@ footer a{
 .info-right ul li::before {
   content: "•";
   padding-right: 7px;
-  color: #FF8900;
 }
 
 .project-info h4{
-  color: orange;
   font-size: 20px;
   padding: 25px 0 5px;
+}
+
+.hc-odense h4{
+  color: #FF8900;
+}
+
+.hc-odense .info-right ul li::before {
+  color: #FF8900;
+}
+
+.ring-til-fortiden h4{
+  color: #043d9c;
+}
+
+.ring-til-fortiden.info-right ul li::before {
+  color: #043d9c;
 }
 
 .project-container{
@@ -926,18 +945,27 @@ footer a{
   object-fit: contain;
 }
 
-.img1{
+.img-big{
   flex: 100%;
-
 }
 
-.img2{
+.img-small-60{
   flex: 58%;
   margin-right: 10px;
 }
 
-.img3{
+.img-small-40{
   flex: 40%;
+}
+
+.img-small-50{
+  flex: 49%;
+  margin-right: 10px;
+}
+
+.img-big iframe{
+  width: 100%;
+  height: 56.25vw;
 }
 
 /* -------------------- ALL SMARTPHONES -------------------- */
@@ -1353,8 +1381,13 @@ footer a{
     padding: 30px 0 10px 0;
   }
 
-  .hc-odense{
+  .hc-odense header{
     background-image: url('media/projects/hc-odense-banner-small.jpg');
+    padding-bottom: 86%;
+  }
+
+  .ring-til-fortiden header{
+    background-image: url('media/projects/ring-til-fortiden-banner-small.jpg');
     padding-bottom: 86%;
   }
 
@@ -1366,24 +1399,42 @@ footer a{
     display: none;
   }
 
+  .client-logo{
+    width: 84px;
+    height: 84px;
+  }
+
   .client-logo img{
     position: absolute;
     top: 64vw;
-    width: 120px;
-    height: 120px;
+    width: 84px;
+    height: 84px;
   }
 
   .project-info{
+    width: 90%;
+    margin: 20px auto 40px auto;
     flex-wrap: wrap;
   }
 
   .info-left{
     flex: 100%;
+    padding-right: 0;
   }
 
   .info-right{
     flex: 100%;
     padding-left: 0;
+  }
+
+  .img-small-60{
+    flex: 100%;
+    margin-right: 0;
+  }
+
+  .img-small-50{
+    flex: 100%;
+    margin-right: 0;
   }
 }
 
@@ -1809,8 +1860,13 @@ footer a{
 
   /* -------------------- PROJECTS PAGE (700-1249px) -------------------- */
 
-  .hc-odense{
+  .hc-odense header{
     background-image: url('media/projects/hc-odense-banner-medium.jpg');
+    padding-bottom: 74%;
+  }
+
+  .ring-til-fortiden header{
+    background-image: url('media/projects/ring-til-fortiden-banner-medium.jpg');
     padding-bottom: 74%;
   }
 
@@ -1827,6 +1883,21 @@ footer a{
     top: 56.5vw;
     width: 150px;
     height: 150px;
+  }
+
+  .project-info{
+    width: 85%;
+    margin: 30px auto 80px auto;
+  }
+
+  .info-left{
+    padding-right: 30px;
+    flex: 65%;
+  }
+
+  .info-right{
+    padding-left: 30px;
+    flex: 35%;
   }
 }
 
@@ -2398,8 +2469,13 @@ footer a{
 
 /* -------------------- PROJECTS PAGE (1250px+) -------------------- */
 
-  .hc-odense{
+  .hc-odense header{
     background-image: url('media/projects/hc-odense-banner.jpg');
+    padding-bottom: 56%;
+  }
+
+  .ring-til-fortiden header{
+    background-image: url('media/projects/ring-til-fortiden-banner.jpg');
     padding-bottom: 56%;
   }
 
