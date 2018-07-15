@@ -732,10 +732,12 @@ footer a{
 #about .mainword{
   animation: none;
   opacity: 1;
+  margin-top: 5px;
 }
 
 #about .mainsentence{
   width: auto;
+  margin-top: 5px;
   animation: none;
 }
 
@@ -747,7 +749,7 @@ footer a{
 #about .content{
   animation: none;
   opacity: 1;
-  padding-left: 200px;
+  padding-left: 15vw;
 }
 
 .who-am-i-container{
@@ -865,6 +867,11 @@ footer a{
   padding-bottom: 56%;
 }
 
+.faster-eft header{
+  background-image: url('media/projects/faster-eft-banner.jpg');
+  padding-bottom: 56%;
+}
+
 .project-subhead{
   color: #FFF;
   font-weight: 300;
@@ -923,8 +930,16 @@ footer a{
   color: #043d9c;
 }
 
-.ring-til-fortiden.info-right ul li::before {
+.ring-til-fortiden .info-right ul li::before {
   color: #043d9c;
+}
+
+.faster-eft h4{
+  color: #3ea04a;
+}
+
+.faster-eft .info-right ul li::before {
+  color: #3ea04a;
 }
 
 .project-container{
@@ -1388,6 +1403,11 @@ footer a{
 
   .ring-til-fortiden header{
     background-image: url('media/projects/ring-til-fortiden-banner-small.jpg');
+    padding-bottom: 86%;
+  }
+
+  .faster-eft header{
+    background-image: url('media/projects/faster-eft-banner-small.jpg');
     padding-bottom: 86%;
   }
 
@@ -1867,6 +1887,11 @@ footer a{
 
   .ring-til-fortiden header{
     background-image: url('media/projects/ring-til-fortiden-banner-medium.jpg');
+    padding-bottom: 74%;
+  }
+
+  .faster-eft header{
+    background-image: url('media/projects/faster-eft-banner-medium.jpg');
     padding-bottom: 74%;
   }
 
@@ -2479,12 +2504,17 @@ footer a{
     padding-bottom: 56%;
   }
 
+  .faster-eft header{
+    background-image: url('media/projects/faster-eft-banner.jpg');
+    padding-bottom: 56%;
+  }
+
   .project-head{
-    margin-top: 15px;
+    margin-top: 20px;
   }
 
   .project-subhead{
-    padding-top: 32px;
+    padding-top: 30px;
   }
 
   .client-logo img{
