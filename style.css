@@ -892,6 +892,11 @@ footer a{
   padding-bottom: 56%;
 }
 
+.safari-park header{
+  background-image: url('media/projects/safari-park-banner.jpg');
+  padding-bottom: 56%;
+}
+
 .project-subhead{
   color: #FFF;
   font-weight: 300;
@@ -1001,6 +1006,14 @@ footer a{
   font-weight: 700;
   display: block;
   text-decoration: underline;
+}
+
+.safari-park h4{
+  color: #d54b1b;
+}
+
+.safari-park .info-right ul li::before{
+  color: #d54b1b;
 }
 
 .project-container{
@@ -1489,6 +1502,11 @@ footer a{
 
   .circle-k header{
     background-image: url('media/projects/circle-k-banner-small.jpg');
+    padding-bottom: 86%;
+  }
+
+  .safari-park header{
+    background-image: url('media/projects/safari-park-banner-small.jpg');
     padding-bottom: 86%;
   }
 
@@ -1993,6 +2011,11 @@ footer a{
 
   .circle-k header{
     background-image: url('media/projects/circle-k-banner-medium.jpg');
+    padding-bottom: 74%;
+  }
+
+  .safari-park header{
+    background-image: url('media/projects/safari-park-banner-medium.jpg');
     padding-bottom: 74%;
   }
 
@@ -2627,6 +2650,11 @@ footer a{
 
   .circle-k header{
     background-image: url('media/projects/circle-k-banner.jpg');
+    padding-bottom: 56%;
+  }
+
+  .safari-park header{
+    background-image: url('media/projects/safari-park-banner.jpg');
     padding-bottom: 56%;
   }
 
