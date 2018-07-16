@@ -593,9 +593,13 @@ footer a{
   margin: 0 15px;
 }
 
-.footer-copyright{
+.footer-copy{
   text-align: center;
-  font-size: 12px;
+  font-size: 11px;
+}
+
+.footer-copy p{
+  color: #C2CCDE;
 }
 
 /* -------------------- PORTFOLIO PAGE -------------------- */
@@ -897,6 +901,11 @@ footer a{
   padding-bottom: 56%;
 }
 
+.pl-handbook header{
+  background-image: url('media/projects/pl-handbook-banner.jpg');
+  padding-bottom: 56%;
+}
+
 .project-subhead{
   color: #FFF;
   font-weight: 300;
@@ -1016,6 +1025,14 @@ footer a{
   color: #d54b1b;
 }
 
+.pl-handbook h4{
+  color: #360639;
+}
+
+.pl-handbook .info-right ul li::before{
+  color: #360639;
+}
+
 .project-container{
   width: 100%;
   margin: 0 auto;
@@ -1055,6 +1072,14 @@ footer a{
 .img-big iframe{
   width: 100%;
   height: 56.25vw;
+}
+
+.small-img-left{
+  margin-right: 10px;
+}
+
+.small-img-right{
+  margin-right: 0;
 }
 
 /* -------------------- ALL SMARTPHONES -------------------- */
@@ -1340,8 +1365,10 @@ footer a{
     margin-bottom: 50px;
   }
 
-  .footer-copyright{
-    padding-bottom: 40px;
+  .footer-copy{
+    width: 90%;
+    margin: 0 auto;
+    padding: 0 0 40px 0;
   }
 
   /* -------------------- PORTFOLIO PAGE (0-699px) -------------------- */
@@ -1507,6 +1534,11 @@ footer a{
 
   .safari-park header{
     background-image: url('media/projects/safari-park-banner-small.jpg');
+    padding-bottom: 86%;
+  }
+
+  .pl-handbook header{
+    background-image: url('media/projects/pl-handbook-banner-small.jpg');
     padding-bottom: 86%;
   }
 
@@ -1842,8 +1874,9 @@ footer a{
     flex: 33%;
   }
 
-  .footer-copyright{
-    margin: 40px auto;
+  .footer-copy{
+    width: 600px;
+    margin: 60px auto 40px auto;
   }
 
   /* -------------------- PORTFOLIO PAGE (700-1249px) -------------------- */
@@ -2016,6 +2049,11 @@ footer a{
 
   .safari-park header{
     background-image: url('media/projects/safari-park-banner-medium.jpg');
+    padding-bottom: 74%;
+  }
+
+  .pl-handbook header{
+    background-image: url('media/projects/pl-handbook-banner-medium.jpg');
     padding-bottom: 74%;
   }
 
@@ -2465,8 +2503,9 @@ footer a{
     filter: drop-shadow(0px 0px 20px #000);
   }
 
-  .footer-copyright{
-    margin: 60px auto 50px auto;
+  .footer-copy{
+    width: 700px;
+    margin: 60px auto 40px auto;
   }
 
   /* -------------------- PORTFOLIO PAGE (1250px+) -------------------- */
@@ -2655,6 +2694,11 @@ footer a{
 
   .safari-park header{
     background-image: url('media/projects/safari-park-banner.jpg');
+    padding-bottom: 56%;
+  }
+
+  .pl-handbook header{
+    background-image: url('media/projects/pl-handbook-banner.jpg');
     padding-bottom: 56%;
   }
 
