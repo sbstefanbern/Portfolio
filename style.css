@@ -887,6 +887,11 @@ footer a{
   padding-bottom: 56%;
 }
 
+.circle-k header{
+  background-image: url('media/projects/circle-k-banner.jpg');
+  padding-bottom: 56%;
+}
+
 .project-subhead{
   color: #FFF;
   font-weight: 300;
@@ -923,7 +928,7 @@ footer a{
   padding-bottom: 10px;
 }
 
-.info-right ul li::before {
+.info-right ul li::before{
   content: "•";
   padding-right: 7px;
 }
@@ -937,7 +942,7 @@ footer a{
   color: #FF8900;
 }
 
-.hc-odense .info-right ul li::before {
+.hc-odense .info-right ul li::before{
   color: #FF8900;
 }
 
@@ -945,7 +950,7 @@ footer a{
   color: #043d9c;
 }
 
-.ring-til-fortiden .info-right ul li::before {
+.ring-til-fortiden .info-right ul li::before{
   color: #043d9c;
 }
 
@@ -953,7 +958,7 @@ footer a{
   color: #3ea04a;
 }
 
-.faster-eft .info-right ul li::before {
+.faster-eft .info-right ul li::before{
   color: #3ea04a;
 }
 
@@ -961,7 +966,7 @@ footer a{
   color: #e73e1a;
 }
 
-.dagslys .info-right ul li::before {
+.dagslys .info-right ul li::before{
   color: #e73e1a;
 }
 
@@ -969,7 +974,7 @@ footer a{
   color: #e51947;
 }
 
-.fri-bike-shop .info-right ul li::before {
+.fri-bike-shop .info-right ul li::before{
   color: #e51947;
 }
 
@@ -977,8 +982,25 @@ footer a{
   color: #f57e01;
 }
 
-.korup-motion .info-right ul li::before {
+.korup-motion .info-right ul li::before{
   color: #f57e01;
+}
+
+.circle-k h4{
+  color: #C00D0D;
+}
+
+.circle-k .info-right ul li::before{
+  color: #C00D0D;
+}
+
+.circle-k .project-info a{
+  color: #C00D0D;
+  cursor: pointer;
+  margin-top: 10px;
+  font-weight: 700;
+  display: block;
+  text-decoration: underline;
 }
 
 .project-container{
@@ -1462,6 +1484,11 @@ footer a{
 
   .korup-motion header{
     background-image: url('media/projects/korup-motion-banner-small.jpg');
+    padding-bottom: 86%;
+  }
+
+  .circle-k header{
+    background-image: url('media/projects/circle-k-banner-small.jpg');
     padding-bottom: 86%;
   }
 
@@ -1961,6 +1988,11 @@ footer a{
 
   .korup-motion header{
     background-image: url('media/projects/korup-motion-banner-medium.jpg');
+    padding-bottom: 74%;
+  }
+
+  .circle-k header{
+    background-image: url('media/projects/circle-k-banner-medium.jpg');
     padding-bottom: 74%;
   }
 
@@ -2590,6 +2622,11 @@ footer a{
 
   .korup-motion header{
     background-image: url('media/projects/korup-motion-banner.jpg');
+    padding-bottom: 56%;
+  }
+
+  .circle-k header{
+    background-image: url('media/projects/circle-k-banner.jpg');
     padding-bottom: 56%;
   }
 
