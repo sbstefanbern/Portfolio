@@ -906,6 +906,11 @@ footer a{
   padding-bottom: 56%;
 }
 
+.league-animation header{
+  background-image: url('media/projects/league-animation-banner.jpg');
+  padding-bottom: 56%;
+}
+
 .project-subhead{
   color: #FFF;
   font-weight: 300;
@@ -1031,6 +1036,23 @@ footer a{
 
 .pl-handbook .info-right ul li::before{
   color: #360639;
+}
+
+.league-animation h4{
+  color: #353A6D;
+}
+
+.league-animation .info-right ul li::before{
+  color: #353A6D;
+}
+
+.league-animation .project-info a{
+  color: #353A6D;
+  cursor: pointer;
+  margin-top: 10px;
+  font-weight: 700;
+  display: block;
+  text-decoration: underline;
 }
 
 .project-container{
@@ -1539,6 +1561,11 @@ footer a{
 
   .pl-handbook header{
     background-image: url('media/projects/pl-handbook-banner-small.jpg');
+    padding-bottom: 86%;
+  }
+
+  .league-animation header{
+    background-image: url('media/projects/league-animation-banner-small.jpg');
     padding-bottom: 86%;
   }
 
@@ -2054,6 +2081,11 @@ footer a{
 
   .pl-handbook header{
     background-image: url('media/projects/pl-handbook-banner-medium.jpg');
+    padding-bottom: 74%;
+  }
+
+  .league-animation header{
+    background-image: url('media/projects/league-animation-banner-medium.jpg');
     padding-bottom: 74%;
   }
 
@@ -2699,6 +2731,11 @@ footer a{
 
   .pl-handbook header{
     background-image: url('media/projects/pl-handbook-banner.jpg');
+    padding-bottom: 56%;
+  }
+
+  .league-animation header{
+    background-image: url('media/projects/league-animation-banner.jpg');
     padding-bottom: 56%;
   }
 
