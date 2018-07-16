@@ -872,6 +872,11 @@ footer a{
   padding-bottom: 56%;
 }
 
+.dagslys header{
+  background-image: url('media/projects/dagslys-banner.jpg');
+  padding-bottom: 56%;
+}
+
 .project-subhead{
   color: #FFF;
   font-weight: 300;
@@ -940,6 +945,14 @@ footer a{
 
 .faster-eft .info-right ul li::before {
   color: #3ea04a;
+}
+
+.dagslys h4{
+  color: #e73e1a;
+}
+
+.dagslys .info-right ul li::before {
+  color: #e73e1a;
 }
 
 .project-container{
@@ -1408,6 +1421,11 @@ footer a{
 
   .faster-eft header{
     background-image: url('media/projects/faster-eft-banner-small.jpg');
+    padding-bottom: 86%;
+  }
+
+  .dagslys header{
+    background-image: url('media/projects/dagslys-banner-small.jpg');
     padding-bottom: 86%;
   }
 
@@ -1892,6 +1910,11 @@ footer a{
 
   .faster-eft header{
     background-image: url('media/projects/faster-eft-banner-medium.jpg');
+    padding-bottom: 74%;
+  }
+
+  .dagslys header{
+    background-image: url('media/projects/dagslys-banner-medium.jpg');
     padding-bottom: 74%;
   }
 
@@ -2506,6 +2529,11 @@ footer a{
 
   .faster-eft header{
     background-image: url('media/projects/faster-eft-banner.jpg');
+    padding-bottom: 56%;
+  }
+
+  .dagslys header{
+    background-image: url('media/projects/dagslys-banner.jpg');
     padding-bottom: 56%;
   }
 
