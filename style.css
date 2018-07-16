@@ -877,6 +877,16 @@ footer a{
   padding-bottom: 56%;
 }
 
+.fri-bike-shop header{
+  background-image: url('media/projects/fri-bike-shop-banner.jpg');
+  padding-bottom: 56%;
+}
+
+.korup-motion header{
+  background-image: url('media/projects/korup-motion-banner.jpg');
+  padding-bottom: 56%;
+}
+
 .project-subhead{
   color: #FFF;
   font-weight: 300;
@@ -953,6 +963,22 @@ footer a{
 
 .dagslys .info-right ul li::before {
   color: #e73e1a;
+}
+
+.fri-bike-shop h4{
+  color: #e51947;
+}
+
+.fri-bike-shop .info-right ul li::before {
+  color: #e51947;
+}
+
+.korup-motion h4{
+  color: #f57e01;
+}
+
+.korup-motion .info-right ul li::before {
+  color: #f57e01;
 }
 
 .project-container{
@@ -1426,6 +1452,16 @@ footer a{
 
   .dagslys header{
     background-image: url('media/projects/dagslys-banner-small.jpg');
+    padding-bottom: 86%;
+  }
+
+  .fri-bike-shop header{
+    background-image: url('media/projects/fri-bike-shop-banner-small.jpg');
+    padding-bottom: 86%;
+  }
+
+  .korup-motion header{
+    background-image: url('media/projects/korup-motion-banner-small.jpg');
     padding-bottom: 86%;
   }
 
@@ -1915,6 +1951,16 @@ footer a{
 
   .dagslys header{
     background-image: url('media/projects/dagslys-banner-medium.jpg');
+    padding-bottom: 74%;
+  }
+
+  .fri-bike-shop header{
+    background-image: url('media/projects/fri-bike-shop-banner-medium.jpg');
+    padding-bottom: 74%;
+  }
+
+  .korup-motion header{
+    background-image: url('media/projects/korup-motion-banner-medium.jpg');
     padding-bottom: 74%;
   }
 
@@ -2534,6 +2580,16 @@ footer a{
 
   .dagslys header{
     background-image: url('media/projects/dagslys-banner.jpg');
+    padding-bottom: 56%;
+  }
+
+  .fri-bike-shop header{
+    background-image: url('media/projects/fri-bike-shop-banner.jpg');
+    padding-bottom: 56%;
+  }
+
+  .korup-motion header{
+    background-image: url('media/projects/korup-motion-banner.jpg');
     padding-bottom: 56%;
   }
 
