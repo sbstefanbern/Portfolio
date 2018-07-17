@@ -921,6 +921,11 @@ footer a{
   padding-bottom: 56%;
 }
 
+.billum-friskole header{
+  background-image: url('media/projects/billum-friskole-banner.jpg');
+  padding-bottom: 56%;
+}
+
 .project-subhead{
   color: #FFF;
   font-weight: 300;
@@ -1079,6 +1084,14 @@ footer a{
 
 .kedu .info-right ul li::before{
   color: #469f9a;
+}
+
+.billum-friskole h4{
+  color: #5890b4;
+}
+
+.billum-friskole .info-right ul li::before{
+  color: #5890b4;
 }
 
 .project-container{
@@ -1602,6 +1615,11 @@ footer a{
 
   .kedu header{
     background-image: url('media/projects/kedu-banner-small.jpg');
+    padding-bottom: 86%;
+  }
+
+  .billum-friskole header{
+    background-image: url('media/projects/billum-friskole-banner-small.jpg');
     padding-bottom: 86%;
   }
 
@@ -2136,6 +2154,11 @@ footer a{
 
   .kedu header{
     background-image: url('media/projects/kedu-banner-medium.jpg');
+    padding-bottom: 74%;
+  }
+
+  .billum-friskole header{
+    background-image: url('media/projects/billum-friskole-banner-medium.jpg');
     padding-bottom: 74%;
   }
 
@@ -2796,6 +2819,11 @@ footer a{
 
   .kedu header{
     background-image: url('media/projects/kedu-banner.jpg');
+    padding-bottom: 56%;
+  }
+
+  .billum-friskole header{
+    background-image: url('media/projects/billum-friskole-banner.jpg');
     padding-bottom: 56%;
   }
 
