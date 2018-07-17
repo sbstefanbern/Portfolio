@@ -916,6 +916,11 @@ footer a{
   padding-bottom: 56%;
 }
 
+.kedu header{
+  background-image: url('media/projects/kedu-banner.jpg');
+  padding-bottom: 56%;
+}
+
 .project-subhead{
   color: #FFF;
   font-weight: 300;
@@ -1066,6 +1071,14 @@ footer a{
 
 .technigo .info-right ul li::before{
   color: #2f3e5f;
+}
+
+.kedu h4{
+  color: #469f9a;
+}
+
+.kedu .info-right ul li::before{
+  color: #469f9a;
 }
 
 .project-container{
@@ -1587,6 +1600,11 @@ footer a{
     padding-bottom: 86%;
   }
 
+  .kedu header{
+    background-image: url('media/projects/kedu-banner-small.jpg');
+    padding-bottom: 86%;
+  }
+
   .project-head{
     margin-top: 56px;
   }
@@ -1630,6 +1648,10 @@ footer a{
 
   .img-small-50{
     flex: 100%;
+    margin-right: 0;
+  }
+
+  .small-img-left{
     margin-right: 0;
   }
 }
@@ -2109,6 +2131,11 @@ footer a{
 
   .technigo header{
     background-image: url('media/projects/technigo-banner-medium.jpg');
+    padding-bottom: 74%;
+  }
+
+  .kedu header{
+    background-image: url('media/projects/kedu-banner-medium.jpg');
     padding-bottom: 74%;
   }
 
@@ -2764,6 +2791,11 @@ footer a{
 
   .technigo header{
     background-image: url('media/projects/technigo-banner.jpg');
+    padding-bottom: 56%;
+  }
+
+  .kedu header{
+    background-image: url('media/projects/kedu-banner.jpg');
     padding-bottom: 56%;
   }
 
