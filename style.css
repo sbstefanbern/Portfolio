@@ -911,6 +911,11 @@ footer a{
   padding-bottom: 56%;
 }
 
+.technigo header{
+  background-image: url('media/projects/technigo-banner.jpg');
+  padding-bottom: 56%;
+}
+
 .project-subhead{
   color: #FFF;
   font-weight: 300;
@@ -1053,6 +1058,14 @@ footer a{
   font-weight: 700;
   display: block;
   text-decoration: underline;
+}
+
+.technigo h4{
+  color: #2f3e5f;
+}
+
+.technigo .info-right ul li::before{
+  color: #2f3e5f;
 }
 
 .project-container{
@@ -1566,6 +1579,11 @@ footer a{
 
   .league-animation header{
     background-image: url('media/projects/league-animation-banner-small.jpg');
+    padding-bottom: 86%;
+  }
+
+  .technigo header{
+    background-image: url('media/projects/technigo-banner-small.jpg');
     padding-bottom: 86%;
   }
 
@@ -2086,6 +2104,11 @@ footer a{
 
   .league-animation header{
     background-image: url('media/projects/league-animation-banner-medium.jpg');
+    padding-bottom: 74%;
+  }
+
+  .technigo header{
+    background-image: url('media/projects/technigo-banner-medium.jpg');
     padding-bottom: 74%;
   }
 
@@ -2736,6 +2759,11 @@ footer a{
 
   .league-animation header{
     background-image: url('media/projects/league-animation-banner.jpg');
+    padding-bottom: 56%;
+  }
+
+  .technigo header{
+    background-image: url('media/projects/technigo-banner.jpg');
     padding-bottom: 56%;
   }
 
