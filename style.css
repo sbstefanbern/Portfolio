@@ -931,6 +931,11 @@ footer a{
   padding-bottom: 56%;
 }
 
+.a-stone header{
+  background-image: url('media/projects/a-stone-banner.jpg');
+  padding-bottom: 56%;
+}
+
 .project-subhead{
   color: #FFF;
   font-weight: 300;
@@ -1105,6 +1110,14 @@ footer a{
 
 .munkebo-mikrobryg .info-right ul li::before{
   color: #a4580d;
+}
+
+.a-stone h4{
+  color: #4f4f4f;
+}
+
+.a-stone .info-right ul li::before{
+  color: #4f4f4f;
 }
 
 .project-container{
@@ -1638,6 +1651,11 @@ footer a{
 
   .munkebo-mikrobryg header{
     background-image: url('media/projects/munkebo-mikrobryg-banner-small.jpg');
+    padding-bottom: 86%;
+  }
+
+  .a-stone header{
+    background-image: url('media/projects/a-stone-banner-small.jpg');
     padding-bottom: 86%;
   }
 
@@ -2182,6 +2200,11 @@ footer a{
 
   .munkebo-mikrobryg header{
     background-image: url('media/projects/munkebo-mikrobryg-banner-medium.jpg');
+    padding-bottom: 74%;
+  }
+
+  .a-stone header{
+    background-image: url('media/projects/a-stone-banner-medium.jpg');
     padding-bottom: 74%;
   }
 
@@ -2852,6 +2875,11 @@ footer a{
 
   .munkebo-mikrobryg header{
     background-image: url('media/projects/munkebo-mikrobryg-banner.jpg');
+    padding-bottom: 56%;
+  }
+
+  .a-stone header{
+    background-image: url('media/projects/a-stone-banner.jpg');
     padding-bottom: 56%;
   }
 
