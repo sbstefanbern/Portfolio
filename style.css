@@ -926,6 +926,11 @@ footer a{
   padding-bottom: 56%;
 }
 
+.munkebo-mikrobryg header{
+  background-image: url('media/projects/munkebo-mikrobryg-banner.jpg');
+  padding-bottom: 56%;
+}
+
 .project-subhead{
   color: #FFF;
   font-weight: 300;
@@ -1092,6 +1097,14 @@ footer a{
 
 .billum-friskole .info-right ul li::before{
   color: #5890b4;
+}
+
+.munkebo-mikrobryg h4{
+  color: #a4580d;
+}
+
+.munkebo-mikrobryg .info-right ul li::before{
+  color: #a4580d;
 }
 
 .project-container{
@@ -1620,6 +1633,11 @@ footer a{
 
   .billum-friskole header{
     background-image: url('media/projects/billum-friskole-banner-small.jpg');
+    padding-bottom: 86%;
+  }
+
+  .munkebo-mikrobryg header{
+    background-image: url('media/projects/munkebo-mikrobryg-banner-small.jpg');
     padding-bottom: 86%;
   }
 
@@ -2159,6 +2177,11 @@ footer a{
 
   .billum-friskole header{
     background-image: url('media/projects/billum-friskole-banner-medium.jpg');
+    padding-bottom: 74%;
+  }
+
+  .munkebo-mikrobryg header{
+    background-image: url('media/projects/munkebo-mikrobryg-banner-medium.jpg');
     padding-bottom: 74%;
   }
 
@@ -2824,6 +2847,11 @@ footer a{
 
   .billum-friskole header{
     background-image: url('media/projects/billum-friskole-banner.jpg');
+    padding-bottom: 56%;
+  }
+
+  .munkebo-mikrobryg header{
+    background-image: url('media/projects/munkebo-mikrobryg-banner.jpg');
     padding-bottom: 56%;
   }
 
