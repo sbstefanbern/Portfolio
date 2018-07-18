@@ -221,5 +221,22 @@
         <p>All product names, logos, and brands not made by me, are property of their respective owners. All company, product and service names used in this website are for identification purposes only. Use of these names, logos, and brands does not imply endorsement.</p>
       </div>
     </footer>
+    <script>
+      var contactbox = document.getElementById('contactpopup');
+      var btn = document.getElementById("contactform");
+      var span = document.getElementsByClassName("close-popup")[0];
+      btn.onclick = function() {
+          contactbox.style.display = "block";
+      }
+
+      span.onclick = function() {
+          contactbox.style.display = "none";
+      }
+      window.onclick = function(event) {
+          if (event.target == contactbox) {
+              contactbox.style.display = "none";
+          }
+      }
+    </script>
   </body>
 </html>

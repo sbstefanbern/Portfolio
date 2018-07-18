@@ -1,20 +1,4 @@
 if (window.matchMedia("(min-width: 700px)").matches) {
-  var contactbox = document.getElementById('contactpopup');
-  var btn = document.getElementById("contactform");
-  var span = document.getElementsByClassName("close-popup")[0];
-  btn.onclick = function() {
-      contactbox.style.display = "block";
-  }
-
-  span.onclick = function() {
-      contactbox.style.display = "none";
-  }
-
-  window.onclick = function(event) {
-      if (event.target == contactbox) {
-          contactbox.style.display = "none";
-      }
-  }
 
   function toggleMobileMenu(){
     var menu = document.querySelector("#mobile-menu");
@@ -75,32 +59,6 @@ else {
   function buttonAnimation(x){
     x.classList.toggle("change");
   }
-
-  var contactbox = document.getElementById('contactpopup');
-  var btn = document.getElementById("contactform");
-  var span = document.getElementsByClassName("close-popup")[0];
-  btn.onclick = function() {
-      contactbox.style.display = "block";
-  }
-
-  span.onclick = function() {
-      contactbox.style.display = "none";
-  }
-  window.onclick = function(event) {
-      if (event.target == contactbox) {
-          contactbox.style.display = "none";
-      }
-  }
-
-  var valueicon2 = document.querySelector("#value-icon-2");
-  var valueicon3 = document.querySelector("#value-icon-3");
-
-  if (valueicon2.classList.contains('values-icon') ) { // Check for class
-    document.getElementById("value-icon-2").classList.add("values-icon-small");
-    document.getElementById("value-icon-2").classList.add("icon-2-small");
-    document.getElementById("value-icon-2").classList.remove("values-icon");
-    document.getElementById("value-icon-2").classList.remove("icon-2");
-}
 
   function value1(){
     var valueicon1 = document.querySelector("#value-icon-1");
