@@ -1,10 +1,3 @@
-
-
-
-
-
-
-
 var contactbox = document.getElementById('contactpopup');
 var btn = document.getElementById("contactform");
 var span = document.getElementsByClassName("close-popup")[0];
@@ -25,7 +18,7 @@ window.onclick = function(event) {
 function toggleMobileMenu(){
   var menu = document.querySelector("#mobile-menu");
   if (menu.style.marginRight === "-200px"){
-    menu.style.marginRight= "0";
+    menu.style.marginRight = "0";
   } else{
     menu.style.marginRight = "-200px";
   }
@@ -33,6 +26,21 @@ function toggleMobileMenu(){
 
 function buttonAnimation(x){
   x.classList.toggle("change");
+}
+
+var contactbox = document.getElementById('contactpopup');
+var btn = document.getElementById("contactform");
+var span = document.getElementsByClassName("close-popup")[0];
+btn.onclick = function() {
+    contactbox.style.display = "block";
+}
+span.onclick = function() {
+    contactbox.style.display = "none";
+}
+window.onclick = function(event) {
+    if (event.target == contactbox) {
+        contactbox.style.display = "none";
+    }
 }
 
 if (screen.width >= 768){

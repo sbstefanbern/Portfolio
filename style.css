@@ -101,7 +101,6 @@ ul{
   right: 0;
   height: 100%;
   width: 200px;
-  margin-right: -200px;
   padding-top: 60px;
   overflow-x: hidden;
   background-color: #354765;
@@ -219,7 +218,7 @@ h1 div{
 
 .mainword{
   animation: showup 7s;
-  animation-delay: 3.5s;
+  animation-delay: 2.8s;
   opacity: 0;
   animation-fill-mode: forwards;
 }
@@ -228,14 +227,14 @@ h1 div{
   width: 0px;
   animation: reveal 7s;
   animation-fill-mode: forwards;
-  animation-delay: 3.5s;
+  animation-delay: 2.8s;
 }
 
 .mainsentence span{
   margin-left: -355px;
   animation: slidein 8s;
   animation-fill-mode: forwards;
-  animation-delay: 3.5s;
+  animation-delay: 2.8s;
 }
 
 @keyframes showup{
@@ -1335,6 +1334,10 @@ footer a{
   #values{
     height: 190px;
     padding-top: 10px;
+  }
+
+  .values-icon-container{
+    height: 67px;
   }
 
   .values-icon{
