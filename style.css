@@ -941,6 +941,11 @@ footer a{
   padding-bottom: 56%;
 }
 
+.football-infographics header{
+  background-image: url('media/projects/football-infographics-banner.jpg');
+  padding-bottom: 56%;
+}
+
 .project-subhead{
   color: #FFF;
   font-weight: 300;
@@ -1131,6 +1136,14 @@ footer a{
 
 .piphest .info-right ul li::before{
   color: #f7a21b;
+}
+
+.football-infographics h4{
+  color: #4a8d32;
+}
+
+.football-infographics .info-right ul li::before{
+  color: #4a8d32;
 }
 
 .project-container{
@@ -1674,6 +1687,11 @@ footer a{
 
   .piphest header{
     background-image: url('media/projects/piphest-banner-small.jpg');
+    padding-bottom: 86%;
+  }
+
+  .football-infographics header{
+    background-image: url('media/projects/football-infographics-banner-small.jpg');
     padding-bottom: 86%;
   }
 
@@ -2228,6 +2246,11 @@ footer a{
 
   .piphest header{
     background-image: url('media/projects/piphest-banner-medium.jpg');
+    padding-bottom: 74%;
+  }
+
+  .football-infographics header{
+    background-image: url('media/projects/football-infographics-banner-medium.jpg');
     padding-bottom: 74%;
   }
 
@@ -2908,6 +2931,11 @@ footer a{
 
   .piphest header{
     background-image: url('media/projects/piphest-banner.jpg');
+    padding-bottom: 56%;
+  }
+
+  .football-infographics header{
+    background-image: url('media/projects/football-infographics-banner.jpg');
     padding-bottom: 56%;
   }
 
