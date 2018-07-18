@@ -936,6 +936,11 @@ footer a{
   padding-bottom: 56%;
 }
 
+.piphest header{
+  background-image: url('media/projects/piphest-banner.jpg');
+  padding-bottom: 56%;
+}
+
 .project-subhead{
   color: #FFF;
   font-weight: 300;
@@ -1118,6 +1123,14 @@ footer a{
 
 .a-stone .info-right ul li::before{
   color: #4f4f4f;
+}
+
+.piphest h4{
+  color: #f7a21b;
+}
+
+.piphest .info-right ul li::before{
+  color: #f7a21b;
 }
 
 .project-container{
@@ -1656,6 +1669,11 @@ footer a{
 
   .a-stone header{
     background-image: url('media/projects/a-stone-banner-small.jpg');
+    padding-bottom: 86%;
+  }
+
+  .piphest header{
+    background-image: url('media/projects/piphest-banner-small.jpg');
     padding-bottom: 86%;
   }
 
@@ -2205,6 +2223,11 @@ footer a{
 
   .a-stone header{
     background-image: url('media/projects/a-stone-banner-medium.jpg');
+    padding-bottom: 74%;
+  }
+
+  .piphest header{
+    background-image: url('media/projects/piphest-banner-medium.jpg');
     padding-bottom: 74%;
   }
 
@@ -2880,6 +2903,11 @@ footer a{
 
   .a-stone header{
     background-image: url('media/projects/a-stone-banner.jpg');
+    padding-bottom: 56%;
+  }
+
+  .piphest header{
+    background-image: url('media/projects/piphest-banner.jpg');
     padding-bottom: 56%;
   }
 
