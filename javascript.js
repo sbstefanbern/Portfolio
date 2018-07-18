@@ -1,57 +1,105 @@
-var contactbox = document.getElementById('contactpopup');
-var btn = document.getElementById("contactform");
-var span = document.getElementsByClassName("close-popup")[0];
-btn.onclick = function() {
-    contactbox.style.display = "block";
-}
+if (window.matchMedia("(min-width: 700px)").matches) {
+  var contactbox = document.getElementById('contactpopup');
+  var btn = document.getElementById("contactform");
+  var span = document.getElementsByClassName("close-popup")[0];
+  btn.onclick = function() {
+      contactbox.style.display = "block";
+  }
 
-span.onclick = function() {
-    contactbox.style.display = "none";
-}
+  span.onclick = function() {
+      contactbox.style.display = "none";
+  }
 
-window.onclick = function(event) {
-    if (event.target == contactbox) {
-        contactbox.style.display = "none";
+  window.onclick = function(event) {
+      if (event.target == contactbox) {
+          contactbox.style.display = "none";
+      }
+  }
+
+  function toggleMobileMenu(){
+    var menu = document.querySelector("#mobile-menu");
+    if (menu.style.marginRight === "-200px"){
+      menu.style.marginRight = "0";
+    } else{
+      menu.style.marginRight = "-200px";
     }
-}
+  }
 
-function toggleMobileMenu(){
-  var menu = document.querySelector("#mobile-menu");
-  if (menu.style.marginRight === "-200px"){
-    menu.style.marginRight = "0";
-  } else{
-    menu.style.marginRight = "-200px";
+  function buttonAnimation(x){
+    x.classList.toggle("change");
+  }
+
+  var contactbox = document.getElementById('contactpopup');
+  var btn = document.getElementById("contactform");
+  var span = document.getElementsByClassName("close-popup")[0];
+  btn.onclick = function() {
+      contactbox.style.display = "block";
+  }
+
+  span.onclick = function() {
+      contactbox.style.display = "none";
+  }
+  window.onclick = function(event) {
+      if (event.target == contactbox) {
+          contactbox.style.display = "none";
+      }
   }
 }
+else {
+  var contactbox = document.getElementById('contactpopup');
+  var btn = document.getElementById("contactform");
+  var span = document.getElementsByClassName("close-popup")[0];
+  btn.onclick = function() {
+      contactbox.style.display = "block";
+  }
 
-function buttonAnimation(x){
-  x.classList.toggle("change");
-}
+  span.onclick = function() {
+      contactbox.style.display = "none";
+  }
 
-var contactbox = document.getElementById('contactpopup');
-var btn = document.getElementById("contactform");
-var span = document.getElementsByClassName("close-popup")[0];
-btn.onclick = function() {
-    contactbox.style.display = "block";
-}
-span.onclick = function() {
-    contactbox.style.display = "none";
-}
-window.onclick = function(event) {
-    if (event.target == contactbox) {
-        contactbox.style.display = "none";
+  window.onclick = function(event) {
+      if (event.target == contactbox) {
+          contactbox.style.display = "none";
+      }
+  }
+
+  function toggleMobileMenu(){
+    var menu = document.querySelector("#mobile-menu");
+    if (menu.style.marginRight === "-200px"){
+      menu.style.marginRight = "0";
+    } else{
+      menu.style.marginRight = "-200px";
     }
-}
+  }
 
-if (screen.width >= 768){
-  var valueicon1 = document.querySelector("#value-icon-1");
+  function buttonAnimation(x){
+    x.classList.toggle("change");
+  }
+
+  var contactbox = document.getElementById('contactpopup');
+  var btn = document.getElementById("contactform");
+  var span = document.getElementsByClassName("close-popup")[0];
+  btn.onclick = function() {
+      contactbox.style.display = "block";
+  }
+
+  span.onclick = function() {
+      contactbox.style.display = "none";
+  }
+  window.onclick = function(event) {
+      if (event.target == contactbox) {
+          contactbox.style.display = "none";
+      }
+  }
+
   var valueicon2 = document.querySelector("#value-icon-2");
   var valueicon3 = document.querySelector("#value-icon-3");
 
-  valueicon2.classList.add("values-icon icon-2-small");
-  valueicon2.classList.remove("values-icon-small icon-2-small");
-  valueicon3.classList.add("values-icon icon-3-small");
-  valueicon3.classList.remove("values-icon-small icon-3-small");
+  if (valueicon2.classList.contains('values-icon') ) { // Check for class
+    document.getElementById("value-icon-2").classList.add("values-icon-small");
+    document.getElementById("value-icon-2").classList.add("icon-2-small");
+    document.getElementById("value-icon-2").classList.remove("values-icon");
+    document.getElementById("value-icon-2").classList.remove("icon-2");
 }
 
   function value1(){
@@ -62,13 +110,12 @@ if (screen.width >= 768){
     var value2 = document.querySelector("#value2");
     var value3 = document.querySelector("#value3");
     valueicon1.className = "values-icon icon-1";
-    valueicon2.className = "values-icon-small  icon-2-small";
-    valueicon3.className = "values-icon-small  icon-3-small";
+    valueicon2.className = "values-icon-small icon-2-small";
+    valueicon3.className = "values-icon-small icon-3-small";
     value1.style.opacity = "1";
     value2.style.opacity = "0";
     value3.style.opacity = "0";
   }
-
   function value2(){
     var valueicon1 = document.querySelector("#value-icon-1");
     var valueicon2 = document.querySelector("#value-icon-2");
@@ -83,7 +130,6 @@ if (screen.width >= 768){
     value2.style.opacity = "1";
     value3.style.opacity = "0";
   }
-
   function value3(){
     var valueicon1 = document.querySelector("#value-icon-1");
     var valueicon2 = document.querySelector("#value-icon-2");
@@ -98,3 +144,4 @@ if (screen.width >= 768){
     value2.style.opacity = "0";
     value3.style.opacity = "1";
   }
+}
