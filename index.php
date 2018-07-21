@@ -45,7 +45,7 @@
             <div id="contactpopup" class="contactbox">
               <div class="popup-container">
                 <span class="close-popup">&times;</span>
-                <form id="contact" method="post" action="include/contact-form.php">
+                <form id="contact" method="post" action="php/contact-form.php">
                   <h4>GET IN TOUCH</h4>
                   <p>I will return to you as soon as possible!</p>
                   <fieldset>
