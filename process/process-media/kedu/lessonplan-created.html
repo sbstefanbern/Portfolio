@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="description" content="KEDU educators platfrom for teachers - KUBO. Kedu is an online platform for teachers all around the world, find lessonplans and forum debate about the KUBO robot and teaching in general">
+    <meta name="keywords" content="KUBO, KEDU, Educational, TagTile, Robot, Teaching, Teachers, Education, Community, Programming, Kids, Plug-and-learn">
+    <title>KEDU - A Lesson Plan</title>
+    <link type="text/css" rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+    <link href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900" rel="stylesheet">
+    <script src="javascript.js"></script>
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <a href="dashboard.html">
+          <img src="media/kedu-logo.png" alt="Picture of the KEDU logo">
+        </a>
+      </div>
+      <div class="headerstyle">
+        <nav>
+          <ul>
+            <li><a href="profile.html">PROFILE</a></li>
+            <li><a href="forums.html">FORUMS</a></li>
+            <li><a href="lessonplans.html" class="current">LESSON PLANS</a></li>
+            <li><a href="dashboard.html">DASHBOARD</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <section id="top">
+        <div class="topdiv">
+          <h1 id="lessonplantitlez">A guide on how to use functions with KUBO</h1>
+        </div>
+      </section>
+      <section id="lessonplancontainer">
+        <div class="about">
+          <h3>ABOUT THIS LESSON PLAN</h3>
+          <p id="lessonplandescription">KUBO’s Coding License was designed to give students aged four to 10 a strong foundational understanding of TagTile® coding. Split into five sections, it introduces concepts such as sequences, functions, subroutines, and loops. It is beginner-friendly and gets progressively harder as students develop their understanding of programming.</p>
+        </div>
+        <div class="info">
+          <h3>INFO</h3>
+          <div class="infobox">
+            <a href="" id="authorname" class="author"></a>
+            <div class="infolevel">
+              <img src="media/advanced.png" alt="Icon that represents the difficulty of the lesson">
+              <p id="difficulty"></p>
+            </div>
+            <div class="infoclock">
+              <img src="media/clock.png" alt="Icon that represents the estimated time of the lesson">
+              <p>1H 30M</p>
+            </div>
+            <div class="infovote">
+              <div class="votelesson">
+                <div id="votebutton11" onclick="vote11(); this.onclick=null;">
+                  <input class="votenumber-white" type="text" id="number11" value="1" disabled>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="aside">
+          <img src="media/asidebar.png" alt="Prototype image of the aside menu bar">
+        </div>
+        <div class="main">
+          <p class="chapter">CHAPTER 4:</p>
+          <h2 id="chaptertitle">-</h2>
+          <video class="lessonvideo" poster="media/thumbnail.png" controls>
+              <source src="#" type="video/mp4">
+          </video>
+          <div class="maintext">
+            <p id="lessonplancontent"></p>
+          </div>
+          <div class="author">
+            <div class="forumleft">
+              <div class="profileimage">
+                <img src="media/fernando.png" alt="User profile picture of a generated personality Fernando Renchez">
+              </div>
+              <div class="profiletext">
+                <h4>You</h4>
+                <p>ZARAGOZA SCHOOL</p>
+                <p>SPAIN</p>
+                <p class="green">3 LESSON PLANS</p><p class="blue">6 FORUM POSTS</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="comment-section">
+        <div class="main-comment">
+          <h3 class="comment-title">COMMENTS (0)</h3>
+          <div class="comment-content">
+            <textarea class="comment-text" placeholder="Write comment..."></textarea>
+            <div class="send-comment">
+              <button type="button">SEND COMMENT</button>
+            </div>
+          </div>
+        </div>
+        <div class="report-lessonplan">
+          <button type="button">REPORT THIS LESSON</button>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div class="footer-container">
+        <div class="footer1">
+          <h3>NAVIGATION</h3>
+          <a href="dashboard.html">DASHBOARD</a>
+          <a href="lessonplans.html">LESSON PLANS</a>
+          <a href="forums.html">FORUMS</a>
+          <a href="profile.html">PROFILE</a>
+        </div>
+        <div class="footer2">
+          <a href="dashboard.html"> <img src="media/kedu-logo-hvid.png" alt="Picture of the KEDU logo"></a>
+          <p>KUBO Education</p>
+          <p>A community by</p>
+          <p>KUBO Robotics</p>
+        </div>
+        <div class="footer3">
+          <h3>CONTACT US</h3>
+          <p>Niels Bohrs Allé 185, 5220 Odense SØ</p>
+          <a href="http://kubo-robot.com">kubo-robot.com</a>
+          <p>contact@kedu.com</p>
+          <p>SE/CVR-nr.: 37043958</p>
+        </div>
+      </div>
+    </footer>
+    <script>
+      var lessonplantitle = localStorage.getItem('lessonplantitle');
+      var authorname = localStorage.getItem('authorname');
+      var lessonplandescription = localStorage.getItem('lessonplandescription');
+      var lessonplancontent = localStorage.getItem('lessonplancontent');
+      var chaptertitle = localStorage.getItem('chaptertitle');
+      var difficulty = localStorage.getItem('difficulty');
+      document.getElementById("lessonplantitlez").innerHTML = lessonplantitle;
+      document.getElementById("authorname").innerHTML = "By " + authorname;
+      document.getElementById("lessonplandescription").innerHTML = lessonplandescription;
+      document.getElementById("lessonplancontent").innerHTML = lessonplancontent;
+      document.getElementById("chaptertitle").innerHTML = chaptertitle;
+      document.getElementById("difficulty").innerHTML = difficulty;
+    </script>
+  </body>
+</html>
