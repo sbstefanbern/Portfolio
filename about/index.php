@@ -11,7 +11,7 @@
   </head>
   <body>
     <main>
-      <header id="about" aria-label="Stefan at table">
+      <header id="banner" class="about" aria-label="Stefan at table">
         <?php
           $currentPage = 'about';
           include ('../php/header.php');
@@ -21,12 +21,12 @@
             <div class="mainword red">Hello!</div>
             <div class="mainsentence"><span>I'm Stefan</span></div>
           </h1>
-          <div class="content">
-            <div class="content__container">
-              <p class="content__container__text">See my work experiences and read a little more about me</p>
+          <div class="banner-subhead">
+            <div>
+              <p>See my work experiences and read a little more about me</p>
             </div>
           </div>
-          <a href="../media/cv.pdf" class="btn-red about-banner-btn" target="_blank">Open my resumé</a>
+          <a href="../media/cv.pdf" class="btn-red" target="_blank">Open my resumé</a>
         </div>
       </header>
       <section id="who-am-i">

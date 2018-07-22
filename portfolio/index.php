@@ -21,12 +21,12 @@
             <div class="mainword red">Explore</div>
             <div class="mainsentence"><span> my projects</span></div>
           </h1>
-          <div class="content">
-            <div class="content__container">
-              <p class="content__container__text">Delve into my wide array of projects</p>
+          <div class="banner-subhead">
+            <div>
+              <p>Delve into my wide array of projects</p>
             </div>
           </div>
-          <a href="../ring-til-fortiden" class="btn-red about-banner-btn">View my latest project</a>
+          <a href="../ring-til-fortiden" class="btn-red">View my latest project</a>
         </div>
       </header>
       <section id="portfolio-content">

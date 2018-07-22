@@ -28,20 +28,20 @@
               <div class="mainword red">Design</div>
               <div class="mainsentence"><span>new limits</span></div>
             </h1>
-            <div class="content">
-              <div class="content__container">
-                <p class="content__container__text">I'm a creative designer who works with</p>
+            <div class="text-carousel">
+              <div class="text-carousel-container">
+                <p class="text-carousel-text">I'm a creative designer who works with</p>
                 <hr class="subhead-hr"/>
-                <ul class="content__container__list red">
-                  <li class="content__container__list__item">print material</li>
-                  <li class="content__container__list__item">visual identities</li>
-                  <li class="content__container__list__item">video material</li>
-                  <li class="content__container__list__item">digital designs</li>
-                  <li class="content__container__list__item">brand recognition</li>
+                <ul class="text-carousel-list red">
+                  <li class="text-carousel-list-item">print material</li>
+                  <li class="text-carousel-list-item">visual identities</li>
+                  <li class="text-carousel-list-item">video material</li>
+                  <li class="text-carousel-list-item">digital designs</li>
+                  <li class="text-carousel-list-item">brand recognition</li>
                 </ul>
               </div>
             </div>
-            <button id="contactform" class="btn-red btn-red2">Contact me</button>
+            <button id="contactform" class="btn-red btn-red-animate">Contact me</button>
             <div id="contactpopup" class="contactbox">
               <div class="popup-container">
                 <span class="close-popup">&times;</span>

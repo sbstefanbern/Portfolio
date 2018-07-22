@@ -137,9 +137,9 @@ ul {
   display: none;
 }
 
-.content {
+.text-carousel {
   width: 800px;
-  margin: -10px auto 0 auto;
+  margin: 0 auto;
   position: relative;
   padding-left: 60px;
   animation: fadein 4s;
@@ -149,14 +149,14 @@ ul {
   animation-iteration-count: 1;
 }
 
-.content__container {
+.text-carousel-container {
   font-weight: 400;
   overflow: hidden;
   height: 60px;
   padding: 0 40px;
 }
 
-.content__container__text {
+.text-carousel-text {
   display: inline;
   text-align: left;
   float: left;
@@ -174,7 +174,7 @@ ul {
   display: inline-block;
 }
 
-.content__container__list {
+.text-carousel-list {
   margin-top: 7px;
   padding-left: 423px;
   text-align: left;
@@ -188,7 +188,7 @@ ul {
   animation-iteration-count: infinite;
 }
 
-.content__container__list__item {
+.text-carousel-list-item {
   line-height: 60px;
   font-size: 24px;
   margin: 0;
@@ -310,7 +310,26 @@ h1 div {
   }
 }
 
-.btn-red2 {
+.banner-subhead {
+  margin: 0 auto;
+  width: 100%;
+}
+
+.banner-subhead div{
+  font-weight: 400;
+  margin: 0 auto;
+  width: 100%;
+  height: 60px;
+}
+
+#banner p{
+  font-size: 24px;
+  color: #FFF;
+  padding-top: 13px;
+  font-weight: 300;
+}
+
+.btn-red-animate {
   -webkit-animation: fadein 1500ms steps(20) 1;
   -webkit-animation-delay: 6.5s;
   -moz-animation: fadein 1500ms steps(20) 1;
@@ -688,25 +707,19 @@ footer a {
   margin-left: -2px;
 }
 
-.portfolio .mainword {
+#banner .mainword {
   animation: none;
   opacity: 1;
 }
 
-.portfolio .mainsentence {
+#banner .mainsentence {
   width: auto;
   animation: none;
 }
 
-.portfolio .mainsentence span {
+#banner .mainsentence span {
   margin-left: 0;
   animation: none;
-}
-
-.portfolio .content {
-  animation: none;
-  opacity: 1;
-  padding-left: 200px;
 }
 
 #tags {
@@ -779,37 +792,6 @@ footer a {
 }
 
 /* -------------------- ABOUT PAGE -------------------- */
-
-#about {
-  height: 0;
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: 100%;
-  background-color: #354765;
-}
-
-#about .mainword {
-  animation: none;
-  opacity: 1;
-  margin-top: 5px;
-}
-
-#about .mainsentence {
-  width: auto;
-  margin-top: 5px;
-  animation: none;
-}
-
-#about .mainsentence span {
-  margin-left: 0;
-  animation: none;
-}
-
-#about .content {
-  animation: none;
-  opacity: 1;
-  padding-left: 15vw;
-}
 
 .who-am-i-container {
   margin: 0 auto;
@@ -1304,7 +1286,7 @@ footer a {
   .banner-overlay {
     margin-top: -25px;
   }
-  .content {
+  .text-carousel {
     display: none;
   }
   .mainword {
@@ -1322,7 +1304,7 @@ footer a {
     -moz-animation-delay: 0.1s;
     animation-delay: 0.1s;
   }
-  .btn-red2 {
+  .btn-red-animate {
     -webkit-animation-delay: 3.2s;
     -moz-animation-delay: 3.2s;
     animation-delay: 3.2s;
@@ -1333,6 +1315,9 @@ footer a {
   }
   .contactbox {
     padding-top: 40px;
+  }
+  .video-overlay .btn-red{
+    font-size: 17px;
   }
   .popup-container {
     width: 90%;
@@ -1488,6 +1473,9 @@ footer a {
     background-image: url('../media/banner-portfolio-small.jpg');
     padding-bottom: 86%;
   }
+  .portfolio .banner-subhead{
+    display: none;
+  }
   #tags button {
     font-size: 14px;
   }
@@ -1515,9 +1503,15 @@ footer a {
     margin-top: -10px;
   }
   /* -------------------- ABOUT PAGE (0-699px) -------------------- */
-  #about {
+  .about {
     background-image: url('../media/banner-about-small.jpg');
     padding-bottom: 86%;
+  }
+  #banner h1{
+    margin-bottom: 0.42em;
+  }
+  .about .banner-subhead{
+    display: none;
   }
   .who-am-i-container {
     width: 90%;
@@ -1728,14 +1722,14 @@ footer a {
   .banner-overlay {
     margin-top: -60px;
   }
-  .content {
-    margin: -32px auto 30px auto;
+  .text-carousel {
+    margin: -25px auto 30px auto;
     padding-left: 25px;
     -webkit-animation-delay: 3.2s;
     -moz-animation-delay: 3.2s;
     animation-delay: 3.2s;
   }
-  .content__container__list {
+  .text-carousel-list {
     -webkit-animation-delay: 3.7s;
     -moz-animation-delay: 3.7s;
     animation-delay: 3.7s;
@@ -1755,10 +1749,19 @@ footer a {
     -moz-animation-delay: 0.1s;
     animation-delay: 0.1s;
   }
-  .btn-red2 {
+  .btn-red-animate {
     -webkit-animation-delay: 4.6s;
     -moz-animation-delay: 4.6s;
     animation-delay: 4.6s;
+  }
+  .video-overlay .btn-red {
+    font-size: 22px;
+  }
+  .video-overlay .btn-red {
+    margin-top: -2px;
+  }
+  #banner .btn-red {
+    margin-top: 8px;
   }
   .btn-red {
     padding: 24px 44px;
@@ -1820,7 +1823,7 @@ footer a {
     border: solid 1px #dd3924;
   }
   .icon-2-small {
-    background-image: url('../edia/icon-arrow.svg');
+    background-image: url('../media/icon-arrow.svg');
     background-size: 50%;
   }
   .icon-3-small {
@@ -1937,6 +1940,9 @@ footer a {
     background-image: url('../media/banner-portfolio-medium.jpg');
     padding-bottom: 74%;
   }
+  .banner-subhead{
+    margin: -25px 0 19px 0;
+  }
   #tags button {
     font-size: 17px;
   }
@@ -1964,7 +1970,7 @@ footer a {
     margin-top: 21vw;
   }
   /* -------------------- ABOUT PAGE (700-1249px) -------------------- */
-  #about {
+  .about {
     background-image: url('../media/banner-about-medium.jpg');
     padding-bottom: 74%;
   }
@@ -2137,8 +2143,11 @@ footer a {
   h1 {
     font-size: 75px;
   }
-  .content {
+  .text-carousel {
     padding-left: 75px;
+  }
+  .video-overlay .btn-red {
+    font-size: 28px;
   }
   .btn-red {
     padding: 26px 64px;
@@ -2292,6 +2301,9 @@ footer a {
   .popup-container {
     width: 50%;
   }
+  .btn-red-animate{
+    font-size: 22.5px !important;
+  }
   #contact {
     padding: 20px 40px 16px 40px;
   }
@@ -2322,7 +2334,6 @@ footer a {
     position: absolute;
     margin-top: 56.5vw;
     width: 100%;
-    z-index: 30;
   }
   .values-icon {
     width: 82px;
@@ -2523,12 +2534,9 @@ footer a {
     transform: scale(1.12);
   }
   /* -------------------- ABOUT PAGE (1250px+) -------------------- */
-  #about {
+  .about {
     background-image: url('../media/banner-about.jpg');
     padding-bottom: 56%;
-  }
-  .about-banner-btn {
-    margin-top: 40px;
   }
   .who-am-i-container {
     width: 55%;
@@ -2663,7 +2671,7 @@ footer a {
     margin-top: 20px;
   }
   .project-subhead {
-    padding-top: 30px;
+    padding-top: 38px !important;
   }
   .client-logo img {
     position: absolute;
