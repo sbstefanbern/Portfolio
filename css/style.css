@@ -57,6 +57,10 @@ ul {
   list-style-type: none;
 }
 
+red {
+  color: #FF6C4A;
+}
+
 .subhead {
   width: 90%;
   margin: 0 auto;
