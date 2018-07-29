@@ -48,8 +48,9 @@
             </div>
           </a>
         </div>
+        <a href="#projects" class="arrow-down"></a>
       </section>
-      <section class="projects">
+      <section id="projects" class="projects">
         <div class="projects-intro"><p>EXPLORE WHAT I CAN DO</p></div>
         <div class="projectgrid">
           <div class="pro1"></div>
@@ -213,5 +214,15 @@
         </div>
       </footer>
     </main>
+    <script>
+      document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener('click', function (e) {
+          e.preventDefault();
+          document.querySelector(this.getAttribute('href')).scrollIntoView({
+            behavior: 'smooth'
+          });
+        });
+      });
+    </script>
   </body>
 </html>

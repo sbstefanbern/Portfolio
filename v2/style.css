@@ -49,32 +49,9 @@ ul{
   align-items: center;
   color: #fff;
 }
-.btn .btn-container .btn-front {
-  -webkit-transform: rotateX(0deg) translateZ(15px);
-  transform: rotateX(0deg) translateZ(15px);
-}
-.btn .btn-container .btn-bottom {
-  -webkit-transform: rotateX(-90deg) translateZ(30px);
-  transform: rotateX(-90deg) translateZ(30px);
-}
-.btn:hover .btn-container {
-  -webkit-transform: translateZ(-24px) rotateX(90deg);
-  transform: translateZ(-24px) rotateX(90deg);
-}
-.btn .btn-container .btn-front, .btn .btn-container .back {
-  border: 3px solid #FFF;
-}
-.btn .btn-container .btn-bottom {
-  background: #FFFFFF;
-  color: #343434;
-}
-.btn:hover .btn-container .btn-bottom {
-  background: #FFFFFF;
-  color: #343434;
-}
-.btn:hover .btn-container .btn-front {
-  border: 3px solid #FFF;
-}
+.btn .btn-container .btn-front {transform: rotateX(0deg) translateZ(15px);}
+.btn .btn-container .btn-bottom {transform: rotateX(-90deg) translateZ(30px);}
+.btn:hover .btn-container {transform: translateZ(-24px) rotateX(90deg);}
 
 h2{
   font-size: 75px;
@@ -153,10 +130,11 @@ nav{
   grid-column: 1 / 13;
   background-color: #415879;
   grid-row-start: 1;
-  grid-row-end: 2;
+  grid-row-end: 3;
   background-image: url("media/banner-img.jpg");
   background-repeat: no-repeat;
   background-size: cover;
+  z-index: 1;
 }
 
 .banner h1{
@@ -165,6 +143,17 @@ nav{
   text-align: center;
   color: #FFF;
   margin-top: 210px;
+}
+
+.banner .btn .btn-container .btn-front, .btn .btn-container .back {border: 3px solid #FFF;}
+.banner .btn:hover .btn-container .btn-front {border: 3px solid #FFF;}
+.banner .btn .btn-container .btn-bottom {
+  background: #FFFFFF;
+  color: #435c7d;
+}
+.banner .btn:hover .btn-container .btn-bottom {
+  background: #FFFFFF;
+  color: #435c7d;
 }
 
 h1 > div {
@@ -209,15 +198,14 @@ h1 > div {
 .text-carousel-container {
   font-weight: 400;
   overflow: hidden;
-  height: 60px;
-  padding: 0 40px;
+  height: 70px;
+  padding: 20px 40px 0 40px;
 }
 
 .text-carousel-text {
   display: inline;
   text-align: left;
   float: left;
-  margin: 0;
   font-size: 24px;
   color: #FFF;
   font-weight: 300;
@@ -345,15 +333,51 @@ h1 > div {
   }
 }
 
+@keyframes size-change {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(0.85);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+.arrow-down{
+  display: block;
+  background-image: url("media/arrow-down.svg");
+  background-repeat: no-repeat;
+  width: 60px;
+  height: 60px;
+  background-position: center;
+  background-size: cover;
+  margin: 0 auto -30px auto;
+  animation: size-change 3s infinite;
+  animation-timing-function: ease-in-out;
+  transition: 0.3s all ease-in-out;
+  cursor: pointer;
+}
+
+.arrow-down:hover{
+  background-image: url("media/arrow-down-color.svg");
+  animation-play-state: paused;
+}
+
 .projects{
   grid-column: 1 / 13;
 }
 
 .projects-intro{
   text-align: center;
-  padding: 30px 0;
-  font-weight: 800;
+  padding: 50px 0;
   background-color: #F5F5E5;
+}
+
+.projects-intro p{
+  font-size: 20px;
+  font-weight: 800;
   color: #91916E;
 }
 
@@ -406,12 +430,15 @@ h1 > div {
   text-align: center;
 }
 
-.project-view-more a{
-
+.project-view-more .btn .btn-container .btn-front, .btn .btn-container .back {border: 3px solid #FFF;}
+.project-view-more .btn:hover .btn-container .btn-front {border: 3px solid #FFF;}
+.project-view-more .btn .btn-container .btn-bottom {
+  background: #FFFFFF;
+  color: #343434;
 }
-
-.project-view-more a:hover{
-
+.project-view-more .btn:hover .btn-container .btn-bottom {
+  background: #FFFFFF;
+  color: #343434;
 }
 
 .services{
@@ -594,13 +621,24 @@ footer{
   margin-left: 6vw;
 }
 
+.contact-info{
+  margin-bottom: 30px;
+}
+
 .contact-btn{
   text-align: left;
   margin-left: 6vw;
 }
 
-.contact-info{
-  margin-bottom: 30px;
+.contact-btn .btn .btn-container .btn-front, .btn .btn-container .back {border: 3px solid #FFF;}
+.contact-btn .btn:hover .btn-container .btn-front {border: 3px solid #FFF;}
+.contact-btn .btn .btn-container .btn-bottom {
+  background: #FFFFFF;
+  color: #46525F;
+}
+.contact-btn .btn:hover .btn-container .btn-bottom {
+  background: #FFFFFF;
+  color: #46525F;
 }
 
 .footer-nav{
