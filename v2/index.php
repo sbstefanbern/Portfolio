@@ -1,27 +1,20 @@
-<html>
+<!DOCTYPE HTML>
+<html lang="en">
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Stefan Bernkilde - Home</title>
     <meta name="description" content="Portfolio of Media Graphics Artist Stefan Bernkilde. I work with a wide variety of creative projects which you can see here. This includes UX and UI design, video shooting and editing, layout, typography and design of graphic products, developing visual identities and boosting brand recognition.">
-    <link type="text/css" rel="stylesheet" href="style.css">
+    <link type="text/css" rel="stylesheet" href="css/style.css">
     <link href="https://fonts.googleapis.com/css?family=Raleway:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
-    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="shortcut icon" href="favicon.ico">
   </head>
   <body>
     <main>
-      <header>
-        <nav>
-          <div class="logo">
-            <a href="/"></a>
-          </div>
-          <ul class="menu">
-            <li><a href="/about">ABOUT</a></li>
-            <li><a href="/portfolio">PORTFOLIO</a></li>
-            <li><a href="/">HOME</a></li>
-          </ul>
-        </nav>
-      </header>
+      <?php
+        $currentPage = 'home';
+        include ('php/header.php');
+      ?>
       <section class="banner">
         <h1>
           <div class="mainword red">Design</div>
@@ -41,19 +34,51 @@
           </div>
         </div>
         <div class="banner-btn">
-          <a href="#" class="btn">
+          <a href="#" class="btn" id="contactform">
             <div class="btn-container">
               <div class="btn-front">GET IN TOUCH</div>
               <div class="btn-bottom">GET IN TOUCH</div>
             </div>
           </a>
         </div>
+        <div id="contactpopup" class="contactbox">
+          <div class="popup-container">
+            <span class="close-popup">&times;</span>
+            <form id="contact" method="post" action="php/contact-form.php">
+              <h4>GET IN TOUCH</h4>
+              <p>I will return to you as soon as possible!</p>
+              <fieldset>
+                <input placeholder="Your name" type="text" name="name" tabindex="1" required autofocus>
+              </fieldset>
+              <fieldset>
+                <input placeholder="Your Email Address" type="email" name="email" tabindex="2" required>
+              </fieldset>
+              <fieldset>
+                <input placeholder="Subject" type="text" name="subject" tabindex="3" required>
+              </fieldset>
+              <fieldset>
+                <textarea placeholder="Type your message here..." type="text" name="message" tabindex="4" required></textarea>
+              </fieldset>
+              <fieldset>
+                <button name="submit" type="submit" id="contact-submit" class="submit-btn">Submit</button>
+              </fieldset>
+            </form>
+          </div>
+        </div>
         <a href="#projects" class="arrow-down"></a>
       </section>
       <section id="projects" class="projects">
         <div class="projects-intro"><p>EXPLORE WHAT I CAN DO</p></div>
         <div class="projectgrid">
-          <div class="pro1"></div>
+        	<div class="project-container">
+        		<a href="portfolio/" class="project-img project-1">
+              <div class="project-text">
+          			<h4>Premier League Handbook</h4>
+                <hr/>
+                <p>A handbook about every team in the Premier League containing various amounts of good information for you to read.</p>
+              </div>
+            </a>
+        	</div>
           <div class="pro2"></div>
           <div class="pro3"></div>
           <div class="pro4"></div>
@@ -172,57 +197,8 @@
           </div>
         </div>
       </section>
-      <footer>
-        <div class="footer-container">
-          <div class="footer-contact">
-            <h5>CONTACT</h5>
-            <div class="contact-info">
-              <p>Stefan Bernkilde</p>
-              <p>sbstefanbern@gmail.com</p>
-              <p>+45 41 27 85 46</p>
-              <p>Based in Odense, Denmark</p>
-            </div>
-            <div class="contact-btn">
-              <a href="#" class="btn">
-                <div class="btn-container">
-                  <div class="btn-front">GET IN TOUCH</div>
-                  <div class="btn-bottom">GET IN TOUCH</div>
-                </div>
-              </a>
-            </div>
-          </div>
-          <div class="footer-nav">
-            <h5>NAVIGATION</h5>
-            <ul>
-              <li><a href="/">HOME</a></li>
-              <hr/>
-              <li><a href="/">PORTFOLIO</a></li>
-              <hr/>
-              <li><a href="/">ABOUT</a></li>
-            </ul>
-          </div>
-          <div class="footer-some">
-            <h5>SOCIAL</h5>
-            <a class="linkedin" href="#"></a>
-            <a class="instagram" href="#"></a>
-            <a class="footer-sb-logo" href="/"></a>
-          </div>
-        </div>
-        <div class="copyright">
-          <p>© 2018 Stefan Bernkilde - All rights reserved.</p>
-          <p>All product names, logos, and brands not made by me, are property of their respective owners. All company, product and service names used in this website are for identification purposes only. Use of these names, logos, and brands does not imply endorsement.</p>
-        </div>
-      </footer>
+      <?php include ('php/footer.php'); ?>
     </main>
-    <script>
-      document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-        anchor.addEventListener('click', function (e) {
-          e.preventDefault();
-          document.querySelector(this.getAttribute('href')).scrollIntoView({
-            behavior: 'smooth'
-          });
-        });
-      });
-    </script>
+    <script src="js/javascript.js"></script>
   </body>
 </html>
