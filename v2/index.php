@@ -22,7 +22,7 @@
         </h1>
         <div class="text-carousel">
           <div class="text-carousel-container">
-            <p class="text-carousel-text">I'm a creative designer who works with</p>
+            <p class="text-carousel-text">I'm an ambitious designer who works with</p>
             <hr class="subhead-hr"/>
             <ul class="text-carousel-list red">
               <li class="text-carousel-list-item">print material</li>
@@ -93,7 +93,7 @@
           <div class="project-container">
         		<a href="portfolio/" class="project-img project-3">
               <div class="project-text">
-                <h5>FLYERS - BUSINESS CARDS - LOGO - ROLL-UPS</h5>
+                <h5>FLYERS - BUSINESS CARDS - LOGO - ROLL UP BANNER</h5>
           			<h4>Faster EFT</h4>
                 <hr/>
                 <p>Fully developed visual identity for the independent Faster EFT treater</p>
@@ -103,56 +103,56 @@
           <div class="project-container">
         		<a href="portfolio/" class="project-img project-4">
               <div class="project-text">
-                <h5>POSTERS - SALES BROCHURES - MATCH DAY PROGRAMMES</h5>
-          			<h4>Premier League</h4>
+                <h5>POSTERS - BUSSINESS CARDS - POSTCARDS</h5>
+          			<h4>Daglys</h4>
                 <hr/>
-                <p>A handbook about every team in the Premier League containing various amounts of good information for you to read.</p>
+                <p>Graphic material promoting live tours of the folk-blues trio</p>
               </div>
             </a>
         	</div>
           <div class="project-container">
         		<a href="portfolio/" class="project-img project-5">
               <div class="project-text">
-                <h5>POSTERS - SALES BROCHURES - MATCH DAY PROGRAMMES</h5>
-          			<h4>Premier League</h4>
+                <h5>ROLL UP BANNERS</h5>
+          			<h4>Fri Bike Shop</h4>
                 <hr/>
-                <p>A handbook about every team in the Premier League containing various amounts of good information for you to read.</p>
+                <p>Banners for the entrance in the bike shops store in Odense</p>
               </div>
             </a>
         	</div>
           <div class="project-container">
         		<a href="portfolio/" class="project-img project-6">
               <div class="project-text">
-                <h5>POSTERS - SALES BROCHURES - MATCH DAY PROGRAMMES</h5>
-          			<h4>Premier League</h4>
+                <h5>HANDBOOK</h5>
+          			<h4>Premier League Book</h4>
                 <hr/>
-                <p>A handbook about every team in the Premier League containing various amounts of good information for you to read.</p>
+                <p>Containing a wide variety of info and details about all the teams and the league as a whole</p>
               </div>
             </a>
         	</div>
           <div class="project-container">
         		<a href="portfolio/" class="project-img project-7">
               <div class="project-text">
-                <h5>POSTERS - SALES BROCHURES - MATCH DAY PROGRAMMES</h5>
-          			<h4>Premier League</h4>
+                <h5>GRAPHICS - ANIMATION</h5>
+          			<h4>League Animation</h4>
                 <hr/>
-                <p>A handbook about every team in the Premier League containing various amounts of good information for you to read.</p>
+                <p>Explaining the new and complicated danish football league system in a simple way</p>
               </div>
             </a>
         	</div>
           <div class="project-container">
         		<a href="portfolio/" class="project-img project-8">
               <div class="project-text">
-                <h5>POSTERS - SALES BROCHURES - MATCH DAY PROGRAMMES</h5>
-          			<h4>Premier League</h4>
+                <h5>POSTERS</h5>
+          			<h4>Korup Motion</h4>
                 <hr/>
-                <p>A handbook about every team in the Premier League containing various amounts of good information for you to read.</p>
+                <p>Promoting a yearly running event in and around Korup</p>
               </div>
             </a>
         	</div>
         </div>
         <div class="project-view-more">
-          <a href="#" class="btn">
+          <a href="portfolio/" class="btn">
             <div class="btn-container">
               <div class="btn-front">VIEW MORE</div>
               <div class="btn-bottom">VIEW MORE</div>
@@ -168,39 +168,39 @@
           <div class="ser1">
             <div id="icon-1-service" class="icon-service icon-1-service" onclick="" aria-label="Design icon"></div>
             <h4>Digital design</h4>
-            <p>I love to design. It is not only my job, but also my biggest hobby. Everytime I will take on a project I will do my utmost to do it to the very best of my ability.</p>
+            <p>All the way from brainstorming ideas, to a fully fledged digital design. Whether it'd be apps, websites, widgets or anything inbetween, I got you covered!</p>
           </div>
           <div class="ser2">
             <div id="icon-1-service" class="icon-service icon-2-service" onclick="" aria-label="Design icon"></div>
             <h4>Print design</h4>
-            <p>I love to design. It is not only my job, but also my biggest hobby. Everytime I will take on a project I will do my utmost to do it to the very best of my ability.</p>
+            <p>Every print product you can imagine, I can help you get a visual identity established that promotes your business and reflects your values across all your materials.</p>
           </div>
           <div class="ser3">
             <div id="icon-1-service" class="icon-service icon-3-service" onclick="" aria-label="Design icon"></div>
             <h4>Videos</h4>
-            <p>I love to design. It is not only my job, but also my biggest hobby. Everytime I will take on a project I will do my utmost to do it to the very best of my ability.</p>
+            <p>Need a high quality video promoting your business? Or maybe showcasing a variety of your products? Either way I can help you out with a high quality solution.</p>
           </div>
           <div class="ser4">
             <div id="icon-1-service" class="icon-service icon-4-service" onclick="" aria-label="Design icon"></div>
             <h4>Animation</h4>
-            <p>I love to design. It is not only my job, but also my biggest hobby. Everytime I will take on a project I will do my utmost to do it to the very best of my ability.</p>
+            <p>I can make stand alone motion graphics, logo animations or animations as part of a video. If you need help bringing your visuals to life, look no further!</p>
           </div>
           <div class="ser5">
             <div id="icon-1-service" class="icon-service icon-5-service" onclick="" aria-label="Design icon"></div>
             <h4>3D Material</h4>
-            <p>I love to design. It is not only my job, but also my biggest hobby. Everytime I will take on a project I will do my utmost to do it to the very best of my ability.</p>
+            <p>Working with 3D objects, animations and printing, I can help you with a variety of different solutions that you might need, relating to 3D work and/or printing.</p>
           </div>
           <div class="ser6">
             <div id="icon-1-service" class="icon-service icon-6-service" onclick="" aria-label="Design icon"></div>
             <h4>...and much more!</h4>
-            <p>I love to design. It is not only my job, but also my biggest hobby. Everytime I will take on a project I will do my utmost to do it to the very best of my ability.</p>
+            <p>I have experience working on a lot of subjects. So if you're in doubt if I can help you with your particular need, don't hesitate to contact me and we'll find a solution.</p>
           </div>
         </div>
       </section>
       <section class="work">
         <div class="worktext">
-          <h3>I've worked with</h3>
-          <p>I’m an educated Media Graphics Artist as per the summer of 2017. In the same year, in the fall, I began my study to become an AP Graduate in Multimedia Design and Communication. This is what I’m currently studying, and will be finished in the summer of 2019. As part of my Media Graphics Artist education I’ve had a lot of working experience having worked full time for two years as a Graphic Desginer.</p>
+          <h3>Working experiences</h3>
+          <p>A highlight of some of the companies I have either worked for, or together with, to create elegent, stylish and appealing graphic solutions. I have experience both in handling entire projects alone, but also in working in big teams together with people with a wide variety of different skill sets. In many of these cases I've been in charge of everything from ideation, to design, to production. Starting with an initial meeting with the client, and ending up with me personally handing the finished product to them in the end. In other cases I have been apart of a large team working together with other designers, developers and project managers to ultimately achieve the overall objective.</p>
         </div>
         <div class="workgrid">
           <div class="work1"></div>
@@ -232,7 +232,7 @@
           <div class="quote-color2">
             <div class="quote-img"></div>
             <div class="quote-name">
-              <h4>Jens Jensen</h4>
+              <h4>Hans Hansen</h4>
               <p>JOB TITLE</p>
             </div>
             <div class="quote-text">
@@ -242,7 +242,7 @@
           <div class="quote-color">
             <div class="quote-img"></div>
             <div class="quote-name">
-              <h4>Jens Jensen</h4>
+              <h4>Peter Petersen</h4>
               <p>JOB TITLE</p>
             </div>
             <div class="quote-text">
@@ -252,7 +252,7 @@
           <div class="quote-color2">
             <div class="quote-img"></div>
             <div class="quote-name">
-              <h4>Jens Jensen</h4>
+              <h4>Martin Martinsen</h4>
               <p>JOB TITLE</p>
             </div>
             <div class="quote-text">

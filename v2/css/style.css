@@ -250,8 +250,8 @@ h1>div {
 }
 
 .text-carousel-list {
-  margin-top: 11.5px;
-  padding-left: 423px;
+  margin-top: 12px;
+  padding-left: 457px;
   text-align: left;
   list-style-type: none;
   animation-name: change;
@@ -769,7 +769,6 @@ fieldset {
   background-size: 46%;
 }
 
-
 .servicesgrid h4 {
   font-size: 20px;
   font-weight: 500;
@@ -788,7 +787,7 @@ fieldset {
   background-color: #F5F5E5;
   color: #91916E;
   text-align: left;
-  padding: 60px 0;
+  padding: 60px 0 70px 0;
 }
 
 .work h3 {
@@ -798,7 +797,7 @@ fieldset {
 }
 
 .worktext {
-  padding: 70px 45px 0 90px;
+  padding: 55px 45px 0 90px;
 }
 
 .workgrid {
