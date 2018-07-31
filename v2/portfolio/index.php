@@ -16,15 +16,79 @@
         include ('../php/header.php');
       ?>
       <section class="projects">
-        <div class="projectgrid">
-          <div class="pro1">pro1</div>
-          <div class="pro2">pro2</div>
-          <div class="pro3">pro3</div>
-          <div class="pro4">pro4</div>
-          <div class="pro5">pro5</div>
-          <div class="pro6">pro6</div>
-          <div class="pro7">pro7</div>
-          <div class="pro8">pro8</div>
+        <div class="portfolio-grid">
+        	<div class="project-container">
+        		<a href="portfolio/" class="project-img project-1">
+              <div class="project-text portfolio-text">
+          			<h4>Premier League Handbook</h4>
+                <hr/>
+                <p>A handbook about every team in the Premier League containing various amounts of good information for you to read.</p>
+              </div>
+            </a>
+        	</div>
+          <div class="project-container">
+        		<a href="portfolio/" class="project-img project-1">
+              <div class="project-text portfolio-text">
+          			<h4>Premier League Handbook</h4>
+                <hr/>
+                <p>A handbook about every team in the Premier League containing various amounts of good information for you to read.</p>
+              </div>
+            </a>
+        	</div>
+          <div class="project-container">
+        		<a href="portfolio/" class="project-img project-1">
+              <div class="project-text portfolio-text">
+          			<h4>Premier League Handbook</h4>
+                <hr/>
+                <p>A handbook about every team in the Premier League containing various amounts of good information for you to read.</p>
+              </div>
+            </a>
+        	</div>
+          <div class="project-container">
+        		<a href="portfolio/" class="project-img project-1">
+              <div class="project-text portfolio-text">
+          			<h4>Premier League Handbook</h4>
+                <hr/>
+                <p>A handbook about every team in the Premier League containing various amounts of good information for you to read.</p>
+              </div>
+            </a>
+        	</div>
+          <div class="project-container">
+        		<a href="portfolio/" class="project-img project-1">
+              <div class="project-text portfolio-text">
+          			<h4>Premier League Handbook</h4>
+                <hr/>
+                <p>A handbook about every team in the Premier League containing various amounts of good information for you to read.</p>
+              </div>
+            </a>
+        	</div>
+          <div class="project-container">
+        		<a href="portfolio/" class="project-img project-1">
+              <div class="project-text portfolio-text">
+          			<h4>Premier League Handbook</h4>
+                <hr/>
+                <p>A handbook about every team in the Premier League containing various amounts of good information for you to read.</p>
+              </div>
+            </a>
+        	</div>
+          <div class="project-container">
+        		<a href="portfolio/" class="project-img project-1">
+              <div class="project-text portfolio-text">
+          			<h4>Premier League Handbook</h4>
+                <hr/>
+                <p>A handbook about every team in the Premier League containing various amounts of good information for you to read.</p>
+              </div>
+            </a>
+        	</div>
+          <div class="project-container">
+        		<a href="portfolio/" class="project-img project-1">
+              <div class="project-text portfolio-text">
+          			<h4>Premier League Handbook</h4>
+                <hr/>
+                <p>A handbook about every team in the Premier League containing various amounts of good information for you to read.</p>
+              </div>
+            </a>
+        	</div>
         </div>
       </section>
       <?php include ('../php/footer.php'); ?>

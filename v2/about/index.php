@@ -46,17 +46,17 @@
       </section>
       <section class="values">
           <div class="ser1">
-            <div id="icon-1-service" class="icon-service icon-1-service" onclick="" aria-label="Design icon"></div>
+            <div id="icon-1-value" class="icon-value icon-1-value" onclick="" aria-label="Design icon"></div>
             <h4>Passionate</h4>
             <p>I love to design. It is not only my job, but also my biggest hobby. Everytime I will take on a project I will do my utmost to do it to the very best of my ability.</p>
           </div>
           <div class="ser2">
-            <div id="icon-1-service" class="icon-service icon-1-service" onclick="" aria-label="Design icon"></div>
+            <div id="icon-1-value" class="icon-value icon-2-value" onclick="" aria-label="Design icon"></div>
             <h4>Effective</h4>
             <p>I love to design. It is not only my job, but also my biggest hobby. Everytime I will take on a project I will do my utmost to do it to the very best of my ability.</p>
           </div>
           <div class="ser3">
-            <div id="icon-1-service" class="icon-service icon-1-service" onclick="" aria-label="Design icon"></div>
+            <div id="icon-1-value" class="icon-value icon-3-value" onclick="" aria-label="Design icon"></div>
             <h4>Innovative</h4>
             <p>I love to design. It is not only my job, but also my biggest hobby. Everytime I will take on a project I will do my utmost to do it to the very best of my ability.</p>
           </div>

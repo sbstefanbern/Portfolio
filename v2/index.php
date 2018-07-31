@@ -73,19 +73,83 @@
         	<div class="project-container">
         		<a href="portfolio/" class="project-img project-1">
               <div class="project-text">
-          			<h4>Premier League Handbook</h4>
+                <h5>APP DESIGN - VIDEO - PRINT MATERIAL</h5>
+          			<h4>Ring til Fortiden</h4>
+                <hr/>
+                <p>Explore and find lost soldiers throughout Fredericia Rampart with this app</p>
+              </div>
+            </a>
+        	</div>
+          <div class="project-container">
+        		<a href="portfolio/" class="project-img project-2">
+              <div class="project-text">
+                <h5>POSTERS - SALES BROCHURES - MATCH DAY PROGRAMMES</h5>
+          			<h4>HC Odense</h4>
+                <hr/>
+                <p>Various graphic material for the handball club</p>
+              </div>
+            </a>
+        	</div>
+          <div class="project-container">
+        		<a href="portfolio/" class="project-img project-3">
+              <div class="project-text">
+                <h5>FLYERS - BUSINESS CARDS - LOGO - ROLL-UPS</h5>
+          			<h4>Faster EFT</h4>
+                <hr/>
+                <p>Fully developed visual identity for the independent Faster EFT treater</p>
+              </div>
+            </a>
+        	</div>
+          <div class="project-container">
+        		<a href="portfolio/" class="project-img project-4">
+              <div class="project-text">
+                <h5>POSTERS - SALES BROCHURES - MATCH DAY PROGRAMMES</h5>
+          			<h4>Premier League</h4>
                 <hr/>
                 <p>A handbook about every team in the Premier League containing various amounts of good information for you to read.</p>
               </div>
             </a>
         	</div>
-          <div class="pro2"></div>
-          <div class="pro3"></div>
-          <div class="pro4"></div>
-          <div class="pro5"></div>
-          <div class="pro6"></div>
-          <div class="pro7"></div>
-          <div class="pro8"></div>
+          <div class="project-container">
+        		<a href="portfolio/" class="project-img project-5">
+              <div class="project-text">
+                <h5>POSTERS - SALES BROCHURES - MATCH DAY PROGRAMMES</h5>
+          			<h4>Premier League</h4>
+                <hr/>
+                <p>A handbook about every team in the Premier League containing various amounts of good information for you to read.</p>
+              </div>
+            </a>
+        	</div>
+          <div class="project-container">
+        		<a href="portfolio/" class="project-img project-6">
+              <div class="project-text">
+                <h5>POSTERS - SALES BROCHURES - MATCH DAY PROGRAMMES</h5>
+          			<h4>Premier League</h4>
+                <hr/>
+                <p>A handbook about every team in the Premier League containing various amounts of good information for you to read.</p>
+              </div>
+            </a>
+        	</div>
+          <div class="project-container">
+        		<a href="portfolio/" class="project-img project-7">
+              <div class="project-text">
+                <h5>POSTERS - SALES BROCHURES - MATCH DAY PROGRAMMES</h5>
+          			<h4>Premier League</h4>
+                <hr/>
+                <p>A handbook about every team in the Premier League containing various amounts of good information for you to read.</p>
+              </div>
+            </a>
+        	</div>
+          <div class="project-container">
+        		<a href="portfolio/" class="project-img project-8">
+              <div class="project-text">
+                <h5>POSTERS - SALES BROCHURES - MATCH DAY PROGRAMMES</h5>
+          			<h4>Premier League</h4>
+                <hr/>
+                <p>A handbook about every team in the Premier League containing various amounts of good information for you to read.</p>
+              </div>
+            </a>
+        	</div>
         </div>
         <div class="project-view-more">
           <a href="#" class="btn">
@@ -107,27 +171,27 @@
             <p>I love to design. It is not only my job, but also my biggest hobby. Everytime I will take on a project I will do my utmost to do it to the very best of my ability.</p>
           </div>
           <div class="ser2">
-            <div id="icon-1-service" class="icon-service icon-1-service" onclick="" aria-label="Design icon"></div>
+            <div id="icon-1-service" class="icon-service icon-2-service" onclick="" aria-label="Design icon"></div>
             <h4>Print design</h4>
             <p>I love to design. It is not only my job, but also my biggest hobby. Everytime I will take on a project I will do my utmost to do it to the very best of my ability.</p>
           </div>
           <div class="ser3">
-            <div id="icon-1-service" class="icon-service icon-1-service" onclick="" aria-label="Design icon"></div>
+            <div id="icon-1-service" class="icon-service icon-3-service" onclick="" aria-label="Design icon"></div>
             <h4>Videos</h4>
             <p>I love to design. It is not only my job, but also my biggest hobby. Everytime I will take on a project I will do my utmost to do it to the very best of my ability.</p>
           </div>
           <div class="ser4">
-            <div id="icon-1-service" class="icon-service icon-1-service" onclick="" aria-label="Design icon"></div>
+            <div id="icon-1-service" class="icon-service icon-4-service" onclick="" aria-label="Design icon"></div>
             <h4>Animation</h4>
             <p>I love to design. It is not only my job, but also my biggest hobby. Everytime I will take on a project I will do my utmost to do it to the very best of my ability.</p>
           </div>
           <div class="ser5">
-            <div id="icon-1-service" class="icon-service icon-1-service" onclick="" aria-label="Design icon"></div>
+            <div id="icon-1-service" class="icon-service icon-5-service" onclick="" aria-label="Design icon"></div>
             <h4>3D Material</h4>
             <p>I love to design. It is not only my job, but also my biggest hobby. Everytime I will take on a project I will do my utmost to do it to the very best of my ability.</p>
           </div>
           <div class="ser6">
-            <div id="icon-1-service" class="icon-service icon-1-service" onclick="" aria-label="Design icon"></div>
+            <div id="icon-1-service" class="icon-service icon-6-service" onclick="" aria-label="Design icon"></div>
             <h4>...and much more!</h4>
             <p>I love to design. It is not only my job, but also my biggest hobby. Everytime I will take on a project I will do my utmost to do it to the very best of my ability.</p>
           </div>

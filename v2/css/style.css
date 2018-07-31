@@ -38,6 +38,7 @@ ul {
   height: 62px;
   font-size: 16px;
   font-weight: 700;
+  cursor: pointer;
 }
 
 .btn .btn-container {
@@ -593,7 +594,7 @@ fieldset {
 }
 
 .projectgrid div {
-  height: 500px;
+  height: 38vw;
 }
 
 .project-container {
@@ -608,7 +609,8 @@ fieldset {
   display: block;
   background-size: cover;
   background-repeat: no-repeat;
-  transition: all 0.3s ease-in-out;
+  background-position: center;
+  transition: all 0.2s ease-in-out;
 }
 
 .project-img:before {
@@ -619,12 +621,11 @@ fieldset {
   position: absolute;
   top: 0;
   left: 0;
-  background-color: rgba(54,6,57,0.8);
 }
 
 .project-text{
   display: none;
-  padding: 130px 150px 0 130px;
+  padding: 26% 18% 14% 18%;
   position: absolute;
   top: 0;
   left: 0;
@@ -633,21 +634,30 @@ fieldset {
   color: #ffffff;
 }
 
+.project-text h5 {
+  text-align: center;
+  font-size: 13px;
+  font-weight: 800;
+  margin-bottom: 10px;
+  opacity: 0.6;
+}
+
 .project-text hr{
-  height: 5px;
+  height: 6px;
   width: 55px;
   background-color: #FFF;
-  margin: 10px 0 12px 0;
+  margin: 15px auto 20px auto;
   border: none;
 }
 
-
 .project-text h4 {
-  font-size: 30px;
+  text-align: center;
+  font-size: 36px;
   font-weight: 800;
 }
 
 .project-text p {
+  text-align: center;
   font-size: 16px;
   font-weight: 400;
 }
@@ -658,35 +668,22 @@ fieldset {
 
 .project-container:hover .project-text, .project-container:focus .project-text {display: block;}
 
-.project-1 {background-image: url("../media/project-test.jpg");}
-
-.pro2 {
-  background-color: blue;
-}
-
-.pro3 {
-  background-color: yellow;
-}
-
-.pro4 {
-  background-color: magenta;
-}
-
-.pro5 {
-  background-color: cyan;
-}
-
-.pro6 {
-  background-color: red;
-}
-
-.pro7 {
-  background-color: orange;
-}
-
-.pro8 {
-  background-color: pink;
-}
+.project-1 {background-image: url("../media/ring-til-fortiden-large.jpg");}
+.project-1:before{background-color: rgba(46,58,86,0.9);}
+.project-2 {background-image: url("../media/hc-odense-large.jpg");}
+.project-2:before{background-color: rgba(205,87,0,0.9);}
+.project-3 {background-image: url("../media/faster-eft-large.jpg");}
+.project-3:before{background-color: rgba(47,110,43,0.9);}
+.project-4 {background-image: url("../media/dagslys-large.jpg");}
+.project-4:before{background-color: rgba(208,48,13,0.9);}
+.project-5 {background-image: url("../media/fri-bike-shop-large.jpg");}
+.project-5:before{background-color: rgba(100,180,156,0.9);}
+.project-6 {background-image: url("../media/pl-book-large.jpg");}
+.project-6:before{background-color: rgba(70,31,73,0.9);}
+.project-7 {background-image: url("../media/league-animation-large.jpg");}
+.project-7:before{background-color: rgba(31,73,57,0.9);}
+.project-8 {background-image: url("../media/korup-motion-large.jpg");}
+.project-8:before{background-color: rgba(48,100,166,0.9);}
 
 .project-view-more {
   background-color: #343434;
@@ -748,9 +745,30 @@ fieldset {
 }
 
 .icon-1-service {
-  background-image: url('../media/icon-flame.svg');
-  background-size: 42%;
+  background-image: url('../media/icon-webdesign.svg');
+  background-size: 58%;
 }
+.icon-2-service {
+  background-image: url('../media/icon-printdesign.svg');
+  background-size: 33%;
+}
+.icon-3-service {
+  background-image: url('../media/icon-video.svg');
+  background-size: 43%;
+}
+.icon-4-service {
+  background-image: url('../media/icon-animation.svg');
+  background-size: 60%;
+}
+.icon-5-service {
+  background-image: url('../media/icon-3d.svg');
+  background-size: 46%;
+}
+.icon-6-service {
+  background-image: url('../media/icon-more.svg');
+  background-size: 46%;
+}
+
 
 .servicesgrid h4 {
   font-size: 20px;
@@ -791,12 +809,20 @@ fieldset {
 
 .workgrid div {
   height: 80px;
-  margin: 20px 0;
-  background-image: url("../media/work-test.png");
+  margin: 25px 0;
   background-repeat: no-repeat;
-  background-size: contain;
   background-position: center;
 }
+
+.work1{background-image: url("../media/logo-work-eb.svg");}
+.work2{background-image: url("../media/logo-work-dagslys.svg");}
+.work3{background-image: url("../media/logo-work-korup-motion.svg")}
+.work4{background-image: url("../media/logo-work-hc-odense.svg")}
+.work5{background-image: url("../media/logo-work-faster-eft.svg")}
+.work6{background-image: url("../media/logo-work-sde.svg")}
+.work7{background-image: url("../media/logo-work-fri-bike-shop.svg")}
+.work8{background-image: url("../media/logo-work-circle-k.svg")}
+.work9{background-image: url("../media/logo-work-automovet.svg")}
 
 .quotes {
   grid-column: 1 / 13;
@@ -998,6 +1024,32 @@ footer {
   color: #8497AC;
 }
 
+/* ---------- PORTFOLIO PAGE ---------- */
+
+.portfolio-grid {
+  grid-column: 1 / 13;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.portfolio-grid div {
+  height: 300px;
+}
+
+.portfolio-text{
+  padding: 60px 80px 0 80px;
+}
+
+.portfolio-text h4{
+  font-size: 25px;
+}
+
+.portfolio-text p {
+  font-size: 13px;
+}
+
+.project-container:hover .portfolio-project-text, .project-container:focus .portfolio-project-text {display: block;}
+
 /* ---------- ABOUT PAGE ---------- */
 
 .intro {
@@ -1089,6 +1141,33 @@ footer {
   padding: 70px 90px 80px 90px;
 }
 
+.icon-value {
+  display: inline-block;
+  text-align: center;
+  border: solid 1px #FF6C4A;
+  background-repeat: no-repeat;
+  background-position: center;
+  transition: 0.4s;
+  width: 82px;
+  height: 82px;
+  border-radius: 82px;
+}
+
+.icon-1-value {
+  background-image: url("../media/icon-value1.svg");
+  background-size: 40%;
+}
+
+.icon-2-value {
+  background-image: url("../media/icon-value2.svg");
+  background-size: 52%;
+}
+
+.icon-3-value {
+  background-image: url("../media/icon-value3.svg");
+  background-size: 50%;
+}
+
 .values > div {
   text-align: center;
   padding: 50px 50px;
@@ -1103,6 +1182,18 @@ footer {
 
 
 @media only screen and (max-width: 1068px) {
+  .projectgrid div {
+    height: 36vw;
+  }
+  .project-1 {background-image: url("../media/ring-til-fortiden-medium.jpg");}
+  .project-2 {background-image: url("../media/hc-odense-medium.jpg");}
+  .project-3 {background-image: url("../media/faster-eft-medium.jpg");}
+  .project-4 {background-image: url("../media/dagslys-medium.jpg");}
+  .project-5 {background-image: url("../media/fri-bike-shop-medium.jpg");}
+  .project-6 {background-image: url("../media/pl-book-medium.jpg");}
+  .project-7 {background-image: url("../media/league-animation-medium.jpg");}
+  .project-8 {background-image: url("../media/korup-motion-medium.jpg");}
+
   .servicesgrid {
     grid-template-columns: repeat(2, 1fr);
   }
@@ -1118,6 +1209,20 @@ footer {
 }
 
 @media only screen and (max-width: 735px) {
+  .projectgrid {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .projectgrid div {
+    height: 74vw;
+  }
+  .project-1 {background-image: url("../media/ring-til-fortiden-small.jpg");}
+  .project-2 {background-image: url("../media/hc-odense-small.jpg");}
+  .project-3 {background-image: url("../media/faster-eft-small.jpg");}
+  .project-4 {background-image: url("../media/dagslys-small.jpg");}
+  .project-5 {background-image: url("../media/fri-bike-shop-small.jpg");}
+  .project-6 {background-image: url("../media/pl-book-small.jpg");}
+  .project-7 {background-image: url("../media/league-animation-small.jpg");}
+  .project-8 {background-image: url("../media/korup-motion-small.jpg");}
   .servicesgrid {
     grid-template-columns: repeat(3, 1fr);
   }
@@ -1126,6 +1231,11 @@ footer {
   }
   .footercontainer {
     grid-template-columns: repeat(1, 1fr);
+  }
+  .portfolio-grid {
+    grid-column: 1 / 13;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
   }
   .intro-container {
     grid-column: 1 / 13;
