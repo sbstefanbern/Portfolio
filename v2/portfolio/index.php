@@ -18,8 +18,19 @@
       <section class="projects">
         <div class="portfolio-grid">
         	<div class="project-container">
-        		<a href="portfolio/" class="project-img project-1">
+        		<a href="portfolio/" class="project-img portfolio-project-1">
               <div class="project-text portfolio-text">
+                <h5>POSTERS - BUSSINESS CARDS - POSTCARDS</h5>
+          			<h4>Premier League Handbook</h4>
+                <hr/>
+                <p>Containing a wide variety of info and details about all the teams and the league as a whole</p>
+              </div>
+            </a>
+        	</div>
+          <div class="project-container">
+        		<a href="portfolio/" class="project-img portfolio-project-2">
+              <div class="project-text portfolio-text">
+                <h5>POSTERS - BUSSINESS CARDS - POSTCARDS</h5>
           			<h4>Premier League Handbook</h4>
                 <hr/>
                 <p>A handbook about every team in the Premier League containing various amounts of good information for you to read.</p>
@@ -27,8 +38,9 @@
             </a>
         	</div>
           <div class="project-container">
-        		<a href="portfolio/" class="project-img project-1">
+        		<a href="portfolio/" class="project-img portfolio-project-3">
               <div class="project-text portfolio-text">
+                <h5>POSTERS - BUSSINESS CARDS - POSTCARDS</h5>
           			<h4>Premier League Handbook</h4>
                 <hr/>
                 <p>A handbook about every team in the Premier League containing various amounts of good information for you to read.</p>
@@ -36,8 +48,9 @@
             </a>
         	</div>
           <div class="project-container">
-        		<a href="portfolio/" class="project-img project-1">
+        		<a href="portfolio/" class="project-img portfolio-project-4">
               <div class="project-text portfolio-text">
+                <h5>POSTERS - BUSSINESS CARDS - POSTCARDS</h5>
           			<h4>Premier League Handbook</h4>
                 <hr/>
                 <p>A handbook about every team in the Premier League containing various amounts of good information for you to read.</p>
@@ -45,8 +58,9 @@
             </a>
         	</div>
           <div class="project-container">
-        		<a href="portfolio/" class="project-img project-1">
+        		<a href="portfolio/" class="project-img portfolio-project-5">
               <div class="project-text portfolio-text">
+                <h5>POSTERS - BUSSINESS CARDS - POSTCARDS</h5>
           			<h4>Premier League Handbook</h4>
                 <hr/>
                 <p>A handbook about every team in the Premier League containing various amounts of good information for you to read.</p>
@@ -54,8 +68,9 @@
             </a>
         	</div>
           <div class="project-container">
-        		<a href="portfolio/" class="project-img project-1">
+        		<a href="portfolio/" class="project-img portfolio-project-6">
               <div class="project-text portfolio-text">
+                <h5>POSTERS - BUSSINESS CARDS - POSTCARDS</h5>
           			<h4>Premier League Handbook</h4>
                 <hr/>
                 <p>A handbook about every team in the Premier League containing various amounts of good information for you to read.</p>
@@ -63,8 +78,9 @@
             </a>
         	</div>
           <div class="project-container">
-        		<a href="portfolio/" class="project-img project-1">
+        		<a href="portfolio/" class="project-img portfolio-project-7">
               <div class="project-text portfolio-text">
+                <h5>POSTERS - BUSSINESS CARDS - POSTCARDS</h5>
           			<h4>Premier League Handbook</h4>
                 <hr/>
                 <p>A handbook about every team in the Premier League containing various amounts of good information for you to read.</p>
@@ -72,8 +88,9 @@
             </a>
         	</div>
           <div class="project-container">
-        		<a href="portfolio/" class="project-img project-1">
+        		<a href="portfolio/" class="project-img portfolio-project-8">
               <div class="project-text portfolio-text">
+                <h5>POSTERS - BUSSINESS CARDS - POSTCARDS</h5>
           			<h4>Premier League Handbook</h4>
                 <hr/>
                 <p>A handbook about every team in the Premier League containing various amounts of good information for you to read.</p>
@@ -81,8 +98,9 @@
             </a>
         	</div>
           <div class="project-container">
-        		<a href="portfolio/" class="project-img project-1">
+        		<a href="portfolio/" class="project-img portfolio-project-9">
               <div class="project-text portfolio-text">
+                <h5>POSTERS - BUSSINESS CARDS - POSTCARDS</h5>
           			<h4>Premier League Handbook</h4>
                 <hr/>
                 <p>A handbook about every team in the Premier League containing various amounts of good information for you to read.</p>

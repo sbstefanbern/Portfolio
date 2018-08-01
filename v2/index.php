@@ -165,33 +165,33 @@
           <h2>What can I make</h2>
         </div>
         <div class="servicesgrid">
-          <div class="ser1">
-            <div id="icon-1-service" class="icon-service icon-1-service" onclick="" aria-label="Design icon"></div>
+          <div>
+            <div class="icon-service icon-1-service" onclick="" aria-label="Design icon"></div>
             <h4>Digital design</h4>
             <p>All the way from brainstorming ideas, to a fully fledged digital design. Whether it'd be apps, websites, widgets or anything inbetween, I got you covered!</p>
           </div>
-          <div class="ser2">
-            <div id="icon-1-service" class="icon-service icon-2-service" onclick="" aria-label="Design icon"></div>
+          <div>
+            <div class="icon-service icon-2-service" onclick="" aria-label="Design icon"></div>
             <h4>Print design</h4>
             <p>Every print product you can imagine, I can help you get a visual identity established that promotes your business and reflects your values across all your materials.</p>
           </div>
-          <div class="ser3">
-            <div id="icon-1-service" class="icon-service icon-3-service" onclick="" aria-label="Design icon"></div>
+          <div>
+            <div class="icon-service icon-3-service" onclick="" aria-label="Design icon"></div>
             <h4>Videos</h4>
             <p>Need a high quality video promoting your business? Or maybe showcasing a variety of your products? Either way I can help you out with a high quality solution.</p>
           </div>
-          <div class="ser4">
-            <div id="icon-1-service" class="icon-service icon-4-service" onclick="" aria-label="Design icon"></div>
+          <div>
+            <div class="icon-service icon-4-service" onclick="" aria-label="Design icon"></div>
             <h4>Animation</h4>
             <p>I can make stand alone motion graphics, logo animations or animations as part of a video. If you need help bringing your visuals to life, look no further!</p>
           </div>
-          <div class="ser5">
-            <div id="icon-1-service" class="icon-service icon-5-service" onclick="" aria-label="Design icon"></div>
+          <div>
+            <div class="icon-service icon-5-service" onclick="" aria-label="Design icon"></div>
             <h4>3D Material</h4>
             <p>Working with 3D objects, animations and printing, I can help you with a variety of different solutions that you might need, relating to 3D work and/or printing.</p>
           </div>
-          <div class="ser6">
-            <div id="icon-1-service" class="icon-service icon-6-service" onclick="" aria-label="Design icon"></div>
+          <div>
+            <div class="icon-service icon-6-service" onclick="" aria-label="Design icon"></div>
             <h4>...and much more!</h4>
             <p>I have experience working on a lot of subjects. So if you're in doubt if I can help you with your particular need, don't hesitate to contact me and we'll find a solution.</p>
           </div>

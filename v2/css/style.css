@@ -668,20 +668,20 @@ fieldset {
 
 .project-container:hover .project-text, .project-container:focus .project-text {display: block;}
 
-.project-1 {background-image: url("../media/ring-til-fortiden-large.jpg");}
-.project-1:before{background-color: rgba(46,58,86,0.9);}
-.project-2 {background-image: url("../media/hc-odense-large.jpg");}
-.project-2:before{background-color: rgba(205,87,0,0.9);}
-.project-3 {background-image: url("../media/faster-eft-large.jpg");}
-.project-3:before{background-color: rgba(47,110,43,0.9);}
-.project-4 {background-image: url("../media/dagslys-large.jpg");}
-.project-4:before{background-color: rgba(208,48,13,0.9);}
-.project-5 {background-image: url("../media/fri-bike-shop-large.jpg");}
-.project-5:before{background-color: rgba(100,180,156,0.9);}
-.project-6 {background-image: url("../media/pl-book-large.jpg");}
-.project-6:before{background-color: rgba(70,31,73,0.9);}
-.project-7 {background-image: url("../media/league-animation-large.jpg");}
-.project-7:before{background-color: rgba(31,73,57,0.9);}
+.project-1 {background-image: url("../media/hc-odense-large.jpg");}
+.project-1:before{background-color: rgba(205,87,0,0.9);}
+.project-2 {background-image: url("../media/faster-eft-large.jpg");}
+.project-2:before{background-color: rgba(47,110,43,0.9);}
+.project-3 {background-image: url("../media/dagslys-large.jpg");}
+.project-3:before{background-color: rgba(208,48,13,0.9);}
+.project-4 {background-image: url("../media/league-animation-large.jpg");}
+.project-4:before{background-color: rgba(31,73,57,0.9);}
+.project-5 {background-image: url("../media/pl-book-large.jpg");}
+.project-5:before{background-color: rgba(70,31,73,0.9);}
+.project-6 {background-image: url("../media/circle-k-large.jpg");}
+.project-6:before{background-color: rgba(170,30,30,0.9);}
+.project-7 {background-image: url("../media/fri-bike-shop-large.jpg");}
+.project-7:before{background-color: rgba(100,180,156,0.9);}
 .project-8 {background-image: url("../media/korup-motion-large.jpg");}
 .project-8:before{background-color: rgba(48,100,166,0.9);}
 
@@ -1032,11 +1032,11 @@ footer {
 }
 
 .portfolio-grid div {
-  height: 300px;
+  height: 25vw;
 }
 
 .portfolio-text{
-  padding: 60px 80px 0 80px;
+  padding: 14% 14% 0 14%;
 }
 
 .portfolio-text h4{
@@ -1048,6 +1048,25 @@ footer {
 }
 
 .project-container:hover .portfolio-project-text, .project-container:focus .portfolio-project-text {display: block;}
+
+.portfolio-project-1 {background-image: url("../media/portfolio/ring-til-fortiden-large.jpg");}
+.portfolio-project-1:before{background-color: rgba(46,58,86,0.9);}
+.portfolio-project-2 {background-image: url("../media/portfolio/hc-odense-large.jpg");}
+.portfolio-project-2:before{background-color: rgba(46,58,86,0.9);}
+.portfolio-project-3 {background-image: url("../media/portfolio/faster-eft-large.jpg");}
+.portfolio-project-3:before{background-color: rgba(46,58,86,0.9);}
+.portfolio-project-4 {background-image: url("../media/portfolio/dagslys-large.jpg");}
+.portfolio-project-4:before{background-color: rgba(46,58,86,0.9);}
+.portfolio-project-5 {background-image: url("../media/portfolio/fri-bike-shop-large.jpg");}
+.portfolio-project-5:before{background-color: rgba(46,58,86,0.9);}
+.portfolio-project-6 {background-image: url("../media/portfolio/pl-book-large.jpg");}
+.portfolio-project-6:before{background-color: rgba(46,58,86,0.9);}
+.portfolio-project-7 {background-image: url("../media/portfolio/league-animation-large.jpg");}
+.portfolio-project-7:before{background-color: rgba(46,58,86,0.9);}
+.portfolio-project-8 {background-image: url("../media/portfolio/korup-motion-large.jpg");}
+.portfolio-project-8:before{background-color: rgba(46,58,86,0.9);}
+.portfolio-project-9 {background-image: url("../media/portfolio/circle-k-large.jpg");}
+.portfolio-project-9:before{background-color: rgba(46,58,86,0.9);}
 
 /* ---------- ABOUT PAGE ---------- */
 
@@ -1179,18 +1198,17 @@ footer {
   color: #FF6C4A;
 }
 
-
 @media only screen and (max-width: 1068px) {
   .projectgrid div {
     height: 36vw;
   }
-  .project-1 {background-image: url("../media/ring-til-fortiden-medium.jpg");}
-  .project-2 {background-image: url("../media/hc-odense-medium.jpg");}
-  .project-3 {background-image: url("../media/faster-eft-medium.jpg");}
-  .project-4 {background-image: url("../media/dagslys-medium.jpg");}
-  .project-5 {background-image: url("../media/fri-bike-shop-medium.jpg");}
-  .project-6 {background-image: url("../media/pl-book-medium.jpg");}
-  .project-7 {background-image: url("../media/league-animation-medium.jpg");}
+  .project-1 {background-image: url("../media/hc-odense-medium.jpg");}
+  .project-2 {background-image: url("../media/faster-eft-medium.jpg");}
+  .project-3 {background-image: url("../media/dagslys-medium.jpg");}
+  .project-4 {background-image: url("../media/league-animation-medium.jpg");}
+  .project-5 {background-image: url("../media/pl-book-medium.jpg");}
+  .project-6 {background-image: url("../media/circle-k-medium.jpg");}
+  .project-7 {background-image: url("../media/fri-bike-shop-medium.jpg");}
   .project-8 {background-image: url("../media/korup-motion-medium.jpg");}
 
   .servicesgrid {
@@ -1202,6 +1220,22 @@ footer {
   .quotesgrid {
     grid-template-columns: repeat(2, 1fr);
   }
+  .portfolio-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .portfolio-grid div {
+    height: 36vw;
+  }
+  .portfolio-project-1 {background-image: url("../media/portfolio/ring-til-fortiden-medium.jpg");}
+  .portfolio-project-2 {background-image: url("../media/portfolio/hc-odense-medium.jpg");}
+  .portfolio-project-3 {background-image: url("../media/portfolio/faster-eft-medium.jpg");}
+  .portfolio-project-4 {background-image: url("../media/portfolio/dagslys-medium.jpg");}
+  .portfolio-project-5 {background-image: url("../media/portfolio/fri-bike-shop-medium.jpg");}
+  .portfolio-project-6 {background-image: url("../media/portfolio/pl-book-medium.jpg");}
+  .portfolio-project-7 {background-image: url("../media/portfolio/league-animation-medium.jpg");}
+  .portfolio-project-8 {background-image: url("../media/portfolio/korup-motion-medium.jpg");}
+  .portfolio-project-8 {background-image: url("../media/portfolio/circle-k-medium.jpg");}
+
   .aboutme {
     grid-template-columns: repeat(1, 1fr);
   }
@@ -1214,13 +1248,13 @@ footer {
   .projectgrid div {
     height: 74vw;
   }
-  .project-1 {background-image: url("../media/ring-til-fortiden-small.jpg");}
-  .project-2 {background-image: url("../media/hc-odense-small.jpg");}
-  .project-3 {background-image: url("../media/faster-eft-small.jpg");}
-  .project-4 {background-image: url("../media/dagslys-small.jpg");}
-  .project-5 {background-image: url("../media/fri-bike-shop-small.jpg");}
-  .project-6 {background-image: url("../media/pl-book-small.jpg");}
-  .project-7 {background-image: url("../media/league-animation-small.jpg");}
+  .project-1 {background-image: url("../media/hc-odense-small.jpg");}
+  .project-2 {background-image: url("../media/faster-eft-small.jpg");}
+  .project-3 {background-image: url("../media/dagslys-small.jpg");}
+  .project-4 {background-image: url("../media/league-animation-small.jpg");}
+  .project-5 {background-image: url("../media/pl-book-small.jpg");}
+  .project-6 {background-image: url("../media/circle-k-small.jpg");}
+  .project-7 {background-image: url("../media/fri-bike-shop-small.jpg");}
   .project-8 {background-image: url("../media/korup-motion-small.jpg");}
   .servicesgrid {
     grid-template-columns: repeat(3, 1fr);
@@ -1232,10 +1266,21 @@ footer {
     grid-template-columns: repeat(1, 1fr);
   }
   .portfolio-grid {
-    grid-column: 1 / 13;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(1, 1fr);
   }
+  .portfolio-grid div {
+    height: 74vw;
+  }
+  .portfolio-project-1 {background-image: url("../media/portfolio/ring-til-fortiden-small.jpg");}
+  .portfolio-project-2 {background-image: url("../media/portfolio/hc-odense-small.jpg");}
+  .portfolio-project-3 {background-image: url("../media/portfolio/faster-eft-small.jpg");}
+  .portfolio-project-4 {background-image: url("../media/portfolio/dagslys-small.jpg");}
+  .portfolio-project-5 {background-image: url("../media/portfolio/fri-bike-shop-small.jpg");}
+  .portfolio-project-6 {background-image: url("../media/portfolio/pl-book-small.jpg");}
+  .portfolio-project-7 {background-image: url("../media/portfolio/league-animation-small.jpg");}
+  .portfolio-project-8 {background-image: url("../media/portfolio/korup-motion-small.jpg");}
+  .portfolio-project-9 {background-image: url("../media/portfolio/circle-k-small.jpg");}
+
   .intro-container {
     grid-column: 1 / 13;
     display: grid;
