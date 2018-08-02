@@ -107,6 +107,76 @@
               </div>
             </a>
         	</div>
+          <div class="project-container">
+        		<a href="portfolio/" class="project-img portfolio-project-10">
+              <div class="project-text portfolio-text">
+                <h5>POSTERS - BUSSINESS CARDS - POSTCARDS</h5>
+          			<h4>Jufary</h4>
+                <hr/>
+                <p>A handbook about every team in the Premier League containing various amounts of good information for you to read.</p>
+              </div>
+            </a>
+        	</div>
+          <div class="project-container">
+        		<a href="portfolio/" class="project-img portfolio-project-11">
+              <div class="project-text portfolio-text">
+                <h5>POSTERS - BUSSINESS CARDS - POSTCARDS</h5>
+          			<h4>Football Infographics</h4>
+                <hr/>
+                <p>A handbook about every team in the Premier League containing various amounts of good information for you to read.</p>
+              </div>
+            </a>
+        	</div>
+          <div class="project-container">
+        		<a href="portfolio/" class="project-img portfolio-project-12">
+              <div class="project-text portfolio-text">
+                <h5>POSTERS - BUSSINESS CARDS - POSTCARDS</h5>
+          			<h4>Football Infographics</h4>
+                <hr/>
+                <p>A handbook about every team in the Premier League containing various amounts of good information for you to read.</p>
+              </div>
+            </a>
+        	</div>
+          <div class="project-container">
+        		<a href="portfolio/" class="project-img portfolio-project-13">
+              <div class="project-text portfolio-text">
+                <h5>POSTERS - BUSSINESS CARDS - POSTCARDS</h5>
+          			<h4>Football Infographics</h4>
+                <hr/>
+                <p>A handbook about every team in the Premier League containing various amounts of good information for you to read.</p>
+              </div>
+            </a>
+        	</div>
+          <div class="project-container">
+        		<a href="portfolio/" class="project-img portfolio-project-14">
+              <div class="project-text portfolio-text">
+                <h5>POSTERS - BUSSINESS CARDS - POSTCARDS</h5>
+          			<h4>Football Infographics</h4>
+                <hr/>
+                <p>A handbook about every team in the Premier League containing various amounts of good information for you to read.</p>
+              </div>
+            </a>
+        	</div>
+          <div class="project-container">
+        		<a href="portfolio/" class="project-img portfolio-project-15">
+              <div class="project-text portfolio-text">
+                <h5>POSTERS - BUSSINESS CARDS - POSTCARDS</h5>
+          			<h4>Football Infographics</h4>
+                <hr/>
+                <p>A handbook about every team in the Premier League containing various amounts of good information for you to read.</p>
+              </div>
+            </a>
+        	</div>
+          <div class="project-container">
+        		<a href="portfolio/" class="project-img portfolio-project-16">
+              <div class="project-text portfolio-text">
+                <h5>POSTERS - BUSSINESS CARDS - POSTCARDS</h5>
+          			<h4>Football Infographics</h4>
+                <hr/>
+                <p>A handbook about every team in the Premier League containing various amounts of good information for you to read.</p>
+              </div>
+            </a>
+        	</div>
         </div>
       </section>
       <?php include ('../php/footer.php'); ?>

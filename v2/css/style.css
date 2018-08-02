@@ -670,20 +670,20 @@ fieldset {
 
 .project-1 {background-image: url("../media/hc-odense-large.jpg");}
 .project-1:before{background-color: rgba(205,87,0,0.9);}
-.project-2 {background-image: url("../media/faster-eft-large.jpg");}
-.project-2:before{background-color: rgba(47,110,43,0.9);}
-.project-3 {background-image: url("../media/dagslys-large.jpg");}
-.project-3:before{background-color: rgba(208,48,13,0.9);}
-.project-4 {background-image: url("../media/league-animation-large.jpg");}
-.project-4:before{background-color: rgba(31,73,57,0.9);}
-.project-5 {background-image: url("../media/pl-book-large.jpg");}
-.project-5:before{background-color: rgba(70,31,73,0.9);}
-.project-6 {background-image: url("../media/circle-k-large.jpg");}
-.project-6:before{background-color: rgba(170,30,30,0.9);}
-.project-7 {background-image: url("../media/fri-bike-shop-large.jpg");}
+.project-2 {background-image: url("../media/eb-livescore-large.jpg");}
+.project-2:before{background-color: rgba(70,31,73,0.9);}
+.project-3 {background-image: url("../media/circle-k-large.jpg");}
+.project-3:before{background-color: rgba(170,30,30,0.9);}
+.project-4 {background-image: url("../media/eb-widgets-large.jpg");}
+.project-4:before{background-color: rgba(48,100,166,0.9);}
+.project-5 {background-image: url("../media/faster-eft-large.jpg");}
+.project-5:before{background-color: rgba(47,110,43,0.9);}
+.project-6 {background-image: url("../media/league-animation-large.jpg");}
+.project-6:before{background-color: rgba(31,73,57,0.9);}
+.project-7 {background-image: url("../media/eb-transferday-large.jpg");}
 .project-7:before{background-color: rgba(100,180,156,0.9);}
-.project-8 {background-image: url("../media/korup-motion-large.jpg");}
-.project-8:before{background-color: rgba(48,100,166,0.9);}
+.project-8 {background-image: url("../media/eb-formula1-large.jpg");}
+.project-8:before{background-color: rgba(208,48,13,0.9);}
 
 .project-view-more {
   background-color: #343434;
@@ -1067,6 +1067,20 @@ footer {
 .portfolio-project-8:before{background-color: rgba(46,58,86,0.9);}
 .portfolio-project-9 {background-image: url("../media/portfolio/circle-k-large.jpg");}
 .portfolio-project-9:before{background-color: rgba(46,58,86,0.9);}
+.portfolio-project-10 {background-image: url("../media/portfolio/jufary-large.jpg");}
+.portfolio-project-10:before{background-color: rgba(46,58,86,0.9);}
+.portfolio-project-11 {background-image: url("../media/portfolio/football-infographics-large.jpg");}
+.portfolio-project-11:before{background-color: rgba(46,58,86,0.9);}
+.portfolio-project-12 {background-image: url("../media/portfolio/eb-widgets-large.jpg");}
+.portfolio-project-12:before{background-color: rgba(46,58,86,0.9);}
+.portfolio-project-13 {background-image: url("../media/portfolio/eb-livescore-large.jpg");}
+.portfolio-project-13:before{background-color: rgba(46,58,86,0.9);}
+.portfolio-project-14 {background-image: url("../media/portfolio/eb-transferday-large.jpg");}
+.portfolio-project-14:before{background-color: rgba(46,58,86,0.9);}
+.portfolio-project-15 {background-image: url("../media/portfolio/eb-toolbox-large.jpg");}
+.portfolio-project-15:before{background-color: rgba(46,58,86,0.9);}
+.portfolio-project-16 {background-image: url("../media/portfolio/eb-formula1-large.jpg");}
+.portfolio-project-16:before{background-color: rgba(46,58,86,0.9);}
 
 /* ---------- ABOUT PAGE ---------- */
 
@@ -1210,6 +1224,10 @@ footer {
   .project-6 {background-image: url("../media/circle-k-medium.jpg");}
   .project-7 {background-image: url("../media/fri-bike-shop-medium.jpg");}
   .project-8 {background-image: url("../media/korup-motion-medium.jpg");}
+  .project-9 {background-image: url("../media/korup-motion-medium.jpg");}
+  .project-10 {background-image: url("../media/jufary-medium.jpg");}
+  .project-11 {background-image: url("../media/football-infographics-medium.jpg");}
+  .project-12 {background-image: url("../media/eb-widgets-medium.jpg");}
 
   .servicesgrid {
     grid-template-columns: repeat(2, 1fr);
@@ -1234,7 +1252,10 @@ footer {
   .portfolio-project-6 {background-image: url("../media/portfolio/pl-book-medium.jpg");}
   .portfolio-project-7 {background-image: url("../media/portfolio/league-animation-medium.jpg");}
   .portfolio-project-8 {background-image: url("../media/portfolio/korup-motion-medium.jpg");}
-  .portfolio-project-8 {background-image: url("../media/portfolio/circle-k-medium.jpg");}
+  .portfolio-project-9 {background-image: url("../media/portfolio/circle-k-medium.jpg");}
+  .portfolio-project-10 {background-image: url("../media/portfolio/jufary-medium.jpg");}
+  .portfolio-project-11 {background-image: url("../media/portfolio/football-infographics-medium.jpg");}
+  .portfolio-project-12 {background-image: url("../media/portfolio/eb-widgets-medium.jpg");}
 
   .aboutme {
     grid-template-columns: repeat(1, 1fr);
