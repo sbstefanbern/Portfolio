@@ -14,7 +14,7 @@ ul {
 }
 
 .red {
-  color: #BA4125;
+  color: #DD3924;
 }
 
 .dark-grey {
@@ -165,7 +165,21 @@ nav {
   background-image: url("../media/banner-img.jpg");
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center;
   z-index: 1;
+}
+
+.banner:before {
+  content: "";
+  display: block;
+  height: 81.5%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  background: #39516E;
+  opacity: 0.85;
 }
 
 .banner h1 {
@@ -202,7 +216,7 @@ h1>div {
 
 .mainword {
   animation: showup 7s;
-  animation-delay: 0.7s;
+  animation-delay: 0.6s;
   opacity: 0;
   animation-fill-mode: forwards;
 }
@@ -216,18 +230,18 @@ h1>div {
 
 .mainsentence span {
   margin-left: -355px;
-  animation: slidein 8s;
+  animation: slidein 7s;
   animation-fill-mode: forwards;
-  animation-delay: 0.4s;
+  animation-delay: 0.5s;
 }
 
 .text-carousel {
   width: 800px;
-  margin: 30px auto 50px auto;
+  margin: 10px auto 50px auto;
   position: relative;
-  padding-left: 50px;
+  padding-left: 30px;
   opacity: 0;
-  animation: fadein 4s;
+  animation: fadein 0.75s;
   animation-delay: 3.3s;
   animation-fill-mode: forwards;
   animation-iteration-count: 1;
@@ -250,34 +264,39 @@ h1>div {
 }
 
 .text-carousel-list {
-  margin-top: 12px;
-  padding-left: 457px;
+  margin-top: 11px;
+  padding-left: 458px;
   text-align: left;
   list-style-type: none;
   animation-name: change;
   animation-duration: 15s;
-  animation-delay: 3.8s;
+  animation-delay: 3.3s;
   animation-iteration-count: infinite;
 }
 
 .text-carousel-list-item {
   line-height: 60px;
   font-size: 24px;
+  font-weight: 700;
   margin: 0 0 0 6px;
 }
 
 .subhead-hr {
-  width: 196px;
-  border: 1px solid #BA4125;
+  width: 162px;
+  border: 1px solid #DB3C27;
   margin: 24px 0px 0 6px;
   display: inline-block;
+  animation-name: changehr;
+  animation-duration: 15s;
+  animation-delay: 3.3s;
+  animation-iteration-count: infinite;
 }
 
 .banner-btn {
   text-align: center;
   margin-bottom: 160px;
-  animation: fadein 1600ms steps(20) 1;
-  animation-delay: 4.5s;
+  animation: fadein 0.75s;
+  animation-delay: 3.6s;
   opacity: 0;
   animation-fill-mode: forwards;
 }
@@ -285,9 +304,38 @@ h1>div {
 @keyframes fadein {
   0% {
     opacity: 0;
+    transform: translate3d(0, -100%, 0);
   }
   100% {
     opacity: 1;
+    transform: none;
+  }
+}
+
+@keyframes changehr {
+  0%, 7.5%, 100% {
+    width: 162px;
+  }
+  12.5%, 20% {
+    width: 185px;
+  }
+  25%, 32.5% {
+    width: 172px;
+  }
+  37.5%, 45% {
+    width: 172px;
+  }
+  50%, 57.5% {
+    width: 208px;
+  }
+  62.5%, 70% {
+    width: 172px;
+  }
+  75%, 82.5% {
+    width: 172px;
+  }
+  87.5%, 95% {
+    width: 185px;
   }
 }
 
@@ -1049,37 +1097,37 @@ footer {
 
 .project-container:hover .portfolio-project-text, .project-container:focus .portfolio-project-text {display: block;}
 
-.portfolio-project-1 {background-image: url("../media/portfolio/ring-til-fortiden-large.jpg");}
+.portfolio-project-1 {background-image: url("../media/portfolio/hc-odense-large.jpg");}
 .portfolio-project-1:before{background-color: rgba(46,58,86,0.9);}
-.portfolio-project-2 {background-image: url("../media/portfolio/hc-odense-large.jpg");}
+.portfolio-project-2 {background-image: url("../media/portfolio/eb-livescore-large.jpg");}
 .portfolio-project-2:before{background-color: rgba(46,58,86,0.9);}
-.portfolio-project-3 {background-image: url("../media/portfolio/faster-eft-large.jpg");}
+.portfolio-project-3 {background-image: url("../media/portfolio/ring-til-fortiden-large.jpg");}
 .portfolio-project-3:before{background-color: rgba(46,58,86,0.9);}
-.portfolio-project-4 {background-image: url("../media/portfolio/dagslys-large.jpg");}
+.portfolio-project-4 {background-image: url("../media/portfolio/circle-k-large.jpg");}
 .portfolio-project-4:before{background-color: rgba(46,58,86,0.9);}
-.portfolio-project-5 {background-image: url("../media/portfolio/fri-bike-shop-large.jpg");}
+.portfolio-project-5 {background-image: url("../media/portfolio/league-animation-large.jpg");}
 .portfolio-project-5:before{background-color: rgba(46,58,86,0.9);}
-.portfolio-project-6 {background-image: url("../media/portfolio/pl-book-large.jpg");}
+.portfolio-project-6 {background-image: url("../media/portfolio/eb-widgets-large.jpg");}
 .portfolio-project-6:before{background-color: rgba(46,58,86,0.9);}
-.portfolio-project-7 {background-image: url("../media/portfolio/league-animation-large.jpg");}
+.portfolio-project-7 {background-image: url("../media/portfolio/eb-toolbox-large.jpg");}
 .portfolio-project-7:before{background-color: rgba(46,58,86,0.9);}
-.portfolio-project-8 {background-image: url("../media/portfolio/korup-motion-large.jpg");}
+.portfolio-project-8 {background-image: url("../media/portfolio/dagslys-large.jpg");}
 .portfolio-project-8:before{background-color: rgba(46,58,86,0.9);}
-.portfolio-project-9 {background-image: url("../media/portfolio/circle-k-large.jpg");}
+.portfolio-project-9 {background-image: url("../media/portfolio/fri-bike-shop-large.jpg");}
 .portfolio-project-9:before{background-color: rgba(46,58,86,0.9);}
-.portfolio-project-10 {background-image: url("../media/portfolio/jufary-large.jpg");}
+.portfolio-project-10 {background-image: url("../media/portfolio/pl-book-large.jpg");}
 .portfolio-project-10:before{background-color: rgba(46,58,86,0.9);}
-.portfolio-project-11 {background-image: url("../media/portfolio/football-infographics-large.jpg");}
+.portfolio-project-11 {background-image: url("../media/portfolio/faster-eft-large.jpg");}
 .portfolio-project-11:before{background-color: rgba(46,58,86,0.9);}
-.portfolio-project-12 {background-image: url("../media/portfolio/eb-widgets-large.jpg");}
+.portfolio-project-12 {background-image: url("../media/portfolio/eb-transferday-large.jpg");}
 .portfolio-project-12:before{background-color: rgba(46,58,86,0.9);}
-.portfolio-project-13 {background-image: url("../media/portfolio/eb-livescore-large.jpg");}
+.portfolio-project-13 {background-image: url("../media/portfolio/eb-formula1-large.jpg");}
 .portfolio-project-13:before{background-color: rgba(46,58,86,0.9);}
-.portfolio-project-14 {background-image: url("../media/portfolio/eb-transferday-large.jpg");}
+.portfolio-project-14 {background-image: url("../media/portfolio/korup-motion-large.jpg");}
 .portfolio-project-14:before{background-color: rgba(46,58,86,0.9);}
-.portfolio-project-15 {background-image: url("../media/portfolio/eb-toolbox-large.jpg");}
+.portfolio-project-15 {background-image: url("../media/portfolio/jufary-large.jpg");}
 .portfolio-project-15:before{background-color: rgba(46,58,86,0.9);}
-.portfolio-project-16 {background-image: url("../media/portfolio/eb-formula1-large.jpg");}
+.portfolio-project-16 {background-image: url("../media/portfolio/football-infographics-large.jpg");}
 .portfolio-project-16:before{background-color: rgba(46,58,86,0.9);}
 
 /* ---------- ABOUT PAGE ---------- */
