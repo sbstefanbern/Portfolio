@@ -22,7 +22,7 @@
       <ul>
         <li><a href="<?php if($currentPage !== 'home'){echo '../';}?>" class="<?php if($currentPage == 'home'){echo 'active-footer';}?>">HOME</a></li>
         <hr/>
-        <li><a href="<?php if($currentPage !== 'home'){echo '../';}?>portfolio" class="<?php if($currentPage == 'portfolio'){echo 'active-footer';}?>">PORTFOLIO</a></li>
+        <li><a href="<?php if($currentPage !== 'home'){echo '../';}?>portfolio" class="<?php if($currentPage == 'portfolio' || $currentPage == 'project'){echo 'active-footer';}?>">PORTFOLIO</a></li>
         <hr/>
         <li><a href="<?php if($currentPage !== 'home'){echo '../';}?>about" class="<?php if($currentPage == 'about'){echo 'active-footer';}?>">ABOUT</a></li>
       </ul>

@@ -14,16 +14,17 @@ ul {
 }
 
 .red {
-  color: #DD3924;
-}
-
-.dark-grey {
-  background-color: #343434;
+  color: #DD3224;
 }
 
 .active{
   padding-bottom: 3px;
   border-bottom: 3px solid #FFF;
+}
+
+.dark-active{
+  padding-bottom: 3px;
+  border-bottom: 3px solid #343434;
 }
 
 .active-footer{
@@ -104,6 +105,10 @@ header {
   padding-bottom: 32px;
 }
 
+.dark-grey{
+  background-color: #F5F4EC;
+}
+
 nav {
   display: grid;
   grid-column: 1 / 13;
@@ -124,6 +129,10 @@ nav {
   transition: all 0.3s ease-in-out;
   cursor: pointer;
   display: block;
+}
+
+.dark-logo a{
+  background-image: url("../media/sb-logo-dark.svg");
 }
 
 .logo a:hover {
@@ -157,6 +166,10 @@ nav {
   color: #FFF;
 }
 
+.dark-menu a {
+  color: #343434;
+}
+
 .banner {
   grid-column: 1 / 13;
   background-color: #415879;
@@ -172,14 +185,14 @@ nav {
 .banner:before {
   content: "";
   display: block;
-  height: 81.5%;
+  height: 81%;
   width: 100%;
   position: absolute;
   top: 0;
   bottom: 0;
   left: 0;
-  background: #39516E;
-  opacity: 0.85;
+  background: linear-gradient(#273B52 50%, #182231 100%);
+  opacity: 0.8;
 }
 
 .banner h1 {
@@ -187,7 +200,7 @@ nav {
   font-weight: 800;
   text-align: center;
   color: #FFF;
-  margin-top: 210px;
+  margin-top: 205px;
 }
 
 .banner .btn .btn-container .btn-front, .btn .btn-container .back {
@@ -673,7 +686,7 @@ fieldset {
 
 .project-text{
   display: none;
-  padding: 26% 18% 14% 18%;
+  padding: 25% 18% 25% 18%;
   position: absolute;
   top: 0;
   left: 0;
@@ -939,7 +952,7 @@ fieldset {
 
 footer {
   grid-column: 1 / 13;
-  background-color: #46525F;
+  background-color: #343434;
   color: #FFFFFF;
   padding: 100px 60px 50px 60px;
   text-align: center;
@@ -1061,14 +1074,14 @@ footer {
 
 .copyright {
   grid-column: 1 / 13;
-  width: 600px;
+  width: 50%;
   margin: 0 auto;
 }
 
 .copyright p {
   font-size: 12px;
   line-height: 14px;
-  color: #8497AC;
+  color: #9A9A9A;
 }
 
 /* ---------- PORTFOLIO PAGE ---------- */
@@ -1084,7 +1097,7 @@ footer {
 }
 
 .portfolio-text{
-  padding: 14% 14% 0 14%;
+  padding: 15% 14% 12% 14%;
 }
 
 .portfolio-text h4{
@@ -1155,7 +1168,7 @@ footer {
   grid-column: 8 / 13;
   padding: 150px 180px 0 100px;
   width: 56vw;
-  background-color: #354765;
+  background-color: #3A5C77;
   color: #93B7CB;
 }
 
@@ -1167,29 +1180,29 @@ footer {
 
 .resume {
   grid-column: 1 / 13;
-  background-color: #983219;
+  background-color: #343434;
   height: 180px;
   padding: 58px 0;
   text-align: center;
 }
 
 .resume .btn .btn-container .btn-front, .btn .btn-container .back {
-  border: 3px solid #EFC493;
-  color: #EFC493;
+  border: 3px solid #F5F4EC;
+  color: #F5F4EC;
 }
 
 .resume .btn:hover .btn-container .btn-front {
-  border: 3px solid #EFC493;
+  border: 3px solid #F5F4EC;
 }
 
 .resume .btn .btn-container .btn-bottom {
-  background: #EFC493;
-  color: #983219;
+  background: #F5F4EC;
+  color: #343434;
 }
 
 .resume .btn:hover .btn-container .btn-bottom {
-  background: #EFC493;
-  color: #983219;
+  background: #F5F4EC;
+  color: #343434;
 }
 
 .aboutme {
@@ -1260,7 +1273,255 @@ footer {
   color: #FF6C4A;
 }
 
+
+
+/* ---------- PROJECT PAGE ---------- */
+
+.project-banner {
+  grid-column: 1 / 13;
+  grid-row-start: 1;
+  grid-row-end: 3;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  z-index: 1;
+  text-align: center;
+}
+
+.project-banner h1 {
+  font-size: 100px;
+  font-weight: 800;
+  color: #FFF;
+  margin: 240px 0 30px 0;
+}
+
+.project-banner h3 {
+  font-size: 24px;
+  font-weight: 800;
+  margin-bottom: 237px;
+  text-transform: uppercase;
+  color: #FFF;
+  opacity: 0.7;
+}
+
+.project-logo {
+  display: block;
+  background-repeat: no-repeat;
+  width: 150px;
+  height: 150px;
+  background-position: center;
+  background-size: cover;
+  margin: 0 auto -72px auto;
+}
+
+.project-info {
+  display: grid;
+  grid-column: 1 / 13;
+  padding: 120px 200px;
+  background-color: #F5F4EC;
+  color: #343434;
+}
+
+.projects div{
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.info-left {
+  grid-column: 3 / 5;
+  padding-right: 15vw;
+}
+
+.info-right {
+  grid-column: 9 / 11;
+}
+
+.info-right ul li {
+  padding-bottom: 8px;
+}
+
+.info-right ul li::before {
+  content: "•";
+  padding-right: 7px;
+}
+
+.project-info h4 {
+  font-size: 18px;
+  font-weight: 800;
+  padding: 25px 0 5px;
+}
+
+.projectpage-grid{
+  display: grid;
+  grid-column: 1 / 13;
+}
+
+.projectpage-grid{
+  display: grid;
+  grid-column: 1 / 13;
+  background-color: #343434;
+}
+
+.projectpage-grid > div{
+  background-color: #343434;
+}
+
+.full-big{
+  grid-area: span 2 / span 12;
+  height: 840px;
+}
+
+.full-normal{
+  grid-area: span 2 / span 12;
+  height: 620px;
+}
+
+.full-tiny{
+  grid-area: span 2 / span 12;
+  height: 400px;
+}
+
+.eight-big{
+  grid-area: span 2 / span 8;
+  height: 800px;
+}
+
+.eight-normal{
+  grid-area: span 2 / span 8;
+  height: 620px;
+}
+
+.eight-tiny{
+  grid-area: span 2 / span 8;
+  height: 400px;
+}
+
+.four-big{
+  grid-area: span 2 / span 4;
+  height: 800px;
+}
+
+.four-normal{
+  grid-area: span 2 / span 4;
+  height: 620px;
+}
+
+.four-tiny{
+  grid-area: span 2 / span 4;
+  height: 400px;
+}
+
+.half-big{
+  grid-area: span 2 / span 6;
+  height: 800px;
+}
+
+.half-normal{
+  grid-area: span 2 / span 6;
+  height: 620px;
+}
+
+.half-tiny{
+  grid-area: span 2 / span 6;
+  height: 400px;
+}
+
+.eight-big-half{
+  grid-area: span 1 / span 8;
+  height: 400px;
+}
+
+.eight-normal-half{
+  grid-area: span 1 / span 8;
+  height: 310px;
+}
+
+.four-big-half{
+  grid-area: span 1 / span 4;
+  height: 400px;
+}
+
+.four-normal-half{
+  grid-area: span 1 / span 4;
+  height: 310px;
+}
+
+.half-big-half{
+  grid-area: span 1 / span 6;
+  height: 400px;
+}
+
+.half-normal-half{
+  grid-area: span 1 / span 6;
+  height: 310px;
+}
+
+/* PROJECT SPECIFIC STYLES */
+
+.hc-odense h4, .hc-odense .info-right ul li::before {
+  color: #FF8900;
+}
+
+.hc-odense .project-logo {
+  background-image: url("../media/portfolio/hc-odense/logo.png");
+}
+
+.hc-odense .project-banner{
+  background-image: url("../media/portfolio/hc-odense/top-banner-large-2x.jpg");
+  background-color: #ed950d;
+}
+
+#hc-odense .projectpage-grid div:nth-child(1){background-image: url("../media/portfolio/hc-odense/match-poster-large-2x.jpg");}
+#hc-odense .full-tiny{background-image: url("../media/portfolio/hc-odense/banner-large-2x.jpg");}
+#hc-odense .eight-normal{background-image: url("../media/portfolio/hc-odense/sales-brochure-large-2x.jpg");}
+#hc-odense .four-normal{background-image: url("../media/portfolio/hc-odense/tour-poster-large-2x.jpg");}
+#hc-odense .projectpage-grid div:nth-child(5){background-image: url("../media/portfolio/hc-odense/matchday-cover-large-2x.jpg");}
+
+
+
+@media only screen and (max-width: 1400px) {
+  .project-info {
+    padding: 120px 140px;
+  }
+}
+
+
+
 @media only screen and (max-width: 1068px) {
+
+  .project-info {
+    padding: 120px 80px;
+  }
+
+  .full-big{height: 700px;}
+  .full-normal{height: 400px;}
+  .full-tiny{height: 200px;}
+  .eight-big{height: 700px;}
+  .eight-normal{height: 400px;}
+  .eight-tiny{height: 200px;}
+  .four-big{height: 700px;}
+  .four-normal{height: 400px;}
+  .four-tiny{height: 200px;}
+  .half-big{height: 700px;}
+  .half-normal{height: 400px;}
+  .half-tiny{height: 200px;}
+  .eight-big-half{height: 350px;}
+  .eight-normal-half{height: 200px;}
+  .four-big-half{height: 350px;}
+  .four-normal-half{height: 200px;}
+  .half-big-half{height: 350px;}
+  .half-normal-half{height: 200px;}
+
+  .hc-odense .project-banner{background-image: url("../media/portfolio/hc-odense/top-banner-medium-2x.jpg");}
+
+  #hc-odense .projectpage-grid div:nth-child(1){background-image: url("../media/portfolio/hc-odense/match-poster-medium-2x.jpg");}
+  #hc-odense .full-tiny{background-image: url("../media/portfolio/hc-odense/banner-medium-2x.jpg");}
+  #hc-odense .eight-normal{background-image: url("../media/portfolio/hc-odense/sales-brochure-medium-2x.jpg");}
+  #hc-odense .four-normal{background-image: url("../media/portfolio/hc-odense/tour-poster-medium-2x.jpg");}
+  #hc-odense .projectpage-grid div:nth-child(5){background-image: url("../media/portfolio/hc-odense/matchday-cover-medium-2x.jpg");}
+
+
   .projectgrid div {
     height: 36vw;
   }
@@ -1311,6 +1572,50 @@ footer {
 }
 
 @media only screen and (max-width: 735px) {
+  .project-info {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    padding: 120px 50px 60px 40px;
+    background-color: #F5F4EC;
+    color: #343434;
+  }
+
+  .info-left {
+    grid-column: 1 / 12;
+    padding-right: 0;
+  }
+
+  .info-right {
+    grid-column: 1 / 12;
+  }
+
+  .full-big{height: 500px;}
+  .full-normal{height: 260px;}
+  .full-tiny{height: 140px;}
+  .eight-big{height: 500px;}
+  .eight-normal{height: 260px;}
+  .eight-tiny{height: 140px;}
+  .four-big{height: 500px;}
+  .four-normal{height: 260px;}
+  .four-tiny{height: 140px;}
+  .half-big{height: 500px;}
+  .half-normal{height: 260px;}
+  .half-tiny{height: 140px;}
+  .eight-big-half{height: 250px;}
+  .eight-normal-half{height: 130px;}
+  .four-big-half{height: 250px;}
+  .four-normal-half{height: 130px;}
+  .half-big-half{height: 250px;}
+  .half-normal-half{height: 130px;}
+
+  .hc-odense .project-banner{background-image: url("../media/portfolio/hc-odense/top-banner-small-2x.jpg");}
+
+  #hc-odense .projectpage-grid div:nth-child(1){background-image: url("../media/portfolio/hc-odense/match-poster-small-2x.jpg");}
+  #hc-odense .full-tiny{background-image: url("../media/portfolio/hc-odense/banner-small-2x.jpg");}
+  #hc-odense .eight-normal{background-image: url("../media/portfolio/hc-odense/sales-brochure-small-2x.jpg");}
+  #hc-odense .four-normal{background-image: url("../media/portfolio/hc-odense/tour-poster-small-2x.jpg");}
+  #hc-odense .projectpage-grid div:nth-child(5){background-image: url("../media/portfolio/hc-odense/matchday-cover-small-2x.jpg");}
+
   .projectgrid {
     grid-template-columns: repeat(1, 1fr);
   }

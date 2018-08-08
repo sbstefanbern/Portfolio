@@ -18,12 +18,12 @@
       <section class="projects">
         <div class="portfolio-grid">
         	<div class="project-container">
-        		<a href="portfolio/" class="project-img portfolio-project-1">
+        		<a href="../hc-odense/" class="project-img portfolio-project-1">
               <div class="project-text portfolio-text">
                 <h5>POSTERS - BUSSINESS CARDS - POSTCARDS</h5>
           			<h4>Premier League Handbook</h4>
                 <hr/>
-                <p>Containing a wide variety of info and details about all the teams and the league as a whole</p>
+                <p>Containing a wide variety of info about all the teams and the league as a whole</p>
               </div>
             </a>
         	</div>
@@ -33,7 +33,7 @@
                 <h5>POSTERS - BUSSINESS CARDS - POSTCARDS</h5>
           			<h4>Premier League Handbook</h4>
                 <hr/>
-                <p>A handbook about every team in the Premier League containing various amounts of good information for you to read.</p>
+                <p>Containing a wide variety of info about all the teams and the league as a whole</p>
               </div>
             </a>
         	</div>
@@ -43,7 +43,7 @@
                 <h5>POSTERS - BUSSINESS CARDS - POSTCARDS</h5>
           			<h4>Premier League Handbook</h4>
                 <hr/>
-                <p>A handbook about every team in the Premier League containing various amounts of good information for you to read.</p>
+                <p>Containing a wide variety of info about all the teams and the league as a whole</p>
               </div>
             </a>
         	</div>
