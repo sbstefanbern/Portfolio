@@ -175,24 +175,11 @@ nav {
   background-color: #415879;
   grid-row-start: 1;
   grid-row-end: 3;
-  background-image: url("../media/banner-img.jpg");
+  background-image: url("../media/banner-img-large-2x.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
   z-index: 1;
-}
-
-.banner:before {
-  content: "";
-  display: block;
-  height: 81%;
-  width: 100%;
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  background: linear-gradient(#273B52 50%, #182231 100%);
-  opacity: 0.8;
 }
 
 .banner h1 {
@@ -1006,7 +993,7 @@ footer {
 .footer-nav {
   border-width: 1px;
   border-style: solid;
-  border-image: linear-gradient(to bottom, rgba(132, 151, 172, 0) 0%, rgba(132, 151, 172, 1) 20%, rgba(132, 151, 172, 1) 80%, rgba(132, 151, 172, 0)) 1 100%;
+  border-image: linear-gradient(to bottom, rgba(92, 92, 92, 0) 0%, rgba(92, 92, 92, 1) 20%, rgba(92, 92, 92, 1) 80%, rgba(92, 92, 92, 0)) 1 100%;
 }
 
 .footer-nav ul {
@@ -1024,7 +1011,7 @@ footer {
 .footer-nav hr {
   border: 0;
   height: 1px;
-  background-color: #8BA4BF;
+  background-color: #9A9A9A;
 }
 
 .footer-nav li {
@@ -1317,7 +1304,7 @@ footer {
 .project-info {
   display: grid;
   grid-column: 1 / 13;
-  padding: 120px 200px;
+  padding: 120px 200px 100px 200px;
   background-color: #F5F4EC;
   color: #343434;
 }
@@ -1482,16 +1469,122 @@ footer {
 
 @media only screen and (max-width: 1400px) {
   .project-info {
-    padding: 120px 140px;
+    padding: 120px 140px 100px 140px;
   }
 }
 
 
 
 @media only screen and (max-width: 1068px) {
+  .logo a{
+    margin: 40px 0 0 40px;
+  }
+
+  .menu {
+    margin: 55px 30px 0 0;
+  }
+
+  .banner h1 {
+    font-size: 70px;
+    margin-top: 160px;
+  }
+
+  .banner {
+    background-image: url("../media/banner-img-medium-2x.jpg");
+  }
+
+  .banner-btn{
+    margin-bottom: 80px;
+  }
+
+  .text-carousel{
+    width: 750px;
+    margin: 10px auto 40px auto;
+  }
+
+  .text-carousel-text{
+    font-size: 22px;
+  }
+
+  .text-carousel-list{
+    padding-left: 421px;
+  }
+
+  .text-carousel-list-item{
+    font-size: 22px;
+  }
+
+  .worktext{
+    padding-bottom: 80px;
+  }
+
+  .work h3{
+    text-align: center;
+    margin-bottom: 40px;
+    font-size: 75px;
+    line-height: 80px;
+  }
+
+  .quotesgrid > div{
+    padding: 50px 40px 50px 40px;
+  }
+
+  footer{
+    padding: 100px 0 50px 0
+  }
+
+  .footer-container{
+    padding-bottom: 50px;
+  }
+
+  .footer-contact p, .footer-btn{
+    margin-left: 4.5vw;
+  }
+
+  .copyright{
+    width: 65%;
+  }
+
+  /* ABOUT PAGE (TABLET) */
+
+  .intro-text{
+    padding: 130px 80px 0 60px;
+  }
+
+  .aboutme{
+    padding-bottom: 100px;
+  }
+
+  .aboutme h4{
+    padding-top: 80px;
+  }
+
+  .values{
+    padding: 70px 10px 80px 10px;
+  }
+
+  .values > div{
+    padding: 35px;
+  }
+
+  /* PROJECT PAGE (TABLET) */
 
   .project-info {
-    padding: 120px 80px;
+    padding: 120px 60px 100px 60px;
+  }
+
+  .info-left{
+    padding-right: 10vw;
+  }
+
+  .project-banner h1 {
+    font-size: 80px;
+    margin-top: 190px;
+  }
+
+  .project-banner h3 {
+    margin-bottom: 133px;
+    font-size: 22px;
   }
 
   .full-big{height: 700px;}
