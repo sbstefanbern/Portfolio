@@ -60,7 +60,7 @@
                 <textarea placeholder="Type your message here..." type="text" name="message" tabindex="4" required></textarea>
               </fieldset>
               <fieldset>
-                <button name="submit" type="submit" id="contact-submit" class="submit-btn">Submit</button>
+                <button name="submit" type="submit" id="contact-submit" class="submit-btn">SUBMIT</button>
               </fieldset>
             </form>
           </div>
@@ -73,16 +73,6 @@
         	<div class="project-container">
         		<a href="portfolio/" class="project-img project-1">
               <div class="project-text">
-                <h5>APP DESIGN - VIDEO - PRINT MATERIAL</h5>
-          			<h4>Ring til Fortiden</h4>
-                <hr/>
-                <p>Explore and find lost soldiers throughout Fredericia Rampart with this app</p>
-              </div>
-            </a>
-        	</div>
-          <div class="project-container">
-        		<a href="portfolio/" class="project-img project-2">
-              <div class="project-text">
                 <h5>POSTERS - SALES BROCHURES - MATCH DAY PROGRAMMES</h5>
           			<h4>HC Odense</h4>
                 <hr/>
@@ -91,62 +81,72 @@
             </a>
         	</div>
           <div class="project-container">
+        		<a href="portfolio/" class="project-img project-2">
+              <div class="project-text">
+                <h5>WEBDESIGN</h5>
+          			<h4>Livescore Design</h4>
+                <hr/>
+                <p>Design for the web version of Ekstra Bladets livescore app</p>
+              </div>
+            </a>
+        	</div>
+          <div class="project-container">
         		<a href="portfolio/" class="project-img project-3">
               <div class="project-text">
-                <h5>FLYERS - BUSINESS CARDS - LOGO - ROLL UP BANNER</h5>
-          			<h4>Faster EFT</h4>
+                <h5>NATIVE ADD GRAPHIC</h5>
+          			<h4>Circle K</h4>
                 <hr/>
-                <p>Fully developed visual identity for the independent Faster EFT treater</p>
+                <p>Native add graphic showcasing the oils journey from the North Sea all the way to the gas stations</p>
               </div>
             </a>
         	</div>
           <div class="project-container">
         		<a href="portfolio/" class="project-img project-4">
               <div class="project-text">
-                <h5>POSTERS - BUSSINESS CARDS - POSTCARDS</h5>
-          			<h4>Daglys</h4>
+                <h5>WEBDESIGN</h5>
+          			<h4>Ekstra Bladet Widgets</h4>
                 <hr/>
-                <p>Graphic material promoting live tours of the folk-blues trio</p>
+                <p>The overall streamlined design for all widgets on Ekstra Bladet</p>
               </div>
             </a>
         	</div>
           <div class="project-container">
         		<a href="portfolio/" class="project-img project-5">
               <div class="project-text">
-                <h5>ROLL UP BANNERS</h5>
-          			<h4>Fri Bike Shop</h4>
+                <h5>BUSINESS CARDS - FLYERS - LOGO - ROLL UP BANNERS</h5>
+          			<h4>Faster EFT</h4>
                 <hr/>
-                <p>Banners for the entrance in the bike shops store in Odense</p>
+                <p>Visual Identity and promotional material for an independent Faster EFT treater</p>
               </div>
             </a>
         	</div>
           <div class="project-container">
         		<a href="portfolio/" class="project-img project-6">
               <div class="project-text">
-                <h5>HANDBOOK</h5>
-          			<h4>Premier League Book</h4>
+                <h5>WEB GRAPHICS - ANIMATION</h5>
+          			<h4>Superliga Animation</h4>
                 <hr/>
-                <p>Containing a wide variety of info and details about all the teams and the league as a whole</p>
+                <p>Animation made for Ekstra Bladet to clarify the new football league system used by the Danish Superliga</p>
               </div>
             </a>
         	</div>
           <div class="project-container">
         		<a href="portfolio/" class="project-img project-7">
               <div class="project-text">
-                <h5>GRAPHICS - ANIMATION</h5>
-          			<h4>League Animation</h4>
+                <h5>VISUAL IDENTITY - ANIMATED BANNERS</h5>
+          			<h4>Transfer Deadline Day</h4>
                 <hr/>
-                <p>Explaining the new and complicated danish football league system in a simple way</p>
+                <p>Full visual identity and graphic material for Ekstra Bladets Transfer Deadline day campaigns</p>
               </div>
             </a>
         	</div>
           <div class="project-container">
         		<a href="portfolio/" class="project-img project-8">
               <div class="project-text">
-                <h5>POSTERS</h5>
-          			<h4>Korup Motion</h4>
+                <h5>VISUAL IDENTITY - GRAPHICS</h5>
+          			<h4>Formula 1 Graphics</h4>
                 <hr/>
-                <p>Promoting a yearly running event in and around Korup</p>
+                <p>Full visual identity and graphics of every Formula 1 track used by Ekstra Bladet in their coverage</p>
               </div>
             </a>
         	</div>
