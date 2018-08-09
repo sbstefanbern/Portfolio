@@ -69,7 +69,7 @@
       </section>
       <section id="projects" class="projects">
         <div class="projects-intro"><p>EXPLORE WHAT I CAN DO</p></div>
-        <div class="projectgrid">
+        <div class="front-project-grid">
         	<div class="project-container">
         		<a href="portfolio/" class="project-img project-1">
               <div class="project-text">
@@ -196,6 +196,50 @@
             <p>I have experience working on a lot of subjects. So if you're in doubt if I can help you with your particular need, don't hesitate to contact me and we'll find a solution.</p>
           </div>
         </div>
+        <div class="mobile-servicesgrid">
+          <div>
+            <div class="icon-service icon-1-service service-active" id="service-icon-1" onclick="service1()" aria-label="Design icon"></div>
+          </div>
+          <div>
+            <div class="icon-service icon-2-service" id="service-icon-2" onclick="service2()" aria-label="Design icon"></div>
+          </div>
+          <div>
+            <div class="icon-service icon-3-service" id="service-icon-3" onclick="service3()" aria-label="Design icon"></div>
+          </div>
+          <div>
+            <div class="icon-service icon-4-service" id="service-icon-4" onclick="service4()" aria-label="Design icon"></div>
+          </div>
+          <div>
+            <div class="icon-service icon-5-service" id="service-icon-5" onclick="service5()" aria-label="Design icon"></div>
+          </div>
+          <div>
+            <div class="icon-service icon-6-service" id="service-icon-6" onclick="service6()" aria-label="Design icon"></div>
+          </div>
+        </div>
+          <div class="mobile-servicesgrid-text" id="service-text-1">
+            <h4>Digital design</h4>
+            <p>All the way from brainstorming ideas, to a fully fledged digital design. Whether it'd be apps, websites, widgets or anything inbetween, I got you covered!</p>
+          </div>
+          <div class="mobile-servicesgrid-text" id="service-text-2">
+            <h4>Print design</h4>
+            <p>Every print product you can imagine, I can help you get a visual identity established that promotes your business and reflects your values across all your materials.</p>
+          </div>
+          <div class="mobile-servicesgrid-text" id="service-text-3">
+            <h4>Videos</h4>
+            <p>Need a high quality video promoting your business? Or maybe showcasing a variety of your products? Either way I can help you out with a high quality solution.</p>
+          </div>
+          <div class="mobile-servicesgrid-text" id="service-text-4">
+            <h4>Animation</h4>
+            <p>I can make stand alone motion graphics, logo animations or animations as part of a video. If you need help bringing your visuals to life, look no further!</p>
+          </div>
+          <div class="mobile-servicesgrid-text" id="service-text-5">
+            <h4>3D Material</h4>
+            <p>Working with 3D objects, animations and printing, I can help you with a variety of different solutions that you might need, relating to 3D work and/or printing.</p>
+          </div>
+          <div class="mobile-servicesgrid-text" id="service-text-6">
+            <h4>...and much more!</h4>
+            <p>I have experience working on a lot of subjects. So if you're in doubt if I can help you with your particular need, don't hesitate to contact me and we'll find a solution.</p>
+          </div>
       </section>
       <section class="work">
         <div class="worktext">
