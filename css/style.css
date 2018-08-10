@@ -1589,6 +1589,7 @@ footer {
   width: 33.33%;
   text-align: center;
   color: #FFF;
+  text-shadow: 0 0 10px #000;
 }
 
 /* PROCESS SPECIFIC PAGES */

@@ -6,7 +6,7 @@
     <title>Stefan Bernkilde - About</title>
     <meta name="description" content="About page of Media Graphics Artist Stefan Bernkilde. Learn about me, my background and my working experiences on this page. Here you can see my resumé and read a little about my interests and who I am as a person. You can also get a quick overview of my working career so far.">
     <link type="text/css" rel="stylesheet" href="../css/style.css">
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Raleway:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
     <link rel="shortcut icon" href="../favicon.ico">
   </head>
   <body>
