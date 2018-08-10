@@ -1,0 +1,65 @@
+*{
+ color: #e09a21;
+ text-align: center;
+ font-family: arial, sans-serif;
+}
+
+p{
+  color: #FFFFFF;
+  font-size: 20px;
+}
+
+body{
+  background-color: #241e12;
+}
+
+h1{
+  text-align: center;
+  font-size: 50px;
+  color: #e09a21;
+  animation-name: example;
+  animation-duration: 2s;
+  animation-iteration-count: 200;
+}
+
+ul{
+  list-style-type: none;
+  display: inline;
+}
+
+ul li{
+  float: right;
+  width: 200px;
+}
+
+li a{
+  text-decoration: none;
+  display: block;
+  padding: 20px;
+}
+
+li a:hover{
+  color: #FFFFFF;
+}
+
+img:hover{
+  background-image: url(craftbeer2.png);
+}
+
+.mainimg{
+  background-image: url("craftbeer.png");
+  width: 1630px;
+  height: 774px;
+}
+
+.mainimg:hover{
+  background-image: url("craftbeer2.png");
+}
+
+@keyframes example {
+  0%   {color: #e09a21; font-size: 50px;}
+  25%  {color: #b20000; font-size: 120px;}
+  50%  {color: #ff26e9; font-size: 50px;}
+  75%  {color: #3826ff; font-size: 120px;}
+  100% {color: #e09a21; font-size: 50px;
+}

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <h3>STEFANS SUPER AWESOME AMAZING GAME. Available for only 9.95$</h3>
+
+    <input type="number" id="myNumber" value="17">
+
+    <p>Click the button to find out if you guessed the number! EXCITING!!!</p>
+
+    <button onclick="myFunction()">CLICK TO GUESS!!!</button>
+
+    <p id="getNum"></p>
+    <p id="tries2"> </p>
+
+    <script>
+    var num = Math.floor(Math.random() * 11);
+    var count = 1;
+    function myFunction() {
+      var x = document.querySelector("#myNumber").value;
+        document.getElementById("tries2").innerHTML = count;
+      console.log(x);
+      document.querySelector("#getNum").innerHTML = x;
+        var x = document.querySelector("#myNumber").value;
+        console.log(x);
+        document.querySelector("#getNum").innerHTML = x;
+
+        if(x==num){
+          document.querySelector("#getNum").innerHTML = "Skide got egon!";
+          count++;
+        }
+        else {
+          document.querySelector("#getNum").innerHTML = "Kom igen glenn";
+          count++;
+        }
+      document.querySelector("#tries2").innerHTML = "Du har brugt " + count + " forsøg ";
+      }
+    </script>
+  </body>
+</html>

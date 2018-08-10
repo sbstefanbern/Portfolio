@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!DOCTYPE HTML>
 <html lang="en">
   <head>
     <meta charset="UTF-8">
@@ -11,205 +11,176 @@
   </head>
   <body>
     <main>
-      <header id="banner" class="portfolio" aria-label="Portfolio folder">
-        <?php
-          $currentPage = 'portfolio';
-          include ('../php/header.php');
-        ?>
-        <div class="banner-overlay">
-          <h1>
-            <div class="mainword red">Explore</div>
-            <div class="mainsentence"><span> my projects</span></div>
-          </h1>
-          <div class="banner-subhead">
-            <div>
-              <p>Delve into my wide array of projects</p>
-            </div>
-          </div>
-          <a href="../ring-til-fortiden" class="btn-red">View my latest project</a>
+      <?php
+        $currentPage = 'portfolio';
+        include ('../php/header.php');
+      ?>
+      <section class="projects">
+        <div class="portfolio-grid">
+        	<div class="project-container">
+        		<a href="../hc-odense/" class="project-img portfolio-project-1">
+              <div class="project-text portfolio-text">
+                <h5>POSTERS - SALES BROCHURES - MATCH DAY PROGRAMMES</h5>
+          			<h4>HC Odense</h4>
+                <hr/>
+                <p>Various graphic material for the handball club</p>
+              </div>
+            </a>
+        	</div>
+          <div class="project-container">
+        		<a href="../#/" class="project-img portfolio-project-2">
+              <div class="project-text portfolio-text">
+                <h5>WEBDESIGN</h5>
+          			<h4>Livescore Design</h4>
+                <hr/>
+                <p>Design for the web version of Ekstra Bladets livescore app</p>
+              </div>
+            </a>
+        	</div>
+          <div class="project-container">
+        		<a href="../#/" class="project-img portfolio-project-3">
+              <div class="project-text portfolio-text">
+                <h5>VIDEO - TRIFOLDERS - APP DESIGN</h5>
+          			<h4>Ring Til Fortiden</h4>
+                <hr/>
+                <p>Full Concept for an installation on Fredericia Vold</p>
+              </div>
+            </a>
+        	</div>
+          <div class="project-container">
+        		<a href="../#/" class="project-img portfolio-project-4">
+              <div class="project-text portfolio-text">
+                <h5>NATIVE ADD GRAPHIC</h5>
+          			<h4>Circle K</h4>
+                <hr/>
+                <p>Native add graphic showcasing the oils journey from the North Sea all the way to the gas stations</p>
+              </div>
+            </a>
+        	</div>
+          <div class="project-container">
+        		<a href="../#/" class="project-img portfolio-project-5">
+              <div class="project-text portfolio-text">
+                <h5>WEB GRAPHICS - ANIMATION</h5>
+          			<h4>Superliga Animation</h4>
+                <hr/>
+                <p>Animation made for Ekstra Bladet to clarify the new football league system used by the Danish Superliga</p>
+              </div>
+            </a>
+        	</div>
+          <div class="project-container">
+        		<a href="../#/" class="project-img portfolio-project-6">
+              <div class="project-text portfolio-text">
+                <h5>WEBDESIGN</h5>
+          			<h4>Ekstra Bladet Widgets</h4>
+                <hr/>
+                <p>The overall streamlined design for all widgets on Ekstra Bladet</p>
+              </div>
+            </a>
+        	</div>
+          <div class="project-container">
+        		<a href="../#/" class="project-img portfolio-project-7">
+              <div class="project-text portfolio-text">
+                <h5>WEBDESIGN</h5>
+          			<h4>Ekstra Bladet 'Powertools'</h4>
+                <hr/>
+                <p>Full streamlined design of the 'powertools' used on Ekstra Bladets website</p>
+              </div>
+            </a>
+        	</div>
+          <div class="project-container">
+        		<a href="../#/" class="project-img portfolio-project-8">
+              <div class="project-text portfolio-text">
+                <h5>POSTERS - BUSSINESS CARDS - POSTCARDS</h5>
+          			<h4>Dagslys</h4>
+                <hr/>
+                <p>Graphic material made for the musical trio to promote their upcoming tour</p>
+              </div>
+            </a>
+        	</div>
+          <div class="project-container">
+        		<a href="../#/" class="project-img portfolio-project-9">
+              <div class="project-text portfolio-text">
+                <h5>ROLL UP BANNERS</h5>
+          			<h4>Fri Bike Shop</h4>
+                <hr/>
+                <p>Banners made for the cycling shops department in Odense</p>
+              </div>
+            </a>
+        	</div>
+          <div class="project-container">
+        		<a href="../#/" class="project-img portfolio-project-10">
+              <div class="project-text portfolio-text">
+                <h5>GRAPHICS - FULL LAYOUT</h5>
+          			<h4>Premier League Handbook</h4>
+                <hr/>
+                <p>Handbook about every team in the Premier League containing various amounts of good information for you to read.</p>
+              </div>
+            </a>
+        	</div>
+          <div class="project-container">
+        		<a href="../#/" class="project-img portfolio-project-11">
+              <div class="project-text portfolio-text">
+                <h5>BUSINESS CARDS - FLYERS - LOGO - ROLL UP BANNERS</h5>
+          			<h4>Faster EFT</h4>
+                <hr/>
+                <p>Visual Identity and promotional material for an independent Faster EFT treater</p>
+              </div>
+            </a>
+        	</div>
+          <div class="project-container">
+        		<a href="../#/" class="project-img portfolio-project-12">
+              <div class="project-text portfolio-text">
+                <h5>VISUAL IDENTITY - ANIMATED BANNERS</h5>
+          			<h4>Transfer Deadline Day</h4>
+                <hr/>
+                <p>Full visual identity and graphic material for Ekstra Bladets Transfer Deadline day campaigns</p>
+              </div>
+            </a>
+        	</div>
+          <div class="project-container">
+        		<a href="../#/" class="project-img portfolio-project-13">
+              <div class="project-text portfolio-text">
+                <h5>VISUAL IDENTITY - GRAPHICS</h5>
+          			<h4>Formula 1 Graphics</h4>
+                <hr/>
+                <p>Full visual identity and graphics of every Formula 1 track used by Ekstra Bladet in their coverage</p>
+              </div>
+            </a>
+        	</div>
+          <div class="project-container">
+        		<a href="../#/" class="project-img portfolio-project-14">
+              <div class="project-text portfolio-text">
+                <h5>POSTERS</h5>
+          			<h4>Korup Motion</h4>
+                <hr/>
+                <p>Posters made for Korup Motions promoting their yearly running event</p>
+              </div>
+            </a>
+        	</div>
+          <div class="project-container">
+        		<a href="../#/" class="project-img portfolio-project-15">
+              <div class="project-text portfolio-text">
+                <h5>BANNER</h5>
+          			<h4>Zafary</h4>
+                <hr/>
+                <p>Banner made to promote a Safari Park</p>
+              </div>
+            </a>
+        	</div>
+          <div class="project-container">
+        		<a href="../#/" class="project-img portfolio-project-16">
+              <div class="project-text portfolio-text">
+                <h5>INFOGRAPHICS</h5>
+          			<h4>Football Infographics</h4>
+                <hr/>
+                <p>Infographics displaying a wide variety of information about the top football leagues</p>
+              </div>
+            </a>
+        	</div>
         </div>
-      </header>
-      <section id="portfolio-content">
-        <div id="tags">
-          <button class="tag-btn active-tag" onclick="filterSelection('all')"> ALL</button>
-          <button class="tag-btn" onclick="filterSelection('webdesign')"> WEBDESIGN</button>
-          <button class="tag-btn" onclick="filterSelection('video')"> VIDEO</button>
-          <button class="tag-btn" onclick="filterSelection('animation')"> ANIMATION</button>
-          <button class="tag-btn" onclick="filterSelection('graphics')"> GRAPHICS</button>
-          <button class="tag-btn" onclick="filterSelection('image')"> IMAGE</button>
-        </div>
-        <div class="gallery-images">
-          <div class="filter video animation graphics">
-            <a href="../ring-til-fortiden">
-              <img src="../media/ring-til-fortiden.png" srcset="../media/ring-til-fortiden-small.png 420w, ../media/ring-til-fortiden-medium.png 680w, ../media/ring-til-fortiden.png 960w"
-                sizes="(max-width: 699px) 828px, (min-width: 700px) and (max-width: 1249px) 2028px, (min-width: 1250px) 2880px" alt="Ring til Fortiden">
-              <p class="text-overlay">Ring til Fortiden</p>
-            </a>
-          </div>
-          <div class="filter graphics image">
-            <a href="../hc-odense">
-              <img src="../media/hc-odense.png" srcset="../media/hc-odense-small.png 420w, ../media/hc-odense-medium.png 680w, ../media/hc-odense.png 960w"
-                sizes="(max-width: 699px) 828px, (min-width: 700px) and (max-width: 1249px) 2028px, (min-width: 1250px) 2880px" alt="HC Odense">
-              <p class="text-overlay">HC Odense</p>
-            </a>
-          </div>
-          <div class="filter graphics">
-            <a href="../faster-eft">
-              <img src="../media/faster-eft.png" srcset="../media/faster-eft-small.png 420w, ../media/faster-eft-medium.png 680w, ../media/faster-eft.png 960w"
-                sizes="(max-width: 699px) 828px, (min-width: 700px) and (max-width: 1249px) 2028px, (min-width: 1250px) 2880px" alt="Faster EFT">
-              <p class="text-overlay">Faster EFT</p>
-            </a>
-          </div>
-          <div class="filter graphics">
-            <a href="../dagslys">
-              <img src="../media/dagslys.png" srcset="../media/dagslys-small.png 420w, ../media/dagslys-medium.png 680w, ../media/dagslys.png 960w"
-                sizes="(max-width: 699px) 828px, (min-width: 700px) and (max-width: 1249px) 2028px, (min-width: 1250px) 2880px" alt="Dagslys">
-              <p class="text-overlay">Dagslys</p>
-            </a>
-          </div>
-          <div class="filter graphics">
-            <a href="../fri-bike-shop">
-              <img src="../media/fri-bike-shop.png" srcset="../media/fri-bike-shop-small.png 420w, ../media/fri-bike-shop-medium.png 680w, ../media/fri-bike-shop.png 960w"
-                sizes="(max-width: 699px) 828px, (min-width: 700px) and (max-width: 1249px) 2028px, (min-width: 1250px) 2880px" alt="Fri Bike Shop">
-              <p class="text-overlay">Fri Bike Shop</p>
-            </a>
-          </div>
-          <div class="filter graphics">
-            <a href="../korup-motion">
-              <img src="../media/korup-motion.png" srcset="../media/korup-motion-small.png 420w, ../media/korup-motion-medium.png 680w, ../media/korup-motion.png 960w"
-                sizes="(max-width: 699px) 828px, (min-width: 700px) and (max-width: 1249px) 2028px, (min-width: 1250px) 2880px" alt="Korup Motion">
-              <p class="text-overlay">Korup Motion</p>
-            </a>
-          </div>
-          <div class="filter graphics">
-            <a href="../circle-k">
-              <img src="../media/circle-k-oil.png" srcset="../media/circle-k-oil-small.png 420w, ../media/circle-k-oil-medium.png 680w, ../media/circle-k-oil.png 960w"
-                sizes="(max-width: 699px) 828px, (min-width: 700px) and (max-width: 1249px) 2028px, (min-width: 1250px) 2880px" alt="Circle K Native Ad">
-              <p class="text-overlay">Circle K Native Ad</p>
-            </a>
-          </div>
-          <div class="filter graphics image">
-            <a href="../safari-park-banner">
-              <img src="../media/giant-lion.png" srcset="../media/giant-lion-small.png 420w, ../media/giant-lion-medium.png 680w, ../media/giant-lion.png 960w"
-                sizes="(max-width: 699px) 828px, (min-width: 700px) and (max-width: 1249px) 2028px, (min-width: 1250px) 2880px" alt="Safari Park Banner">
-              <p class="text-overlay">Safari Park Banner</p>
-            </a>
-          </div>
-          <div class="filter graphics">
-            <a href="../pl-handbook">
-              <img src="../media/pl-handbook.png" srcset="../media/pl-handbook-small.png 420w, ../media/pl-handbook-medium.png 680w, ../media/pl-handbook.png 960w"
-                sizes="(max-width: 699px) 828px, (min-width: 700px) and (max-width: 1249px) 2028px, (min-width: 1250px) 2880px" alt="Premier League Handbook">
-              <p class="text-overlay">Premier League Handbook</p>
-            </a>
-          </div>
-          <div class="filter animation graphics">
-            <a href="../league-animation">
-              <img src="../media/league-animation.png" srcset="../media/league-animation-small.png 420w, ../media/league-animation-medium.png 680w, ../media/league-animation.png 960w"
-                sizes="(max-width: 699px) 828px, (min-width: 700px) and (max-width: 1249px) 2028px, (min-width: 1250px) 2880px" alt="League Animation">
-              <p class="text-overlay">League Animation</p>
-            </a>
-          </div>
-          <div class="filter webdesign video animation graphics">
-            <a href="../technigo">
-              <img src="../media/technigo.png" srcset="../media/technigo-small.png 420w, ../media/technigo-medium.png 680w, ../media/technigo.png 960w"
-                sizes="(max-width: 699px) 828px, (min-width: 700px) and (max-width: 1249px) 2028px, (min-width: 1250px) 2880px" alt="TechniGO Campaign">
-              <p class="text-overlay">TechniGO Campaign</p>
-            </a>
-          </div>
-          <div class="filter webdesign graphics">
-            <a href="../kedu">
-              <img src="../media/kedu.png" srcset="../media/kedu-small.png 420w, ../media/kedu-medium.png 680w, ../media/kedu.png 960w"
-                sizes="(max-width: 699px) 828px, (min-width: 700px) and (max-width: 1249px) 2028px, (min-width: 1250px) 2880px" alt="KEDU (KUBO Education)">
-              <p class="text-overlay">KEDU (KUBO Education)</p>
-            </a>
-          </div>
-          <div class="filter webdesign graphics">
-            <a href="../billum-friskole">
-              <img src="../media/billum-friskole.png" srcset="../media/billum-friskole-small.png 420w, ../media/billum-friskole-medium.png 680w, ../media/billum-friskole.png 960w"
-                sizes="(max-width: 699px) 828px, (min-width: 700px) and (max-width: 1249px) 2028px, (min-width: 1250px) 2880px" alt="Billum Friskole">
-              <p class="text-overlay">Billum Friskole</p>
-            </a>
-          </div>
-          <div class="filter animation graphics">
-            <a href="../munkebo-mikrobryg">
-              <img src="../media/munkebo-mikrobryg.png" srcset="../media/munkebo-mikrobryg-small.png 420w, ../media/munkebo-mikrobryg-medium.png 680w, ../media/munkebo-mikrobryg.png 960w"
-                sizes="(max-width: 699px) 828px, (min-width: 700px) and (max-width: 1249px) 2028px, (min-width: 1250px) 2880px" alt="Munkebo Mikrobryg">
-              <p class="text-overlay">Munkebo Mikrobryg</p>
-            </a>
-          </div>
-          <div class="filter webdesign video">
-            <a href="../a-stone">
-              <img src="../media/a-stone.png" srcset="../media/a-stone-small.png 420w, ../media/a-stone-medium.png 680w, ../media/a-stone.png 960w"
-                sizes="(max-width: 699px) 828px, (min-width: 700px) and (max-width: 1249px) 2028px, (min-width: 1250px) 2880px" alt="A-Stone Campaign">
-              <p class="text-overlay">A-Stone Campaign</p>
-            </a>
-          </div>
-          <div class="filter graphics image">
-            <a href="../piphest">
-              <img src="../media/piphest.png" srcset="../media/piphest-small.png 420w, ../media/piphest-medium.png 680w, ../media/piphest.png 960w"
-                sizes="(max-width: 699px) 828px, (min-width: 700px) and (max-width: 1249px) 2028px, (min-width: 1250px) 2880px" alt="Piphest">
-              <p class="text-overlay">Piphest</p>
-            </a>
-          </div>
-          <div class="filter graphics">
-            <a href="../football-infographics">
-              <img src="../media/football-infographics.png" srcset="../media/football-infographics-small.png 420w, ../media/football-infographics-medium.png 680w, ../media/football-infographics.png 960w"
-                sizes="(max-width: 699px) 828px, (min-width: 700px) and (max-width: 1249px) 2028px, (min-width: 1250px) 2880px" alt="Football Infographics">
-              <p class="text-overlay">Football Infographics</p>
-            </a>
-          </div>
-        </div>
-        <img class="footer-shape" src="../media/footer-shape.png" srcset="../media/footer-shape-small.png 828w, ../media/footer-shape-medium.png 2048w, ../media/footer-shape.png 2880w"
-          sizes="(max-width: 699px) 828px, (min-width: 700px) and (max-width: 1249px) 2028px, (min-width: 1250px) 2880px" alt="Footer swirl shape">
       </section>
-    </main>
-    <footer>
       <?php include ('../php/footer.php'); ?>
-    </footer>
+    </main>
     <script src="../js/javascript.js"></script>
-    <script>
-      filterSelection("all")
-      function filterSelection(c) {
-        var x, i;
-        x = document.getElementsByClassName("filter");
-        if (c == "all") c = "";
-        for (i = 0; i < x.length; i++) {
-          w3RemoveClass(x[i], "show");
-          if (x[i].className.indexOf(c) > -1) w3AddClass(x[i], "show");
-        }
-      }
-
-      function w3AddClass(element, name) {
-        var i, arr1, arr2;
-        arr1 = element.className.split(" ");
-        arr2 = name.split(" ");
-        for (i = 0; i < arr2.length; i++) {
-          if (arr1.indexOf(arr2[i]) == -1) {element.className += " " + arr2[i];}
-        }
-      }
-
-      function w3RemoveClass(element, name) {
-        var i, arr1, arr2;
-        arr1 = element.className.split(" ");
-        arr2 = name.split(" ");
-        for (i = 0; i < arr2.length; i++) {
-          while (arr1.indexOf(arr2[i]) > -1) {
-            arr1.splice(arr1.indexOf(arr2[i]), 1);
-          }
-        }
-        element.className = arr1.join(" ");
-      }
-
-      /* Add active class to the current button (highlight it) */
-      var btnContainer = document.getElementById("tags");
-      var btns = btnContainer.getElementsByClassName("tag-btn");
-      for (var i = 0; i < btns.length; i++) {
-        btns[i].addEventListener("click", function(){
-          var current = document.getElementsByClassName("active-tag");
-          current[0].className = current[0].className.replace(" active-tag", "");
-          this.className += " active-tag";
-        });
-      }
-    </script>
   </body>
 </html>

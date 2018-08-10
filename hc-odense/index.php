@@ -11,25 +11,23 @@
   </head>
   <body>
     <main class="hc-odense">
-      <header id="banner" aria-label="Portfolio folder">
-        <?php
-          $currentPage = 'portfolio';
-          include ('../php/header.php');
-        ?>
-        <div class="banner-overlay">
-          <h1 class="project-head">HC Odense</h1>
-          <p class="project-subhead">Biggest handball club in Odense, the third largest city of Denmark</p>
-        </div>
-        <div class="client-logo">
-          <img src="../media/projects/hc-odense-logo.png">
-        </div>
-      </header>
-      <div class="project-info">
+      <?php
+        $currentPage = 'project';
+        include ('../php/header.php');
+      ?>
+      <section class="project-banner">
+        <h1>HC Odense</h1>
+        <h3>Biggest handball club in Odense</h3>
+        <div class="project-logo"></div>
+      </section>
+      <section class="project-info">
         <div class="info-left">
           <h4>ABOUT THE PROJECT</h4>
           <p>HC Odense is a handball club with both male and female teams. I was in contact with a representative from the club who needed an update to make their match day programmes more exciting. After this was successfully accomplished I kept in touch with the club and was asked to produce several more graphic material for them in the same style.</p>
         </div>
         <div class="info-right">
+          <h4>CLIENT</h4>
+          <p>HC Odense</p>
           <h4>DELIVERABLES</h4>
           <ul>
             <li>Posters</li>
@@ -37,27 +35,18 @@
             <li>Match Day Programme Covers</li>
           </ul>
         </div>
-      </div>
-      <div class="project-container">
-        <div class="img-big">
-          <img src="../media/projects/hc-odense-match-poster.png">
+      </section>
+      <section id="hc-odense" class="projects">
+        <div class="projectpage-grid">
+          <div class="full-big"></div>
+          <div class="full-tiny"></div>
+          <div class="eight-normal"></div>
+          <div class="four-normal"></div>
+          <div class="full-big"></div>
         </div>
-        <div class="img-small-60">
-          <img src="../media/projects/hc-odense-sales-brochure.png">
-        </div>
-        <div class="img-small-40">
-          <img src="../media/projects/hc-odense-tour-poster.png">
-        </div>
-        <div class="img-big">
-          <img src="../media/projects/hc-odense-matchday-program.png">
-        </div>
-      </div>
-      <img class="footer-shape" src="../media/footer-shape.png" srcset="../media/footer-shape-small.png 828w, ../media/footer-shape-medium.png 2048w, ../media/footer-shape.png 2880w"
-        sizes="(max-width: 699px) 828px, (min-width: 700px) and (max-width: 1249px) 2028px, (min-width: 1250px) 2880px" alt="Footer swirl shape">
-    </main>
-    <footer>
+      </section>
       <?php include ('../php/footer.php'); ?>
-    </footer>
+    </main>
     <script src="../js/javascript.js"></script>
   </body>
 </html>

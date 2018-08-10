@@ -1,0 +1,70 @@
+body{
+  margin: 0;
+  padding: 0;
+  font-family: arial;
+}
+
+.blacktext{
+color: black;
+}
+
+.redtext{
+color: red;
+}
+
+table tr{
+  border: 0;
+}
+
+.murensfald{
+  width: 200px;
+}
+
+.black{
+  background-color: black;
+}
+
+.red{
+  background-color: red;
+}
+
+.murensfald{
+  margin-right: 100px;
+}
+
+.dark{
+  background-color: #555555;
+  color: white;
+}
+
+.medium{
+  background-color: #777777;
+  color: white;
+}
+
+.light{
+  background-color: #999999;
+  color: white;
+}
+
+.light2{
+  background-color: #cccccc;
+  color: white;
+}
+
+.innertable{
+  width: 100%;
+}
+
+.innertable td{
+  padding: 20px 0 20px 0;
+  }
+
+tr{
+  margin: 0;
+}
+
+
+td{
+  text-align: center;
+}
