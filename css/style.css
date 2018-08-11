@@ -636,10 +636,11 @@ fieldset {
   font-size: 16px;
   font-weight: 400;
 }
-
-.project-container:hover .project-img, .project-container:focus .project-img {transform: scale(1.2);}
-.project-container:hover .project-img:before, .project-container:focus .project-img:before {display: block;}
-.project-container:hover .project-text, .project-container:focus .project-text {display: block;}
+@media (pointer: fine) {
+  .project-container:hover .project-img, .project-container:focus .project-img {transform: scale(1.2);}
+  .project-container:hover .project-img:before, .project-container:focus .project-img:before {display: block;}
+  .project-container:hover .project-text, .project-container:focus .project-text {display: block;}
+}
 
 .project-1 {background-image: url("../media/hc-odense-large.jpg");}
 .project-1:before {background-color: rgba(245, 120, 20, 0.9);}
@@ -994,7 +995,9 @@ footer {
 
 .portfolio-text p {font-size: 13px;}
 
-.project-container:hover .portfolio-project-text, .project-container:focus .portfolio-project-text {display: block;}
+@media (pointer: fine) {
+  .project-container:hover .portfolio-project-text, .project-container:focus .portfolio-project-text {display: block;}
+}
 
 .portfolio-project-1 {background-image: url("../media/portfolio/hc-odense-large.jpg");}
 .portfolio-project-1:before {background-color: rgba(245, 120, 20, 0.9);}
@@ -2026,7 +2029,7 @@ footer {
   }
 
   .mobile-values-text {
-    margin-top: 150px;
+    margin-top: 120px;
     position: absolute;
     text-align: center;
     padding: 0 20px;
