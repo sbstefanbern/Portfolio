@@ -71,7 +71,7 @@
         <div class="projects-intro"><p>EXPLORE WHAT I CAN DO</p></div>
         <div class="front-project-grid">
         	<div class="project-container">
-        		<a href="portfolio/" class="project-img project-1">
+        		<a href="hc-odense/" class="project-img project-1">
               <div class="project-text">
                 <h5>POSTERS - SALES BROCHURES - MATCH DAY PROGRAMMES</h5>
           			<h4>HC Odense</h4>
@@ -81,10 +81,10 @@
             </a>
         	</div>
           <div class="project-container">
-        		<a href="portfolio/" class="project-img project-2">
+        		<a href="eb-livescore/" class="project-img project-2">
               <div class="project-text">
                 <h5>WEBDESIGN</h5>
-          			<h4>Livescore Design</h4>
+          			<h4>Ekstra Bladet Livescore</h4>
                 <hr/>
                 <p>Design for the web version of Ekstra Bladets livescore app</p>
               </div>

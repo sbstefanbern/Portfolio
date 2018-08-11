@@ -28,10 +28,10 @@
             </a>
         	</div>
           <div class="project-container">
-        		<a href="../#/" class="project-img portfolio-project-2">
+        		<a href="../eb-livescore/" class="project-img portfolio-project-2">
               <div class="project-text portfolio-text">
                 <h5>WEBDESIGN</h5>
-          			<h4>Livescore Design</h4>
+          			<h4>Ekstra Bladet Livescore</h4>
                 <hr/>
                 <p>Design for the web version of Ekstra Bladets livescore app</p>
               </div>
@@ -161,7 +161,7 @@
         		<a href="../#/" class="project-img portfolio-project-15">
               <div class="project-text portfolio-text">
                 <h5>BANNER</h5>
-          			<h4>Zafary</h4>
+          			<h4>Jufary</h4>
                 <hr/>
                 <p>Banner made to promote a Safari Park</p>
               </div>

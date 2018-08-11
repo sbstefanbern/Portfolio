@@ -10,38 +10,40 @@
     <link rel="shortcut icon" href="../favicon.ico">
   </head>
   <body>
-    <main class="hc-odense">
+    <main class="eb-livescore">
       <?php
         $currentPage = 'project';
         include ('../php/header.php');
       ?>
       <section class="project-banner">
-        <h1>HC Odense</h1>
-        <h3>Biggest handball club in the city of Odense</h3>
+        <h1>Ekstra Bladet Livescore</h1>
+        <h3>Ekstra Bladets livescore web interface</h3>
         <div class="project-logo"></div>
       </section>
       <section class="project-info">
         <div class="info-left">
           <h4>ABOUT THE PROJECT</h4>
-          <p>HC Odense is a handball club with both male and female teams. I was in contact with a representative from the club who was in need of a visual upgrade to their match day programmes to make them more exciting. After this was successfully accomplished I kept in touch with the club and was asked to produce several more graphic material for them in the same style, including a full sales brochure and several different posters.</p>
+          <p>Ekstra Bladet lacked a proper streamlined livescore interface on their website. I was tasked with sketching out ideas for how this should look as well as produce a high fidelity design mockup, including complete layout of all pages and all graphical elements.</p>
+          <a class="process-link" href="https://ekstrabladet.dk/sport/kampe/" target="_blank">See Ekstra Bladet livescore here</a>
         </div>
         <div class="info-right">
           <h4>CLIENT</h4>
-          <p>HC Odense</p>
+          <p>Ekstra Bladet</p>
           <h4>DELIVERABLES</h4>
           <ul>
-            <li>Posters</li>
-            <li>Sales Brochures</li>
-            <li>Match Day Programme Covers</li>
+            <li>Full livescore webdesign</li>
           </ul>
         </div>
       </section>
-      <section id="hc-odense" class="projects">
+      <section id="eb-livescore" class="projects">
         <div class="projectpage-grid">
           <div class="full-big"></div>
-          <div class="full-tiny"></div>
           <div class="eight-normal"></div>
           <div class="four-normal"></div>
+          <div class="full-tiny"></div>
+          <div class="half-normal"></div>
+          <div class="half-normal"></div>
+          <div class="full-tiny"></div>
           <div class="full-big"></div>
         </div>
       </section>

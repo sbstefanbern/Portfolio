@@ -36,24 +36,18 @@ p {
   line-height: 22px;
 }
 
-a {
-  text-decoration: none;
-}
+a {text-decoration: none;}
 
-ul {
-  list-style-type: none;
-}
+ul {list-style-type: none;}
 
-.red {
-  color: #DD3224;
-}
+.red {color: #DD3224;}
 
-.active{
+.active {
   padding-bottom: 3px;
   border-bottom: 3px solid #FFF;
 }
 
-.dark-active{
+.dark-active {
   padding-bottom: 3px;
   border-bottom: 3px solid #343434;
 }
@@ -90,13 +84,9 @@ ul {
   color: #FFF;
 }
 
-#mobile-menu a:hover {
-  background-color: rgba(255, 255, 255, 0.1);
-}
+#mobile-menu a:hover {background-color: rgba(255, 255, 255, 0.1);}
 
-.active-mobile-menu{
-  text-decoration: underline;
-}
+.active-mobile-menu {text-decoration: underline;}
 
 .btn {
   position: relative;
@@ -134,27 +124,15 @@ ul {
   color: #fff;
 }
 
-.btn .btn-container .btn-front {
-  transform: rotateX(0deg) translateZ(15px);
-}
+.btn .btn-container .btn-front {transform: rotateX(0deg) translateZ(15px);}
 
-.btn .btn-container .btn-bottom {
-  transform: rotateX(-90deg) translateZ(30px);
-}
+.btn .btn-container .btn-bottom {transform: rotateX(-90deg) translateZ(30px);}
 
-.btn:hover .btn-container {
-  transform: translateZ(-24px) rotateX(90deg);
-}
+.btn:hover .btn-container {transform: translateZ(-24px) rotateX(90deg);}
 
-.dark-grey{
-  background-color: #F5F4EC;
-}
+.logo {grid-column: 1 / 2;}
 
-.logo {
-  grid-column: 1 / 2;
-}
-
-.logo a{
+.logo a {
   background-size: 140px 70px;
   background-repeat: no-repeat;
   background-image: url("../media/sb-logo.svg");
@@ -167,9 +145,7 @@ ul {
   display: block;
 }
 
-.dark-logo a{
-  background-image: url("../media/sb-logo-dark.svg");
-}
+.dark-logo a {background-image: url("../media/sb-logo-dark.svg");}
 
 .logo a:hover {
   transform: scale(1.3);
@@ -202,9 +178,7 @@ ul {
   color: #FFF;
 }
 
-.dark-menu a {
-  color: #343434;
-}
+.dark-menu a {color: #343434;}
 
 .banner {
   grid-column: 1 / 13;
@@ -226,13 +200,9 @@ ul {
   margin-top: 205px;
 }
 
-.banner .btn .btn-container .btn-front, .btn .btn-container .back {
-  border: 3px solid #FFF;
-}
+.banner .btn .btn-container .btn-front, .btn .btn-container .back {border: 3px solid #FFF;}
 
-.banner .btn:hover .btn-container .btn-front {
-  border: 3px solid #FFF;
-}
+.banner .btn:hover .btn-container .btn-front {border: 3px solid #FFF;}
 
 .banner .btn .btn-container .btn-bottom {
   background: #FFFFFF;
@@ -244,7 +214,7 @@ ul {
   color: #435c7d;
 }
 
-h1 > div {
+h1>div {
   display: inline-block;
   overflow: hidden;
   white-space: nowrap;
@@ -349,87 +319,39 @@ h1 > div {
 }
 
 @keyframes changehr {
-  0%, 7.5%, 100% {
-    width: 162px;
-  }
-  12.5%, 20% {
-    width: 185px;
-  }
-  25%, 32.5% {
-    width: 172px;
-  }
-  37.5%, 45% {
-    width: 172px;
-  }
-  50%, 57.5% {
-    width: 208px;
-  }
-  62.5%, 70% {
-    width: 172px;
-  }
-  75%, 82.5% {
-    width: 172px;
-  }
-  87.5%, 95% {
-    width: 185px;
-  }
+  0%, 7.5%, 100% {width: 162px;}
+  12.5%, 20% {width: 185px;}
+  25%, 32.5% {width: 172px;}
+  37.5%, 45% {width: 172px;}
+  50%, 57.5% {width: 208px;}
+  62.5%, 70% {width: 172px;}
+  75%, 82.5% {width: 172px;}
+  87.5%, 95% {width: 185px;}
 }
 
 @keyframes change {
-  0%, 7.5%, 100% {
-    transform: translate3d(0, -20%, 0);
-  }
-  12.5%, 20% {
-    transform: translate3d(0, -40%, 0);
-  }
-  25%, 32.5% {
-    transform: translate3d(0, -60%, 0);
-  }
-  37.5%, 45% {
-    transform: translate3d(0, -80%, 0);
-  }
-  50%, 57.5% {
-    transform: translate3d(0, -100%, 0);
-  }
-  62.5%, 70% {
-    transform: translate3d(0, -80%, 0);
-  }
-  75%, 82.5% {
-    transform: translate3d(0, -60%, 0);
-  }
-  87.5%, 95% {
-    transform: translate3d(0, -40%, 0);
-  }
+  0%, 7.5%, 100% {transform: translate3d(0, -20%, 0);}
+  12.5%, 20% {transform: translate3d(0, -40%, 0);}
+  25%, 32.5% {transform: translate3d(0, -60%, 0);}
+  37.5%, 45% {transform: translate3d(0, -80%, 0);}
+  50%, 57.5% {transform: translate3d(0, -100%, 0);}
+  62.5%, 70% {transform: translate3d(0, -80%, 0);}
+  75%, 82.5% {transform: translate3d(0, -60%, 0);}
+  87.5%, 95% {transform: translate3d(0, -40%, 0);}
 }
 
 @keyframes showup {
-  0% {
-    opacity: 0;
-  }
-  20% {
-    opacity: 1;
-  }
-  80% {
-    opacity: 1;
-  }
-  100% {
-    opacity: 1;
-  }
+  0% {opacity: 0;}
+  20% {opacity: 1;}
+  80% {opacity: 1;}
+  100% {opacity: 1;}
 }
 
 @keyframes slidein {
-  0% {
-    margin-left: -800px;
-  }
-  20% {
-    margin-left: -800px;
-  }
-  35% {
-    margin-left: 0px;
-  }
-  100% {
-    margin-left: 0px;
-  }
+  0% {margin-left: -800px;}
+  20% {margin-left: -800px;}
+  35% {margin-left: 0px;}
+  100% {margin-left: 0px;}
 }
 
 @keyframes reveal {
@@ -456,15 +378,9 @@ h1 > div {
 }
 
 @keyframes size-change {
-  0% {
-    transform: scale(1);
-  }
-  50% {
-    transform: scale(0.85);
-  }
-  100% {
-    transform: scale(1);
-  }
+  0% {transform: scale(1);}
+  50% {transform: scale(0.85);}
+  100% {transform: scale(1);}
 }
 
 .contactbox {
@@ -500,12 +416,11 @@ h1 > div {
   position: relative;
 }
 
-.popup-container {
-  width: 50%;
-}
+.popup-container {width: 50%;}
 
 #contact input[type="text"], #contact input[type="email"], #contact textarea, #contact button[type="submit"] {
   font-size: 14px;
+  font-weight: 400;
 }
 
 #contact {
@@ -567,17 +482,9 @@ fieldset {
   border: 1px solid #aaa;
 }
 
-::-webkit-input-placeholder {
-  color: #B5B5B5;
-}
-
-::-moz-placeholder {
-  color: #B5B5B5;
-}
-
-:-ms-input-placeholder {
-  color: #B5B5B5;
-}
+::-webkit-input-placeholder {color: #B5B5B5;}
+::-moz-placeholder {color: #B5B5B5;}
+:-ms-input-placeholder {color: #B5B5B5;}
 
 .submit-btn {
   background-color: #3A5C77;
@@ -588,21 +495,13 @@ fieldset {
   transition: 0.3s all ease-in-out;
 }
 
-.submit-btn:hover {
-  background-color: #517C9F;
-}
+.submit-btn:hover {background-color: #517C9F;}
 
-.contactbox {
-  padding-top: 120px;
-}
+.contactbox {padding-top: 120px;}
 
-.popup-container {
-  width: 50%;
-}
+.popup-container {width: 50%;}
 
-#contact {
-  padding: 20px 40px 16px 40px;
-}
+#contact {padding: 20px 40px 16px 40px;}
 
 #contact h4 {
   font-weight: 800;
@@ -621,9 +520,7 @@ fieldset {
   margin: 0 0 5px -6px;
 }
 
-#contact textarea {
-  height: 150px;
-}
+#contact textarea {height: 150px;}
 
 #contact button[type="submit"] {
   width: 33%;
@@ -653,9 +550,7 @@ fieldset {
   animation-play-state: paused;
 }
 
-.projects {
-  grid-column: 1 / 13;
-}
+.projects {grid-column: 1 / 13;}
 
 .projects-intro {
   text-align: center;
@@ -675,9 +570,7 @@ fieldset {
   grid-template-columns: repeat(2, 1fr);
 }
 
-.front-project-grid div {
-  height: 38vw;
-}
+.front-project-grid div {height: 38vw;}
 
 .project-container {
   height: 500px;
@@ -705,7 +598,7 @@ fieldset {
   left: 0;
 }
 
-.project-text{
+.project-text {
   display: none;
   padding: 25% 18%;
   position: absolute;
@@ -724,7 +617,7 @@ fieldset {
   opacity: 0.6;
 }
 
-.project-text hr{
+.project-text hr {
   height: 6px;
   width: 55px;
   background-color: #FFF;
@@ -745,27 +638,25 @@ fieldset {
 }
 
 .project-container:hover .project-img, .project-container:focus .project-img {transform: scale(1.2);}
-
 .project-container:hover .project-img:before, .project-container:focus .project-img:before {display: block;}
-
 .project-container:hover .project-text, .project-container:focus .project-text {display: block;}
 
 .project-1 {background-image: url("../media/hc-odense-large.jpg");}
-.project-1:before{background-color: rgba(245,120,20,0.9);}
+.project-1:before {background-color: rgba(245, 120, 20, 0.9);}
 .project-2 {background-image: url("../media/eb-livescore-large.jpg");}
-.project-2:before{background-color: rgba(28,108,6,0.9);}
+.project-2:before {background-color: rgba(28, 108, 6, 0.9);}
 .project-3 {background-image: url("../media/circle-k-large.jpg");}
-.project-3:before{background-color: rgba(170,30,30,0.9);}
+.project-3:before {background-color: rgba(170, 30, 30, 0.9);}
 .project-4 {background-image: url("../media/eb-widgets-large.jpg");}
-.project-4:before{background-color: rgba(54,152,198,0.9);}
+.project-4:before {background-color: rgba(54, 152, 198, 0.9);}
 .project-5 {background-image: url("../media/faster-eft-large.jpg");}
-.project-5:before{background-color: rgba(60,172,40,0.9);}
+.project-5:before {background-color: rgba(60, 172, 40, 0.9);}
 .project-6 {background-image: url("../media/league-animation-large.jpg");}
-.project-6:before{background-color: rgba(31,73,57,0.9);}
+.project-6:before {background-color: rgba(31, 73, 57, 0.9);}
 .project-7 {background-image: url("../media/eb-transferday-large.jpg");}
-.project-7:before{background-color: rgba(55,120,125,0.9);}
+.project-7:before {background-color: rgba(55, 120, 125, 0.9);}
 .project-8 {background-image: url("../media/eb-formula1-large.jpg");}
-.project-8:before{background-color: rgba(164,56,56,0.9);}
+.project-8:before {background-color: rgba(164, 56, 56, 0.9);}
 
 .project-view-more {
   background-color: #343434;
@@ -774,13 +665,9 @@ fieldset {
   text-align: center;
 }
 
-.project-view-more .btn .btn-container .btn-front, .btn .btn-container .back {
-  border: 3px solid #FFF;
-}
+.project-view-more .btn .btn-container .btn-front, .btn .btn-container .back {border: 3px solid #FFF;}
 
-.project-view-more .btn:hover .btn-container .btn-front {
-  border: 3px solid #FFF;
-}
+.project-view-more .btn:hover .btn-container .btn-front {border: 3px solid #FFF;}
 
 .project-view-more .btn .btn-container .btn-bottom {
   background: #FFFFFF;
@@ -799,9 +686,7 @@ fieldset {
   padding-bottom: 120px;
 }
 
-.mobile-servicesgrid{
-  display: none;
-}
+.mobile-servicesgrid {display: none;}
 
 .servicesgrid {
   background: radial-gradient(#5887AC 40%, #3A5C77 65%);
@@ -834,22 +719,27 @@ fieldset {
   background-image: url('../media/icon-webdesign.svg');
   background-size: 58%;
 }
+
 .icon-2-service {
   background-image: url('../media/icon-printdesign.svg');
   background-size: 33%;
 }
+
 .icon-3-service {
   background-image: url('../media/icon-video.svg');
   background-size: 43%;
 }
+
 .icon-4-service {
   background-image: url('../media/icon-animation.svg');
   background-size: 60%;
 }
+
 .icon-5-service {
   background-image: url('../media/icon-3d.svg');
   background-size: 46%;
 }
+
 .icon-6-service {
   background-image: url('../media/icon-more.svg');
   background-size: 46%;
@@ -862,13 +752,9 @@ fieldset {
   color: #89CBFF;
 }
 
-.servicesgrid p {
-  color: #93B7CB;
-}
+.servicesgrid p {color: #93B7CB;}
 
-.mobile-servicesgrid-text{
-  display: none;
-}
+.mobile-servicesgrid-text {display: none;}
 
 .work {
   grid-column: 1 / 13;
@@ -886,9 +772,7 @@ fieldset {
   font-weight: 800;
 }
 
-.worktext {
-  padding: 55px 45px 0 90px;
-}
+.worktext {padding: 55px 45px 0 90px;}
 
 .workgrid {
   display: grid;
@@ -903,15 +787,15 @@ fieldset {
   background-position: center;
 }
 
-.work1{background-image: url("../media/logo-work-eb.svg");}
-.work2{background-image: url("../media/logo-work-dagslys.svg");}
-.work3{background-image: url("../media/logo-work-korup-motion.svg")}
-.work4{background-image: url("../media/logo-work-hc-odense.svg")}
-.work5{background-image: url("../media/logo-work-faster-eft.svg")}
-.work6{background-image: url("../media/logo-work-sde.svg")}
-.work7{background-image: url("../media/logo-work-fri-bike-shop.svg")}
-.work8{background-image: url("../media/logo-work-circle-k.svg")}
-.work9{background-image: url("../media/logo-work-automovet.svg")}
+.work1 {background-image: url("../media/logo-work-eb.svg");}
+.work2 {background-image: url("../media/logo-work-dagslys.svg");}
+.work3 {background-image: url("../media/logo-work-korup-motion.svg")}
+.work4 {background-image: url("../media/logo-work-hc-odense.svg")}
+.work5 {background-image: url("../media/logo-work-faster-eft.svg")}
+.work6 {background-image: url("../media/logo-work-sde.svg")}
+.work7 {background-image: url("../media/logo-work-fri-bike-shop.svg")}
+.work8 {background-image: url("../media/logo-work-circle-k.svg")}
+.work9 {background-image: url("../media/logo-work-automovet.svg")}
 
 .quotes {
   grid-column: 1 / 13;
@@ -920,13 +804,9 @@ fieldset {
   background-color: #983219;
 }
 
-.quotes h2 {
-  color: #FFAB80;
-}
+.quotes h2 {color: #FFAB80;}
 
-.quotesintro {
-  grid-column: 1 / 13;
-}
+.quotesintro {grid-column: 1 / 13;}
 
 .quotesgrid {
   grid-column: 1 / 13;
@@ -934,17 +814,11 @@ fieldset {
   grid-template-columns: repeat(4, 1fr);
 }
 
-.quotesgrid>div {
-  padding: 100px 40px 120px 40px;
-}
+.quotesgrid>div {padding: 100px 40px 120px 40px;}
 
-.quote-color {
-  background-color: #AC3B21;
-}
+.quote-color {background-color: #AC3B21;}
 
-.quote-color2 {
-  background-color: #8E331C;
-}
+.quote-color2 {background-color: #8E331C;}
 
 .quote-img {
   background-image: url("../media/quote-test.png");
@@ -1014,13 +888,9 @@ footer {
   margin-left: 6vw;
 }
 
-.footer-btn .btn .btn-container .btn-front, .btn .btn-container .back {
-  border: 3px solid #FFF;
-}
+.footer-btn .btn .btn-container .btn-front, .btn .btn-container .back {border: 3px solid #FFF;}
 
-.footer-btn .btn:hover .btn-container .btn-front {
-  border: 3px solid #FFF;
-}
+.footer-btn .btn:hover .btn-container .btn-front {border: 3px solid #FFF;}
 
 .footer-btn .btn .btn-container .btn-bottom {
   background: #FFFFFF;
@@ -1038,17 +908,11 @@ footer {
   border-image: linear-gradient(to bottom, rgba(92, 92, 92, 0) 0%, rgba(92, 92, 92, 1) 20%, rgba(92, 92, 92, 1) 80%, rgba(92, 92, 92, 0)) 1 100%;
 }
 
-.footer-nav ul {
-  padding: 0 8vw;
-}
+.footer-nav ul {padding: 0 8vw;}
 
-.footer-nav li {
-  cursor: pointer;
-}
+.footer-nav li {cursor: pointer;}
 
-.footer-nav li:hover {
-  filter: drop-shadow(0 0 15px #000);
-}
+.footer-nav li:hover {filter: drop-shadow(0 0 15px #000);}
 
 .footer-nav hr {
   border: 0;
@@ -1056,15 +920,11 @@ footer {
   background-color: #9A9A9A;
 }
 
-.footer-nav li {
-  padding: 20px 0;
-}
+.footer-nav li {padding: 20px 0;}
 
-.footer-nav a {
-  color: #FFF;
-}
+.footer-nav a {color: #FFF;}
 
-.active-footer{
+.active-footer {
   padding-bottom: 2px;
   border-bottom: 1px solid #FFF;
 }
@@ -1126,71 +986,61 @@ footer {
   grid-template-columns: repeat(3, 1fr);
 }
 
-.portfolio-grid div {
-  height: 25vw;
-}
+.portfolio-grid div {height: 25vw;}
 
-.portfolio-text{
-  padding: 20% 14%;
-}
+.portfolio-text {padding: 20% 14%;}
 
-.portfolio-text h4{
-  font-size: 25px;
-}
+.portfolio-text h4 {font-size: 25px;}
 
-.portfolio-text p {
-  font-size: 13px;
-}
+.portfolio-text p {font-size: 13px;}
 
 .project-container:hover .portfolio-project-text, .project-container:focus .portfolio-project-text {display: block;}
 
 .portfolio-project-1 {background-image: url("../media/portfolio/hc-odense-large.jpg");}
-.portfolio-project-1:before{background-color: rgba(245,120,20,0.9);}
+.portfolio-project-1:before {background-color: rgba(245, 120, 20, 0.9);}
 .portfolio-project-2 {background-image: url("../media/portfolio/eb-livescore-large.jpg");}
-.portfolio-project-2:before{background-color: rgba(28,108,6,0.9);}
+.portfolio-project-2:before {background-color: rgba(28, 108, 6, 0.9);}
 .portfolio-project-3 {background-image: url("../media/portfolio/ring-til-fortiden-large.jpg");}
-.portfolio-project-3:before{background-color: rgba(46,58,86,0.9);}
+.portfolio-project-3:before {background-color: rgba(46, 58, 86, 0.9);}
 .portfolio-project-4 {background-image: url("../media/portfolio/circle-k-large.jpg");}
-.portfolio-project-4:before{background-color: rgba(170,30,30,0.9);}
+.portfolio-project-4:before {background-color: rgba(170, 30, 30, 0.9);}
 .portfolio-project-5 {background-image: url("../media/portfolio/league-animation-large.jpg");}
-.portfolio-project-5:before{background-color: rgba(31,73,57,0.9);}
+.portfolio-project-5:before {background-color: rgba(31, 73, 57, 0.9);}
 .portfolio-project-6 {background-image: url("../media/portfolio/eb-widgets-large.jpg");}
-.portfolio-project-6:before{background-color: rgba(54,152,198,0.9);}
+.portfolio-project-6:before {background-color: rgba(54, 152, 198, 0.9);}
 .portfolio-project-7 {background-image: url("../media/portfolio/eb-toolbox-large.jpg");}
-.portfolio-project-7:before{background-color: rgba(34,122,158,0.9);}
+.portfolio-project-7:before {background-color: rgba(34, 122, 158, 0.9);}
 .portfolio-project-8 {background-image: url("../media/portfolio/dagslys-large.jpg");}
-.portfolio-project-8:before{background-color: rgba(230,20,20,0.9);}
+.portfolio-project-8:before {background-color: rgba(230, 20, 20, 0.9);}
 .portfolio-project-9 {background-image: url("../media/portfolio/fri-bike-shop-large.jpg");}
-.portfolio-project-9:before{background-color: rgba(78,176,154,0.9);}
+.portfolio-project-9:before {background-color: rgba(78, 176, 154, 0.9);}
 .portfolio-project-10 {background-image: url("../media/portfolio/pl-book-large.jpg");}
-.portfolio-project-10:before{background-color: rgba(68,32,75,0.9);}
+.portfolio-project-10:before {background-color: rgba(68, 32, 75, 0.9);}
 .portfolio-project-11 {background-image: url("../media/portfolio/faster-eft-large.jpg");}
-.portfolio-project-11:before{background-color: rgba(60,172,40,0.9);}
+.portfolio-project-11:before {background-color: rgba(60, 172, 40, 0.9);}
 .portfolio-project-12 {background-image: url("../media/portfolio/eb-transferday-large.jpg");}
-.portfolio-project-12:before{background-color: rgba(55,120,125,0.9);}
+.portfolio-project-12:before {background-color: rgba(55, 120, 125, 0.9);}
 .portfolio-project-13 {background-image: url("../media/portfolio/eb-formula1-large.jpg");}
-.portfolio-project-13:before{background-color: rgba(164,56,56,0.9);}
+.portfolio-project-13:before {background-color: rgba(164, 56, 56, 0.9);}
 .portfolio-project-14 {background-image: url("../media/portfolio/korup-motion-large.jpg");}
-.portfolio-project-14:before{background-color: rgba(220,108,25,0.9);}
+.portfolio-project-14:before {background-color: rgba(220, 108, 25, 0.9);}
 .portfolio-project-15 {background-image: url("../media/portfolio/jufary-large.jpg");}
-.portfolio-project-15:before{background-color: rgba(200,60,30,0.9);}
+.portfolio-project-15:before {background-color: rgba(200, 60, 30, 0.9);}
 .portfolio-project-16 {background-image: url("../media/portfolio/football-infographics-large.jpg");}
-.portfolio-project-16:before{background-color: rgba(40,120,20,0.9);}
+.portfolio-project-16:before {background-color: rgba(40, 120, 20, 0.9);}
 
 /* ---------- ABOUT PAGE ---------- */
 
-.intro {
-  grid-column: 1 / 13;
-}
+.intro {grid-column: 1 / 13;}
 
 .intro-container {
   grid-column: 1 / 13;
   display: grid;
 }
 
-.intro-img{
+.intro-img {
   grid-column: 1 / 7;
-  background-image: url("../media/about-img-test.jpg");
+  background-image: url("../media/stefan-img.jpg");
   background-repeat: no-repeat;
   height: 500px;
   width: 44vw;
@@ -1198,7 +1048,7 @@ footer {
   background-position: center;
 }
 
-.intro-text{
+.intro-text {
   grid-column: 8 / 13;
   padding: 150px 180px 0 100px;
   width: 56vw;
@@ -1206,7 +1056,7 @@ footer {
   color: #93B7CB;
 }
 
-.intro-text h4{
+.intro-text h4 {
   color: #89CBFF;
   font-size: 22px;
   padding-bottom: 10px;
@@ -1225,9 +1075,7 @@ footer {
   color: #F5F4EC;
 }
 
-.resume .btn:hover .btn-container .btn-front {
-  border: 3px solid #F5F4EC;
-}
+.resume .btn:hover .btn-container .btn-front {border: 3px solid #F5F4EC;}
 
 .resume .btn .btn-container .btn-bottom {
   background: #F5F4EC;
@@ -1255,9 +1103,7 @@ footer {
   padding: 120px 0 30px 0;
 }
 
-.aboutme p {
-  padding: 0 80px;
-}
+.aboutme p {padding: 0 80px;}
 
 .value {
   grid-column: 1 / 13;
@@ -1273,9 +1119,7 @@ footer {
   grid-template-columns: repeat(3, 1fr);
 }
 
-.mobile-values, .mobile-values-text {
-  display: none;
-}
+.mobile-values, .mobile-values-text {display: none;}
 
 .icon-value {
   display: inline-block;
@@ -1304,19 +1148,17 @@ footer {
   background-size: 50%;
 }
 
-.values > div {
+.values>div {
   text-align: center;
   padding: 50px 50px;
 }
 
-.values h4{
+.values h4 {
   font-size: 20px;
   font-weight: 500;
   padding: 20px 0 15px 0;
   color: #FF6C4A;
 }
-
-
 
 /* ---------- PROJECT PAGE ---------- */
 
@@ -1335,7 +1177,7 @@ footer {
   font-size: 100px;
   font-weight: 800;
   color: #FFF;
-  margin: 240px 0 30px 0;
+  margin: 240px 80px 30px 80px;
 }
 
 .project-banner h3 {
@@ -1365,7 +1207,7 @@ footer {
   color: #343434;
 }
 
-.projects div{
+.projects div {
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -1376,13 +1218,9 @@ footer {
   padding-right: 15vw;
 }
 
-.info-right {
-  grid-column: 9 / 11;
-}
+.info-right {grid-column: 9 / 11;}
 
-.info-right ul li {
-  padding-bottom: 8px;
-}
+.info-right ul li {padding-bottom: 8px;}
 
 .info-right ul li::before {
   content: "•";
@@ -1395,160 +1233,162 @@ footer {
   padding: 25px 0 5px;
 }
 
-.projectpage-grid{
+.projectpage-grid {
   display: grid;
   grid-column: 1 / 13;
 }
 
-.projectpage-grid{
+.projectpage-grid {
   display: grid;
   grid-column: 1 / 13;
   background-color: #343434;
 }
 
-.projectpage-grid > div{
-  background-color: #343434;
-}
+.projectpage-grid>div {background-color: #343434;}
 
-.full-big{
+.full-big {
   grid-area: span 2 / span 12;
   height: 840px;
 }
 
-.full-normal{
+.full-normal {
   grid-area: span 2 / span 12;
   height: 620px;
 }
 
-.full-tiny{
+.full-tiny {
   grid-area: span 2 / span 12;
   height: 400px;
 }
 
-.eight-big{
+.eight-big {
   grid-area: span 2 / span 8;
   height: 800px;
 }
 
-.eight-normal{
+.eight-normal {
   grid-area: span 2 / span 8;
   height: 620px;
 }
 
-.eight-tiny{
+.eight-tiny {
   grid-area: span 2 / span 8;
   height: 400px;
 }
 
-.four-big{
+.four-big {
   grid-area: span 2 / span 4;
   height: 800px;
 }
 
-.four-normal{
+.four-normal {
   grid-area: span 2 / span 4;
   height: 620px;
 }
 
-.four-tiny{
+.four-tiny {
   grid-area: span 2 / span 4;
   height: 400px;
 }
 
-.half-big{
+.half-big {
   grid-area: span 2 / span 6;
   height: 800px;
 }
 
-.half-normal{
+.half-normal {
   grid-area: span 2 / span 6;
   height: 620px;
 }
 
-.half-tiny{
+.half-tiny {
   grid-area: span 2 / span 6;
   height: 400px;
 }
 
-.eight-big-half{
+.eight-big-half {
   grid-area: span 1 / span 8;
   height: 400px;
 }
 
-.eight-normal-half{
+.eight-normal-half {
   grid-area: span 1 / span 8;
   height: 310px;
 }
 
-.four-big-half{
+.four-big-half {
   grid-area: span 1 / span 4;
   height: 400px;
 }
 
-.four-normal-half{
+.four-normal-half {
   grid-area: span 1 / span 4;
   height: 310px;
 }
 
-.half-big-half{
+.half-big-half {
   grid-area: span 1 / span 6;
   height: 400px;
 }
 
-.half-normal-half{
+.half-normal-half {
   grid-area: span 1 / span 6;
   height: 310px;
 }
 
 /* PROJECT SPECIFIC STYLES */
 
-.hc-odense h4, .hc-odense .info-right ul li::before {
-  color: #FF8900;
-}
-
-.hc-odense .project-logo {
-  background-image: url("../media/portfolio/hc-odense/logo.png");
-}
-
-.hc-odense .project-banner{
+.hc-odense h4, .hc-odense .info-right ul li::before, .hc-odense .process-link {color: #FF8900;}
+.hc-odense .project-logo {background-image: url("../media/portfolio/hc-odense/logo.png");}
+.hc-odense .project-banner {
   background-image: url("../media/portfolio/hc-odense/top-banner-large-2x.jpg");
   background-color: #ed950d;
 }
-
-#hc-odense .projectpage-grid div:nth-child(1){background-image: url("../media/portfolio/hc-odense/match-poster-large-2x.jpg");}
-#hc-odense .full-tiny{background-image: url("../media/portfolio/hc-odense/banner-large-2x.jpg");}
-#hc-odense .eight-normal{background-image: url("../media/portfolio/hc-odense/sales-brochure-large-2x.jpg");}
-#hc-odense .four-normal{background-image: url("../media/portfolio/hc-odense/tour-poster-large-2x.jpg");}
-#hc-odense .projectpage-grid div:nth-child(5){background-image: url("../media/portfolio/hc-odense/matchday-cover-large-2x.jpg");}
+#hc-odense .projectpage-grid div:nth-child(1) {background-image: url("../media/portfolio/hc-odense/match-poster-large-2x.jpg");}
+#hc-odense .full-tiny {background-image: url("../media/portfolio/hc-odense/banner-large-2x.jpg");}
+#hc-odense .eight-normal {background-image: url("../media/portfolio/hc-odense/sales-brochure-large-2x.jpg");}
+#hc-odense .four-normal {background-image: url("../media/portfolio/hc-odense/tour-poster-large-2x.jpg");}
+#hc-odense .projectpage-grid div:nth-child(5) {background-image: url("../media/portfolio/hc-odense/matchday-cover-large-2x.jpg");}
+/* ---------- */
+.eb-livescore h4, .eb-livescore .info-right ul li::before, .eb-livescore .process-link {color: #2a840b;}
+.eb-livescore .project-logo {background-image: url("../media/portfolio/eb-livescore/logo.png");}
+.eb-livescore .project-banner {
+  background-image: url("../media/portfolio/eb-livescore/top-banner-large-2x.jpg");
+  background-color: #2a840b;
+}
+#eb-livescore .projectpage-grid div:nth-child(1) {background-image: url("../media/portfolio/eb-livescore/design-showcase-large-2x.jpg");}
+#eb-livescore .eight-normal {background-image: url("../media/portfolio/eb-livescore/screens-large-2x.jpg");}
+#eb-livescore .four-normal {background-image: url("../media/portfolio/eb-livescore/club-screen-large-2x.jpg");}
+#eb-livescore .projectpage-grid div:nth-child(4) {background-image: url("../media/portfolio/eb-livescore/banner-large-2x.jpg");}
+#eb-livescore .projectpage-grid div:nth-child(5) {background-image: url("../media/portfolio/eb-livescore/3screens-large-2x.jpg");}
+#eb-livescore .projectpage-grid div:nth-child(6) {background-image: url("../media/portfolio/eb-livescore/players-large-2x.jpg");}
+#eb-livescore .projectpage-grid div:nth-child(7) {background-image: url("../media/portfolio/eb-livescore/icons-large-2x.jpg");}
+#eb-livescore .projectpage-grid div:nth-child(8) {background-image: url("../media/portfolio/eb-livescore/design-showcase2-large-2x.jpg");}
 
 /* ---------- PROCESS PAGE ---------- */
 
-.process{
-  background-color: #F5F4EC;
-}
+.process {background-color: #F5F4EC;}
 
-.process-head{
+.process-head {
   grid-column: 1 / 13;
   text-align: center;
   margin: 60px 0 50px 0;
 }
 
-.process-head h1{
+.process-head h1 {
   font-size: 50px;
   font-weight: 800;
   color: #DD3224;
 }
 
-.process-section{
+.process-section {
   grid-column: 1 / 13;
   display: grid;
 }
 
-.first-seperate{
-  grid-column: 1 / 13;
-}
+.first-seperate {grid-column: 1 / 13;}
 
-.first-seperate h2{
+.first-seperate h2 {
   background-color: #343434;
   color: #F5F4EC;
   font-size: 32px;
@@ -1556,32 +1396,28 @@ footer {
   margin: 0;
 }
 
-.process-gallery{
+.process-gallery {
   grid-column: 1 / 13;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
 }
 
-.process-gallery div{
-  overflow: hidden;
-}
+.process-gallery div {overflow: hidden;}
 
-.process-gallery img{
+.process-gallery img {
   max-width: 100%;
   transform: scale(1.1);
   transition: all 0.2s ease-in-out;
 }
 
-.process-gallery a{
-  display: block;
-}
+.process-gallery a {display: block;}
 
-.process-gallery img:hover{
+.process-gallery img:hover {
   filter: brightness(1.2);
   transform: scale(1.25);
 }
 
-.text-overlay{
+.text-overlay {
   position: absolute;
   margin-top: -50px;
   font-size: 18px;
@@ -1592,58 +1428,50 @@ footer {
   text-shadow: 0 0 10px #000;
 }
 
-/* PROCESS SPECIFIC PAGES */
+/* PROCESS SUBPAGES */
 
-#process-container{
+#process-container {
   grid-column: 1 / 13;
   display: grid;
   background-color: #F5F4EC;
   padding-bottom: 100px;
 }
 
-.process-page-head{
+.process-page-head {
   grid-column: 1 / 13;
   text-align: center;
   margin: 60px 0 45px 0;
 }
 
-.process-page-head h1{
+.process-page-head h1 {
   font-size: 42px;
   font-weight: 800;
   color: #DD3224;
 }
 
-.process-img{
+.process-img {
   grid-column: 1 / 13;
   margin-bottom: 80px;
 }
 
-.process-img img{
-  width: 100%;
-}
+.process-img img {width: 100%;}
 
-.process-content{
+.process-content {
   grid-column: 1 / 13;
   width: 60%;
   margin: 0 auto;
 }
 
-.process-btn{
+.process-btn {
   display: block;
   margin: 10px auto;
 }
 
-.process-btn .btn-container .btn-front, .process-btn .btn-container .btn-bottom {
-  color: #DD3224;
-}
+.process-btn .btn-container .btn-front, .process-btn .btn-container .btn-bottom {color: #DD3224;}
 
-.process-btn .btn-container .btn-front, .process-btn .btn-container .back {
-  border: 3px solid #DD3224;
-}
+.process-btn .btn-container .btn-front, .process-btn .btn-container .back {border: 3px solid #DD3224;}
 
-.process-btn .process-btn:hover .btn-container .btn-front {
-  border: 3px solid #DD3224;
-}
+.process-btn .process-btn:hover .btn-container .btn-front {border: 3px solid #DD3224;}
 
 .process-btn .btn-container .btn-bottom {
   background: #DD3224;
@@ -1655,7 +1483,7 @@ footer {
   color: #F5F4EC;
 }
 
-.process-subtext p{
+.process-subtext p {
   color: #C7C7C7;
   text-align: center;
   font-size: 18px;
@@ -1663,7 +1491,7 @@ footer {
   margin-bottom: 60px;
 }
 
-.process-chapter{
+.process-chapter {
   font-size: 22px;
   color: #DD3224;
   font-weight: 800;
@@ -1671,80 +1499,61 @@ footer {
   text-align: center;
 }
 
-.process-text{
+.process-text {
   font-size: 16px;
   color: #343434;
   text-align: left;
 }
 
+.process-link {
+  display: inline-block;
+  margin-top: 10px;
+  border-bottom: 1px solid;
+  font-weight: 700;
+}
+
 /* -------------------- SMALLER DESK/LAPTOPS MEDIA QUERY -------------------- */
 
 @media only screen and (max-width: 1400px) {
-  .project-info {
-    padding: 120px 140px 100px 140px;
-  }
+  .project-info {padding: 120px 140px 100px 140px;}
 
-  .project-text{
-    padding: 18% 13%;
-  }
+  .project-text {padding: 18% 13%;}
 
-  .portfolio-text{
-    padding: 14% 12%;
-  }
+  .portfolio-text {padding: 14% 12%;}
 }
 
 /* -------------------- TABLET MEDIA QUERY -------------------- */
 
 @media only screen and (max-width: 1068px) {
-  .logo a{
-    margin: 40px 0 0 40px;
-  }
+  .logo a {margin: 40px 0 0 40px;}
 
-  .menu {
-    margin: 55px 30px 0 0;
-  }
+  .menu {margin: 55px 30px 0 0;}
 
   .banner h1 {
     font-size: 70px;
     margin-top: 160px;
   }
 
-  .banner {
-    background-image: url("../media/banner-img-medium-2x.jpg");
-  }
+  .banner {background-image: url("../media/banner-img-medium-2x.jpg");}
 
-  .banner-btn{
-    margin-bottom: 80px;
-  }
+  .banner-btn {margin-bottom: 80px;}
 
-  .text-carousel{
+  .text-carousel {
     width: 750px;
     margin: 10px auto 40px auto;
   }
 
-  .text-carousel-text{
-    font-size: 22px;
-  }
+  .text-carousel-text {font-size: 22px;}
 
-  .text-carousel-list{
-    padding-left: 421px;
-  }
+  .text-carousel-list {padding-left: 421px;}
 
-  .text-carousel-list-item{
-    font-size: 22px;
-  }
+  .text-carousel-list-item {font-size: 22px;}
 
-  .popup-container{
-    width: 80%;
-  }
+  .popup-container {width: 80%;}
 
-  .front-project-grid div {
-    height: 36vw;
-  }
+  .front-project-grid div {height: 36vw;}
 
-  .project-text{
-    padding: 14%;
-  }
+  .project-text {padding: 14%;}
 
   .project-1 {background-image: url("../media/hc-odense-medium.jpg");}
   .project-2 {background-image: url("../media/eb-livescore-medium.jpg");}
@@ -1755,61 +1564,38 @@ footer {
   .project-7 {background-image: url("../media/eb-transferday-medium.jpg");}
   .project-8 {background-image: url("../media/eb-formula1-medium.jpg");}
 
-  .servicesgrid {
-    grid-template-columns: repeat(2, 1fr);
-  }
+  .servicesgrid {grid-template-columns: repeat(2, 1fr);}
 
-  .work {
-    grid-template-columns: repeat(1, 1fr);
-  }
+  .work {grid-template-columns: repeat(1, 1fr);}
 
-  .worktext{
-    padding-bottom: 80px;
-  }
+  .worktext {padding-bottom: 80px;}
 
-  .work h3{
+  .work h3 {
     text-align: center;
     margin-bottom: 40px;
     font-size: 75px;
     line-height: 80px;
   }
 
-  .quotesgrid {
-    grid-template-columns: repeat(2, 1fr);
-  }
+  .quotesgrid {grid-template-columns: repeat(2, 1fr);}
 
-  .quotesgrid > div{
-    padding: 50px 40px;
-  }
+  .quotesgrid>div {padding: 50px 40px;}
 
-  footer{
-    padding: 100px 0 50px 0
-  }
+  footer {padding: 100px 0 50px 0;}
 
-  .footer-container{
-    padding-bottom: 50px;
-  }
+  .footer-container {padding-bottom: 50px;}
 
-  .footer-contact p, .footer-btn{
-    margin-left: 4.5vw;
-  }
+  .footer-contact p, .footer-btn {margin-left: 4.5vw;}
 
-  .copyright{
-    width: 65%;
-  }
+  .copyright {width: 65%;}
 
   /* PORTFOLIO PAGE (TABLET) */
 
-  .portfolio-grid {
-    grid-template-columns: repeat(2, 1fr);
-  }
-  .portfolio-grid div {
-    height: 36vw;
-  }
+  .portfolio-grid {grid-template-columns: repeat(2, 1fr);}
 
-  .portfolio-text{
-    padding: 20% 14%;
-  }
+  .portfolio-grid div {height: 36vw;}
+
+  .portfolio-text {padding: 20% 14%;}
 
   .portfolio-project-1 {background-image: url("../media/portfolio/hc-odense-medium.jpg");}
   .portfolio-project-2 {background-image: url("../media/portfolio/eb-livescore-medium.jpg");}
@@ -1830,132 +1616,114 @@ footer {
 
   /* ABOUT PAGE (TABLET) */
 
-  .intro-text{
-    padding: 130px 80px 0 60px;
-  }
+  .intro-text {padding: 130px 80px 0 60px;}
 
-  .aboutme{
+  .aboutme {
     grid-template-columns: repeat(1, 1fr);
     padding-bottom: 100px;
   }
 
-  .aboutme h4{
-    padding-top: 80px;
-  }
+  .aboutme h4 {padding-top: 80px;}
 
-  .value{
-    padding: 70px 10px 80px 10px;
-  }
+  .value {padding: 70px 10px 80px 10px;}
 
-  .values > div{
-    padding: 35px;
-  }
+  .values>div {padding: 35px;}
 
   /* PROJECT PAGE (TABLET) */
 
-  .project-info {
-    padding: 100px 60px 80px 60px;
-  }
+  .project-info {padding: 100px 60px 80px 60px;}
 
-  .info-left{
-    padding-right: 10vw;
-  }
+  .info-left {padding-right: 10vw;}
 
   .project-banner h1 {
     font-size: 80px;
-    margin-top: 190px;
+    margin: 190px 60px 20px 60px;
   }
 
   .project-banner h3 {
-    margin-bottom: 133px;
+    margin-bottom: 113px;
     font-size: 22px;
   }
 
-  .full-big{height: 700px;}
-  .full-normal{height: 400px;}
-  .full-tiny{height: 200px;}
-  .eight-big{height: 700px;}
-  .eight-normal{height: 400px;}
-  .eight-tiny{height: 200px;}
-  .four-big{height: 700px;}
-  .four-normal{height: 400px;}
-  .four-tiny{height: 200px;}
-  .half-big{height: 700px;}
-  .half-normal{height: 400px;}
-  .half-tiny{height: 200px;}
-  .eight-big-half{height: 350px;}
-  .eight-normal-half{height: 200px;}
-  .four-big-half{height: 350px;}
-  .four-normal-half{height: 200px;}
-  .half-big-half{height: 350px;}
-  .half-normal-half{height: 200px;}
+  .full-big {height: 700px;}
+  .full-normal {height: 400px;}
+  .full-tiny {height: 200px;}
+  .eight-big {height: 700px;}
+  .eight-normal {height: 400px;}
+  .eight-tiny {height: 200px;}
+  .four-big {height: 700px;}
+  .four-normal {height: 400px;}
+  .four-tiny {height: 200px;}
+  .half-big {height: 700px;}
+  .half-normal {height: 400px;}
+  .half-tiny {height: 200px;}
+  .eight-big-half {height: 350px;}
+  .eight-normal-half {height: 200px;}
+  .four-big-half {height: 350px;}
+  .four-normal-half {height: 200px;}
+  .half-big-half {height: 350px;}
+  .half-normal-half {height: 200px;}
 
-  .hc-odense .project-banner{background-image: url("../media/portfolio/hc-odense/top-banner-medium-2x.jpg");}
+  .hc-odense .project-banner {background-image: url("../media/portfolio/hc-odense/top-banner-medium-2x.jpg");}
+  #hc-odense .projectpage-grid div:nth-child(1) {background-image: url("../media/portfolio/hc-odense/match-poster-medium-2x.jpg");}
+  #hc-odense .full-tiny {background-image: url("../media/portfolio/hc-odense/banner-medium-2x.jpg");}
+  #hc-odense .eight-normal {background-image: url("../media/portfolio/hc-odense/sales-brochure-medium-2x.jpg");}
+  #hc-odense .four-normal {background-image: url("../media/portfolio/hc-odense/tour-poster-medium-2x.jpg");}
+  #hc-odense .projectpage-grid div:nth-child(5) {background-image: url("../media/portfolio/hc-odense/matchday-cover-medium-2x.jpg");}
+  /* ---------- */
+  .eb-livescore .project-banner {background-image: url("../media/portfolio/eb-livescore/top-banner-medium-2x.jpg");}
+  #eb-livescore .projectpage-grid div:nth-child(1) {background-image: url("../media/portfolio/eb-livescore/design-showcase-medium-2x.jpg");}
+  #eb-livescore .eight-normal {background-image: url("../media/portfolio/eb-livescore/screens-medium-2x.jpg");}
+  #eb-livescore .four-normal {background-image: url("../media/portfolio/eb-livescore/club-screen-medium-2x.jpg");}
+  #eb-livescore .projectpage-grid div:nth-child(4) {background-image: url("../media/portfolio/eb-livescore/banner-medium-2x.jpg");}
+  #eb-livescore .projectpage-grid div:nth-child(5) {background-image: url("../media/portfolio/eb-livescore/3screens-medium-2x.jpg");}
+  #eb-livescore .projectpage-grid div:nth-child(6) {background-image: url("../media/portfolio/eb-livescore/players-medium-2x.jpg");}
+  #eb-livescore .projectpage-grid div:nth-child(7) {background-image: url("../media/portfolio/eb-livescore/icons-medium-2x.jpg");}
+  #eb-livescore .projectpage-grid div:nth-child(8) {background-image: url("../media/portfolio/eb-livescore/design-showcase2-medium-2x.jpg");}
 
-  #hc-odense .projectpage-grid div:nth-child(1){background-image: url("../media/portfolio/hc-odense/match-poster-medium-2x.jpg");}
-  #hc-odense .full-tiny{background-image: url("../media/portfolio/hc-odense/banner-medium-2x.jpg");}
-  #hc-odense .eight-normal{background-image: url("../media/portfolio/hc-odense/sales-brochure-medium-2x.jpg");}
-  #hc-odense .four-normal{background-image: url("../media/portfolio/hc-odense/tour-poster-medium-2x.jpg");}
-  #hc-odense .projectpage-grid div:nth-child(5){background-image: url("../media/portfolio/hc-odense/matchday-cover-medium-2x.jpg");}
+  /* ----------- PROCESS PAGE (TABLET) ----------- */
 
+  .process-gallery {grid-template-columns: repeat(2, 1fr);}
 
-/* ----------- PROCESS PAGE (TABLET) ----------- */
+  .process-head h1 {font-size: 36px;}
 
-  .process-gallery{
-    grid-template-columns: repeat(2, 1fr);
-  }
-
-  .process-head h1{
-    font-size: 36px;
-  }
-
-  .first-seperate h2{
+  .first-seperate h2 {
     font-size: 24px;
     padding: 30px 0;
   }
 
-  .text-overlay{
+  .text-overlay {
     font-size: 20px;
     width: 50%;
   }
 
-  /* PROCESS SPECIFIC PAGES */
+  /* PROCESS SUBPAGES */
 
-  #process-container{
-    padding-bottom: 60px;
-  }
+  #process-container {padding-bottom: 60px;}
 
-  .process-page-head{
-    margin: 40px 0 30px 0;
-  }
+  .process-page-head {margin: 40px 0 30px 0;}
 
-  .process-page-head h1{
-    font-size: 34px;
-  }
+  .process-page-head h1 {font-size: 34px;}
 
-  .process-content{
-    width: 80%;
-  }
+  .process-content {width: 80%;}
 }
 
 /* -------------------- MOBILE MEDIA QUERY -------------------- */
 
 @media only screen and (max-width: 735px) {
-  h2{
+  h2 {
     font-size: 30px;
     margin: 50px 0 20px 0;
   }
 
-  .logo a{
+  .logo a {
     background-size: 112px 56px;
     width: 112px;
     height: 42px;
     margin: 20px 0 0 20px;
   }
 
-  .menu{
-    display: none;
-  }
+  .menu {display: none;}
 
   .btn-mobile-menu {
     display: block;
@@ -1977,18 +1745,16 @@ footer {
     transition: 0.4s;
   }
 
-  .dark-mobile-menu .line1, .dark-mobile-menu .line2, .dark-mobile-menu .line3 {
-    background-color: #343434;
-  }
+  .dark-mobile-menu .line1, .dark-mobile-menu .line2, .dark-mobile-menu .line3 {background-color: #343434;}
 
   .change .line1 {
     -webkit-transform: rotate(-45deg) translate(-9px, 7px);
     transform: rotate(-45deg) translate(-9px, 7px);
     background-color: #FFF;
   }
-  .change .line2 {
-    opacity: 0;
-  }
+
+  .change .line2 {opacity: 0;}
+
   .change .line3 {
     -webkit-transform: rotate(45deg) translate(-8px, -7px);
     transform: rotate(45deg) translate(-8px, -7px);
@@ -2000,50 +1766,30 @@ footer {
     margin: 100px 0 25px 0;
   }
 
-  .banner {
-    background-image: url("../media/banner-img-small-2x.jpg");
-  }
+  .banner {background-image: url("../media/banner-img-small-2x.jpg");}
 
-  .banner-btn{
-    margin-bottom: 40px;
-  }
+  .banner-btn {margin-bottom: 40px;}
 
-  .text-carousel{
-    display: none;
-  }
+  .text-carousel {display: none;}
 
-  .popup-container{
-    width: 90%;
-  }
+  .popup-container {width: 90%;}
 
-  .contactbox {
-    padding-top: 70px;
-  }
+  .contactbox {padding-top: 70px;}
 
-  #contact{
-    padding: 20px 10px 10px 16px;
-  }
+  #contact {padding: 20px 10px 10px 16px;}
 
-  #contact h4{
-    font-size: 24px;
-  }
+  #contact h4 {font-size: 24px;}
 
-  #contact p{
-    font-size: 13px;
-  }
+  #contact p {font-size: 13px;}
 
-  .close-popup{
+  .close-popup {
     padding-right: 15px;
     font-size: 50px;
   }
 
-  #contact textarea {
-    height: 120px;
-  }
+  #contact textarea {height: 120px;}
 
-  #contact button[type="submit"] {
-    width: 75%;
-  }
+  #contact button[type="submit"] {width: 75%;}
 
   .arrow-down {
     width: 36px;
@@ -2051,25 +1797,15 @@ footer {
     margin: 0 auto -18px auto;
   }
 
-  .projects-intro {
-    padding: 30px 0;
-  }
+  .projects-intro {padding: 30px 0;}
 
-  .projects-intro p {
-    font-size: 16px;
-  }
+  .projects-intro p {font-size: 16px;}
 
-  .front-project-grid {
-    grid-template-columns: repeat(1, 1fr);
-  }
+  .front-project-grid {grid-template-columns: repeat(1, 1fr);}
 
-  .front-project-grid div {
-    height: 74vw;
-  }
+  .front-project-grid div {height: 74vw;}
 
-  .project-text{
-    padding: 18%;
-  }
+  .project-text {padding: 18%;}
 
   .project-1 {background-image: url("../media/hc-odense-small.jpg");}
   .project-2 {background-image: url("../media/eb-livescore-small.jpg");}
@@ -2085,22 +1821,18 @@ footer {
     padding: 45px 0;
   }
 
-  .services {
-    padding-bottom: 215px;
-  }
+  .services {padding-bottom: 215px;}
 
-  .servicesgrid {
-    display: none;
-  }
+  .servicesgrid {display: none;}
 
-  .mobile-servicesgrid{
+  .mobile-servicesgrid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     width: 90%;
     margin: 0 auto;
   }
 
-  .mobile-servicesgrid > div {
+  .mobile-servicesgrid>div {
     height: 80px;
     margin: 20px auto 0 auto;
   }
@@ -2111,14 +1843,14 @@ footer {
     border-radius: 50px;
   }
 
-  .service-active{
+  .service-active {
     width: 70px;
     height: 70px;
     border-radius: 70px;
     border: solid 2px #7EBFF2;
   }
 
-  .mobile-servicesgrid-text{
+  .mobile-servicesgrid-text {
     display: block;
     width: 90%;
     margin: 20px 5% 0 5%;
@@ -2126,58 +1858,42 @@ footer {
     position: absolute;
   }
 
-  .mobile-servicesgrid-text h4{
+  .mobile-servicesgrid-text h4 {
     font-size: 22px;
     padding-bottom: 10px;
   }
 
-  #service-text-1{
+  #service-text-1 {
     opacity: 1;
     transition: all 0.3s ease-in-out;
   }
 
-  #service-text-2, #service-text-3, #service-text-4, #service-text-5, #service-text-6{
+  #service-text-2, #service-text-3, #service-text-4, #service-text-5, #service-text-6 {
     opacity: 0;
     transition: all 0.3s ease-in-out;
   }
 
-  .work{
-    padding: 0px 0 30px 0;
-  }
+  .work {padding: 0px 0 30px 0;}
 
-  .work h3{
+  .work h3 {
     font-size: 30px;
     line-height: 30px;
     margin-bottom: 30px;
   }
 
-  .worktext{
-    padding: 55px 25px 25px 25px;
-  }
+  .worktext {padding: 55px 25px 25px 25px;}
 
-  .workgrid{
-    padding: 0 15px;
-  }
+  .workgrid {padding: 0 15px;}
 
-  .workgrid div{
-    margin: 15px;
-  }
+  .workgrid div {margin: 15px;}
 
-  .quotes h2{
-    margin: 40px 0 30px 0;
-  }
+  .quotes h2 {margin: 40px 0 30px 0;}
 
-  .quotesgrid {
-    grid-template-columns: repeat(1, 1fr);
-  }
+  .quotesgrid {grid-template-columns: repeat(1, 1fr);}
 
-  .quotesgrid > div {
-    padding: 40px 20px;
-  }
+  .quotesgrid>div {padding: 40px 20px;}
 
-  footer{
-    padding: 50px 0 60px 0;
-  }
+  footer {padding: 50px 0 60px 0;}
 
   .footer-container {
     grid-template-columns: repeat(1, 1fr);
@@ -2186,62 +1902,43 @@ footer {
     padding-bottom: 20px;
   }
 
-  .footer-container h5{
-    margin-bottom: 30px;
-  }
+  .footer-container h5 {margin-bottom: 30px;}
 
-  .footer-contact{
+  .footer-contact {
     border-bottom: 1px solid #5c5c5c;
     padding-bottom: 50px;
   }
 
-  .contact-info{
-    margin: 0 auto;
-  }
+  .contact-info {margin: 0 auto;}
 
-  .contact-info p{
-    text-align: center;
-  }
+  .contact-info p {text-align: center;}
 
-  .footer-contact p, .footer-btn{
-    margin-left: 0;
-  }
+  .footer-contact p, .footer-btn {margin-left: 0;}
 
-  .footer-btn{
+  .footer-btn {
     margin: 30px auto 0 auto;
     text-align: center;
   }
 
-  .footer-nav{
+  .footer-nav {
     padding: 50px 0 40px 0;
     border: none;
     border-bottom: 1px solid #5c5c5c;
   }
 
-  .footer-nav ul{
-    padding: 0 60px;
-  }
+  .footer-nav ul {padding: 0 60px;}
 
-  .footer-some{
-    padding: 50px 0 40px 0;
-  }
+  .footer-some {padding: 50px 0 40px 0;}
 
-  .copyright{
-    width: 85%;
-  }
+  .copyright {width: 85%;}
 
   /* PORTFOLIO PAGE (MOBILE) */
 
-  .portfolio-grid {
-    grid-template-columns: repeat(1, 1fr);
-  }
-  .portfolio-grid div {
-    height: 74vw;
-  }
+  .portfolio-grid {grid-template-columns: repeat(1, 1fr);}
 
-  .portfolio-text{
-    padding: 22% 12%;
-  }
+  .portfolio-grid div {height: 74vw;}
+
+  .portfolio-text {padding: 22% 12%;}
 
   .portfolio-project-1 {background-image: url("../media/portfolio/hc-odense-small.jpg");}
   .portfolio-project-2 {background-image: url("../media/portfolio/eb-livescore-small.jpg");}
@@ -2280,26 +1977,18 @@ footer {
     width: 100%;
   }
 
-  .aboutme{
-    padding: 0 30px 70px 30px;
-  }
+  .aboutme {padding: 0 30px 70px 30px;}
 
-  .aboutme h4{
-    padding: 50px 0 20px 0;
-  }
+  .aboutme h4 {padding: 50px 0 20px 0;}
 
-  .aboutme p{
-    padding: 0;
-  }
+  .aboutme p {padding: 0;}
 
   .value {
     padding: 50px 10px 0px 10px;
     height: 330px;
   }
 
-  .values {
-    display: none;
-  }
+  .values {display: none;}
 
   .mobile-values {
     grid-column: 1 / 13;
@@ -2309,9 +1998,7 @@ footer {
     color: #FFAB80;
   }
 
-  .mobile-values > div{
-    margin: 0 auto;
-  }
+  .mobile-values>div {margin: 0 auto;}
 
   .icon-value {
     width: 50px;
@@ -2319,14 +2006,14 @@ footer {
     border-radius: 50px;
   }
 
-  .value-active{
+  .value-active {
     width: 70px;
     height: 70px;
     border-radius: 70px;
     border: solid 2px #FF6C4A;
   }
 
-  .mobile-values-text{
+  .mobile-values-text {
     margin-top: 150px;
     position: absolute;
     text-align: center;
@@ -2334,17 +2021,17 @@ footer {
     display: block;
   }
 
-  #value-text-1{
+  #value-text-1 {
     opacity: 1;
     transition: all 0.3s ease-in-out;
   }
 
-  #value-text-2, #value-text-3{
+  #value-text-2, #value-text-3 {
     opacity: 0;
     transition: all 0.3s ease-in-out;
   }
 
-  .mobile-values-text h4{
+  .mobile-values-text h4 {
     font-size: 22px;
     padding-bottom: 10px;
   }
@@ -2353,7 +2040,7 @@ footer {
 
   .project-banner h1 {
     font-size: 36px;
-    margin: 105px 10px 15px 10px;
+    margin: 105px 20px 15px 20px;
   }
 
   .project-banner h3 {
@@ -2380,82 +2067,73 @@ footer {
     padding-right: 0;
   }
 
-  .info-right {
-    grid-column: 1 / 12;
-  }
+  .info-right {grid-column: 1 / 12;}
 
-  .full-big{height: 500px;}
-  .full-normal{height: 260px;}
-  .full-tiny{height: 140px;}
-  .eight-big{height: 500px;}
-  .eight-normal{height: 260px;}
-  .eight-tiny{height: 140px;}
-  .four-big{height: 500px;}
-  .four-normal{height: 260px;}
-  .four-tiny{height: 140px;}
-  .half-big{height: 500px;}
-  .half-normal{height: 260px;}
-  .half-tiny{height: 140px;}
-  .eight-big-half{height: 250px;}
-  .eight-normal-half{height: 130px;}
-  .four-big-half{height: 250px;}
-  .four-normal-half{height: 130px;}
-  .half-big-half{height: 250px;}
-  .half-normal-half{height: 130px;}
+  .full-big {height: 500px;}
+  .full-normal {height: 260px;}
+  .full-tiny {height: 140px;}
+  .eight-big {height: 500px;}
+  .eight-normal {height: 260px;}
+  .eight-tiny {height: 140px;}
+  .four-big {height: 500px;}
+  .four-normal {height: 260px;}
+  .four-tiny {height: 140px;}
+  .half-big {height: 500px;}
+  .half-normal {height: 260px;}
+  .half-tiny {height: 140px;}
+  .eight-big-half {height: 250px;}
+  .eight-normal-half {height: 130px;}
+  .four-big-half {height: 250px;}
+  .four-normal-half {height: 130px;}
+  .half-big-half {height: 250px;}
+  .half-normal-half {height: 130px;}
 
-  .hc-odense .project-banner{background-image: url("../media/portfolio/hc-odense/top-banner-small-2x.jpg");}
-
-  #hc-odense .projectpage-grid div:nth-child(1){background-image: url("../media/portfolio/hc-odense/match-poster-small-2x.jpg");}
-  #hc-odense .full-tiny{background-image: url("../media/portfolio/hc-odense/banner-small-2x.jpg");}
-  #hc-odense .eight-normal{background-image: url("../media/portfolio/hc-odense/sales-brochure-small-2x.jpg");}
-  #hc-odense .four-normal{background-image: url("../media/portfolio/hc-odense/tour-poster-small-2x.jpg");}
-  #hc-odense .projectpage-grid div:nth-child(5){background-image: url("../media/portfolio/hc-odense/matchday-cover-small-2x.jpg");}
+  .hc-odense .project-banner {background-image: url("../media/portfolio/hc-odense/top-banner-small-2x.jpg");}
+  #hc-odense .projectpage-grid div:nth-child(1) {background-image: url("../media/portfolio/hc-odense/match-poster-small-2x.jpg");}
+  #hc-odense .full-tiny {background-image: url("../media/portfolio/hc-odense/banner-small-2x.jpg");}
+  #hc-odense .eight-normal {background-image: url("../media/portfolio/hc-odense/sales-brochure-small-2x.jpg");}
+  #hc-odense .four-normal {background-image: url("../media/portfolio/hc-odense/tour-poster-small-2x.jpg");}
+  #hc-odense .projectpage-grid div:nth-child(5) {background-image: url("../media/portfolio/hc-odense/matchday-cover-small-2x.jpg");}
+  /* ---------- */
+  .eb-livescore .project-banner {background-image: url("../media/portfolio/eb-livescore/top-banner-small-2x.jpg");}
+  #eb-livescore .projectpage-grid div:nth-child(1) {background-image: url("../media/portfolio/eb-livescore/design-showcase-small-2x.jpg");}
+  #eb-livescore .eight-normal {background-image: url("../media/portfolio/eb-livescore/screens-small-2x.jpg");}
+  #eb-livescore .four-normal {background-image: url("../media/portfolio/eb-livescore/club-screen-small-2x.jpg");}
+  #eb-livescore .projectpage-grid div:nth-child(4) {background-image: url("../media/portfolio/eb-livescore/banner-small-2x.jpg");}
+  #eb-livescore .projectpage-grid div:nth-child(5) {background-image: url("../media/portfolio/eb-livescore/3screens-small-2x.jpg");}
+  #eb-livescore .projectpage-grid div:nth-child(6) {background-image: url("../media/portfolio/eb-livescore/players-small-2x.jpg");}
+  #eb-livescore .projectpage-grid div:nth-child(7) {background-image: url("../media/portfolio/eb-livescore/icons-small-2x.jpg");}
+  #eb-livescore .projectpage-grid div:nth-child(8) {background-image: url("../media/portfolio/eb-livescore/design-showcase2-small-2x.jpg");}
 
   /* ----------- PROCESS PAGE (MOBILE) ----------- */
 
-  .process-gallery{
-    grid-template-columns: repeat(1, 1fr);
-  }
+  .process-gallery {grid-template-columns: repeat(1, 1fr);}
 
-  .process-head{
-    margin: 25px 30px 20px 30px;
-  }
+  .process-head {margin: 25px 30px 20px 30px;}
 
-  .process-head h1{
-    font-size: 28px;
-  }
+  .process-head h1 {font-size: 28px;}
 
-  .first-seperate h2{
+  .first-seperate h2 {
     font-size: 16px;
     padding: 20px 0;
   }
 
-  .text-overlay{
+  .text-overlay {
     font-size: 16px;
     width: 100%;
   }
 
-  /* PROCESS SPECIFIC PAGES */
+  /* PROCESS SUBPAGES */
 
-  #process-container{
-    padding-bottom: 40px;
-  }
+  #process-container {padding-bottom: 40px;}
 
-  .process-page-head{
-    margin: 20px 0 15px 0;
-  }
+  .process-page-head {margin: 20px 0 15px 0;}
 
-  .process-page-head h1{
-    font-size: 18px;
-  }
+  .process-page-head h1 {font-size: 18px;}
 
-  .process-img{
-    margin-bottom: 30px;
-  }
+  .process-img {margin-bottom: 30px;}
 
-  .process-content{
-    width: 90%;
-  }
+  .process-content {width: 90%;}
 
   .process-subtext p {
     font-size: 15px;
@@ -2463,11 +2141,9 @@ footer {
     margin-bottom: 40px;
   }
 
-  .process-chapter{
-    margin: 40px 0 12px 0;
-  }
+  .process-chapter {margin: 40px 0 12px 0;}
 
-  .process-text{
+  .process-text {
     width: 90%;
     margin: 0 auto;
   }
