@@ -20,7 +20,7 @@
           <div class="intro-img"></div>
           <div class="intro-text">
             <h4>Hello! I'm Stefan...</h4>
-            <p>23 year old dedicated designer and creative connoisseur working with everything ranging from video editing, graphic design, 3D and webdesign to print design, animation and communication. I always involve myself 100% in the projects that I’m apart of because i always strive to evolve myself and expand my skillset everyday.</p>
+            <p>23 year old dedicated designer and creative aficionado working with everything ranging from video editing, graphic design, 3D and webdesign to print design, animation and communication. I always involve myself 100% in the projects that I’m apart of because i always strive to evolve myself and expand my skillset everyday.</p>
           </div>
         </div>
         <div class="resume">
