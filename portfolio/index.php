@@ -38,17 +38,17 @@
             </a>
         	</div>
           <div class="project-container">
-        		<a href="../#/" class="project-img portfolio-project-3">
+        		<a href="../ring-til-fortiden/" class="project-img portfolio-project-3">
               <div class="project-text portfolio-text">
                 <h5>VIDEO - TRIFOLDERS - APP DESIGN</h5>
           			<h4>Ring Til Fortiden</h4>
                 <hr/>
-                <p>Full Concept for an installation on Fredericia Vold</p>
+                <p>Full Concept for an installation on Fredericia Rampart</p>
               </div>
             </a>
         	</div>
           <div class="project-container">
-        		<a href="../#/" class="project-img portfolio-project-4">
+        		<a href="#" class="project-img portfolio-project-4">
               <div class="project-text portfolio-text">
                 <h5>NATIVE ADD GRAPHIC</h5>
           			<h4>Circle K</h4>
@@ -58,7 +58,7 @@
             </a>
         	</div>
           <div class="project-container">
-        		<a href="../#/" class="project-img portfolio-project-5">
+        		<a href="#" class="project-img portfolio-project-5">
               <div class="project-text portfolio-text">
                 <h5>WEB GRAPHICS - ANIMATION</h5>
           			<h4>Superliga Animation</h4>
@@ -68,7 +68,7 @@
             </a>
         	</div>
           <div class="project-container">
-        		<a href="../#/" class="project-img portfolio-project-6">
+        		<a href="#" class="project-img portfolio-project-6">
               <div class="project-text portfolio-text">
                 <h5>WEBDESIGN</h5>
           			<h4>Ekstra Bladet Widgets</h4>
@@ -78,7 +78,7 @@
             </a>
         	</div>
           <div class="project-container">
-        		<a href="../#/" class="project-img portfolio-project-7">
+        		<a href="#" class="project-img portfolio-project-7">
               <div class="project-text portfolio-text">
                 <h5>WEBDESIGN</h5>
           			<h4>Ekstra Bladet 'Powertools'</h4>
@@ -88,7 +88,7 @@
             </a>
         	</div>
           <div class="project-container">
-        		<a href="../#/" class="project-img portfolio-project-8">
+        		<a href="#" class="project-img portfolio-project-8">
               <div class="project-text portfolio-text">
                 <h5>POSTERS - BUSSINESS CARDS - POSTCARDS</h5>
           			<h4>Dagslys</h4>
@@ -98,7 +98,7 @@
             </a>
         	</div>
           <div class="project-container">
-        		<a href="../#/" class="project-img portfolio-project-9">
+        		<a href="#" class="project-img portfolio-project-9">
               <div class="project-text portfolio-text">
                 <h5>ROLL UP BANNERS</h5>
           			<h4>Fri Bike Shop</h4>
@@ -108,7 +108,7 @@
             </a>
         	</div>
           <div class="project-container">
-        		<a href="../#/" class="project-img portfolio-project-10">
+        		<a href="#" class="project-img portfolio-project-10">
               <div class="project-text portfolio-text">
                 <h5>GRAPHICS - FULL LAYOUT</h5>
           			<h4>Premier League Handbook</h4>
@@ -118,7 +118,7 @@
             </a>
         	</div>
           <div class="project-container">
-        		<a href="../#/" class="project-img portfolio-project-11">
+        		<a href="#" class="project-img portfolio-project-11">
               <div class="project-text portfolio-text">
                 <h5>BUSINESS CARDS - FLYERS - LOGO - ROLL UP BANNERS</h5>
           			<h4>Faster EFT</h4>
@@ -128,7 +128,7 @@
             </a>
         	</div>
           <div class="project-container">
-        		<a href="../#/" class="project-img portfolio-project-12">
+        		<a href="#" class="project-img portfolio-project-12">
               <div class="project-text portfolio-text">
                 <h5>VISUAL IDENTITY - ANIMATED BANNERS</h5>
           			<h4>Transfer Deadline Day</h4>
@@ -138,7 +138,7 @@
             </a>
         	</div>
           <div class="project-container">
-        		<a href="../#/" class="project-img portfolio-project-13">
+        		<a href="#" class="project-img portfolio-project-13">
               <div class="project-text portfolio-text">
                 <h5>VISUAL IDENTITY - GRAPHICS</h5>
           			<h4>Formula 1 Graphics</h4>
@@ -148,7 +148,7 @@
             </a>
         	</div>
           <div class="project-container">
-        		<a href="../#/" class="project-img portfolio-project-14">
+        		<a href="#" class="project-img portfolio-project-14">
               <div class="project-text portfolio-text">
                 <h5>POSTERS</h5>
           			<h4>Korup Motion</h4>
@@ -158,7 +158,7 @@
             </a>
         	</div>
           <div class="project-container">
-        		<a href="../#/" class="project-img portfolio-project-15">
+        		<a href="#" class="project-img portfolio-project-15">
               <div class="project-text portfolio-text">
                 <h5>BANNER</h5>
           			<h4>Jufary</h4>
@@ -168,7 +168,7 @@
             </a>
         	</div>
           <div class="project-container">
-        		<a href="../#/" class="project-img portfolio-project-16">
+        		<a href="#" class="project-img portfolio-project-16">
               <div class="project-text portfolio-text">
                 <h5>INFOGRAPHICS</h5>
           			<h4>Football Infographics</h4>

@@ -33,7 +33,7 @@ h2 {
 
 p {
   font-size: 15px;
-  line-height: 22px;
+  line-height: 23px;
 }
 
 a {text-decoration: none;}
@@ -1371,6 +1371,19 @@ footer {
 #eb-livescore .projectpage-grid div:nth-child(6) {background-image: url("../media/portfolio/eb-livescore/players-large-2x.jpg");}
 #eb-livescore .projectpage-grid div:nth-child(7) {background-image: url("../media/portfolio/eb-livescore/icons-large-2x.jpg");}
 #eb-livescore .projectpage-grid div:nth-child(8) {background-image: url("../media/portfolio/eb-livescore/design-showcase2-large-2x.jpg");}
+/* ---------- */
+.ring-til-fortiden h4, .ring-til-fortiden .info-right ul li::before, .ring-til-fortiden .process-link {color: #29435a;}
+.ring-til-fortiden .project-logo {background-image: url("../media/portfolio/ring-til-fortiden/logo.png");}
+.ring-til-fortiden .project-banner {
+  background-image: url("../media/portfolio/ring-til-fortiden/top-banner-large-2x.jpg");
+  background-color: #29435a;
+}
+#ring-til-fortiden .projectpage-grid iframe {width: 100%; height: inherit;}
+#ring-til-fortiden .full-normal {background-image: url("../media/portfolio/ring-til-fortiden/trifold-large-2x.png");}
+#ring-til-fortiden .projectpage-grid div:nth-child(3) {background-image: url("../media/portfolio/ring-til-fortiden/diploma-gold-large-2x.jpg");}
+#ring-til-fortiden .projectpage-grid div:nth-child(4) {background-image: url("../media/portfolio/ring-til-fortiden/diploma-silver-large-2x.jpg");}
+#ring-til-fortiden .full-tiny {background-image: url("../media/portfolio/ring-til-fortiden/landscape-large-2x.png");}
+#ring-til-fortiden .projectpage-grid div:nth-child(6) {background-image: url("../media/portfolio/ring-til-fortiden/app-large-2x.jpg");}
 
 /* ---------- PROCESS PAGE ---------- */
 
@@ -1695,6 +1708,14 @@ footer {
   #eb-livescore .projectpage-grid div:nth-child(6) {background-image: url("../media/portfolio/eb-livescore/players-medium-2x.jpg");}
   #eb-livescore .projectpage-grid div:nth-child(7) {background-image: url("../media/portfolio/eb-livescore/icons-medium-2x.jpg");}
   #eb-livescore .projectpage-grid div:nth-child(8) {background-image: url("../media/portfolio/eb-livescore/design-showcase2-medium-2x.jpg");}
+  /* ---------- */
+  .ring-til-fortiden .project-banner {background-image: url("../media/portfolio/ring-til-fortiden/top-banner-medium-2x.jpg");}
+  #ring-til-fortiden .projectpage-grid iframe {width: 100%; height: inherit;}
+  #ring-til-fortiden .full-normal {background-image: url("../media/portfolio/ring-til-fortiden/trifold-medium-2x.png");}
+  #ring-til-fortiden .projectpage-grid div:nth-child(3) {background-image: url("../media/portfolio/ring-til-fortiden/diploma-gold-medium-2x.jpg");}
+  #ring-til-fortiden .projectpage-grid div:nth-child(4) {background-image: url("../media/portfolio/ring-til-fortiden/diploma-silver-medium-2x.jpg");}
+  #ring-til-fortiden .full-tiny {background-image: url("../media/portfolio/ring-til-fortiden/landscape-medium-2x.png");}
+  #ring-til-fortiden .projectpage-grid div:nth-child(6) {background-image: url("../media/portfolio/ring-til-fortiden/app-medium-2x.jpg");}
 
   /* ----------- PROCESS PAGE (TABLET) ----------- */
 
@@ -2121,6 +2142,14 @@ footer {
   #eb-livescore .projectpage-grid div:nth-child(6) {background-image: url("../media/portfolio/eb-livescore/players-small-2x.jpg");}
   #eb-livescore .projectpage-grid div:nth-child(7) {background-image: url("../media/portfolio/eb-livescore/icons-small-2x.jpg");}
   #eb-livescore .projectpage-grid div:nth-child(8) {background-image: url("../media/portfolio/eb-livescore/design-showcase2-small-2x.jpg");}
+  /* ---------- */
+  .ring-til-fortiden .project-banner {background-image: url("../media/portfolio/ring-til-fortiden/top-banner-small-2x.jpg");}
+  #ring-til-fortiden .projectpage-grid iframe {width: 100%; height: inherit;}
+  #ring-til-fortiden .full-normal {background-image: url("../media/portfolio/ring-til-fortiden/trifold-small-2x.png");}
+  #ring-til-fortiden .projectpage-grid div:nth-child(3) {background-image: url("../media/portfolio/ring-til-fortiden/diploma-gold-small-2x.jpg");}
+  #ring-til-fortiden .projectpage-grid div:nth-child(4) {background-image: url("../media/portfolio/ring-til-fortiden/diploma-silver-small-2x.jpg");}
+  #ring-til-fortiden .full-tiny {background-image: url("../media/portfolio/ring-til-fortiden/landscape-small-2x.png");}
+  #ring-til-fortiden .projectpage-grid div:nth-child(6) {background-image: url("../media/portfolio/ring-til-fortiden/app-small-2x.jpg");}
 
   /* ----------- PROCESS PAGE (MOBILE) ----------- */
 
