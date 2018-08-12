@@ -1384,6 +1384,19 @@ footer {
 #ring-til-fortiden .projectpage-grid div:nth-child(4) {background-image: url("../media/portfolio/ring-til-fortiden/diploma-silver-large-2x.jpg");}
 #ring-til-fortiden .full-tiny {background-image: url("../media/portfolio/ring-til-fortiden/landscape-large-2x.png");}
 #ring-til-fortiden .projectpage-grid div:nth-child(6) {background-image: url("../media/portfolio/ring-til-fortiden/app-large-2x.jpg");}
+/* ---------- */
+.faster-eft h4, .faster-eft .info-right ul li::before, .faster-eft .process-link {color: #3ea04a;}
+.faster-eft .project-logo {background-image: url("../media/portfolio/faster-eft/logo.png");}
+.faster-eft .project-banner {
+  background-image: url("../media/portfolio/faster-eft/top-banner-large-2x.jpg");
+  background-color: #3ea04a;
+}
+#faster-eft .full-big {background-image: url("../media/portfolio/faster-eft/flyer-large-2x.jpg");}
+#faster-eft .projectpage-grid div:nth-child(2) {background-image: url("../media/portfolio/faster-eft/logo-large-2x.png");}
+#faster-eft .projectpage-grid div:nth-child(3) {background-image: url("../media/portfolio/faster-eft/icons-large-2x.png");}
+#faster-eft .projectpage-grid div:nth-child(4) {background-image: url("../media/portfolio/faster-eft/text-large-2x.jpg");}
+#faster-eft .projectpage-grid div:nth-child(5) {background-image: url("../media/portfolio/faster-eft/rollup-large-2x.jpg");}
+#faster-eft .full-normal {background-image: url("../media/portfolio/faster-eft/business-cards-large-2x.jpg");}
 
 /* ---------- PROCESS PAGE ---------- */
 
@@ -1716,6 +1729,14 @@ footer {
   #ring-til-fortiden .projectpage-grid div:nth-child(4) {background-image: url("../media/portfolio/ring-til-fortiden/diploma-silver-medium-2x.jpg");}
   #ring-til-fortiden .full-tiny {background-image: url("../media/portfolio/ring-til-fortiden/landscape-medium-2x.png");}
   #ring-til-fortiden .projectpage-grid div:nth-child(6) {background-image: url("../media/portfolio/ring-til-fortiden/app-medium-2x.jpg");}
+  /* ---------- */
+  .faster-eft .project-banner {background-image: url("../media/portfolio/faster-eft/top-banner-medium-2x.jpg");}
+  #faster-eft .full-big {background-image: url("../media/portfolio/faster-eft/flyer-medium-2x.jpg");}
+  #faster-eft .projectpage-grid div:nth-child(2) {background-image: url("../media/portfolio/faster-eft/logo-medium-2x.png");}
+  #faster-eft .projectpage-grid div:nth-child(3) {background-image: url("../media/portfolio/faster-eft/icons-medium-2x.png");}
+  #faster-eft .projectpage-grid div:nth-child(4) {background-image: url("../media/portfolio/faster-eft/text-medium-2x.jpg");}
+  #faster-eft .projectpage-grid div:nth-child(5) {background-image: url("../media/portfolio/faster-eft/rollup-medium-2x.jpg");}
+  #faster-eft .full-normal {background-image: url("../media/portfolio/faster-eft/business-cards-medium-2x.jpg");}
 
   /* ----------- PROCESS PAGE (TABLET) ----------- */
 
@@ -2150,6 +2171,14 @@ footer {
   #ring-til-fortiden .projectpage-grid div:nth-child(4) {background-image: url("../media/portfolio/ring-til-fortiden/diploma-silver-small-2x.jpg");}
   #ring-til-fortiden .full-tiny {background-image: url("../media/portfolio/ring-til-fortiden/landscape-small-2x.png");}
   #ring-til-fortiden .projectpage-grid div:nth-child(6) {background-image: url("../media/portfolio/ring-til-fortiden/app-small-2x.jpg");}
+  /* ---------- */
+  .faster-eft .project-banner {background-image: url("../media/portfolio/faster-eft/top-banner-small-2x.jpg");}
+  #faster-eft .full-big {background-image: url("../media/portfolio/faster-eft/flyer-small-2x.jpg");}
+  #faster-eft .projectpage-grid div:nth-child(2) {background-image: url("../media/portfolio/faster-eft/logo-small-2x.png");}
+  #faster-eft .projectpage-grid div:nth-child(3) {background-image: url("../media/portfolio/faster-eft/icons-small-2x.png");}
+  #faster-eft .projectpage-grid div:nth-child(4) {background-image: url("../media/portfolio/faster-eft/text-small-2x.jpg");}
+  #faster-eft .projectpage-grid div:nth-child(5) {background-image: url("../media/portfolio/faster-eft/rollup-small-2x.jpg");}
+  #faster-eft .full-normal {background-image: url("../media/portfolio/faster-eft/business-cards-small-2x.jpg");}
 
   /* ----------- PROCESS PAGE (MOBILE) ----------- */
 

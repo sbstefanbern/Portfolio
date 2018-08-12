@@ -111,7 +111,7 @@
             </a>
         	</div>
           <div class="project-container">
-        		<a href="portfolio/" class="project-img project-5">
+        		<a href="faster-eft/" class="project-img project-5">
               <div class="project-text">
                 <h5>BUSINESS CARDS - FLYERS - LOGO - ROLL UP BANNERS</h5>
           			<h4>Faster EFT</h4>
