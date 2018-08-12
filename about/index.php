@@ -24,7 +24,7 @@
           </div>
         </div>
         <div class="resume">
-          <a href="../media/cv.pdf" target="_blank" class="btn">
+          <a href="../media/resume.pdf" target="_blank" class="btn">
             <div class="btn-container">
               <div class="btn-front">VIEW MY RESUMÉ</div>
               <div class="btn-bottom">VIEW MY RESUMÉ</div>
