@@ -1419,6 +1419,16 @@ footer {
 #dagslys .full-tiny {background-image: url("../media/portfolio/dagslys/music-large-2x.jpg");}
 #dagslys .eight-normal {background-image: url("../media/portfolio/dagslys/postcard-large-2x.jpg");}
 #dagslys .four-normal {background-image: url("../media/portfolio/dagslys/poster-large-2x.jpg");}
+/* ---------- */
+.fri-bike-shop h4, .fri-bike-shop .info-right ul li::before, .fri-bike-shop .process-link {color: #438fa5;}
+.fri-bike-shop .project-logo {background-image: url("../media/portfolio/fri-bike-shop/logo.png");}
+.fri-bike-shop .project-banner {
+  background-image: url("../media/portfolio/fri-bike-shop/top-banner-large-2x.jpg");
+  background-color: #438fa5;
+}
+#fri-bike-shop .full-big {background-image: url("../media/portfolio/fri-bike-shop/rollups-large-2x.jpg");}
+#fri-bike-shop .projectpage-grid div:nth-child(2) {background-image: url("../media/portfolio/fri-bike-shop/text-large-2x.png");}
+#fri-bike-shop .projectpage-grid div:nth-child(3) {background-image: url("../media/portfolio/fri-bike-shop/bike-large-2x.jpg");}
 
 /* ---------- PROCESS PAGE ---------- */
 
@@ -1771,6 +1781,11 @@ footer {
   #dagslys .full-tiny {background-image: url("../media/portfolio/dagslys/music-medium-2x.jpg");}
   #dagslys .eight-normal {background-image: url("../media/portfolio/dagslys/postcard-medium-2x.jpg");}
   #dagslys .four-normal {background-image: url("../media/portfolio/dagslys/poster-medium-2x.jpg");}
+  /* ---------- */
+  .fri-bike-shop .project-banner {background-image: url("../media/portfolio/fri-bike-shop/top-banner-medium-2x.jpg");}
+  #fri-bike-shop .full-big {background-image: url("../media/portfolio/fri-bike-shop/rollups-medium-2x.jpg");}
+  #fri-bike-shop .projectpage-grid div:nth-child(2) {background-image: url("../media/portfolio/fri-bike-shop/text-medium-2x.png");}
+  #fri-bike-shop .projectpage-grid div:nth-child(3) {background-image: url("../media/portfolio/fri-bike-shop/bike-medium-2x.jpg");}
 
   /* ----------- PROCESS PAGE (TABLET) ----------- */
 
@@ -2225,6 +2240,11 @@ footer {
   #dagslys .full-tiny {background-image: url("../media/portfolio/dagslys/music-small-2x.jpg");}
   #dagslys .eight-normal {background-image: url("../media/portfolio/dagslys/postcard-small-2x.jpg");}
   #dagslys .four-normal {background-image: url("../media/portfolio/dagslys/poster-small-2x.jpg");}
+  /* ---------- */
+  .fri-bike-shop .project-banner {background-image: url("../media/portfolio/fri-bike-shop/top-banner-small-2x.jpg");}
+  #fri-bike-shop .full-big {background-image: url("../media/portfolio/fri-bike-shop/rollups-small-2x.jpg");}
+  #fri-bike-shop .projectpage-grid div:nth-child(2) {background-image: url("../media/portfolio/fri-bike-shop/text-small-2x.png");}
+  #fri-bike-shop .projectpage-grid div:nth-child(3) {background-image: url("../media/portfolio/fri-bike-shop/bike-small-2x.jpg");}
 
   /* ----------- PROCESS PAGE (MOBILE) ----------- */
 

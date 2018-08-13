@@ -98,7 +98,7 @@
             </a>
         	</div>
           <div class="project-container">
-        		<a href="#" class="project-img portfolio-project-9">
+        		<a href="../fri-bike-shop/" class="project-img portfolio-project-9">
               <div class="project-text portfolio-text">
                 <h5>ROLL UP BANNERS</h5>
           			<h4>Fri Bike Shop</h4>
