@@ -1439,6 +1439,15 @@ footer {
 #korup-motion .full-big {background-image: url("../media/portfolio/korup-motion/poster-large-2x.jpg");}
 #korup-motion .eight-normal {background-image: url("../media/portfolio/korup-motion/banner-large-2x.jpg");}
 #korup-motion .four-normal {background-image: url("../media/portfolio/korup-motion/small-poster-large-2x.jpg");}
+/* ---------- */
+.safari-park h4, .safari-park .info-right ul li::before, .safari-park .process-link {color: #d54b1b;}
+.safari-park .project-logo {background-image: url("../media/portfolio/safari-park/logo.png");}
+.safari-park .project-banner {
+  background-image: url("../media/portfolio/safari-park/top-banner-large-2x.jpg");
+  background-color: #d54b1b;
+}
+#safari-park .full-big {background-image: url("../media/portfolio/safari-park/poster-large-2x.jpg");}
+#safari-park .full-tiny {background-image: url("../media/portfolio/safari-park/text-large-2x.jpg");}
 
 /* ---------- PROCESS PAGE ---------- */
 
@@ -1801,6 +1810,10 @@ footer {
   #korup-motion .full-big {background-image: url("../media/portfolio/korup-motion/poster-medium-2x.jpg");}
   #korup-motion .eight-normal {background-image: url("../media/portfolio/korup-motion/banner-medium-2x.jpg");}
   #korup-motion .four-normal {background-image: url("../media/portfolio/korup-motion/small-poster-medium-2x.jpg");}
+  /* ---------- */
+  .safari-park .project-banner {background-image: url("../media/portfolio/safari-park/top-banner-medium-2x.jpg");}
+  #safari-park .full-big {background-image: url("../media/portfolio/safari-park/poster-medium-2x.jpg");}
+  #safari-park .full-tiny {background-image: url("../media/portfolio/safari-park/text-medium-2x.jpg");}
 
   /* ----------- PROCESS PAGE (TABLET) ----------- */
 
@@ -2265,6 +2278,10 @@ footer {
   #korup-motion .full-big {background-image: url("../media/portfolio/korup-motion/poster-small-2x.jpg");}
   #korup-motion .eight-normal {background-image: url("../media/portfolio/korup-motion/banner-small-2x.jpg");}
   #korup-motion .four-normal {background-image: url("../media/portfolio/korup-motion/small-poster-small-2x.jpg");}
+  /* ---------- */
+  .safari-park .project-banner {background-image: url("../media/portfolio/safari-park/top-banner-small-2x.jpg");}
+  #safari-park .full-big {background-image: url("../media/portfolio/safari-park/poster-small-2x.jpg");}
+  #safari-park .full-tiny {background-image: url("../media/portfolio/safari-park/text-small-2x.jpg");}
 
   /* ----------- PROCESS PAGE (MOBILE) ----------- */
 

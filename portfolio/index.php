@@ -158,10 +158,10 @@
             </a>
         	</div>
           <div class="project-container">
-        		<a href="#" class="project-img portfolio-project-15">
+        		<a href="../safari-park/" class="project-img portfolio-project-15">
               <div class="project-text portfolio-text">
                 <h5>BANNER</h5>
-          			<h4>Jufary</h4>
+          			<h4>Safari Park</h4>
                 <hr/>
                 <p>Banner made to promote a Safari Park</p>
               </div>
