@@ -1448,6 +1448,19 @@ footer {
 }
 #safari-park .full-big {background-image: url("../media/portfolio/safari-park/poster-large-2x.jpg");}
 #safari-park .full-tiny {background-image: url("../media/portfolio/safari-park/text-large-2x.jpg");}
+/* ---------- */
+.pl-handbook h4, .pl-handbook .info-right ul li::before, .pl-handbook .process-link {color: #360639;}
+.pl-handbook .project-logo {background-image: url("../media/portfolio/pl-handbook/logo.png");}
+.pl-handbook .project-banner {
+  background-image: url("../media/portfolio/pl-handbook/top-banner-large-2x.jpg");
+  background-color: #360639;
+}
+#pl-handbook .full-big {background-image: url("../media/portfolio/pl-handbook/handbook-large-2x.jpg");}
+#pl-handbook .projectpage-grid div:nth-child(2) {background-image: url("../media/portfolio/pl-handbook/blue-page-large-2x.jpg");}
+#pl-handbook .projectpage-grid div:nth-child(3) {background-image: url("../media/portfolio/pl-handbook/trophies-large-2x.png");}
+#pl-handbook .projectpage-grid div:nth-child(4) {background-image: url("../media/portfolio/pl-handbook/graphics-large-2x.jpg");}
+#pl-handbook .projectpage-grid div:nth-child(5) {background-image: url("../media/portfolio/pl-handbook/red-page-large-2x.jpg");}
+#pl-handbook .full-normal {background-image: url("../media/portfolio/pl-handbook/clubs-large-2x.png");}
 
 /* ---------- PROCESS PAGE ---------- */
 
@@ -1814,6 +1827,14 @@ footer {
   .safari-park .project-banner {background-image: url("../media/portfolio/safari-park/top-banner-medium-2x.jpg");}
   #safari-park .full-big {background-image: url("../media/portfolio/safari-park/poster-medium-2x.jpg");}
   #safari-park .full-tiny {background-image: url("../media/portfolio/safari-park/text-medium-2x.jpg");}
+  /* ---------- */
+  .pl-handbook .project-banner {background-image: url("../media/portfolio/pl-handbook/top-banner-medium-2x.jpg");}
+  #pl-handbook .full-big {background-image: url("../media/portfolio/pl-handbook/handbook-medium-2x.jpg");}
+  #pl-handbook .projectpage-grid div:nth-child(2) {background-image: url("../media/portfolio/pl-handbook/blue-page-medium-2x.jpg");}
+  #pl-handbook .projectpage-grid div:nth-child(3) {background-image: url("../media/portfolio/pl-handbook/trophies-medium-2x.png");}
+  #pl-handbook .projectpage-grid div:nth-child(4) {background-image: url("../media/portfolio/pl-handbook/graphics-medium-2x.jpg");}
+  #pl-handbook .projectpage-grid div:nth-child(5) {background-image: url("../media/portfolio/pl-handbook/red-page-medium-2x.jpg");}
+  #pl-handbook .full-normal {background-image: url("../media/portfolio/pl-handbook/clubs-medium-2x.png");}
 
   /* ----------- PROCESS PAGE (TABLET) ----------- */
 
@@ -2282,6 +2303,14 @@ footer {
   .safari-park .project-banner {background-image: url("../media/portfolio/safari-park/top-banner-small-2x.jpg");}
   #safari-park .full-big {background-image: url("../media/portfolio/safari-park/poster-small-2x.jpg");}
   #safari-park .full-tiny {background-image: url("../media/portfolio/safari-park/text-small-2x.jpg");}
+  /* ---------- */
+  .pl-handbook .project-banner {background-image: url("../media/portfolio/pl-handbook/top-banner-small-2x.jpg");}
+  #pl-handbook .full-big {background-image: url("../media/portfolio/pl-handbook/handbook-small-2x.jpg");}
+  #pl-handbook .projectpage-grid div:nth-child(2) {background-image: url("../media/portfolio/pl-handbook/blue-page-small-2x.jpg");}
+  #pl-handbook .projectpage-grid div:nth-child(3) {background-image: url("../media/portfolio/pl-handbook/trophies-small-2x.png");}
+  #pl-handbook .projectpage-grid div:nth-child(4) {background-image: url("../media/portfolio/pl-handbook/graphics-small-2x.jpg");}
+  #pl-handbook .projectpage-grid div:nth-child(5) {background-image: url("../media/portfolio/pl-handbook/red-page-small-2x.jpg");}
+  #pl-handbook .full-normal {background-image: url("../media/portfolio/pl-handbook/clubs-small-2x.png");}
 
   /* ----------- PROCESS PAGE (MOBILE) ----------- */
 

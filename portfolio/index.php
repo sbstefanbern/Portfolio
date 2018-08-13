@@ -108,7 +108,7 @@
             </a>
         	</div>
           <div class="project-container">
-        		<a href="#" class="project-img portfolio-project-10">
+        		<a href="../pl-handbook/" class="project-img portfolio-project-10">
               <div class="project-text portfolio-text">
                 <h5>GRAPHICS - FULL LAYOUT</h5>
           			<h4>Premier League Handbook</h4>
