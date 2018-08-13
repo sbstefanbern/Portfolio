@@ -48,7 +48,7 @@
             </a>
         	</div>
           <div class="project-container">
-        		<a href="#" class="project-img portfolio-project-4">
+        		<a href="../circle-k"/ class="project-img portfolio-project-4">
               <div class="project-text portfolio-text">
                 <h5>NATIVE ADD GRAPHIC</h5>
           			<h4>Circle K</h4>

@@ -91,7 +91,7 @@
             </a>
         	</div>
           <div class="project-container">
-        		<a href="portfolio/" class="project-img project-3">
+        		<a href="circle-k/" class="project-img project-3">
               <div class="project-text">
                 <h5>NATIVE ADD GRAPHIC</h5>
           			<h4>Circle K</h4>

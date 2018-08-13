@@ -1397,6 +1397,17 @@ footer {
 #faster-eft .projectpage-grid div:nth-child(4) {background-image: url("../media/portfolio/faster-eft/text-large-2x.jpg");}
 #faster-eft .projectpage-grid div:nth-child(5) {background-image: url("../media/portfolio/faster-eft/rollup-large-2x.jpg");}
 #faster-eft .full-normal {background-image: url("../media/portfolio/faster-eft/business-cards-large-2x.jpg");}
+/* ---------- */
+.circle-k h4, .circle-k .info-right ul li::before, .circle-k .process-link {color: #C00D0D;}
+.circle-k .project-logo {background-image: url("../media/portfolio/circle-k/logo.png");}
+.circle-k .project-banner {
+  background-image: url("../media/portfolio/circle-k/top-banner-large-2x.jpg");
+  background-color: #C00D0D;
+}
+#circle-k .full-big {background-image: url("../media/portfolio/circle-k/3graphics-large-2x.jpg");}
+#circle-k .full-tiny {background-image: url("../media/portfolio/circle-k/icons-large-2x.png");}
+#circle-k .projectpage-grid div:nth-child(3) {background-image: url("../media/portfolio/circle-k/1graphic-large-2x.jpg");}
+#circle-k .projectpage-grid div:nth-child(4) {background-image: url("../media/portfolio/circle-k/text-large-2x.jpg");}
 
 /* ---------- PROCESS PAGE ---------- */
 
@@ -1737,6 +1748,12 @@ footer {
   #faster-eft .projectpage-grid div:nth-child(4) {background-image: url("../media/portfolio/faster-eft/text-medium-2x.jpg");}
   #faster-eft .projectpage-grid div:nth-child(5) {background-image: url("../media/portfolio/faster-eft/rollup-medium-2x.jpg");}
   #faster-eft .full-normal {background-image: url("../media/portfolio/faster-eft/business-cards-medium-2x.jpg");}
+  /* ---------- */
+  .circle-k .project-banner {background-image: url("../media/portfolio/circle-k/top-banner-medium-2x.jpg");}
+  #circle-k .full-big {background-image: url("../media/portfolio/circle-k/3graphics-medium-2x.jpg");}
+  #circle-k .full-tiny {background-image: url("../media/portfolio/circle-k/icons-medium-2x.png");}
+  #circle-k .projectpage-grid div:nth-child(3) {background-image: url("../media/portfolio/circle-k/1graphic-medium-2x.jpg");}
+  #circle-k .projectpage-grid div:nth-child(4) {background-image: url("../media/portfolio/circle-k/text-medium-2x.jpg");}
 
   /* ----------- PROCESS PAGE (TABLET) ----------- */
 
@@ -2179,6 +2196,12 @@ footer {
   #faster-eft .projectpage-grid div:nth-child(4) {background-image: url("../media/portfolio/faster-eft/text-small-2x.jpg");}
   #faster-eft .projectpage-grid div:nth-child(5) {background-image: url("../media/portfolio/faster-eft/rollup-small-2x.jpg");}
   #faster-eft .full-normal {background-image: url("../media/portfolio/faster-eft/business-cards-small-2x.jpg");}
+  /* ---------- */
+  .circle-k .project-banner {background-image: url("../media/portfolio/circle-k/top-banner-small-2x.jpg");}
+  #circle-k .full-big {background-image: url("../media/portfolio/circle-k/3graphics-small-2x.jpg");}
+  #circle-k .full-tiny {background-image: url("../media/portfolio/circle-k/icons-small-2x.png");}
+  #circle-k .projectpage-grid div:nth-child(3) {background-image: url("../media/portfolio/circle-k/1graphic-small-2x.jpg");}
+  #circle-k .projectpage-grid div:nth-child(4) {background-image: url("../media/portfolio/circle-k/text-small-2x.jpg");}
 
   /* ----------- PROCESS PAGE (MOBILE) ----------- */
 
