@@ -148,7 +148,7 @@
             </a>
         	</div>
           <div class="project-container">
-        		<a href="#" class="project-img portfolio-project-14">
+        		<a href="../korup-motion/" class="project-img portfolio-project-14">
               <div class="project-text portfolio-text">
                 <h5>POSTERS</h5>
           			<h4>Korup Motion</h4>

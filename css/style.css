@@ -1429,6 +1429,16 @@ footer {
 #fri-bike-shop .full-big {background-image: url("../media/portfolio/fri-bike-shop/rollups-large-2x.jpg");}
 #fri-bike-shop .projectpage-grid div:nth-child(2) {background-image: url("../media/portfolio/fri-bike-shop/text-large-2x.png");}
 #fri-bike-shop .projectpage-grid div:nth-child(3) {background-image: url("../media/portfolio/fri-bike-shop/bike-large-2x.jpg");}
+/* ---------- */
+.korup-motion h4, .korup-motion .info-right ul li::before, .korup-motion .process-link {color: #f57e01;}
+.korup-motion .project-logo {background-image: url("../media/portfolio/korup-motion/logo.png");}
+.korup-motion .project-banner {
+  background-image: url("../media/portfolio/korup-motion/top-banner-large-2x.jpg");
+  background-color: #f57e01;
+}
+#korup-motion .full-big {background-image: url("../media/portfolio/korup-motion/poster-large-2x.jpg");}
+#korup-motion .eight-normal {background-image: url("../media/portfolio/korup-motion/banner-large-2x.jpg");}
+#korup-motion .four-normal {background-image: url("../media/portfolio/korup-motion/small-poster-large-2x.jpg");}
 
 /* ---------- PROCESS PAGE ---------- */
 
@@ -1786,6 +1796,11 @@ footer {
   #fri-bike-shop .full-big {background-image: url("../media/portfolio/fri-bike-shop/rollups-medium-2x.jpg");}
   #fri-bike-shop .projectpage-grid div:nth-child(2) {background-image: url("../media/portfolio/fri-bike-shop/text-medium-2x.png");}
   #fri-bike-shop .projectpage-grid div:nth-child(3) {background-image: url("../media/portfolio/fri-bike-shop/bike-medium-2x.jpg");}
+  /* ---------- */
+  .korup-motion .project-banner {background-image: url("../media/portfolio/korup-motion/top-banner-medium-2x.jpg");}
+  #korup-motion .full-big {background-image: url("../media/portfolio/korup-motion/poster-medium-2x.jpg");}
+  #korup-motion .eight-normal {background-image: url("../media/portfolio/korup-motion/banner-medium-2x.jpg");}
+  #korup-motion .four-normal {background-image: url("../media/portfolio/korup-motion/small-poster-medium-2x.jpg");}
 
   /* ----------- PROCESS PAGE (TABLET) ----------- */
 
@@ -2245,6 +2260,11 @@ footer {
   #fri-bike-shop .full-big {background-image: url("../media/portfolio/fri-bike-shop/rollups-small-2x.jpg");}
   #fri-bike-shop .projectpage-grid div:nth-child(2) {background-image: url("../media/portfolio/fri-bike-shop/text-small-2x.png");}
   #fri-bike-shop .projectpage-grid div:nth-child(3) {background-image: url("../media/portfolio/fri-bike-shop/bike-small-2x.jpg");}
+  /* ---------- */
+  .korup-motion .project-banner {background-image: url("../media/portfolio/korup-motion/top-banner-small-2x.jpg");}
+  #korup-motion .full-big {background-image: url("../media/portfolio/korup-motion/poster-small-2x.jpg");}
+  #korup-motion .eight-normal {background-image: url("../media/portfolio/korup-motion/banner-small-2x.jpg");}
+  #korup-motion .four-normal {background-image: url("../media/portfolio/korup-motion/small-poster-small-2x.jpg");}
 
   /* ----------- PROCESS PAGE (MOBILE) ----------- */
 
