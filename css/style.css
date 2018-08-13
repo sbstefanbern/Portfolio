@@ -1408,6 +1408,17 @@ footer {
 #circle-k .full-tiny {background-image: url("../media/portfolio/circle-k/icons-large-2x.png");}
 #circle-k .projectpage-grid div:nth-child(3) {background-image: url("../media/portfolio/circle-k/1graphic-large-2x.jpg");}
 #circle-k .projectpage-grid div:nth-child(4) {background-image: url("../media/portfolio/circle-k/text-large-2x.jpg");}
+/* ---------- */
+.dagslys h4, .dagslys .info-right ul li::before, .dagslys .process-link {color: #e73e1a;}
+.dagslys .project-logo {background-image: url("../media/portfolio/dagslys/logo.png");}
+.dagslys .project-banner {
+  background-image: url("../media/portfolio/dagslys/top-banner-large-2x.jpg");
+  background-color: #e73e1a;
+}
+#dagslys .full-normal {background-image: url("../media/portfolio/dagslys/business-cards-large-2x.jpg");}
+#dagslys .full-tiny {background-image: url("../media/portfolio/dagslys/music-large-2x.jpg");}
+#dagslys .eight-normal {background-image: url("../media/portfolio/dagslys/postcard-large-2x.jpg");}
+#dagslys .four-normal {background-image: url("../media/portfolio/dagslys/poster-large-2x.jpg");}
 
 /* ---------- PROCESS PAGE ---------- */
 
@@ -1754,6 +1765,12 @@ footer {
   #circle-k .full-tiny {background-image: url("../media/portfolio/circle-k/icons-medium-2x.png");}
   #circle-k .projectpage-grid div:nth-child(3) {background-image: url("../media/portfolio/circle-k/1graphic-medium-2x.jpg");}
   #circle-k .projectpage-grid div:nth-child(4) {background-image: url("../media/portfolio/circle-k/text-medium-2x.jpg");}
+  /* ---------- */
+  .dagslys .project-banner {background-image: url("../media/portfolio/dagslys/top-banner-medium-2x.jpg");}
+  #dagslys .full-normal {background-image: url("../media/portfolio/dagslys/business-cards-medium-2x.jpg");}
+  #dagslys .full-tiny {background-image: url("../media/portfolio/dagslys/music-medium-2x.jpg");}
+  #dagslys .eight-normal {background-image: url("../media/portfolio/dagslys/postcard-medium-2x.jpg");}
+  #dagslys .four-normal {background-image: url("../media/portfolio/dagslys/poster-medium-2x.jpg");}
 
   /* ----------- PROCESS PAGE (TABLET) ----------- */
 
@@ -2202,6 +2219,12 @@ footer {
   #circle-k .full-tiny {background-image: url("../media/portfolio/circle-k/icons-small-2x.png");}
   #circle-k .projectpage-grid div:nth-child(3) {background-image: url("../media/portfolio/circle-k/1graphic-small-2x.jpg");}
   #circle-k .projectpage-grid div:nth-child(4) {background-image: url("../media/portfolio/circle-k/text-small-2x.jpg");}
+  /* ---------- */
+  .dagslys .project-banner {background-image: url("../media/portfolio/dagslys/top-banner-small-2x.jpg");}
+  #dagslys .full-normal {background-image: url("../media/portfolio/dagslys/business-cards-small-2x.jpg");}
+  #dagslys .full-tiny {background-image: url("../media/portfolio/dagslys/music-small-2x.jpg");}
+  #dagslys .eight-normal {background-image: url("../media/portfolio/dagslys/postcard-small-2x.jpg");}
+  #dagslys .four-normal {background-image: url("../media/portfolio/dagslys/poster-small-2x.jpg");}
 
   /* ----------- PROCESS PAGE (MOBILE) ----------- */
 

@@ -88,7 +88,7 @@
             </a>
         	</div>
           <div class="project-container">
-        		<a href="#" class="project-img portfolio-project-8">
+        		<a href="../dagslys/" class="project-img portfolio-project-8">
               <div class="project-text portfolio-text">
                 <h5>POSTERS - BUSSINESS CARDS - POSTCARDS</h5>
           			<h4>Dagslys</h4>
