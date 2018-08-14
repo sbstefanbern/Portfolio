@@ -1461,6 +1461,17 @@ footer {
 #pl-handbook .projectpage-grid div:nth-child(4) {background-image: url("../media/portfolio/pl-handbook/graphics-large-2x.jpg");}
 #pl-handbook .projectpage-grid div:nth-child(5) {background-image: url("../media/portfolio/pl-handbook/red-page-large-2x.jpg");}
 #pl-handbook .full-normal {background-image: url("../media/portfolio/pl-handbook/clubs-large-2x.png");}
+/* ---------- */
+.superliga-animation h4, .superliga-animation .info-right ul li::before, .superliga-animation .process-link {color: #353A6D;}
+.superliga-animation .project-logo {background-image: url("../media/portfolio/superliga-animation/logo.png");}
+.superliga-animation .project-banner {
+  background-image: url("../media/portfolio/superliga-animation/top-banner-large-2x.jpg");
+  background-color: #353A6D;
+}
+#superliga-animation .projectpage-grid iframe {width: 100%; height: inherit;}
+#superliga-animation .eight-normal {background-image: url("../media/portfolio/superliga-animation/table-large-2x.jpg");}
+#superliga-animation .four-normal {background-image: url("../media/portfolio/superliga-animation/phone-large-2x.jpg");}
+#superliga-animation .full-tiny {background-image: url("../media/portfolio/superliga-animation/text-large-2x.jpg");}
 
 /* ---------- PROCESS PAGE ---------- */
 
@@ -1835,6 +1846,12 @@ footer {
   #pl-handbook .projectpage-grid div:nth-child(4) {background-image: url("../media/portfolio/pl-handbook/graphics-medium-2x.jpg");}
   #pl-handbook .projectpage-grid div:nth-child(5) {background-image: url("../media/portfolio/pl-handbook/red-page-medium-2x.jpg");}
   #pl-handbook .full-normal {background-image: url("../media/portfolio/pl-handbook/clubs-medium-2x.png");}
+  /* ---------- */
+  .superliga-animation .project-banner {background-image: url("../media/portfolio/superliga-animation/top-banner-medium-2x.jpg");}
+  #superliga-animation .projectpage-grid iframe {width: 100%; height: inherit;}
+  #superliga-animation .eight-normal {background-image: url("../media/portfolio/superliga-animation/table-medium-2x.jpg");}
+  #superliga-animation .four-normal {background-image: url("../media/portfolio/superliga-animation/phone-medium-2x.jpg");}
+  #superliga-animation .full-tiny {background-image: url("../media/portfolio/superliga-animation/text-medium-2x.jpg");}
 
   /* ----------- PROCESS PAGE (TABLET) ----------- */
 
@@ -2311,6 +2328,12 @@ footer {
   #pl-handbook .projectpage-grid div:nth-child(4) {background-image: url("../media/portfolio/pl-handbook/graphics-small-2x.jpg");}
   #pl-handbook .projectpage-grid div:nth-child(5) {background-image: url("../media/portfolio/pl-handbook/red-page-small-2x.jpg");}
   #pl-handbook .full-normal {background-image: url("../media/portfolio/pl-handbook/clubs-small-2x.png");}
+  /* ---------- */
+  .superliga-animation .project-banner {background-image: url("../media/portfolio/superliga-animation/top-banner-small-2x.jpg");}
+  #superliga-animation .projectpage-grid iframe {width: 100%; height: inherit;}
+  #superliga-animation .eight-normal {background-image: url("../media/portfolio/superliga-animation/table-small-2x.jpg");}
+  #superliga-animation .four-normal {background-image: url("../media/portfolio/superliga-animation/phone-small-2x.jpg");}
+  #superliga-animation .full-tiny {background-image: url("../media/portfolio/superliga-animation/text-small-2x.jpg");}
 
   /* ----------- PROCESS PAGE (MOBILE) ----------- */
 

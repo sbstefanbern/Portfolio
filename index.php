@@ -121,7 +121,7 @@
             </a>
         	</div>
           <div class="project-container">
-        		<a href="portfolio/" class="project-img project-6">
+        		<a href="superliga-animation/" class="project-img project-6">
               <div class="project-text">
                 <h5>WEB GRAPHICS - ANIMATION</h5>
           			<h4>Superliga Animation</h4>
