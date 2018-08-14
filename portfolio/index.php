@@ -168,7 +168,7 @@
             </a>
         	</div>
           <div class="project-container">
-        		<a href="#" class="project-img portfolio-project-16">
+        		<a href="../football-infographics/" class="project-img portfolio-project-16">
               <div class="project-text portfolio-text">
                 <h5>INFOGRAPHICS</h5>
           			<h4>Football Infographics</h4>
