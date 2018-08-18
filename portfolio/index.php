@@ -68,12 +68,12 @@
             </a>
         	</div>
           <div class="project-container">
-        		<a href="#" class="project-img portfolio-project-6">
+        		<a href="../eb-widgets/" class="project-img portfolio-project-6">
               <div class="project-text portfolio-text">
                 <h5>WEBDESIGN</h5>
           			<h4>Ekstra Bladet Widgets</h4>
                 <hr/>
-                <p>The overall streamlined design for all widgets on Ekstra Bladet</p>
+                <p>Overall streamlined design for all widgets on Ekstra Bladet's website</p>
               </div>
             </a>
         	</div>

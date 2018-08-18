@@ -1486,6 +1486,17 @@ footer {
 #football-infographics .projectpage-grid div:nth-child(5) {background-image: url("../media/portfolio/football-infographics/bundesliga-large-2x.jpg");}
 #football-infographics .projectpage-grid div:nth-child(6) {background-image: url("../media/portfolio/football-infographics/ligue-1-large-2x.jpg");}
 #football-infographics .projectpage-grid div:nth-child(7) {background-image: url("../media/portfolio/football-infographics/eredivisie-large-2x.jpg");}
+/* ---------- */
+.eb-widgets h4, .eb-widgets .info-right ul li::before, .eb-widgets .process-link {color: #00c8eb;}
+.eb-widgets .project-logo {background-image: url("../media/portfolio/eb-widgets/logo.png");}
+.eb-widgets .project-banner {
+  background-image: url("../media/portfolio/eb-widgets/top-banner-large-2x.jpg");
+  background-color: #00c8eb;
+}
+#eb-widgets .full-big {background-image: url("../media/portfolio/eb-widgets/banner-large-2x.jpg");}
+#eb-widgets .eight-normal {background-image: url("../media/portfolio/eb-widgets/icons-large-2x.png");}
+#eb-widgets .four-normal {background-image: url("../media/portfolio/eb-widgets/3graphics-large-2x.jpg");}
+#eb-widgets .full-tiny {background-image: url("../media/portfolio/eb-widgets/small-banner-large-2x.jpg");}
 
 /* ---------- PROCESS PAGE ---------- */
 
@@ -1875,6 +1886,12 @@ footer {
   #football-infographics .projectpage-grid div:nth-child(5) {background-image: url("../media/portfolio/football-infographics/bundesliga-medium-2x.jpg");}
   #football-infographics .projectpage-grid div:nth-child(6) {background-image: url("../media/portfolio/football-infographics/ligue-1-medium-2x.jpg");}
   #football-infographics .projectpage-grid div:nth-child(7) {background-image: url("../media/portfolio/football-infographics/eredivisie-medium-2x.jpg");}
+  /* ---------- */
+  .eb-widgets .project-banner {background-image: url("../media/portfolio/eb-widgets/top-banner-medium-2x.jpg");}
+  #eb-widgets .full-big {background-image: url("../media/portfolio/eb-widgets/banner-medium-2x.jpg");}
+  #eb-widgets .eight-normal {background-image: url("../media/portfolio/eb-widgets/icons-medium-2x.png");}
+  #eb-widgets .four-normal {background-image: url("../media/portfolio/eb-widgets/3graphics-medium-2x.jpg");}
+  #eb-widgets .full-tiny {background-image: url("../media/portfolio/eb-widgets/small-banner-medium-2x.jpg");}
 
   /* ----------- PROCESS PAGE (TABLET) ----------- */
 
@@ -2366,6 +2383,12 @@ footer {
   #football-infographics .projectpage-grid div:nth-child(5) {background-image: url("../media/portfolio/football-infographics/bundesliga-small-2x.jpg");}
   #football-infographics .projectpage-grid div:nth-child(6) {background-image: url("../media/portfolio/football-infographics/ligue-1-small-2x.jpg");}
   #football-infographics .projectpage-grid div:nth-child(7) {background-image: url("../media/portfolio/football-infographics/eredivisie-small-2x.jpg");}
+  /* ---------- */
+  .eb-widgets .project-banner {background-image: url("../media/portfolio/eb-widgets/top-banner-small-2x.jpg");}
+  #eb-widgets .full-big {background-image: url("../media/portfolio/eb-widgets/banner-small-2x.jpg");}
+  #eb-widgets .eight-normal {background-image: url("../media/portfolio/eb-widgets/icons-small-2x.png");}
+  #eb-widgets .four-normal {background-image: url("../media/portfolio/eb-widgets/3graphics-small-2x.jpg");}
+  #eb-widgets .full-tiny {background-image: url("../media/portfolio/eb-widgets/small-banner-small-2x.jpg");}
 
   /* ----------- PROCESS PAGE (MOBILE) ----------- */
 
