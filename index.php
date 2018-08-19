@@ -131,7 +131,7 @@
             </a>
         	</div>
           <div class="project-container">
-        		<a href="portfolio/" class="project-img project-7">
+        		<a href="eb-transferday/" class="project-img project-7">
               <div class="project-text">
                 <h5>VISUAL IDENTITY - ANIMATED BANNERS</h5>
           			<h4>Transfer Deadline Day</h4>
@@ -141,7 +141,7 @@
             </a>
         	</div>
           <div class="project-container">
-        		<a href="portfolio/" class="project-img project-8">
+        		<a href="eb-formula1/" class="project-img project-8">
               <div class="project-text">
                 <h5>VISUAL IDENTITY - GRAPHICS</h5>
           			<h4>Formula 1 Graphics</h4>

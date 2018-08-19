@@ -1509,6 +1509,14 @@ footer {
 #eb-powertools .projectpage-grid div:nth-child(3) {background-image: url("../media/portfolio/eb-powertools/perspective-large-2x.jpg");}
 #eb-powertools .full-tiny {background-image: url("../media/portfolio/eb-powertools/icons-large-2x.png");}
 #eb-powertools .full-normal {background-image: url("../media/portfolio/eb-powertools/line-large-2x.jpg");}
+/* ---------- */
+.eb-transferday h4, .eb-transferday .info-right ul li::before, .eb-transferday .process-link {color: #1c536e;}
+.eb-transferday .project-logo {background-image: url("../media/portfolio/eb-transferday/logo.png");}
+.eb-transferday .project-banner {
+  background-image: url("../media/portfolio/eb-transferday/top-banner-large-2x.jpg");
+  background-color: #1c536e;
+}
+#eb-transferday .full-big {background-image: url("../media/portfolio/eb-transferday/banner-large-2x.jpg");}
 
 /* ---------- PROCESS PAGE ---------- */
 
@@ -1911,6 +1919,9 @@ footer {
   #eb-powertools .projectpage-grid div:nth-child(3) {background-image: url("../media/portfolio/eb-powertools/perspective-medium-2x.jpg");}
   #eb-powertools .full-tiny {background-image: url("../media/portfolio/eb-powertools/icons-medium-2x.png");}
   #eb-powertools .full-normal {background-image: url("../media/portfolio/eb-powertools/line-medium-2x.jpg");}
+  /* ---------- */
+  .eb-transferday .project-banner {background-image: url("../media/portfolio/eb-transferday/top-banner-medium-2x.jpg");}
+  #eb-transferday .full-big {background-image: url("../media/portfolio/eb-transferday/banner-medium-2x.jpg");}
 
   /* ----------- PROCESS PAGE (TABLET) ----------- */
 
@@ -2415,6 +2426,9 @@ footer {
   #eb-powertools .projectpage-grid div:nth-child(3) {background-image: url("../media/portfolio/eb-powertools/perspective-small-2x.jpg");}
   #eb-powertools .full-tiny {background-image: url("../media/portfolio/eb-powertools/icons-small-2x.png");}
   #eb-powertools .full-normal {background-image: url("../media/portfolio/eb-powertools/line-small-2x.jpg");}
+  /* ---------- */
+  .eb-transferday .project-banner {background-image: url("../media/portfolio/eb-transferday/top-banner-small-2x.jpg");}
+  #eb-transferday .full-big {background-image: url("../media/portfolio/eb-transferday/banner-small-2x.jpg");}
 
   /* ----------- PROCESS PAGE (MOBILE) ----------- */
 
