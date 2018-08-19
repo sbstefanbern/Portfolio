@@ -10,38 +10,37 @@
     <link rel="shortcut icon" href="../favicon.ico">
   </head>
   <body>
-    <main class="eb-powertools">
+    <main class="eb-formula1">
       <?php
         $currentPage = 'project';
         include ('../php/header.php');
       ?>
       <section class="project-banner">
         <h1>Ekstra Bladet Formula 1</h1>
-        <h3>Full streamlined design of the 'powertools' used on Ekstra Bladets website</h3>
+        <h3>Visuals and track graphics used by Ekstra Bladet for Formula 1</h3>
         <div class="project-logo"></div>
       </section>
       <section class="project-info">
         <div class="info-left">
           <h4>ABOUT THE PROJECT</h4>
-          <p>Ekstra Bladet's toolbox is a set of tools easily accesible by journalists when in need to put maps with info, interactive quizes, timelines, diagrams and similar elements into an article page. My task was to design these tools with a consistent visual look, to be easily accesible on all platforms and as easy as possible to use, in order to boost the amount of interactions on a page featuring a 'powertool' element.</p>
+          <p>Ekstra Bladet has a huge coverage of sports including Formula 1. I was tasked with coming up with visual looks for general Formula 1 graphics, making dedicated track graphics for every track being used, Head-2-Head graphics between two riders and several graphics used in the TV studios and to promote the Forumla 1 coverage in general.</p>
         </div>
         <div class="info-right">
           <h4>CLIENT</h4>
           <p>Ekstra Bladet</p>
           <h4>DELIVERABLES</h4>
           <ul>
-            <li>Streamlined visual identity for tools</li>
-            <li>Design of new 'Powertools'</li>
+            <li>Visual Identity for Formula 1 on Ekstra Bladet</li>
+            <li>All track graphics</li>
+            <li>Head-2-Head graphics</li>
+            <li>Logo</li>
+            <li>Graphics used in TV Studio</li>
           </ul>
         </div>
       </section>
-      <section id="eb-powertools" class="projects">
+      <section id="eb-formula1" class="projects">
         <div class="projectpage-grid">
           <div class="full-big"></div>
-          <div class="half-normal"></div>
-          <div class="half-normal"></div>
-          <div class="full-tiny"></div>
-          <div class="full-normal"></div>
         </div>
       </section>
       <?php include ('../php/footer.php'); ?>

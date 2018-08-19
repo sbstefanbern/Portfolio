@@ -1517,6 +1517,14 @@ footer {
   background-color: #1c536e;
 }
 #eb-transferday .full-big {background-image: url("../media/portfolio/eb-transferday/banner-large-2x.jpg");}
+/* ---------- */
+.eb-formula1 h4, .eb-formula1 .info-right ul li::before, .eb-formula1 .process-link {color: #bb301d;}
+.eb-formula1 .project-logo {background-image: url("../media/portfolio/eb-formula1/logo.png");}
+.eb-formula1 .project-banner {
+  background-image: url("../media/portfolio/eb-formula1/top-banner-large-2x.jpg");
+  background-color: #bb301d;
+}
+#eb-formula1 .full-big {background-image: url("../media/portfolio/eb-formula1/banner-large-2x.jpg");}
 
 /* ---------- PROCESS PAGE ---------- */
 
@@ -1922,6 +1930,9 @@ footer {
   /* ---------- */
   .eb-transferday .project-banner {background-image: url("../media/portfolio/eb-transferday/top-banner-medium-2x.jpg");}
   #eb-transferday .full-big {background-image: url("../media/portfolio/eb-transferday/banner-medium-2x.jpg");}
+  /* ---------- */
+  .eb-formula1 .project-banner {background-image: url("../media/portfolio/eb-formula1/top-banner-medium-2x.jpg");}
+  #eb-formula1 .full-big {background-image: url("../media/portfolio/eb-formula1/banner-medium-2x.jpg");}
 
   /* ----------- PROCESS PAGE (TABLET) ----------- */
 
@@ -2429,6 +2440,9 @@ footer {
   /* ---------- */
   .eb-transferday .project-banner {background-image: url("../media/portfolio/eb-transferday/top-banner-small-2x.jpg");}
   #eb-transferday .full-big {background-image: url("../media/portfolio/eb-transferday/banner-small-2x.jpg");}
+  /* ---------- */
+  .eb-formula1 .project-banner {background-image: url("../media/portfolio/eb-formula1/top-banner-small-2x.jpg");}
+  #eb-formula1 .full-big {background-image: url("../media/portfolio/eb-formula1/banner-small-2x.jpg");}
 
   /* ----------- PROCESS PAGE (MOBILE) ----------- */
 
