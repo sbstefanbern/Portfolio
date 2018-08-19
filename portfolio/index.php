@@ -78,7 +78,7 @@
             </a>
         	</div>
           <div class="project-container">
-        		<a href="#" class="project-img portfolio-project-7">
+        		<a href="../eb-powertools/" class="project-img portfolio-project-7">
               <div class="project-text portfolio-text">
                 <h5>WEBDESIGN</h5>
           			<h4>Ekstra Bladet 'Powertools'</h4>

@@ -642,21 +642,21 @@ fieldset {
   .project-container:hover .project-text, .project-container:focus .project-text {display: block;}
 }
 
-.project-1 {background-image: url("../media/hc-odense-large.jpg");}
+.project-1 {background-image: url("../media/portfolio/hc-odense-large.jpg");}
 .project-1:before {background-color: rgba(245, 120, 20, 0.9);}
-.project-2 {background-image: url("../media/eb-livescore-large.jpg");}
+.project-2 {background-image: url("../media/portfolio/eb-livescore-large.jpg");}
 .project-2:before {background-color: rgba(28, 108, 6, 0.9);}
-.project-3 {background-image: url("../media/circle-k-large.jpg");}
+.project-3 {background-image: url("../media/portfolio/circle-k-large.jpg");}
 .project-3:before {background-color: rgba(170, 30, 30, 0.9);}
-.project-4 {background-image: url("../media/eb-widgets-large.jpg");}
+.project-4 {background-image: url("../media/portfolio/eb-widgets-large.jpg");}
 .project-4:before {background-color: rgba(54, 152, 198, 0.9);}
-.project-5 {background-image: url("../media/faster-eft-large.jpg");}
+.project-5 {background-image: url("../media/portfolio/faster-eft-large.jpg");}
 .project-5:before {background-color: rgba(60, 172, 40, 0.9);}
-.project-6 {background-image: url("../media/league-animation-large.jpg");}
+.project-6 {background-image: url("../media/portfolio/league-animation-large.jpg");}
 .project-6:before {background-color: rgba(31, 73, 57, 0.9);}
-.project-7 {background-image: url("../media/eb-transferday-large.jpg");}
+.project-7 {background-image: url("../media/portfolio/eb-transferday-large.jpg");}
 .project-7:before {background-color: rgba(55, 120, 125, 0.9);}
-.project-8 {background-image: url("../media/eb-formula1-large.jpg");}
+.project-8 {background-image: url("../media/portfolio/eb-formula1-large.jpg");}
 .project-8:before {background-color: rgba(164, 56, 56, 0.9);}
 
 .project-view-more {
@@ -1497,6 +1497,18 @@ footer {
 #eb-widgets .eight-normal {background-image: url("../media/portfolio/eb-widgets/icons-large-2x.png");}
 #eb-widgets .four-normal {background-image: url("../media/portfolio/eb-widgets/3graphics-large-2x.jpg");}
 #eb-widgets .full-tiny {background-image: url("../media/portfolio/eb-widgets/small-banner-large-2x.jpg");}
+/* ---------- */
+.eb-powertools h4, .eb-powertools .info-right ul li::before, .eb-powertools .process-link {color: #00c8eb;}
+.eb-powertools .project-logo {background-image: url("../media/portfolio/eb-powertools/logo.png");}
+.eb-powertools .project-banner {
+  background-image: url("../media/portfolio/eb-powertools/top-banner-large-2x.jpg");
+  background-color: #00c8eb;
+}
+#eb-powertools .full-big {background-image: url("../media/portfolio/eb-powertools/banner-large-2x.jpg");}
+#eb-powertools .projectpage-grid div:nth-child(2) {background-image: url("../media/portfolio/eb-powertools/3tools-large-2x.jpg");}
+#eb-powertools .projectpage-grid div:nth-child(3) {background-image: url("../media/portfolio/eb-powertools/perspective-large-2x.jpg");}
+#eb-powertools .full-tiny {background-image: url("../media/portfolio/eb-powertools/icons-large-2x.png");}
+#eb-powertools .full-normal {background-image: url("../media/portfolio/eb-powertools/line-large-2x.jpg");}
 
 /* ---------- PROCESS PAGE ---------- */
 
@@ -1688,14 +1700,14 @@ footer {
 
   .project-text {padding: 14%;}
 
-  .project-1 {background-image: url("../media/hc-odense-medium.jpg");}
-  .project-2 {background-image: url("../media/eb-livescore-medium.jpg");}
-  .project-3 {background-image: url("../media/circle-k-medium.jpg");}
-  .project-4 {background-image: url("../media/eb-widgets-medium.jpg");}
-  .project-5 {background-image: url("../media/faster-eft-medium.jpg");}
-  .project-6 {background-image: url("../media/league-animation-medium.jpg");}
-  .project-7 {background-image: url("../media/eb-transferday-medium.jpg");}
-  .project-8 {background-image: url("../media/eb-formula1-medium.jpg");}
+  .project-1 {background-image: url("../media/portfolio/hc-odense-medium.jpg");}
+  .project-2 {background-image: url("../media/portfolio/eb-livescore-medium.jpg");}
+  .project-3 {background-image: url("../media/portfolio/circle-k-medium.jpg");}
+  .project-4 {background-image: url("../media/portfolio/eb-widgets-medium.jpg");}
+  .project-5 {background-image: url("../media/portfolio/faster-eft-medium.jpg");}
+  .project-6 {background-image: url("../media/portfolio/league-animation-medium.jpg");}
+  .project-7 {background-image: url("../media/portfolio/eb-transferday-medium.jpg");}
+  .project-8 {background-image: url("../media/portfolio/eb-formula1-medium.jpg");}
 
   .servicesgrid {grid-template-columns: repeat(2, 1fr);}
 
@@ -1892,6 +1904,13 @@ footer {
   #eb-widgets .eight-normal {background-image: url("../media/portfolio/eb-widgets/icons-medium-2x.png");}
   #eb-widgets .four-normal {background-image: url("../media/portfolio/eb-widgets/3graphics-medium-2x.jpg");}
   #eb-widgets .full-tiny {background-image: url("../media/portfolio/eb-widgets/small-banner-medium-2x.jpg");}
+  /* ---------- */
+  .eb-powertools .project-banner {background-image: url("../media/portfolio/eb-powertools/top-banner-medium-2x.jpg");}
+  #eb-powertools .full-big {background-image: url("../media/portfolio/eb-powertools/banner-medium-2x.jpg");}
+  #eb-powertools .projectpage-grid div:nth-child(2) {background-image: url("../media/portfolio/eb-powertools/3tools-medium-2x.jpg");}
+  #eb-powertools .projectpage-grid div:nth-child(3) {background-image: url("../media/portfolio/eb-powertools/perspective-medium-2x.jpg");}
+  #eb-powertools .full-tiny {background-image: url("../media/portfolio/eb-powertools/icons-medium-2x.png");}
+  #eb-powertools .full-normal {background-image: url("../media/portfolio/eb-powertools/line-medium-2x.jpg");}
 
   /* ----------- PROCESS PAGE (TABLET) ----------- */
 
@@ -2019,14 +2038,14 @@ footer {
 
   .project-text {padding: 18%;}
 
-  .project-1 {background-image: url("../media/hc-odense-small.jpg");}
-  .project-2 {background-image: url("../media/eb-livescore-small.jpg");}
-  .project-3 {background-image: url("../media/circle-k-small.jpg");}
-  .project-4 {background-image: url("../media/eb-widgets-small.jpg");}
-  .project-5 {background-image: url("../media/faster-eft-small.jpg");}
-  .project-6 {background-image: url("../media/league-animation-small.jpg");}
-  .project-7 {background-image: url("../media/eb-transferday-small.jpg");}
-  .project-8 {background-image: url("../media/eb-formula1-small.jpg");}
+  .project-1 {background-image: url("../media/portfolio/hc-odense-small.jpg");}
+  .project-2 {background-image: url("../media/portfolio/eb-livescore-small.jpg");}
+  .project-3 {background-image: url("../media/portfolio/circle-k-small.jpg");}
+  .project-4 {background-image: url("../media/portfolio/eb-widgets-small.jpg");}
+  .project-5 {background-image: url("../media/portfolio/faster-eft-small.jpg");}
+  .project-6 {background-image: url("../media/portfolio/league-animation-small.jpg");}
+  .project-7 {background-image: url("../media/portfolio/eb-transferday-small.jpg");}
+  .project-8 {background-image: url("../media/portfolio/eb-formula1-small.jpg");}
 
   .project-view-more {
     height: 150px;
@@ -2389,6 +2408,13 @@ footer {
   #eb-widgets .eight-normal {background-image: url("../media/portfolio/eb-widgets/icons-small-2x.png");}
   #eb-widgets .four-normal {background-image: url("../media/portfolio/eb-widgets/3graphics-small-2x.jpg");}
   #eb-widgets .full-tiny {background-image: url("../media/portfolio/eb-widgets/small-banner-small-2x.jpg");}
+  /* ---------- */
+  .eb-powertools .project-banner {background-image: url("../media/portfolio/eb-powertools/top-banner-small-2x.jpg");}
+  #eb-powertools .full-big {background-image: url("../media/portfolio/eb-powertools/banner-small-2x.jpg");}
+  #eb-powertools .projectpage-grid div:nth-child(2) {background-image: url("../media/portfolio/eb-powertools/3tools-small-2x.jpg");}
+  #eb-powertools .projectpage-grid div:nth-child(3) {background-image: url("../media/portfolio/eb-powertools/perspective-small-2x.jpg");}
+  #eb-powertools .full-tiny {background-image: url("../media/portfolio/eb-powertools/icons-small-2x.png");}
+  #eb-powertools .full-normal {background-image: url("../media/portfolio/eb-powertools/line-small-2x.jpg");}
 
   /* ----------- PROCESS PAGE (MOBILE) ----------- */
 

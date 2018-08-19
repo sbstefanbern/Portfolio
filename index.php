@@ -177,7 +177,7 @@
           </div>
           <div>
             <div class="icon-service icon-3-service" onclick="" aria-label="Design icon"></div>
-            <h4>Videos</h4>
+            <h4>Video</h4>
             <p>Need a high quality video promoting your business? Or maybe showcasing a variety of your products? Either way I can help you out with a high quality solution.</p>
           </div>
           <div>
